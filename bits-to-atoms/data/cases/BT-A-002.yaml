@@ -1,0 +1,42 @@
+id: BT-A-002
+letter_no: null
+title: Reactable
+creator: Sergi Jordà 외, Music Technology Group (Universitat Pompeu Fabra)
+year: 2005 (추정)
+location: 스페인
+context: 연구 / 제품
+status: 실제 구현
+summary_ko: 테이블 위에 놓은 물리 블록의 위치와 회전으로 소리 모듈을 연결하고 조절하는 협업형 탠저블 악기. (출처 검증 전 후보 기록)
+physical_object: 마커가 붙은 아크릴 블록
+input: 블록을 테이블에 놓고, 옮기고, 돌린다
+output: 소리가 합성·변조되고, 테이블 표면에 연결선이 그려진다
+mechanism: 미확인
+tags:
+  input: [PLACE, MOVE, ROTATE]
+  object: [BLOCK, TOKEN]
+  sensing: [UNKNOWN]
+  output: [SOUND, PROJECTION]
+  context: [RESEARCH, PRODUCT]
+  ai: [NONE]
+  mode: [COLLABORATIVE]
+  era: [2000s]
+ai_evidence: ""
+source_primary: 미확인
+source_checked_at: ""
+archive_snapshot: ""
+evidence:
+  identity: { note: "", url: "", status: 미확인, link_opened: false }
+  interaction: { note: "", url: "", status: 미확인, link_opened: false }
+  technology: { note: "카메라 기반 마커 추적으로 알려져 있으나 1차 출처 미확인", url: "", status: 미확인, link_opened: false }
+  context: { note: "", url: "", status: 미확인, link_opened: false }
+media: []
+ad_insight: ""
+what_if: { context: null, audience: "", action: "", response: "", message: "" }
+carousel: { cover: "", work: "", why: "", what_if: "", ps: "" }
+caption: { text: "", hashtags: [] }
+keywords: []
+notes: { fact: [], interpretation: [], speculation: [] }
+scores: { tangible: null, originality: null, reliability: null, applicability: null, postability: null }
+checklist: { humor_linked: false, info_not_buried: false }
+stage: 발견
+scope: TANGIBLE

@@ -1,0 +1,93 @@
+{
+  "id": "BT-A-011",
+  "checkedAt": "2026-11-08T08:37:30.605Z",
+  "verdict": "published",
+  "headline": "ACM · C&C '24에 실제로 게재된 논문입니다 (DOI 10.1145/3635636.3664247).",
+  "publication": {
+    "doi": "10.1145/3635636.3664247",
+    "doiUrl": "https://doi.org/10.1145/3635636.3664247",
+    "title": "DataBites: An embodied and co-creative museum exhibit to foster children's understanding of supervised machine learning",
+    "authors": [
+      "Hasti Darabipourshiraz",
+      "Dev Ambani",
+      "Duri Long"
+    ],
+    "venue": "C&C '24",
+    "container": "Creativity and Cognition",
+    "publisher": "ACM",
+    "type": "proceedings-article",
+    "published": "2024-06-23",
+    "year": 2024,
+    "pages": "550-555",
+    "license": {
+      "url": "https://www.acm.org/publications/policies/copyright_policy#Background",
+      "label": "출판사 라이선스"
+    },
+    "foundBy": "crossref-search"
+  },
+  "pdf": null,
+  "checks": [
+    {
+      "key": "doi",
+      "label": "DOI 등록 (Crossref)",
+      "state": "pass",
+      "detail": "10.1145/3635636.3664247 — Crossref 제목·저자 검색으로 찾음. ACM에서 직접 등록한 출판 번호입니다.",
+      "url": "https://api.crossref.org/works/10.1145/3635636.3664247"
+    },
+    {
+      "key": "venue",
+      "label": "게재처",
+      "state": "pass",
+      "detail": "C&C '24 (Creativity and Cognition) · ACM · pp.550-555 · 2024-06-23 · 유형 proceedings-article"
+    },
+    {
+      "key": "title",
+      "label": "제목 일치",
+      "state": "pass",
+      "detail": "기록 \"DataBites\" ↔ 논문 \"DataBites: An embodied and co-creative museum exhibit to foster children's understanding of supervised machine learning\" — 부제만 생략 — 같은 작품"
+    },
+    {
+      "key": "authors",
+      "label": "저자 일치",
+      "state": "pass",
+      "detail": "3/3명 일치"
+    },
+    {
+      "key": "year",
+      "label": "연도 일치",
+      "state": "pass",
+      "detail": "기록 \"2024 첫 발표(C&C '24) · 2026 박물관 전시 프로토타입 평가(TEI '26)\" ↔ 출판 2024-06-23"
+    },
+    {
+      "key": "doi-link",
+      "label": "DOI 링크 연결",
+      "state": "pass",
+      "detail": "doi.org → dl.acm.org (출판사 공식 페이지)",
+      "url": "https://doi.org/10.1145/3635636.3664247"
+    },
+    {
+      "key": "publisher-page",
+      "label": "dl.acm.org 페이지",
+      "state": "warn",
+      "detail": "봇 차단(Cloudflare)으로 자동 접속 불가. 브라우저로는 열립니다. 게재 여부는 위 DOI 기록으로 이미 확인됨.",
+      "url": "https://dl.acm.org/doi/10.1145/3635636.3664247"
+    },
+    {
+      "key": "license",
+      "label": "이용 라이선스",
+      "state": "warn",
+      "detail": "출판사 라이선스 — 출판사가 DOI에 등록",
+      "url": "https://www.acm.org/publications/policies/copyright_policy#Background"
+    },
+    {
+      "key": "pdf",
+      "label": "PDF 원문 확보",
+      "state": "warn",
+      "detail": "후보 2곳(dl.acm.org)에서 열 수 있는 원문을 찾지 못했습니다."
+    }
+  ],
+  "figures": [],
+  "techQuotes": [],
+  "interactionQuotes": [],
+  "missingAuthors": []
+}

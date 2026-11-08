@@ -1,0 +1,126 @@
+{
+  "id": "BT-A-004",
+  "checkedAt": "2026-11-08T08:37:01.646Z",
+  "verdict": "not-found",
+  "headline": "제목·저자로 등록된 DOI를 찾지 못했습니다. 논문이 아닌 작품이면 공식 웹 출처로 확인하세요.",
+  "publication": null,
+  "pdf": {
+    "url": "https://s3files.core77.com/files/pdfs/2026/140684/1793917_s_qulyqgz.pdf",
+    "source": "designawards.core77.com 페이지의 PDF 링크",
+    "pages": 22,
+    "titleFound": true,
+    "doiFound": false,
+    "file": "figures/BT-A-004/paper.pdf"
+  },
+  "checks": [
+    {
+      "key": "doi",
+      "label": "DOI 등록 (Crossref)",
+      "state": "fail",
+      "detail": "\"The Anemoia Device\" 제목·저자로 등록된 학술 DOI가 없습니다."
+    },
+    {
+      "key": "pdf",
+      "label": "PDF 원문 확보",
+      "state": "pass",
+      "detail": "designawards.core77.com 페이지의 PDF 링크에서 받음 · 22쪽",
+      "url": "https://s3files.core77.com/files/pdfs/2026/140684/1793917_s_qulyqgz.pdf"
+    },
+    {
+      "key": "pdf-match",
+      "label": "PDF = 같은 논문",
+      "state": "pass",
+      "detail": "첫 쪽 제목 일치"
+    },
+    {
+      "key": "figures",
+      "label": "Figure 추출",
+      "state": "pass",
+      "detail": "사진 7장 · 캡션 7개 연결"
+    },
+    {
+      "key": "tech",
+      "label": "사용 기술 근거",
+      "state": "pass",
+      "detail": "원문에서 4문장 인용"
+    }
+  ],
+  "figures": [
+    {
+      "no": 1,
+      "caption": "Left: The Anemoia Device. Right: User interaction steps: (1) insert photo, (2) generate caption, (3) prompt via dials, (4) generate story and scent, (5) dispense scent, (6) smell fragrance.",
+      "page": 1,
+      "file": "figures/BT-A-004/fig-1.jpg",
+      "width": 1600,
+      "height": 707
+    },
+    {
+      "no": 2,
+      "caption": "Overview of system architecture from image captioning to scent dispersal a typical open-ended prompting process. The three dials are designed to align with the concept of109 anemoia by allowing the user to define the parameters of an imagined past:110 • Dial 1 - Subject (perspective): enables the user to inhabit an unfamiliar perspective within111 the scene ",
+      "page": 4,
+      "file": "figures/BT-A-004/fig-2.jpg",
+      "width": 1600,
+      "height": 825
+    },
+    {
+      "no": 3,
+      "caption": "The Anemoia Device is vertically structured with three functional zones. The left schematic highlights the internal structure and modular segmentation, the right image shows the final prototype.",
+      "page": 5,
+      "file": "figures/BT-A-004/fig-3.jpg",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "no": 4,
+      "caption": "Example outputs demonstrating narrative and scent generation for different user inputs (Subject, Time, Mood) based on a sample image caption.",
+      "page": 10,
+      "file": "figures/BT-A-004/fig-4.jpg",
+      "width": 1600,
+      "height": 498
+    },
+    {
+      "no": 5,
+      "caption": "Core hardware components used in the Anemoia Device: (A) peristaltic pumps (x4), (B) 12V relay modules (x4), (C) arduino uno (input controller), (D) LCD screen module, (E) custom PCB with XIAO ESP32S3 (output controller), (F) KY-040 rotary encoder modules (x3), (H) USB webcam.",
+      "page": 12,
+      "file": "figures/BT-A-004/fig-5.jpg",
+      "width": 1600,
+      "height": 1600
+    },
+    {
+      "no": 6,
+      "caption": "Input module schematic: shows connections between Arduino Uno microcontroller, three rotary encoders and LCD Screen",
+      "page": 13,
+      "file": "figures/BT-A-004/fig-6.jpg",
+      "width": 1600,
+      "height": 1148
+    },
+    {
+      "no": 7,
+      "caption": "Output module: simplified schematic shows XIAO ESP32S3 controlling the logic inputs of four relay modules. Each relay switches the external 12V supply to its respective pump.",
+      "page": 13,
+      "file": "figures/BT-A-004/fig-7.jpg",
+      "width": 900,
+      "height": 771
+    }
+  ],
+  "techQuotes": [
+    {
+      "text": "This suggests an interface designed for memory-making86 would benefit from a physical and sensory led approach.",
+      "page": 3
+    },
+    {
+      "text": "This144 subsystem is controlled by a XIAO ESP32S3 microcontroller, which receives commands from the145 host system.",
+      "page": 5
+    },
+    {
+      "text": "We have presented188 a multi-modal pipeline that translates an external visual memory into a multi-sensory artifact, using a189 tangible interface for user guidance and LLMs for cross-modal generation from narrative semantics190 to a physical scent.",
+      "page": 6
+    },
+    {
+      "text": "Output controller firmware (Arduino C++ on Xiao ESP32S3) is dedicated to337 receiving pump commands via serial and precisely controlling the relay modules using non-blocking338 timers (millis()), implementing the execution phase of Algorithm 2.339 VLM/LLM interaction and prompting use a structured, multi-stage prompting strategy.",
+      "page": 9
+    }
+  ],
+  "interactionQuotes": [],
+  "missingAuthors": []
+}

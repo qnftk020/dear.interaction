@@ -1,0 +1,92 @@
+id: BT-A-014
+letter_no: 11
+title: The Slooowest Vending Machine in the World
+creator: KitKat (Nestlé India) · VML Netherlands + VML India · 제작 The Other Half (Delhi)
+year: 2026 (2026-04 보도)
+location: 인도 하이데라바드 — 대형 상업지구
+context: 광고 / 브랜드 체험 — KitKat '브레이크' 메시지의 옥외 설치
+status: 실제 구현
+summary_ko: 동전을 넣으면 KitKat이 장난감 기차·관람차·트럭·강·축제 행렬로 이어지는 미니어처 장면을 차례로 지나며 아주 느리게 나오는 자판기.
+physical_object: 자판기와 내부 미니어처 기계 장면
+input: 동전을 넣는다
+output: '초콜릿이 장난감 풍경을 지난다'
+mechanism: 미확인
+tags:
+  input: [PLACE]
+  object: [TOKEN, FURNITURE]
+  sensing: [UNKNOWN]
+  output: [MOTION]
+  context: [BRAND, PUBLIC SPACE]
+  ai: [NONE]
+  mode: [INDIVIDUAL]
+  era: [2020s]
+ai_evidence: ""
+source_primary: https://campaignbriefasia.com/2026/04/13/kitkat-and-vml-slows-things-down-with-the-slooowest-vending-machine-in-the-world/
+source_checked_at: "2026-10-17"
+archive_snapshot: ""
+evidence:
+  identity:
+    note: "KitKat × VML(Netherlands·India), 제작 The Other Half. Campaign Brief Asia 2026-04-13 기사. 업계지 기준 — VML·Nestlé 공식 페이지는 미열람"
+    url: https://campaignbriefasia.com/2026/04/13/kitkat-and-vml-slows-things-down-with-the-slooowest-vending-machine-in-the-world/
+    status: 확인
+    link_opened: true
+  interaction:
+    note: "동전 투입 → 즉시 배출 대신 KitKat이 장난감 기차·관람차·트럭·강·축제 행렬 장면을 거쳐 이동"
+    url: https://campaignbriefasia.com/2026/04/13/kitkat-and-vml-slows-things-down-with-the-slooowest-vending-machine-in-the-world/
+    status: 확인
+    link_opened: true
+  technology: { note: "구동 방식·대기 시간 미기재 (일부 매체의 '3분'은 미열람)", url: "", status: 미확인, link_opened: false }
+  context:
+    note: "\"평균 자판기는 3초 만에 간식을 내놓지만, 우리 것은 서두르지 않는 호사로운 여행을 한다\" — Kalpesh Patankar, VML India CCO. Cannes Lions 2026 Brand Experience 쇼트리스트(exchange4media, 미열람)"
+    url: https://campaignbriefasia.com/2026/04/13/kitkat-and-vml-slows-things-down-with-the-slooowest-vending-machine-in-the-world/
+    status: 확인
+    link_opened: true
+media:
+  - url: https://campaignbriefasia.com/2026/04/13/kitkat-and-vml-slows-things-down-with-the-slooowest-vending-machine-in-the-world/
+    credit: KitKat / VML
+    permission: 권한 확인 필요
+    permission_basis: ""
+ad_insight: 브랜드 슬로건 'Have a break'를 문장이 아니라 기계의 속도로 체험하게 만든다.
+what_if:
+  context: 공공 문화시설
+  audience: "도서관 휴게 공간의 수험생"
+  action: "책갈피 모양 토큰을 넣는다"
+  response: "티백 하나가 미니어처 책장 사이를 천천히 지나 나온다"
+  message: "쉬는 것도 공부의 일부다"
+carousel:
+  cover: |-
+    세상에서 제일
+    느린 자판기입니다
+  work: |-
+    초콜릿이 장난감 풍경을
+    천천히 지나오는 자판기입니다.
+  why: |-
+    빠른 배출 대신 풍경을 주면
+    기다림을 즐길 수 있습니다.
+  what_if: |-
+    도서관에서 토큰을 넣으면
+    티백이 책장 사이로 올까요?
+  ps: |-
+    아무도 재촉하지 않습니다.
+    다들 구경하느라 바쁩니다.
+
+caption:
+  text: |-
+    자판기가 느리면 화가 날까요, 구경하게 될까요?
+    The Slooowest Vending Machine in the World는 동전을 넣으면 KitKat이 미니어처 장면들을 지나 천천히 나오는 자판기입니다.
+    브랜드 메시지를 기계의 속도로 바꾼 방식을 살펴봤습니다.
+
+    The Slooowest Vending Machine in the World — KitKat / VML (Netherlands·India), The Other Half
+  hashtags: [KitKat, ExperientialMarketing, TangibleInteraction, dearinteraction]
+keywords: [VENDING MACHINE, KINETIC, SLOWNESS, BRAND]
+notes:
+  fact:
+    - '[03 원문] output: KitKat이 장난감 기차, 관람차, 트럭, 강, 축제 행렬 장면을 차례로 지나간다'
+    - 기획 VML Netherlands·VML India, 설계·엔지니어링 The Other Half
+  interpretation:
+    - 기다림 자체를 보상으로 바꾼 자판기
+  speculation: []
+scores: { tangible: null, originality: null, reliability: null, applicability: null, postability: null }
+checklist: { humor_linked: false, info_not_buried: false }
+stage: 원고 작성
+scope: TANGIBLE

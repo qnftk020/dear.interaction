@@ -1,0 +1,86 @@
+id: BT-A-029
+letter_no: null
+title: Share the Table, Share the Mana — Billboard Pop-Up (Teremana)
+creator: City Eventions, Wolfgang, Quan Media Group — 광고주 Teremana Tequila
+year: 2026 (2026-04-24 캠페인 시작)
+location: 미국 로스앤젤레스 베니스, Abbot Kinney Boulevard
+context: 브랜드 경험 / 옥외 — 데킬라 브랜드의 '함께 나누는 식탁' 캠페인
+status: 실제 구현
+summary_ko: 평범한 빌보드처럼 보이지만 레버를 당기면 문이 열리고, 안에 숨은 팝업 바가 나타나는 옥외 광고.
+physical_object: 빌보드에 달린 레버와 문
+input: 빌보드의 레버를 당긴다
+output: 문이 열리고 바가 나온다
+mechanism: 미확인
+tags:
+  input: [MOVE]
+  object: [UNKNOWN]
+  sensing: []
+  output: [MOTION]
+  context: [BRAND, PUBLIC SPACE]
+  ai: [NONE]
+  mode: [MULTI-USER]
+  era: [2020s]
+ai_evidence: ""
+source_primary: https://www.eventmarketer.com/article/brief-sensoria-the-black-currant-experience-pouroscope-stations/
+source_checked_at: "2026-10-20"
+archive_snapshot: ""
+evidence:
+  identity:
+    note: "Teremana 'Share the Table, Share the Mana', 2026-04-24 시작, 에이전시 City Eventions·Wolfgang·Quan Media Group (Event Marketer 2026-05-04)"
+    url: https://www.eventmarketer.com/article/brief-sensoria-the-black-currant-experience-pouroscope-stations/
+    status: 확인
+    link_opened: true
+  interaction:
+    note: "빌보드에 'Pull to Start Your Story' 레버. 빌보드가 숨은 팝업의 외벽이고, 안에서는 바텐더가 칵테일과 과카몰리·칩을 내줌"
+    url: https://www.eventmarketer.com/article/brief-sensoria-the-black-currant-experience-pouroscope-stations/
+    status: 확인
+    link_opened: true
+  technology: { note: "", url: "", status: 미확인, link_opened: false }
+  context:
+    note: "사람들을 '한 번에 한 식탁씩' 모으는 캠페인. 소셜 앱 Timeleft와 함께 8월까지 매주 목요일 소규모 모임을 연다"
+    url: https://www.eventmarketer.com/article/brief-sensoria-the-black-currant-experience-pouroscope-stations/
+    status: 확인
+    link_opened: true
+media: []
+ad_insight: "에디터 해석: 참여의 시작을 레버 하나로 제시하면 지나가던 사람이 공간에 들어갈 첫 행동을 고를 수 있습니다."
+what_if:
+  context: 박물관 아카이브
+  audience: 지역 생활사 전시 관람객
+  action: 전시 벽의 손잡이를 당깁니다
+  response: 작은 문이 열려 주민의 복제 일기와 읽을 자리가 나타납니다
+  message: 기록을 만나는 첫 행동을 쉽게 제시합니다
+carousel:
+  cover: |-
+    광고를 열었더니
+    바가 나왔습니다
+  work: |-
+    팝업 바를 숨긴 광고판입니다.
+    레버로 참여를 시작합니다.
+  why: |-
+    구경 대신 당길 레버를 주면
+    첫발을 뗄 수 있습니다.
+  what_if: |-
+    박물관 벽의 손잡이를 당기면
+    일기 읽을 자리가 나타납니다.
+  ps: |-
+    저는 광고를 열었습니다.
+    안주는 예상 못 했습니다.
+caption:
+  text: |-
+    광고판에 입구가 숨어 있습니다.
+    Teremana의 빌보드 팝업은 레버로 참여를 이끌고 안쪽 바에서 칵테일과 과카몰리, 칩을 내줍니다.
+    제 해석으로는 당길 레버 하나가 공간에 들어갈 첫 행동을 고르기 쉽게 만들 수 있습니다.
+    
+    Share the Table, Share the Mana — City Eventions, Wolfgang, Quan Media Group / Teremana
+  hashtags: ["브랜드체험","팝업공간","Teremana","dearinteraction"]
+keywords: ["LEVER","HIDDEN SPACE","INVITATION"]
+notes:
+  fact:
+    - 캠페인은 미국 여러 곳의 빌보드로 시작해 베니스의 숨은 팝업으로 이어짐
+    - 교차 확인할 다른 보도를 찾지 못함 — 출처가 Event Marketer 한 곳
+  interpretation: []
+  speculation: []
+scores: { tangible: null, originality: null, reliability: null, applicability: null, postability: null }
+checklist: { humor_linked: false, info_not_buried: false }
+stage: 원고 작성
+scope: TANGIBLE

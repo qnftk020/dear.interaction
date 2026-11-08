@@ -1,0 +1,100 @@
+id: BT-A-008
+letter_no: 6
+title: GlassIO
+creator: Daniel Gagnon-King, Lee Jones, Alisa Gamayunova, Sara Litwiniuk, Renee (Xinyu) Chen, Alisa Liu, Catherine Stinson, Sara Nabil (iStudio, Queen's University)
+year: 2026 (TEI '26, Honorable Mention)
+location: 캐나다 킹스턴 (Queen's University) — 참가자 세 가정에 설치
+context: 연구 — 인터랙티브 스테인드글라스의 장기 가정 내 사용 연구
+status: 연구 프로토타입
+summary_ko: 터치 센서와 LED를 넣은 스테인드글라스 세 점(SousChef, MemoryHome, WeatherWindow)을 사용자와 함께 디자인해 가정에 3주씩 설치한 연구.
+physical_object: 스테인드글라스 패널
+input: '유리 조각을 손으로 만진다'
+output: '빛과 소리가 나온다'
+mechanism: '정전식 터치 + LED'
+tags:
+  input: [TOUCH]
+  object: [FURNITURE]
+  sensing: [CAPACITIVE]
+  output: [LIGHT, SOUND]
+  context: [RESEARCH]
+  ai: [NONE]
+  mode: [MULTI-USER]
+  era: [2020s]
+ai_evidence: ""
+source_primary: https://labs.cs.queensu.ca/istudio/wp-content/uploads/sites/12/2026/04/GlassIO-Long-Term-In-Home-Study.pdf
+source_checked_at: "2026-10-17"
+archive_snapshot: ""
+evidence:
+  identity:
+    note: "GlassIO: Long-Term In-Home Study of Hybrid Craft Through Interactive Stained Glass. TEI '26 (Chicago, 2026-03-08~11), DOI 10.1145/3731459.3773304"
+    url: https://labs.cs.queensu.ca/istudio/wp-content/uploads/sites/12/2026/04/GlassIO-Long-Term-In-Home-Study.pdf
+    status: 확인
+    link_opened: true
+  interaction:
+    note: "SousChef: 터치 3구역으로 끼니별 메뉴 제안(소리·빛). MemoryHome: 터치로 녹음 시작·정지·무작위 재생. WeatherWindow: 창 전체가 터치 전극, 터치하면 NeoPixel 252개로 날씨 애니메이션"
+    url: https://labs.cs.queensu.ca/istudio/wp-content/uploads/sites/12/2026/04/GlassIO-Long-Term-In-Home-Study.pdf
+    status: 확인
+    link_opened: true
+  technology:
+    note: "BareConductive Touch Board(MPR121), Arduino Uno+DFRobot 녹음 모듈, NodeMCU(ESP8266, 날씨 JSON), ITO 유리·구리 테이프 전극"
+    url: https://labs.cs.queensu.ca/istudio/wp-content/uploads/sites/12/2026/04/GlassIO-Long-Term-In-Home-Study.pdf
+    status: 확인
+    link_opened: true
+  context:
+    note: "실무자 11명 선행 연구 후, 사용자 9명과 공동 디자인 3회 → 세 가정 각 3주 설치, 일기·인터뷰. 참가자들은 스마트 기기와 구별되는 따뜻하고 표현적인 물건으로 인식(초록)"
+    url: https://labs.cs.queensu.ca/istudio/wp-content/uploads/sites/12/2026/04/GlassIO-Long-Term-In-Home-Study.pdf
+    status: 확인
+    link_opened: true
+media:
+  - url: https://labs.cs.queensu.ca/istudio/wp-content/uploads/sites/12/2026/04/GlassIO-Long-Term-In-Home-Study.pdf
+    credit: "Gagnon-King et al., GlassIO, TEI '26 (Figure 1)"
+    permission: 허용 확인됨
+    permission_basis: "논문 PDF에 'Creative Commons Attribution 4.0 International License' 명시 — 저자·출처 표기 필수, 자르거나 편집하면 변경 사실 표기"
+ad_insight: 늘 거기 있는 장식이다가 손이 닿을 때만 말을 거는 기술은, 생활 공간에서 오래 사랑받을 수 있다.
+what_if:
+  context: 박물관 아카이브
+  audience: 근대 건축 박물관 관람객
+  action: 복원된 스테인드글라스 창의 유리 조각을 만진다
+  response: 만진 조각이 빛나며 그 유리를 만든 장인의 구술 기록이 흘러나온다
+  message: 유리 한 장에도 그것을 자른 손이 있었다
+carousel:
+  cover: |-
+    만지면 대답하는
+    창문입니다
+  work: |-
+    만지면 빛과 소리가 나는
+    스테인드글라스입니다.
+  why: |-
+    늘 알리기 대신 만질 때 켜면
+    일상에 어울릴 수 있습니다.
+  what_if: |-
+    박물관에서 유리를 만지면
+    장인의 말을 들려줄까요?
+  ps: |-
+    알림을 꺼도 예쁩니다.
+    창문으로 남으면 됩니다.
+
+caption:
+  text: |-
+    스마트홈 기기가 꼭 플라스틱이어야 할까요?
+    GlassIO는 터치 센서와 LED를 품은 스테인드글라스를 실제 가정에 3주씩 설치해, 사람들이 어떻게 함께 살아가는지 관찰한 연구입니다.
+    공예와 기술이 만날 때 생기는 '따뜻한 인터페이스'를 들여다봤습니다.
+
+    GlassIO — Daniel Gagnon-King, Lee Jones, Alisa Gamayunova, Sara Litwiniuk, Renee (Xinyu) Chen, Alisa Liu, Catherine Stinson, Sara Nabil / iStudio, Queen's University (TEI '26)
+  hashtags: [TangibleInterface, HybridCraft, StainedGlass, dearinteraction]
+keywords: [STAINED GLASS, CAPACITIVE, HOME, CRAFT]
+notes:
+  fact:
+    - '[03 원문] input: 유리의 특정 조각을 손으로 만진다 (아침·점심·저녁 조각, 녹음 시작·정지·재생 조각, 창 전체)'
+    - '[03 원문] output: 만진 유리 구역이 LED로 빛나고, 식사 제안 음성·녹음 재생·날씨 빛 애니메이션이 나온다'
+    - '[03 원문] mechanism: 정전식 터치 전극(구리 테이프, ITO 유리, 창틀 금속) + NeoPixel LED + 스피커 (BareConductive Touch Board, Arduino Uno, NodeMCU)'
+    - 세 작품 SousChef(부엌), MemoryHome(거실), WeatherWindow(창)
+    - 사용자 9명 공동 디자인, 세 가정 각 3주 설치
+    - 논문 CC BY 4.0
+  interpretation:
+    - 꺼진 상태의 미학이 생활 기술의 수용성을 높인다
+  speculation: []
+scores: { tangible: null, originality: null, reliability: null, applicability: null, postability: null }
+checklist: { humor_linked: false, info_not_buried: false }
+stage: 원고 작성
+scope: TANGIBLE

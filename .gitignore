@@ -1,0 +1,11 @@
+# 의존성·빌드 산출물 (npm install / npm run build:public 으로 다시 만든다)
+node_modules/
+dist-public/
+coverage/
+*.tmp
+.DS_Store
+
+# 논문 PDF 사본·직접 올린 PDF — 용량이 크고 재배포 대상이 아니다. npm run verify 로 다시 받는다.
+# (추출한 Figure jpg와 검증 보고서 json은 기록이 참조하므로 포함)
+bits-to-atoms/data/figures/**/*.pdf
+bits-to-atoms/data/verification/uploads/

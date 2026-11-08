@@ -1,0 +1,97 @@
+id: BT-E-004
+letter_no: null
+title: amiibo
+creator: Nintendo
+year: 미확인
+location: 가정용
+context: 게임 / 제품
+status: 실제 구현
+summary_ko: 캐릭터 피규어나 카드를 게임기 NFC 지점에 갖다 대면 게임 속 캐릭터·보너스가 열리고, 일부 게임은 데이터를 피규어에 저장하는 Nintendo 액세서리.
+physical_object: 캐릭터 피규어 / 카드
+input: 피규어나 카드를 Joy-Con 오른쪽 스틱 등 NFC 지점에 갖다 댄다
+output: 게임에 보너스 콘텐츠가 열리거나, 피규어 캐릭터로 플레이하고 레벨을 올린다 (게임마다 다름)
+mechanism: NFC (피규어·카드를 컨트롤러·본체의 NFC 리더에 접촉)
+tags:
+  input:
+    - PLACE
+    - TOUCH
+  object:
+    - TOKEN
+    - TOY
+    - CARD
+  sensing:
+    - NFC/RFID
+  output:
+    - SCREEN
+  context:
+    - GAME
+    - PRODUCT
+    - FANDOM
+  ai:
+    - NONE
+  mode:
+    - INDIVIDUAL
+  era:
+    - 2010s
+ai_evidence: ""
+source_primary: https://www.nintendo.com/us/amiibo/
+source_checked_at: 2026-11-07
+archive_snapshot: ""
+evidence:
+  identity:
+    note: Nintendo 공식 amiibo 페이지. 출시 연도는 페이지에 없음 → year 미확인
+    url: https://www.nintendo.com/us/amiibo/
+    status: 부분 확인
+    link_opened: true
+  interaction:
+    note: "'tap your amiibo to the right Joy-Con controller's Right Stick or the NFC touchpoint' / 보너스 콘텐츠·데이터 저장·캐릭터 플레이"
+    url: https://www.nintendo.com/us/amiibo/
+    status: 확인
+    link_opened: true
+  technology:
+    note: NFC touchpoint / NFC reader 명시
+    url: https://www.nintendo.com/us/amiibo/
+    status: 확인
+    link_opened: true
+  context:
+    note: Switch·Wii U·New 3DS XL 호환 액세서리
+    url: https://www.nintendo.com/us/amiibo/
+    status: 확인
+    link_opened: true
+media: []
+ad_insight: ""
+what_if:
+  context: null
+  audience: ""
+  action: ""
+  response: ""
+  message: ""
+carousel:
+  cover: ""
+  work: ""
+  why: ""
+  what_if: ""
+  ps: ""
+caption:
+  text: ""
+  hashtags: []
+keywords:
+  - NFC
+  - figure
+  - toys-to-life
+notes:
+  fact: []
+  interpretation:
+    - era 2010s 태그는 일반 상식 기준 — 연도 확인 후 다시 볼 것
+  speculation: []
+scores:
+  tangible: null
+  originality: null
+  reliability: null
+  applicability: null
+  postability: null
+checklist:
+  humor_linked: false
+  info_not_buried: false
+stage: 발견
+scope: TANGIBLE

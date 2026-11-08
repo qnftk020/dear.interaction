@@ -1,0 +1,87 @@
+id: BT-A-017
+letter_no: 13
+title: Pinterest Manifestival — Style Reading Key Charm
+creator: Pinterest (인하우스 크리에이티브) · 제작 Amplify, Deeplocal
+year: 2025 (Cannes Lions 2025)
+location: 프랑스 칸 — Cannes Lions 2025 Pinterest Manifestival
+context: 광고 / B2B 브랜드 체험 — Pinterest 비주얼 검색 기능 홍보
+status: 실제 구현
+summary_ko: 받은 열쇠 모양 참을 휴대폰에 갖다 대면 Pinterest 비주얼 검색 기반의 개인 스타일 리딩이 열리는 칸 라이언즈 체험.
+physical_object: 열쇠 모양 참(키링)
+input: '키 참을 휴대폰에 댄다'
+output: '개인 스타일 리딩이 열린다'
+mechanism: 미확인
+tags:
+  input: [TOUCH]
+  object: [TOKEN]
+  sensing: [UNKNOWN]
+  output: [SCREEN]
+  context: [BRAND, EXHIBITION]
+  ai: [UNKNOWN]
+  mode: [INDIVIDUAL]
+  era: [2020s]
+ai_evidence: ""
+source_primary: https://www.eventmarketer.com/article/inside-cannes-lions-2025/
+source_checked_at: "2026-10-17"
+archive_snapshot: ""
+evidence:
+  identity:
+    note: "Event Marketer 'Inside Cannes Lions 2025' — Pinterest Manifestival, 크리에이티브 인하우스, 제작 Amplify·Deeplocal. 업계지 기준"
+    url: https://www.eventmarketer.com/article/inside-cannes-lions-2025/
+    status: 확인
+    link_opened: true
+  interaction:
+    note: "키 참을 휴대폰에 탭하면 고유한 스타일 리딩이 열림 — Pinterest 비주얼 검색 기능 활용"
+    url: https://www.eventmarketer.com/article/inside-cannes-lions-2025/
+    status: 확인
+    link_opened: true
+  technology: { note: "태그 기술 미기재. Adobe Firefly 협업 이미지는 BizBash 요약에만 있고 미열람", url: "", status: 미확인, link_opened: false }
+  context:
+    note: "방문객이 개인 스타일을 다듬도록 돕는 Pinterest 비주얼 검색 홍보"
+    url: https://www.eventmarketer.com/article/inside-cannes-lions-2025/
+    status: 확인
+    link_opened: true
+media: []
+ad_insight: 손에 쥐는 열쇠가 '내 취향을 연다'는 은유를 물리적인 동작으로 만든다.
+what_if:
+  context: 공공 문화시설
+  audience: "공공도서관 이용자"
+  action: "회원증과 함께 받은 열쇠 참을 서가 앞 리더에 댄다"
+  response: "그동안 빌린 책을 바탕으로 다음에 가 볼 서가에 불이 켜진다"
+  message: "취향은 찾아가는 길이 된다"
+carousel:
+  cover: |-
+    열쇠를 대면
+    내 취향이 열립니다
+  work: |-
+    열쇠 모양 참을 폰에 대면
+    개인 스타일을 보여 줍니다.
+  why: |-
+    검색 대신 열쇠로 열게 하면
+    선물처럼 느낄 수 있습니다.
+  what_if: |-
+    도서관에서 열쇠 참을 대면
+    다음 서가에 불을 켜 볼까요?
+  ps: |-
+    현관 열쇠보다 자주 찾습니다.
+    취향은 잠글 필요 없습니다.
+
+caption:
+  text: |-
+    취향을 여는 열쇠가 실제로 손에 있다면 어떨까요?
+    Pinterest Manifestival은 열쇠 모양 참을 휴대폰에 대면 비주얼 검색 기반의 스타일 리딩이 열리는 Cannes Lions 2025 체험입니다.
+    은유를 물건과 동작으로 바꾸는 방식을 살펴봤습니다.
+
+    Pinterest Manifestival — Pinterest (in-house) / Amplify, Deeplocal (Cannes Lions 2025)
+  hashtags: [Pinterest, CannesLions, PhygitalExperience, dearinteraction]
+keywords: [KEY, TOKEN, PERSONALIZATION, CANNES LIONS]
+notes:
+  fact:
+    - '[03 원문] input: 키 참을 자기 휴대폰에 갖다 댄다'
+    - '[03 원문] output: 휴대폰에서 개인 스타일 리딩이 열린다'
+  interpretation: []
+  speculation: []
+scores: { tangible: null, originality: null, reliability: null, applicability: null, postability: null }
+checklist: { humor_linked: false, info_not_buried: false }
+stage: 원고 작성
+scope: TANGIBLE

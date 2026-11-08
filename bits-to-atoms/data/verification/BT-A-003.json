@@ -1,0 +1,202 @@
+{
+  "id": "BT-A-003",
+  "checkedAt": "2026-11-08T08:39:28.835Z",
+  "verdict": "published",
+  "headline": "ACM · C&C '26에 실제로 게재된 논문입니다 (DOI 10.1145/3803784.3816859).",
+  "publication": {
+    "doi": "10.1145/3803784.3816859",
+    "doiUrl": "https://doi.org/10.1145/3803784.3816859",
+    "title": "Language as a Material Interface for Creative LLM Interaction",
+    "authors": [
+      "Jon McCormack",
+      "Tace McNamara",
+      "Chen Wang",
+      "Maria Teresa Llano"
+    ],
+    "venue": "C&C '26",
+    "container": "Proceedings of the 2026 Conference on Creativity and Cognition",
+    "publisher": "ACM",
+    "type": "proceedings-article",
+    "published": "2026-07-13",
+    "year": 2026,
+    "pages": "1556-1563",
+    "license": {
+      "url": "https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode",
+      "label": "CC BY-NC-ND 4.0"
+    },
+    "foundBy": "source-page"
+  },
+  "pdf": {
+    "url": "https://arxiv.org/pdf/2607.24753v1",
+    "source": "arxiv.org 페이지의 PDF 링크",
+    "pages": 8,
+    "titleFound": true,
+    "doiFound": true,
+    "file": "figures/BT-A-003/paper.pdf"
+  },
+  "checks": [
+    {
+      "key": "doi",
+      "label": "DOI 등록 (Crossref)",
+      "state": "pass",
+      "detail": "10.1145/3803784.3816859 — 공식 출처 페이지 본문에서 찾음. ACM에서 직접 등록한 출판 번호입니다.",
+      "url": "https://api.crossref.org/works/10.1145/3803784.3816859"
+    },
+    {
+      "key": "venue",
+      "label": "게재처",
+      "state": "pass",
+      "detail": "C&C '26 (Proceedings of the 2026 Conference on Creativity and Cognition) · ACM · pp.1556-1563 · 2026-07-13 · 유형 proceedings-article"
+    },
+    {
+      "key": "title",
+      "label": "제목 일치",
+      "state": "warn",
+      "detail": "논문 제목은 \"Language as a Material Interface for Creative LLM Interaction\"이지만, PDF 본문에 \"Memetic Mixer\"가 14번 나옵니다 — 이 논문 안에서 소개된 작품으로 보입니다."
+    },
+    {
+      "key": "authors",
+      "label": "저자 일치",
+      "state": "pass",
+      "detail": "4/4명 일치"
+    },
+    {
+      "key": "year",
+      "label": "연도 일치",
+      "state": "pass",
+      "detail": "기록 \"2025 장치 발표(NIME) · 2026 현장 연구(C&C '26)\" ↔ 출판 2026-07-13"
+    },
+    {
+      "key": "doi-link",
+      "label": "DOI 링크 연결",
+      "state": "pass",
+      "detail": "doi.org → dl.acm.org (출판사 공식 페이지)",
+      "url": "https://doi.org/10.1145/3803784.3816859"
+    },
+    {
+      "key": "publisher-page",
+      "label": "dl.acm.org 페이지",
+      "state": "warn",
+      "detail": "봇 차단(Cloudflare)으로 자동 접속 불가. 브라우저로는 열립니다. 게재 여부는 위 DOI 기록으로 이미 확인됨.",
+      "url": "https://dl.acm.org/doi/10.1145/3803784.3816859"
+    },
+    {
+      "key": "license",
+      "label": "이용 라이선스",
+      "state": "pass",
+      "detail": "CC BY-NC-ND 4.0 — 출판사가 DOI에 등록",
+      "url": "https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode"
+    },
+    {
+      "key": "pdf",
+      "label": "PDF 원문 확보",
+      "state": "pass",
+      "detail": "arxiv.org 페이지의 PDF 링크에서 받음 · 8쪽",
+      "url": "https://arxiv.org/pdf/2607.24753v1"
+    },
+    {
+      "key": "pdf-match",
+      "label": "PDF = 같은 논문",
+      "state": "pass",
+      "detail": "첫 쪽 제목 일치 · 본문 DOI 일치"
+    },
+    {
+      "key": "figures",
+      "label": "Figure 추출",
+      "state": "pass",
+      "detail": "사진 8장 · 캡션 4개 연결"
+    },
+    {
+      "key": "tech",
+      "label": "사용 기술 근거",
+      "state": "pass",
+      "detail": "원문에서 4문장 인용"
+    }
+  ],
+  "figures": [
+    {
+      "no": 1,
+      "caption": "Hands-on interactions with the Memetic Mixer",
+      "page": 1,
+      "file": "figures/BT-A-003/fig-1.jpg",
+      "width": 1600,
+      "height": 905
+    },
+    {
+      "no": 2,
+      "caption": "The Memetic Mixer, used as a design probe with four creative practitioners. To interact with the device, word tiles are placed on the dark rectangular region and the e-screen at the top displays words as they as placed (left) and the device’s response to them (right). The bottom right faders represent personality traits, while the knobs above provide differe",
+      "page": 3,
+      "file": "figures/BT-A-003/fig-2.jpg",
+      "width": 1600,
+      "height": 1066
+    },
+    {
+      "no": 4,
+      "caption": "Example of control and information flow through prompt chaining in the Memetic MixerRebecca Female Painter, Fantasy Fiction Writer Initial negative perceptions of AI “I would rather chew my own toes off than use ChatGPT!”",
+      "page": 5,
+      "file": "figures/BT-A-003/fig-4.jpg",
+      "width": 1600,
+      "height": 832
+    },
+    {
+      "no": 5,
+      "caption": "The four ecological study participants, outlining their creative practice, preconceptions of AI technology, how they approached using the Memetic Mixer and the total number of interactions with the device over the two-week study period.",
+      "page": 5,
+      "file": "figures/BT-A-003/fig-5.jpg",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "no": null,
+      "caption": "",
+      "page": 5,
+      "file": "figures/BT-A-003/p5-img3.jpg",
+      "width": 476,
+      "height": 505
+    },
+    {
+      "no": null,
+      "caption": "",
+      "page": 5,
+      "file": "figures/BT-A-003/p5-img4.jpg",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "no": null,
+      "caption": "",
+      "page": 5,
+      "file": "figures/BT-A-003/p5-img5.jpg",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "no": null,
+      "caption": "",
+      "page": 5,
+      "file": "figures/BT-A-003/p5-img6.jpg",
+      "width": 1024,
+      "height": 1536
+    }
+  ],
+  "techQuotes": [
+    {
+      "text": "The device uses physical word tiles, similar to those found in Magnetic Poetry [15], to provide input to the LLM.",
+      "page": 2
+    },
+    {
+      "text": "The study evidences the specificity of individuals’ creative practice and the possibilities and tensions that arise when interacting with AI, contributing: • Qualitative accounts of in-depth experience of creative practitioners interactions with AI. • Examples of how language can be used as material interface for AI in creative practice.",
+      "page": 2
+    },
+    {
+      "text": "Jacucci and Wagner [14] argue that material artefacts support collective creativity through their sensory and representational qualities, cautioning against a narrow focus on verbal expression alone.",
+      "page": 2
+    },
+    {
+      "text": "Miguel Male, Spanish speaker Writer and Ethnographer Wary of AI tech I’m “a person who is sometimes very reluctant to incorporate … digital tools into the creative process.” “I have many more words in Spanish than I do in English” I frequently record notes and spontaneous thoughts in a hand written journal.",
+      "page": 5
+    }
+  ],
+  "interactionQuotes": [],
+  "missingAuthors": []
+}

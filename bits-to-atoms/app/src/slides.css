@@ -1,0 +1,108 @@
+/* 캐러셀 슬라이드 = 실제 인스타 게시물 미리보기. 편지 + 토스:
+   토스의 여백·굵은 산세리프·파란 강조·페이지 점 위에, 편지의 봉투 표지·봉랍·에어메일 줄무늬·손글씨를 얹는다.
+   게시물 색이므로 화면 테마(다크 모드)와 무관하게 고정한다.
+   글씨 크기는 한 줄 글자 수(derive.ts SLIDE_LINE_CHARS=16, COVER_LINE_CHARS=10)에 맞춰져 있다. */
+
+.carousel {
+  --s-paper: #fffdf9;
+  --s-ink: #191f28;
+  --s-ink-2: #4e5968;
+  --s-muted: #8b95a1;
+  --s-line: #eef0f2;
+  --s-blue: #3182f6;
+  --s-blue-soft: #e8f3ff;
+  --s-red: #e5484d;
+  --s-seal: #c2453a;
+  --s-sans: 'Pretendard Variable', Pretendard, -apple-system, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
+  --s-hand: 'Nanum Pen Script', cursive;
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 14px;
+}
+
+/* 크기 기준(cqi)은 바깥 틀에 둔다. 슬라이드 자신의 여백·줄무늬까지 슬라이드 폭에 비례하게. */
+.slide-frame { container-type: inline-size; }
+.slide {
+  margin: 0; aspect-ratio: 4 / 5; position: relative; overflow: hidden;
+  display: grid; grid-template-rows: auto auto 1fr auto; align-content: start;
+  padding: 11cqi 8cqi 7cqi; border-radius: 14px;
+  font-family: var(--s-sans); color: var(--s-ink); letter-spacing: -0.02em; word-break: keep-all;
+  background: var(--s-paper);
+  box-shadow: 0 1px 2px rgba(0, 23, 51, 0.06), 0 8px 24px -12px rgba(0, 23, 51, 0.22);
+}
+/* 에어메일 줄무늬: 모든 장 위쪽 가장자리 */
+.slide::before {
+  content: ''; position: absolute; inset: 0 0 auto; height: 1.6cqi;
+  background: repeating-linear-gradient(-45deg, var(--s-red) 0 3cqi, transparent 3cqi 4.5cqi, var(--s-blue) 4.5cqi 7.5cqi, transparent 7.5cqi 9cqi);
+}
+.slide .muted { color: var(--s-muted); }
+
+.slide-head { display: flex; justify-content: space-between; align-items: center; gap: 2cqi; margin-bottom: 7cqi; }
+.slide-chip {
+  font-size: 3.1cqi; font-weight: 700; letter-spacing: 0; padding: 1cqi 2.6cqi; border-radius: 99px;
+  background: var(--s-blue-soft); color: var(--s-blue); white-space: nowrap;
+}
+.slide-brand { font-size: 3cqi; font-weight: 600; color: var(--s-muted); letter-spacing: -0.01em; }
+
+.slide-kicker {
+  margin: 0 0 3.5cqi; font-size: 3.8cqi; font-weight: 600; color: var(--s-muted);
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.slide-to { font-family: var(--s-hand); font-size: 6.4cqi; font-weight: 400; color: var(--s-blue); letter-spacing: 0; margin-right: 0.6cqi; }
+
+/* 본문: 한 줄 16자, 최대 3줄. 작성자가 넣은 줄바꿈을 그대로 쓴다. */
+.slide-body { margin: 0; font-size: 5.2cqi; line-height: 1.5; font-weight: 700; white-space: pre-line; letter-spacing: -0.03em; }
+
+.slide-rows { margin: 0; display: grid; align-content: start; }
+.slide-rows > div { padding: 3.2cqi 0; border-top: 1px solid var(--s-line); }
+.slide-rows > div:first-child { border-top: none; padding-top: 0; }
+.slide-rows dt { font-size: 3cqi; font-weight: 700; color: var(--s-blue); letter-spacing: 0.02em; }
+.slide-rows dd { margin: 1cqi 0 0; font-size: 5.2cqi; font-weight: 700; line-height: 1.4; letter-spacing: -0.03em; }
+
+.slide-foot { display: grid; gap: 1.6cqi; align-self: end; font-size: 2.8cqi; color: var(--s-muted); font-weight: 500; letter-spacing: -0.01em; }
+.slide-note { color: var(--s-ink-2); }
+.slide-credit { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.slide-dots { display: flex; gap: 1.2cqi; margin-top: 1.6cqi; }
+.slide-dots i { width: 1.6cqi; height: 1.6cqi; border-radius: 99px; background: #d1d6db; }
+.slide-dots i.on { width: 4.6cqi; background: var(--s-blue); }
+
+/* 01 표지 = 파란 봉투: 덮개 삼각형 + 봉랍 */
+.slide-01 { background: var(--s-blue); color: #fff; }
+.slide-01::after {
+  content: ''; position: absolute; inset: 0 0 auto; height: 46%;
+  background: linear-gradient(rgba(255, 255, 255, 0.10), rgba(255, 255, 255, 0.04));
+  clip-path: polygon(0 0, 100% 0, 50% 100%);
+  pointer-events: none;
+}
+.slide-01::before { z-index: 1; }
+.slide-01 > * { position: relative; z-index: 1; }
+.slide-01 .slide-chip { background: rgba(255, 255, 255, 0.18); color: #fff; }
+.slide-01 .slide-brand, .slide-01 .slide-kicker { color: rgba(255, 255, 255, 0.75); }
+.slide-01 .slide-kicker { margin-top: 42cqi; } /* 봉랍(덮개 끝) 아래에서 시작 */
+.slide-01 .slide-body { font-size: 8.2cqi; font-weight: 800; line-height: 1.3; letter-spacing: -0.04em; }
+.slide-01 .slide-foot { color: rgba(255, 255, 255, 0.8); padding-right: 16cqi; }
+.slide-01 .slide-dots i { background: rgba(255, 255, 255, 0.35); }
+.slide-01 .slide-dots i.on { background: #fff; }
+.seal {
+  position: absolute; z-index: 2; left: 50%; top: 46%; translate: -50% -50%;
+  width: 13cqi; height: 13cqi; min-width: 34px; min-height: 34px;
+  border-radius: 47% 53% 50% 48% / 52% 46% 54% 48%;
+  background: radial-gradient(circle at 35% 30%, #e0735d, var(--s-seal) 55%, #7d2717);
+  box-shadow: inset 0 0 0 0.8cqi rgba(0, 0, 0, 0.12), 0 1cqi 2cqi rgba(0, 0, 0, 0.3);
+  display: grid; place-items: center;
+  font-family: var(--s-hand); font-size: 6cqi; color: rgba(255, 240, 225, 0.9);
+}
+
+/* 06 P.S. = 손글씨 + 파란 서명 */
+.slide-06 .slide-body { font-family: var(--s-hand); font-weight: 400; font-size: 7.4cqi; line-height: 1.3; letter-spacing: 0; color: var(--s-ink); }
+.slide-06 .slide-credit { font-family: var(--s-hand); font-size: 5cqi; color: var(--s-blue); letter-spacing: 0; }
+
+/* 논문 Figure 등 재게시 허용 이미지 (02·03). ND 라이선스를 지키려고 자르지 않고 contain. */
+.slide-main { display: grid; align-content: start; gap: 4.5cqi; min-height: 0; }
+.slide-img {
+  display: block; width: 100%; max-height: 50cqi; object-fit: contain; object-position: left center;
+  background: #fff; border-radius: 2.4cqi; border: 1px solid var(--s-line);
+}
+.slide.has-img .slide-head { margin-bottom: 5cqi; }
+.slide.has-img .slide-kicker { margin-bottom: 3cqi; }
+.slide.has-img .slide-rows > div { padding: 2.2cqi 0; }
+.slide.has-img .slide-rows dd { font-size: 4.4cqi; }
+.slide-imgcredit { font-size: 2.4cqi; color: var(--s-muted); }

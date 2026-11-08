@@ -1,0 +1,92 @@
+id: BT-A-020
+letter_no: 16
+title: Small World Machines
+creator: Coca-Cola · 에이전시 Leo Burnett Sydney
+year: 2013 (2013-03 3일간 라이브 이벤트)
+location: 인도·파키스탄 (도시는 열람한 기사에 없음)
+context: 광고 / 공공 공간 — 국경 너머 사람들을 잇는 Coca-Cola 캠페인
+status: 실제 구현
+summary_ko: 인도와 파키스탄에 놓인 두 자판기의 터치스크린을 실시간 영상으로 연결해, 양쪽 사람이 함께 그림을 따라 그리고 손을 맞대면 콜라가 나오게 한 캠페인.
+physical_object: 실시간 영상이 연결된 3D 터치스크린 자판기 두 대
+input: '상대와 함께 그림을 그린다'
+output: '둘 다 무료 콜라를 받는다'
+mechanism: '실시간 영상 터치스크린'
+tags:
+  input: [TOUCH, DRAW]
+  object: [FURNITURE]
+  sensing: [CAMERA]
+  output: [SCREEN, MOTION]
+  context: [BRAND, PUBLIC SPACE]
+  ai: [NONE]
+  mode: [COLLABORATIVE]
+  era: [2010s]
+ai_evidence: ""
+source_primary: https://www.thedrum.com/news/coca-cola-bids-peace-across-indiapakistan-border
+source_checked_at: "2026-10-17"
+archive_snapshot: ""
+evidence:
+  identity:
+    note: "The Drum 2013-05-20: Coca-Cola × Leo Burnett Sydney. Cannes Lions 2013 Innovation Lions 쇼트리스트(Love The Work)"
+    url: https://www.lovethework.com/work-awards/entries/small-world-machines-173686
+    status: 확인
+    link_opened: true
+  interaction:
+    note: "'함께 따라 그릴 수 있는 평화 기호·웃는 얼굴' 터치 애니메이션과 손 맞대기 → 1인당 무료 콜라, 3일간 1만 캔"
+    url: https://www.thedrum.com/news/coca-cola-bids-peace-across-indiapakistan-border
+    status: 확인
+    link_opened: true
+  technology:
+    note: "'실시간 영상 피드를 자판기 화면에 투사하는 3D 터치스크린'"
+    url: https://www.thedrum.com/news/coca-cola-bids-peace-across-indiapakistan-border
+    status: 부분 확인
+    link_opened: true
+  context:
+    note: "오랜 분쟁으로 나뉜 인도·파키스탄 시민을 잇는 목적. 참여·공유 수치는 Coca-Cola 측 자료"
+    url: https://www.thedrum.com/news/coca-cola-bids-peace-across-indiapakistan-border
+    status: 확인
+    link_opened: true
+media: []
+ad_insight: 자판기를 판매대가 아니라 국경을 넘는 창문으로 바꿔, 함께 하는 동작이 있어야만 보상이 나오게 한다.
+what_if:
+  context: 전시
+  audience: "자매도시 두 곳의 기념 전시 관람객"
+  action: "화면 너머 상대와 같은 지도를 함께 따라 그린다"
+  response: "두 선이 만나면 양쪽 전시장에 같은 노래가 울린다"
+  message: "거리는 멀어도 같은 선 위에 설 수 있다"
+carousel:
+  cover: |-
+    국경 너머와 함께
+    그리는 자판기
+  work: |-
+    함께 그리면 콜라가 나오는
+    두 나라를 잇는 자판기입니다.
+  why: |-
+    혼자 대신 함께 그리게 하면
+    서로 다가갈 수 있습니다.
+  what_if: |-
+    자매도시 전시에서 지도를 그려
+    선이 만나면 노래를 틀까요?
+  ps: |-
+    낯선 이와 하트를 그렸습니다.
+    삐뚤어진 선은 눈감아 줍니다.
+
+caption:
+  text: |-
+    자판기가 국경 너머를 보는 창문이 될 수 있을까요?
+    Small World Machines는 인도와 파키스탄의 자판기를 실시간 영상으로 이어, 함께 그림을 그리면 콜라가 나오게 한 Coca-Cola 캠페인입니다.
+    화면을 만지는 확장 사례지만, 협업이 보상이 되는 구조를 함께 기록합니다.
+
+    Small World Machines — Coca-Cola / Leo Burnett Sydney (2013)
+  hashtags: [CocaCola, SmallWorldMachines, Telepresence, dearinteraction]
+keywords: [VENDING MACHINE, TELEPRESENCE, PEACE, COLLABORATION]
+notes:
+  fact:
+    - '[03 원문] input: 화면 너머 상대와 함께 평화 기호나 웃는 얼굴을 따라 그리고, 손을 맞댄다'
+    - '[03 원문] output: 화면에서 상대를 보며 연결되고, 각자 무료 Coca-Cola를 받는다'
+    - '[03 원문] mechanism: 실시간 영상을 비추는 3D 터치스크린 (The Drum)'
+  interpretation: []
+  speculation: []
+scores: { tangible: null, originality: null, reliability: null, applicability: null, postability: null }
+checklist: { humor_linked: false, info_not_buried: false }
+stage: 원고 작성
+scope: EXTENDED

@@ -1,0 +1,134 @@
+{
+  "id": "BT-A-013",
+  "checkedAt": "2026-11-08T08:37:50.590Z",
+  "verdict": "not-found",
+  "headline": "제목·저자로 등록된 DOI를 찾지 못했습니다. 논문이 아닌 작품이면 공식 웹 출처로 확인하세요.",
+  "publication": null,
+  "pdf": {
+    "url": "https://arxiv.org/pdf/2602.14442v1",
+    "source": "arxiv.org 페이지의 PDF 링크",
+    "pages": 19,
+    "titleFound": true,
+    "doiFound": false,
+    "file": "figures/BT-A-013/paper.pdf"
+  },
+  "checks": [
+    {
+      "key": "doi",
+      "label": "DOI 등록 (Crossref)",
+      "state": "fail",
+      "detail": "\"Touching Movement: 3D Tactile Poses\" 제목·저자로 등록된 학술 DOI가 없습니다."
+    },
+    {
+      "key": "pdf",
+      "label": "PDF 원문 확보",
+      "state": "pass",
+      "detail": "arxiv.org 페이지의 PDF 링크에서 받음 · 19쪽",
+      "url": "https://arxiv.org/pdf/2602.14442v1"
+    },
+    {
+      "key": "pdf-match",
+      "label": "PDF = 같은 논문",
+      "state": "pass",
+      "detail": "첫 쪽 제목 일치"
+    },
+    {
+      "key": "figures",
+      "label": "Figure 추출",
+      "state": "pass",
+      "detail": "사진 8장 · 캡션 8개 연결"
+    },
+    {
+      "key": "tech",
+      "label": "사용 기술 근거",
+      "state": "pass",
+      "detail": "원문에서 4문장 인용"
+    }
+  ],
+  "figures": [
+    {
+      "no": 1,
+      "caption": "(a) Proposed system workflow showing the process from an initial pose image to pose recreation. The workflow includes pose estimation from 2D images, generating 3D models based on the estimated poses, and fabricating them with a 3D printer. Users first learn by tactually exploring the printed models and then reproduce the learned poses. (b) Example of a 3D-p",
+      "page": 1,
+      "file": "figures/BT-A-013/fig-1.jpg",
+      "width": 1600,
+      "height": 487
+    },
+    {
+      "no": 2,
+      "caption": "Six yoga poses categorized by physical difficulty level. Level 1 (left) shows three beginner poses: Chair Pose, Crescent Moon Pose, and Wind Relieving Pose. Level 2 (right) presents three intermediate poses: Warrior I Pose, Warrior II Pose, and Reverse Warrior Pose.",
+      "page": 5,
+      "file": "figures/BT-A-013/fig-2.jpg",
+      "width": 1600,
+      "height": 485
+    },
+    {
+      "no": 3,
+      "caption": "Calisthenics Poses showing two different sequences of four progressive movements.",
+      "page": 5,
+      "file": "figures/BT-A-013/fig-3.jpg",
+      "width": 1600,
+      "height": 377
+    },
+    {
+      "no": 4,
+      "caption": "Base design components of the proposed 3D modeling system. (a) A ground base with a reference marker, indicating floor orientation and helping users sense weight distribution and body balance. (b) Instruction to move the right foot backward using the reference marker. (c) Instruction to move the left foot forward using the reference marker.",
+      "page": 7,
+      "file": "figures/BT-A-013/fig-4.jpg",
+      "width": 1600,
+      "height": 381
+    },
+    {
+      "no": 5,
+      "caption": "Final design of the 3D tactile pose models used in the study. All figures in (a) and (b) are mounted on flat bases to enhance tactile stability and alignment. (a) Six yoga poses divided into two difficulty levels: Level 1 includes Chair, Crescent Moon, and Wind Relieving poses; Level 2 includes Warrior I, Warrior II, and Reverse Warrior poses. (b) Two calist",
+      "page": 7,
+      "file": "figures/BT-A-013/fig-5.jpg",
+      "width": 1486,
+      "height": 711
+    },
+    {
+      "no": 6,
+      "caption": "Example of audio instruction format: First announcing the total number of steps, then explaining each step individually for the Crescent Moon Pose. This pose has three steps: STEP 1: Stand with your feet close to each other, maintaining balance with both soles. Feet are hip-width apart. STEP 2: Raise both arms from the sides upward, and bring your palms toge",
+      "page": 8,
+      "file": "figures/BT-A-013/fig-6.jpg",
+      "width": 1600,
+      "height": 395
+    },
+    {
+      "no": 7,
+      "caption": "2D tactile graphics representing Yoga poses at two difficulty levels: Level 1 includes (a) Chair Pose, (b) Crescent Moon Pose, and (c) Wind Relieving Pose; Level 2 includes (d) Warrior I Pose, (e) Warrior II Pose, and (f) Reverse Warrior Pose Table 1: Demographic information of the participants.",
+      "page": 8,
+      "file": "figures/BT-A-013/fig-7.jpg",
+      "width": 1600,
+      "height": 369
+    },
+    {
+      "no": 8,
+      "caption": "Questionnaire results comparing user evaluations of yoga-pose learning methods among three different approaches: audio instructions (A: Audio), 2D tactile graphics (B: 2D), and 3D models (C: 3D). Assessments included six aspects: Q1 (Enjoyment: it was enjoyable to learn poses using this method), Q2 (Ease of Understanding: It was easy to understand the poses)",
+      "page": 10,
+      "file": "figures/BT-A-013/fig-8.jpg",
+      "width": 1600,
+      "height": 773
+    }
+  ],
+  "techQuotes": [
+    {
+      "text": "These findings suggest that 3D tactile models, by allowing direct perception of spatial relationships such as depth and proportion, can naturally distribute cognitive demands across sensory modalities, supporting more efficient comprehension and retention of complex spatial information.",
+      "page": 3
+    },
+    {
+      "text": "De Silva et al. [12] conducted dance workshops using sensory probes, enhancing the accessibility of dance.",
+      "page": 3
+    },
+    {
+      "text": "Such functionality could be achieved using wearable motion sensors or computer vision to detect deviations from the intended pose and provide immediate corrective audio or vibrotactile feedback.",
+      "page": 15
+    },
+    {
+      "text": "Eyes-free yoga: an exergame using depth cameras for blind & low vision exercise (ASSETS ’13).",
+      "page": 17
+    }
+  ],
+  "interactionQuotes": [],
+  "missingAuthors": []
+}

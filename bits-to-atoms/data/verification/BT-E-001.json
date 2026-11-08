@@ -1,0 +1,26 @@
+{
+  "id": "BT-E-001",
+  "checkedAt": "2026-11-08T08:37:54.576Z",
+  "verdict": "not-found",
+  "headline": "제목·저자로 등록된 DOI를 찾지 못했습니다. 논문이 아닌 작품이면 공식 웹 출처로 확인하세요.",
+  "publication": null,
+  "pdf": null,
+  "checks": [
+    {
+      "key": "doi",
+      "label": "DOI 등록 (Crossref)",
+      "state": "fail",
+      "detail": "\"Sketch Aquarium\" 제목·저자로 등록된 학술 DOI가 없습니다."
+    },
+    {
+      "key": "pdf",
+      "label": "PDF 원문 확보",
+      "state": "warn",
+      "detail": "PDF 링크 후보가 없습니다."
+    }
+  ],
+  "figures": [],
+  "techQuotes": [],
+  "interactionQuotes": [],
+  "missingAuthors": []
+}

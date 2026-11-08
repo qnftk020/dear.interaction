@@ -1,0 +1,94 @@
+id: BT-E-013
+letter_no: null
+title: Toy Story Mania!
+creator: Walt Disney World (Disney's Hollywood Studios)
+year: 미확인
+location: Disney's Hollywood Studios
+context: 테마파크 어트랙션
+status: 실제 구현
+summary_ko: 카니발 열차에 타서 스프링식 발사기로 움직이는 표적을 맞히며 5개 게임에서 점수를 겨루는 토이 스토리 4D 슈팅 어트랙션.
+physical_object: 열차에 달린 스프링식 발사기(spring-action shooter)
+input: 발사기로 표적을 조준해 쏜다
+output: 맞히면 점수가 쌓이고, 어려운 표적·숨은 표적은 더 높은 점수와 이스터에그가 나온다. 게임이 끝나면 열차가 다음 게임으로 돈다
+mechanism: 미확인
+tags:
+  input:
+    - PRESS
+    - MOVE
+  object:
+    - TOOL
+  sensing:
+    - UNKNOWN
+  output:
+    - SCREEN
+    - MOTION
+  context:
+    - THEME PARK
+    - FANDOM
+  ai:
+    - NONE
+  mode:
+    - MULTI-USER
+  era:
+    - UNKNOWN
+ai_evidence: ""
+source_primary: https://disneyworld.disney.go.com/attractions/hollywood-studios/toy-story-mania/
+source_checked_at: 2026-11-07
+archive_snapshot: ""
+evidence:
+  identity:
+    note: Walt Disney World 공식 어트랙션 페이지 ('4D shootin' game'). 개장 연도 미기재
+    url: https://disneyworld.disney.go.com/attractions/hollywood-studios/toy-story-mania/
+    status: 부분 확인
+    link_opened: true
+  interaction:
+    note: "'use your spring-action shooter to take your best shot at an array of moving targets' / 5개 게임, 점수 경쟁, 숨은 표적"
+    url: https://disneyworld.disney.go.com/attractions/hollywood-studios/toy-story-mania/
+    status: 확인
+    link_opened: true
+  technology:
+    note: 발사기 입력이 화면에 반영되는 방식 미기재. 줄을 당긴다는 설명은 TripAdvisor(2차)에만 있음
+    url: ""
+    status: 미확인
+    link_opened: false
+  context:
+    note: Disney·Pixar 토이 스토리 캐릭터 어트랙션
+    url: https://disneyworld.disney.go.com/attractions/hollywood-studios/toy-story-mania/
+    status: 확인
+    link_opened: true
+media: []
+ad_insight: ""
+what_if:
+  context: null
+  audience: ""
+  action: ""
+  response: ""
+  message: ""
+carousel:
+  cover: ""
+  work: ""
+  why: ""
+  what_if: ""
+  ps: ""
+caption:
+  text: ""
+  hashtags: []
+keywords:
+  - shooter
+  - score
+  - ride
+notes:
+  fact: []
+  interpretation: []
+  speculation: []
+scores:
+  tangible: null
+  originality: null
+  reliability: null
+  applicability: null
+  postability: null
+checklist:
+  humor_linked: false
+  info_not_buried: false
+stage: 발견
+scope: TANGIBLE

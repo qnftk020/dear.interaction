@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "workbench",
+      "runtimeExecutable": "/opt/homebrew/bin/node",
+      "runtimeArgs": ["bits-to-atoms/app/node_modules/vite/bin/vite.js", "bits-to-atoms/app", "--port", "5173", "--strictPort"],
+      "port": 5173
+    }
+  ]
+}

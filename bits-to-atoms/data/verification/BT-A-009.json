@@ -1,0 +1,93 @@
+{
+  "id": "BT-A-009",
+  "checkedAt": "2026-11-08T08:39:33.985Z",
+  "verdict": "published",
+  "headline": "ACM · TEI '26에 실제로 게재된 논문입니다 (DOI 10.1145/3731459.3779321) — PDF는 자동으로 받지 못했습니다.",
+  "publication": {
+    "doi": "10.1145/3731459.3779321",
+    "doiUrl": "https://doi.org/10.1145/3731459.3779321",
+    "title": "Lighting the Reef: Modular Paper Circuits as Ecological Metaphor",
+    "authors": [
+      "Ruhan Yang",
+      "Yuchen Zhang",
+      "Ellen Yi-Luen Do"
+    ],
+    "venue": "TEI '26",
+    "container": "Proceedings of the Twentieth International Conference on Tangible, Embedded, and Embodied Interaction",
+    "publisher": "ACM",
+    "type": "proceedings-article",
+    "published": "2026-03-07",
+    "year": 2026,
+    "pages": "1-9",
+    "license": {
+      "url": "http://www.acm.org/publications/policies/copyright_policy#Background",
+      "label": "출판사 라이선스"
+    },
+    "foundBy": "crossref-search"
+  },
+  "pdf": null,
+  "checks": [
+    {
+      "key": "doi",
+      "label": "DOI 등록 (Crossref)",
+      "state": "pass",
+      "detail": "10.1145/3731459.3779321 — Crossref 제목·저자 검색으로 찾음. ACM에서 직접 등록한 출판 번호입니다.",
+      "url": "https://api.crossref.org/works/10.1145/3731459.3779321"
+    },
+    {
+      "key": "venue",
+      "label": "게재처",
+      "state": "pass",
+      "detail": "TEI '26 (Proceedings of the Twentieth International Conference on Tangible, Embedded, and Embodied Interaction) · ACM · pp.1-9 · 2026-03-07 · 유형 proceedings-article"
+    },
+    {
+      "key": "title",
+      "label": "제목 일치",
+      "state": "pass",
+      "detail": "기록 \"Lighting the Reef\" ↔ 논문 \"Lighting the Reef: Modular Paper Circuits as Ecological Metaphor\" — 부제만 생략 — 같은 작품"
+    },
+    {
+      "key": "authors",
+      "label": "저자 일치",
+      "state": "pass",
+      "detail": "3/3명 일치"
+    },
+    {
+      "key": "year",
+      "label": "연도 일치",
+      "state": "pass",
+      "detail": "기록 \"2026 (TEI '26 Work-in-Progress)\" ↔ 출판 2026-03-07"
+    },
+    {
+      "key": "doi-link",
+      "label": "DOI 링크 연결",
+      "state": "pass",
+      "detail": "doi.org → dl.acm.org (출판사 공식 페이지)",
+      "url": "https://doi.org/10.1145/3731459.3779321"
+    },
+    {
+      "key": "publisher-page",
+      "label": "dl.acm.org 페이지",
+      "state": "warn",
+      "detail": "봇 차단(Cloudflare)으로 자동 접속 불가. 브라우저로는 열립니다. 게재 여부는 위 DOI 기록으로 이미 확인됨.",
+      "url": "https://dl.acm.org/doi/10.1145/3731459.3779321"
+    },
+    {
+      "key": "license",
+      "label": "이용 라이선스",
+      "state": "warn",
+      "detail": "출판사 라이선스 — 출판사가 DOI에 등록",
+      "url": "http://www.acm.org/publications/policies/copyright_policy#Background"
+    },
+    {
+      "key": "pdf",
+      "label": "PDF 원문 확보",
+      "state": "warn",
+      "detail": "후보 3곳(dl.acm.org, doi.org)에서 열 수 있는 원문을 찾지 못했습니다."
+    }
+  ],
+  "figures": [],
+  "techQuotes": [],
+  "interactionQuotes": [],
+  "missingAuthors": []
+}

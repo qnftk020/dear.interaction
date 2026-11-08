@@ -1,0 +1,73 @@
+# 새 사례 템플릿 — dear.interaction 지침 기준
+# 복사해서 파일명을 id와 같게 저장한다 (예: BT-A-003.yaml). `_`로 시작하는 파일은 무시된다.
+# 확인되지 않은 값은 '미확인'. 추정이면 '(추정)'. 없는 URL·인용·수치는 만들지 않는다.
+
+id: BT-A-000
+letter_no: null                # 게시 번호. null = 번호 미배정
+title: 미확인                   # 원제
+creator: 미확인
+year: 미확인
+location: 미확인                # 국가/장소 (확인 시)
+context: 미확인                 # 전시 / 연구 / 브랜드 경험 등
+status: 미확인                  # 실제 구현 | 연구 프로토타입 | 콘셉트 | 미확인
+summary_ko: 미확인              # 이게 무엇인가? (조사 노트)
+physical_object: 미확인         # 사람이 만지는 것 (확장 사례면 '없음 — 몸짓' 등)
+input: 미확인                   # 관객이 하는 행동
+output: 미확인                  # 작품이 실제로 보이는 반응
+mechanism: 미확인               # 확인된 센서·구동·기술만. evidence.technology가 확인일 때만 채운다
+tags:                          # 허용값: app/src/lib/schema.ts TAXONOMY
+  input: []
+  object: []
+  sensing: []
+  output: []
+  context: []
+  ai: []
+  mode: []
+  era: []
+ai_evidence: ""                # AI 결합 주장 시 공식 근거 URL
+source_primary: 미확인           # 공식 출처 (SNS·Pinterest 불가)
+source_checked_at: ""          # YYYY-MM-DD
+archive_snapshot: ""           # https://web.archive.org/...
+
+evidence:                      # 사실 검증표. status: 확인 | 부분 확인 | 미확인
+  identity:    { note: "", url: "", status: 미확인, link_opened: false }   # 작품명·작가·연도
+  interaction: { note: "", url: "", status: 미확인, link_opened: false }   # 인터랙션 입력·출력
+  technology:  { note: "", url: "", status: 미확인, link_opened: false }   # 사용 기술
+  context:     { note: "", url: "", status: 미확인, link_opened: false }   # 작품의 목적/맥락
+
+media: []                      # 1~3개: { url, credit, permission: 허용 확인됨|권한 확인 필요|재게시 불가, permission_basis }
+
+ad_insight: ""                 # 광고/경험 인사이트 (에디터 해석)
+what_if:                       # 가상 제안 — 실제 프로젝트 아님
+  context: null                # 박물관 아카이브 | 공공 문화시설 | 브랜드 체험 공간 | 전시 | 기타
+  audience: ""
+  action: ""
+  response: ""
+  message: ""
+
+carousel:                      # 6장 원고 (03 HOW IT WORKS는 input/output/mechanism에서 자동 생성)
+  cover: ""                    # 01 표지 헤드라인 10~25자
+  work: ""                     # 02 THE WORK
+  why: ""                      # 04 WHY IT WORKS — 수치 없으면 가설로
+  what_if: ""                  # 05 WHAT IF?
+  ps: ""                       # 06 P.S. I STILL LOVE YOU
+caption:
+  text: ""
+  hashtags: []                 # 3~5개
+keywords: []                   # 아카이브 DB 태그 3~5개
+
+notes:                         # 사실 / 해석 / 전망을 섞지 않는다
+  fact: []
+  interpretation: []
+  speculation: []
+scores:                        # 1~5, 큐레이터 판단
+  tangible: null
+  originality: null
+  reliability: null
+  applicability: null
+  postability: null
+checklist:                     # 사람이 판단하는 자체 점검
+  humor_linked: false
+  info_not_buried: false
+stage: 발견                    # 발견 | 출처 확인 중 | 검증 완료 | 원고 작성 | 게시 준비 | 게시됨
+scope: TANGIBLE                # TANGIBLE | EXTENDED | HOLD | EXCLUDED

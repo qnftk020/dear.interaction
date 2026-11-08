@@ -1,0 +1,93 @@
+id: BT-A-012
+letter_no: 10
+title: Who Is Jumping, Jack?
+creator: Nathalie Kronberger (Kunstuniversität Linz, Time-Based and Interactive Media Art)
+year: 2026 (Ars Electronica Festival 2026, Kunstuni Campus)
+location: 오스트리아 린츠 — Kunstuni Campus 2026 (2026-09-08~13)
+context: 전시 — Ars Electronica Festival 2026 대학 캠퍼스 전시
+status: 실제 구현
+summary_ko: 관객의 팔 움직임을 실시간으로 포착해 서보모터로 움직이는 실제 코르크스크루들의 기계적 동작으로 바꾸는 키네틱 설치.
+physical_object: 없음 (관객의 팔 움직임) — 반응하는 쪽은 서보로 움직이는 코르크스크루
+input: 관객이 팔을 움직인다
+output: '따개들이 동작을 따라 한다'
+mechanism: '서보모터로 따개 구동'
+tags:
+  input: [GESTURE]
+  object: [BODY]
+  sensing: [UNKNOWN]
+  output: [MOTION]
+  context: [ART, EXHIBITION]
+  ai: [UNKNOWN]
+  mode: [INDIVIDUAL]
+  era: [2020s]
+ai_evidence: ""
+source_primary: https://www.kunstuni-linz.at/en/university/organisational-structure/institutes/institute-for-design/news/news/kunstuni-campus-ars-electronica-festival-2026
+source_checked_at: "2026-10-17"
+archive_snapshot: ""
+evidence:
+  identity:
+    note: "Who Is Jumping, Jack? — Nathalie Kronberger (AT), Time-Based and Interactive Media Art. Kunstuni Campus 2026 하이라이트"
+    url: https://www.kunstuni-linz.at/en/university/organisational-structure/institutes/institute-for-design/news/news/kunstuni-campus-ars-electronica-festival-2026
+    status: 확인
+    link_opened: true
+  interaction:
+    note: "관객의 팔 움직임이 실시간으로 포착되어 서보 제어 코르크스크루로 전달, 즉각적인 기계 동작으로 반응"
+    url: https://www.kunstuni-linz.at/en/university/organisational-structure/institutes/institute-for-design/news/news/kunstuni-campus-ars-electronica-festival-2026
+    status: 확인
+    link_opened: true
+  technology:
+    note: "출력은 '서보 제어 코르크스크루'로 명시. 동작 감지 방식은 미공개"
+    url: https://www.kunstuni-linz.at/en/university/organisational-structure/institutes/institute-for-design/news/news/kunstuni-campus-ars-electronica-festival-2026
+    status: 부분 확인
+    link_opened: true
+  context:
+    note: "반복·규율·통제를 주제로, 누가 '점핑잭'이고 누가 인형술사인지 묻는다고 소개"
+    url: https://www.kunstuni-linz.at/en/university/organisational-structure/institutes/institute-for-design/news/news/kunstuni-campus-ars-electronica-festival-2026
+    status: 확인
+    link_opened: true
+media: []
+ad_insight: 몸짓과 기계가 일대일로 이어지는 순간, 관객은 조종하는 쾌감과 조종당하는 불편함을 동시에 느낀다.
+what_if:
+  context: 공공 문화시설
+  audience: 과학관 로비의 어린이 관람객
+  action: 로비 한가운데 서서 팔을 크게 흔든다
+  response: 천장에 매달린 일상 도구들이 그 리듬을 따라 움직인다
+  message: 기계는 우리의 몸짓을 배우고, 우리는 기계의 반복을 배운다
+carousel:
+  cover: |-
+    팔을 흔들면
+    따개가 춤춥니다
+  work: |-
+    팔 동작을 따라 움직이는
+    와인 따개 설치입니다.
+  why: |-
+    몸짓을 기계가 따라 하면
+    직접 조종할 수 있습니다.
+  what_if: |-
+    과학관에서 아이가 팔을 흔들면
+    천장 도구가 따라 할까요?
+  ps: |-
+    와인 따개가 더 잘 춥니다.
+    제가 조종당한 듯합니다.
+
+caption:
+  text: |-
+    내가 기계를 움직이는 걸까요, 기계가 나를 움직이는 걸까요?
+    Who Is Jumping, Jack?은 관객의 팔 움직임을 서보로 움직이는 코르크스크루들의 동작으로 바꾸는 키네틱 설치입니다.
+    물건을 만지지 않는 확장 사례지만, 몸과 기계의 관계를 선명하게 보여 줘서 함께 기록합니다.
+
+    Who Is Jumping, Jack? — Nathalie Kronberger / Kunstuniversität Linz · Ars Electronica Festival 2026
+  hashtags: [KineticArt, InteractionDesign, ArsElectronica, dearinteraction]
+keywords: [GESTURE, SERVO, KINETIC, CONTROL]
+notes:
+  fact:
+    - '[03 원문] output: 서보모터로 제어되는 코르크스크루들이 그 움직임을 기계적 동작으로 즉시 따라 한다'
+    - '[03 원문] mechanism: 서보모터로 코르크스크루 구동 (팔 움직임 감지 센서는 미공개)'
+    - 관객 팔 움직임 → 서보 제어 코르크스크루 (Kunstuni Linz 공식 페이지)
+  interpretation:
+    - 조종과 피조종의 역전이 작품의 질문이다
+  speculation: []
+scores: { tangible: null, originality: null, reliability: null, applicability: null, postability: null }
+checklist: { humor_linked: false, info_not_buried: false }
+stage: 원고 작성
+scope: EXTENDED

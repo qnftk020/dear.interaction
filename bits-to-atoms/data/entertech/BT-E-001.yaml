@@ -1,0 +1,94 @@
+id: BT-E-001
+letter_no: null
+title: Sketch Aquarium
+creator: "teamLab (Sound: Hideaki Takahashi)"
+year: 2013-
+location: 여러 전시 (teamLab 순회)
+context: 전시 / 인터랙티브 설치
+status: 실제 구현
+summary_ko: 종이에 물고기를 색칠해 스캔하면 그 그림이 눈앞의 거대한 수족관 속으로 헤엄쳐 들어가는 teamLab 설치.
+physical_object: 물고기 밑그림이 인쇄된 종이
+input: 종이에 물고기를 색칠하고 스캔한다 / 헤엄치는 물고기·먹이 주머니를 만진다
+output: 내가 그린 물고기가 다른 사람들의 물고기와 함께 수족관을 헤엄친다. 만지면 달아나고, 먹이 주머니를 만지면 먹이를 준다
+mechanism: 미확인
+tags:
+  input:
+    - DRAW
+    - TOUCH
+  object:
+    - PAPER
+  sensing:
+    - UNKNOWN
+  output:
+    - UNKNOWN
+  context:
+    - ART
+    - EXHIBITION
+  ai:
+    - NONE
+  mode:
+    - MULTI-USER
+  era:
+    - 2010s
+ai_evidence: ""
+source_primary: https://www.teamlab.art/w/aquarium/
+source_checked_at: 2026-11-07
+archive_snapshot: ""
+evidence:
+  identity:
+    note: "teamLab 공식: 'teamLab, 2013-, Interactive Installation, Sound: Hideaki Takahashi'"
+    url: https://www.teamlab.art/w/aquarium/
+    status: 확인
+    link_opened: true
+  interaction:
+    note: 색칠 → 스캔 → 수족관으로 헤엄침, 물고기를 만지면 달아남, 먹이 주머니 터치
+    url: https://www.teamlab.art/w/aquarium/
+    status: 확인
+    link_opened: true
+  technology:
+    note: "'Scan the final drawing'까지만 기재. 스캐너·화면 방식(프로젝션 여부)은 미기재"
+    url: https://www.teamlab.art/w/aquarium/
+    status: 부분 확인
+    link_opened: true
+  context:
+    note: teamLab 인터랙티브 설치 작품
+    url: https://www.teamlab.art/w/aquarium/
+    status: 확인
+    link_opened: true
+media: []
+ad_insight: ""
+what_if:
+  context: null
+  audience: ""
+  action: ""
+  response: ""
+  message: ""
+carousel:
+  cover: ""
+  work: ""
+  why: ""
+  what_if: ""
+  ps: ""
+caption:
+  text: ""
+  hashtags: []
+keywords:
+  - drawing
+  - teamLab
+  - co-creation
+notes:
+  fact:
+    - "공식 페이지에 Sketch Ocean, Sketch Aquarium: Connected World 등 파생 작품이 따로 있다 — 중복 수집 주의"
+  interpretation: []
+  speculation: []
+scores:
+  tangible: null
+  originality: null
+  reliability: null
+  applicability: null
+  postability: null
+checklist:
+  humor_linked: false
+  info_not_buried: false
+stage: 출처 확인 중
+scope: TANGIBLE

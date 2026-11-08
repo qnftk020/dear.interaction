@@ -1,0 +1,93 @@
+id: BT-E-010
+letter_no: null
+title: Xylobands
+creator: Xylobands (발명 Jason Regler)
+year: "2011"
+location: 공연장 (Coldplay 공연 등)
+context: 콘서트 / 관객 조명
+status: 실제 구현
+summary_ko: 관객 모두에게 나눠 준 LED 손목 밴드를 무선으로 한꺼번에 제어해, 객석 전체를 공연 조명의 일부로 만드는 장치.
+physical_object: LED 손목 밴드
+input: 없음 — 관객은 밴드를 차기만 하고, 운영자가 무선으로 제어한다
+output: 객석의 밴드가 음악에 맞춰 함께 빛난다
+mechanism: RF(무선) 제어 — 자체 인터페이스와 표준 DMX 시스템으로 그룹별 점등
+tags:
+  input:
+    - UNKNOWN
+  object:
+    - WEARABLE
+  sensing:
+    - UNKNOWN
+  output:
+    - LIGHT
+  context:
+    - CONCERT
+    - FANDOM
+  ai:
+    - NONE
+  mode:
+    - MULTI-USER
+  era:
+    - 2010s
+ai_evidence: ""
+source_primary: https://www.xylobands.com/
+source_checked_at: 2026-11-07
+archive_snapshot: ""
+evidence:
+  identity:
+    note: "Xylobands 공식: 'invented in 2011 by Jason Regler' / Coldplay Glastonbury 'Fix You'에서 영감"
+    url: https://www.xylobands.com/
+    status: 확인
+    link_opened: true
+  interaction:
+    note: 관객 전체가 동기화된 무선 LED 밴드로 공연의 일부가 됨. 착용자의 입력은 언급 없음
+    url: https://www.xylobands.com/
+    status: 부분 확인
+    link_opened: true
+  technology:
+    note: "'RF Control — Operating across both our xylo interface & standard DMX systems'"
+    url: https://www.xylobands.com/
+    status: 확인
+    link_opened: true
+  context:
+    note: 콘서트·페스티벌·기업 행사용
+    url: https://www.xylobands.com/
+    status: 확인
+    link_opened: true
+media: []
+ad_insight: ""
+what_if:
+  context: null
+  audience: ""
+  action: ""
+  response: ""
+  message: ""
+carousel:
+  cover: ""
+  work: ""
+  why: ""
+  what_if: ""
+  ps: ""
+caption:
+  text: ""
+  hashtags: []
+keywords:
+  - crowd
+  - LED
+  - concert
+notes:
+  fact: []
+  interpretation:
+    - 관객이 하는 행동이 없어 지침 3절 선정 질문 (1)을 충족하지 못함 → 보류. 엔터테크 흐름(관객 조명의 시작)을 보여 주는 참고 사례로 둠
+  speculation: []
+scores:
+  tangible: null
+  originality: null
+  reliability: null
+  applicability: null
+  postability: null
+checklist:
+  humor_linked: false
+  info_not_buried: false
+stage: 발견
+scope: HOLD

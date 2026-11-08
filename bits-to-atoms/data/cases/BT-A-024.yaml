@@ -1,0 +1,91 @@
+id: BT-A-024
+letter_no: null
+title: If You Can Take It, It's Yours (Selleys Liquid Nails)
+creator: Howatson+Company (Sydney) — 광고주 Selleys
+year: 2025 (sixteen-nine 2025-10-30 보도)
+location: 호주 시드니 도심
+context: 광고 / 옥외 — Selleys Liquid Nails 접착제 캠페인
+status: 실제 구현
+summary_ko: 카약·아케이드 기계·2.8m 청새치를 접착제로 빌보드에 붙여 놓고 "떼어 가면 당신 것"이라고 내건 옥외 광고. 아무도 떼지 못했다.
+physical_object: 빌보드에 붙인 카약, 아케이드 기계, 2.8m 청새치
+input: 붙은 물건을 당겨 본다
+output: 아무것도 떨어지지 않는다
+mechanism: 미확인
+tags:
+  input: [MOVE]
+  object: [UNKNOWN]
+  sensing: []
+  output: [UNKNOWN]
+  context: [BRAND, PUBLIC SPACE]
+  ai: [NONE]
+  mode: [MULTI-USER]
+  era: [2020s]
+ai_evidence: ""
+source_primary: https://invidis.com/sixteen-nine/2025/10/30/selleys-turns-product-test-into-street-challenge-and-the-glue-wins/
+source_checked_at: "2026-10-20"
+archive_snapshot: ""
+evidence:
+  identity:
+    note: "캠페인명 'If You Can Take It, It's Yours', Selleys Liquid Nails, 에이전시 Howatson+Company, 2025-10-30 보도"
+    url: https://invidis.com/sixteen-nine/2025/10/30/selleys-turns-product-test-into-street-challenge-and-the-glue-wins/
+    status: 확인
+    link_opened: true
+  interaction:
+    note: "시드니 도심 빌보드에 카약·아케이드 기계·2.8m 청새치를 붙임. 행인·크리에이터·인플루언서·기술자가 당겨 봤지만 아무도 떼지 못함"
+    url: https://invidis.com/sixteen-nine/2025/10/30/selleys-turns-product-test-into-street-challenge-and-the-glue-wins/
+    status: 확인
+    link_opened: true
+  technology:
+    note: "'Liquid Nails만으로 붙였다'는 표현은 검색 요약에서만 봄 — 본문에서 부착 방식 재확인 필요"
+    url: https://invidis.com/sixteen-nine/2025/10/30/selleys-turns-product-test-into-street-challenge-and-the-glue-wins/
+    status: 미확인
+    link_opened: true
+  context:
+    note: "2025 OMA Creative Awards 그랑프리 — 검색 결과로만 확인, 페이지 미열람"
+    url: https://oma.org.au/news/winners-unveiled-in-the-oma-creative-awards
+    status: 부분 확인
+    link_opened: false
+media: []
+ad_insight: "에디터 해석: 강하다는 설명을 직접 당겨 보는 시험으로 바꾸면 스스로 제품을 판단할 수 있습니다."
+what_if:
+  context: 브랜드 체험 공간
+  audience: 가구 매장 방문객
+  action: 견본 서랍을 직접 당깁니다
+  response: 레일마다 다른 움직임과 저항을 손으로 느낍니다
+  message: 설명보다 손으로 비교해 고릅니다
+carousel:
+  cover: |-
+    카약을 준다더니
+    손에 안 잡힙니다
+  work: |-
+    카약을 붙인 광고판입니다.
+    당겨도 떼지 못했습니다.
+  why: |-
+    설명 대신 당겨 보게 하면
+    스스로 판단할 수 있습니다.
+  what_if: |-
+    가구점 서랍을 당겨 보면
+    레일 차이를 손으로 느낍니다.
+  ps: |-
+    카약은 못 가져가도
+    팔 운동은 하고 갑니다.
+caption:
+  text: |-
+    공짜 카약 앞에서 팔부터 걷습니다.
+    Selleys의 광고판에 붙은 카약과 아케이드 기계를 사람들이 당겨 봤지만 떼지 못했습니다.
+    제 해석으로는 제품 설명을 직접 시험하는 일로 바꿔 자기 판단의 자리를 만든 점이 흥미롭습니다.
+    
+    If You Can Take It, It's Yours — Howatson+Company / Selleys
+  hashtags: ["옥외광고","체험디자인","Selleys","dearinteraction"]
+keywords: ["PULL","PRODUCT TEST","BILLBOARD"]
+notes:
+  fact:
+    - 붙인 물건은 카약, 아케이드 기계, 2.8m 청새치 (sixteen-nine)
+    - 행인뿐 아니라 인플루언서·기술자도 도전했지만 실패
+    - "[자체 발표 — 원고 사용 금지] 영상 조회 4,700만, 매출 5% 증가는 에이전시 어워드 출품 수치"
+  interpretation: []
+  speculation: []
+scores: { tangible: null, originality: null, reliability: null, applicability: null, postability: null }
+checklist: { humor_linked: false, info_not_buried: false }
+stage: 원고 작성
+scope: TANGIBLE

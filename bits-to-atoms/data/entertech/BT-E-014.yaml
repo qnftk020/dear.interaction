@@ -1,0 +1,94 @@
+id: BT-E-014
+letter_no: null
+title: Savi's Workshop — Handbuilt Lightsabers
+creator: "Disneyland Resort (Star Wars: Galaxy's Edge)"
+year: 미확인
+location: Disneyland Park, Disney's Hollywood Studios
+context: 테마파크 체험 / 상점
+status: 실제 구현
+summary_ko: 스타워즈 구역의 비밀 공방에서 테마를 고르고 부품을 골라 자기 광선검 손잡이를 직접 조립하면, 공방 사람들이 블레이드를 연결해 주는 체험.
+physical_object: 광선검 손잡이 부품 (손잡이, 슬리브, 이미터, 폼멜 캡, 스위치)
+input: 4가지 테마 중 하나를 고르고, 상자 속 부품 중 원하는 것을 골라 손잡이를 조립한다
+output: 남은 부품은 'Gatherer'가 회수하고, 완성한 손잡이에 31인치 블레이드를 연결해 준다
+mechanism: 미확인
+tags:
+  input:
+    - ASSEMBLE
+  object:
+    - TOOL
+  sensing:
+    - UNKNOWN
+  output:
+    - UNKNOWN
+  context:
+    - THEME PARK
+    - FANDOM
+    - BRAND
+  ai:
+    - NONE
+  mode:
+    - MULTI-USER
+  era:
+    - UNKNOWN
+ai_evidence: ""
+source_primary: https://disneyland.disney.go.com/shops/disneyland/savis-workshop-handbuilt-lightsabers/
+source_checked_at: 2026-11-07
+archive_snapshot: ""
+evidence:
+  identity:
+    note: Disneyland 공식 상점 페이지. 개장 연도 미기재
+    url: https://disneyland.disney.go.com/shops/disneyland/savis-workshop-handbuilt-lightsabers/
+    status: 부분 확인
+    link_opened: true
+  interaction:
+    note: 테마 선택 + cloisonné 핀 → 부품 상자(슬리브 4개 중 2개 등 선택) → 'Gatherers will masterfully connect your hilt to a 31" lightsaber blade'
+    url: https://disneyland.disney.go.com/shops/disneyland/savis-workshop-handbuilt-lightsabers/
+    status: 확인
+    link_opened: true
+  technology:
+    note: 블레이드 점등 방식·연출 미기재
+    url: ""
+    status: 미확인
+    link_opened: false
+  context:
+    note: "Star Wars: Galaxy's Edge 안 'secret Savi's Workshop'"
+    url: https://disneyland.disney.go.com/shops/disneyland/savis-workshop-handbuilt-lightsabers/
+    status: 확인
+    link_opened: true
+media: []
+ad_insight: ""
+what_if:
+  context: null
+  audience: ""
+  action: ""
+  response: ""
+  message: ""
+carousel:
+  cover: ""
+  work: ""
+  why: ""
+  what_if: ""
+  ps: ""
+caption:
+  text: ""
+  hashtags: []
+keywords:
+  - build
+  - ritual
+  - souvenir
+notes:
+  fact:
+    - 디지털 반응보다 조립·의식(ritual)이 중심인 사례 — 엔터테크 범위인지 사용자 판단 필요
+  interpretation: []
+  speculation: []
+scores:
+  tangible: null
+  originality: null
+  reliability: null
+  applicability: null
+  postability: null
+checklist:
+  humor_linked: false
+  info_not_buried: false
+stage: 발견
+scope: TANGIBLE

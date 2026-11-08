@@ -1,0 +1,57 @@
+id: BT-A-013
+letter_no: null
+title: "Touching Movement: 3D Tactile Poses"
+creator: Kengo Tanaka, Xiyue Wang, Hironobu Takagi, Yoichi Ochiai, Chieko Asakawa
+year: 2026 (TEI '26)
+location: 미확인
+context: 연구 — 시각장애인의 신체 동작 학습 지원
+status: 연구 프로토타입
+summary_ko: 3D 프린팅한 인체 모형에 촉각 기준점을 더해, 시각장애인이 요가·체조 동작을 손으로 만져 이해하도록 돕는 연구.
+physical_object: 3D 프린팅 인체 동작 모형
+input: 모형을 손으로 만져 자세를 파악한다
+output: 시스템 반응 없음 — 정적인 촉각 모형
+mechanism: 미확인
+tags:
+  input: [TOUCH]
+  object: [TOOL]
+  sensing: []
+  output: [SHAPE]
+  context: [RESEARCH, EDUCATION]
+  ai: [NONE]
+  mode: [INDIVIDUAL]
+  era: [2020s]
+ai_evidence: ""
+source_primary: https://arxiv.org/abs/2602.14442v1
+source_checked_at: "2026-10-17"
+archive_snapshot: ""
+evidence:
+  identity:
+    note: "arXiv 2602.14442 (2026-02-16), 'Accepted to TEI 2026', CC BY-NC-ND 4.0"
+    url: https://arxiv.org/abs/2602.14442v1
+    status: 확인
+    link_opened: true
+  interaction:
+    note: "만지는 것은 맞지만 시스템 입력·출력이 없는 정적 모형 — 선정 질문 2 '시스템은 무엇으로 감지하고 반응하는가'에 해당하지 않음"
+    url: https://arxiv.org/abs/2602.14442v1
+    status: 확인
+    link_opened: true
+  technology: { note: "", url: "", status: 미확인, link_opened: false }
+  context:
+    note: "시각장애인 10명 대상 두 연구. 이해 속도·동작 정확도 개선 보고(초록)"
+    url: https://arxiv.org/abs/2602.14442v1
+    status: 확인
+    link_opened: true
+media: []
+ad_insight: ""
+what_if: { context: null, audience: "", action: "", response: "", message: "" }
+carousel: { cover: "", work: "", why: "", what_if: "", ps: "" }
+caption: { text: "", hashtags: [] }
+keywords: []
+notes:
+  fact: []
+  interpretation: []
+  speculation: []
+scores: { tangible: null, originality: null, reliability: null, applicability: null, postability: null }
+checklist: { humor_linked: false, info_not_buried: false }
+stage: 발견
+scope: HOLD

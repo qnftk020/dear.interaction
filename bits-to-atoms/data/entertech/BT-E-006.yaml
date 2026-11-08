@@ -1,0 +1,93 @@
+id: BT-E-006
+letter_no: null
+title: Interactive Wands — The Wizarding World of Harry Potter
+creator: Universal Orlando Resort
+year: 미확인
+location: Universal Orlando Resort (Diagon Alley, Hogsmeade, Epic Universe 마법 파리)
+context: 테마파크
+status: 실제 구현
+summary_ko: 인터랙티브 지팡이를 사서 파크 곳곳의 표시된 장소에서 휘두르면 진열창 속 물건이 움직이거나 불꽃·물이 터지는 체험.
+physical_object: 인터랙티브 지팡이 (지도 동봉)
+input: 표시된 장소에서 지팡이를 휘둘러 주문을 건다
+output: 진열창 속 물건·장치가 반응한다 (공식 페이지는 surprise로만 표현)
+mechanism: 미확인
+tags:
+  input:
+    - GESTURE
+    - MOVE
+  object:
+    - TOOL
+  sensing:
+    - UNKNOWN
+  output:
+    - MOTION
+  context:
+    - THEME PARK
+    - FANDOM
+  ai:
+    - NONE
+  mode:
+    - INDIVIDUAL
+  era:
+    - UNKNOWN
+ai_evidence: ""
+source_primary: https://www.universalorlando.com/web/en/us/things-to-do/shopping/potter-wands
+source_checked_at: 2026-11-07
+archive_snapshot: ""
+evidence:
+  identity:
+    note: Universal Orlando 공식 Wand Magic 페이지. 도입 연도 미기재
+    url: https://www.universalorlando.com/web/en/us/things-to-do/shopping/potter-wands
+    status: 부분 확인
+    link_opened: true
+  interaction:
+    note: "'With a wave of your wand, you can cast spells in over a dozen locations in Diagon Alley' / 상자에 위치 지도 동봉"
+    url: https://www.universalorlando.com/web/en/us/things-to-do/shopping/potter-wands
+    status: 확인
+    link_opened: true
+  technology:
+    note: 감지 방식 공식 미기재. 장소별 반응 목록은 Undercover Tourist(2차)에만 있음
+    url: ""
+    status: 미확인
+    link_opened: false
+  context:
+    note: Diagon Alley, Hogsmeade, Epic Universe(마법 파리)에서 사용
+    url: https://www.universalorlando.com/web/en/us/things-to-do/shopping/potter-wands
+    status: 확인
+    link_opened: true
+media: []
+ad_insight: ""
+what_if:
+  context: null
+  audience: ""
+  action: ""
+  response: ""
+  message: ""
+carousel:
+  cover: ""
+  work: ""
+  why: ""
+  what_if: ""
+  ps: ""
+caption:
+  text: ""
+  hashtags: []
+keywords:
+  - wand
+  - spell
+  - theme park
+notes:
+  fact: []
+  interpretation: []
+  speculation: []
+scores:
+  tangible: null
+  originality: null
+  reliability: null
+  applicability: null
+  postability: null
+checklist:
+  humor_linked: false
+  info_not_buried: false
+stage: 발견
+scope: TANGIBLE

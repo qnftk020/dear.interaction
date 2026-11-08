@@ -1,0 +1,86 @@
+id: BT-A-019
+letter_no: 15
+title: Coca-Cola Hug Machine
+creator: The Coca-Cola Company · 에이전시 Ogilvy & Mather (Singapore)
+year: 2012
+location: 싱가포르 (설치 장소는 열람한 기사에 없음)
+context: 광고 / 공공 공간 — Coca-Cola 'Open Happiness' 캠페인
+status: 실제 구현
+summary_ko: 정면에 'hug me'라고 적힌 자판기를 껴안으면 무료 콜라가 나오는 Coca-Cola 캠페인.
+physical_object: "'hug me' 문구가 적힌 Coca-Cola 자판기"
+input: 자판기를 껴안는다
+output: '무료 콜라 캔이 나온다'
+mechanism: 미확인
+tags:
+  input: [TOUCH, PRESS]
+  object: [FURNITURE]
+  sensing: [UNKNOWN]
+  output: [MOTION]
+  context: [BRAND, PUBLIC SPACE]
+  ai: [NONE]
+  mode: [INDIVIDUAL]
+  era: [2010s]
+ai_evidence: ""
+source_primary: https://www.afaqs.com/company-briefs/53849_coca-cola-vending-machine-delivers-a-coke-and-a-smile-
+source_checked_at: "2026-10-17"
+archive_snapshot: ""
+evidence:
+  identity:
+    note: "afaqs 2012-04-19: The Coca-Cola Company와 Ogilvy & Mather가 'Coca-Cola Hug Machine' 제작, 싱가포르에서 시작해 아시아 확대 계획"
+    url: https://www.afaqs.com/company-briefs/53849_coca-cola-vending-machine-delivers-a-coke-and-a-smile-
+    status: 확인
+    link_opened: true
+  interaction:
+    note: "정면의 'hug me' 문구 → 껴안으면 차가운 Coca-Cola 무료 제공 (afaqs, Campaign Asia)"
+    url: https://www.campaignasia.com/article/coca-cola-hug-machine-spreads-happiness-in-singapore/296166
+    status: 확인
+    link_opened: true
+  technology: { note: "감지 방식 미기재. 싱가포르국립대(NUS) 설치는 검색 요약에만 있고 미열람", url: "", status: 미확인, link_opened: false }
+  context:
+    note: "Coca-Cola 'Open Happiness' 캠페인의 일환"
+    url: https://www.afaqs.com/company-briefs/53849_coca-cola-vending-machine-delivers-a-coke-and-a-smile-
+    status: 부분 확인
+    link_opened: true
+media: []
+ad_insight: 돈 대신 포옹을 결제 수단으로 바꿔, 브랜드 메시지 '행복'을 몸으로 지불하게 한다.
+what_if:
+  context: 공공 문화시설
+  audience: "시청 로비를 지나는 시민"
+  action: "로비 기둥을 감싸 안는다"
+  response: "기둥 조명이 따뜻한 색으로 번지고 오늘 안긴 횟수가 하나 올라간다"
+  message: "공공 공간도 다정함에 반응할 수 있다"
+carousel:
+  cover: |-
+    안아 주면 콜라가
+    나옵니다
+  work: |-
+    안아 주면 무료 콜라가 나오는
+    자판기입니다.
+  why: |-
+    돈 대신 포옹을 받으면
+    장난으로 바뀔 수 있습니다.
+  what_if: |-
+    시청 로비 기둥을 안아 주면
+    따뜻한 빛을 켜 볼까요?
+  ps: |-
+    콜라 한 캔에
+    체면을 내줬습니다.
+
+caption:
+  text: |-
+    자판기에 동전 대신 포옹을 낸다면 어떨까요?
+    Coca-Cola Hug Machine은 기계를 껴안으면 무료 콜라가 나오는 싱가포르의 자판기입니다.
+    결제 수단을 몸짓으로 바꾼 브랜드 경험을 살펴봤습니다.
+
+    Coca-Cola Hug Machine — The Coca-Cola Company / Ogilvy & Mather (2012)
+  hashtags: [CocaCola, HugMachine, ExperientialMarketing, dearinteraction]
+keywords: [VENDING MACHINE, HUG, HAPPINESS, OOH]
+notes:
+  fact:
+    - '[03 원문] output: 차가운 Coca-Cola 캔이 무료로 나온다'
+  interpretation: []
+  speculation: []
+scores: { tangible: null, originality: null, reliability: null, applicability: null, postability: null }
+checklist: { humor_linked: false, info_not_buried: false }
+stage: 원고 작성
+scope: TANGIBLE

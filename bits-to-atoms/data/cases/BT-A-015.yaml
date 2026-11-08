@@ -1,0 +1,57 @@
+id: BT-A-015
+letter_no: null
+title: Škoda Epiq × Milan Design Week 2026 — Play-Doh Interactive Wall
+creator: Škoda Auto · 공간 Ricardo Orts (Ulises Studio) · 인터랙티브 월 YORD (에이전시 자체 주장, 미열람)
+year: 2026 (2026-04-21~26)
+location: 이탈리아 밀라노 — Palazzo del Senato 안뜰
+context: 광고 / 브랜드 체험 — 전기 SUV Epiq 캠페인의 '모델링 점토' 모티프 전시
+status: 실제 구현
+summary_ko: 방문객이 Play-Doh로 만든 형태를 LED 화면이 점토 같은 3D 애니메이션으로 바꿔 보여 주는 자동차 브랜드 전시.
+physical_object: Play-Doh 점토
+input: 방문객이 Play-Doh로 형태를 만든다
+output: LED 화면이 그 형태를 Play-Doh 같은 형태로 바꿔 보여 준다 (자기 몸인지 조형물인지 출처마다 표현이 다름)
+mechanism: 미확인
+tags:
+  input: [ASSEMBLE]
+  object: [TOOL]
+  sensing: [UNKNOWN]
+  output: [SCREEN]
+  context: [BRAND, EXHIBITION]
+  ai: [UNKNOWN]
+  mode: [INDIVIDUAL]
+  era: [2020s]
+ai_evidence: ""
+source_primary: https://www.skoda-storyboard.com/cs/tiskove-zpravy-archiv/skoda-auto-se-na-vystave-milan-design-week-predstavi-unikatni-expozici/
+source_checked_at: "2026-10-17"
+archive_snapshot: ""
+evidence:
+  identity:
+    note: "Škoda 공식 보도자료(체코어): 2026-04-21~26, Palazzo del Senato, 작가 Ricardo Orts(Ulises Studio)"
+    url: https://www.skoda-storyboard.com/cs/tiskove-zpravy-archiv/skoda-auto-se-na-vystave-milan-design-week-predstavi-unikatni-expozici/
+    status: 확인
+    link_opened: true
+  interaction:
+    note: "Car Design News(2026-04-27): 'Play-Doh 창작 공간'과 'figure를 Play-Doh 같은 형태로 바꾸는 LED 프로젝션'. 공식 보도자료에는 관객 입력 설명이 없음. YORD 사례 페이지는 429로 열지 못함"
+    url: https://www.cardesignnews.com/cars/skodas-playdoh-inspired-installation-at-milan-design-week/2654000
+    status: 부분 확인
+    link_opened: true
+  technology: { note: "인식 방식 미기재. AI 사용 여부는 Dezeen 요약에만 있고 미열람", url: "", status: 미확인, link_opened: false }
+  context:
+    note: "Epiq 캠페인의 모델링 점토 모티프. 2025년에 이은 두 번째 참가"
+    url: https://www.skoda-storyboard.com/cs/tiskove-zpravy-archiv/skoda-auto-se-na-vystave-milan-design-week-predstavi-unikatni-expozici/
+    status: 확인
+    link_opened: true
+media: []
+ad_insight: 자동차를 보여 주는 대신, 관객이 손으로 빚은 형태가 브랜드 화면에 오르게 한다.
+what_if: { context: null, audience: "", action: "", response: "", message: "" }
+carousel: { cover: "", work: "", why: "", what_if: "", ps: "" }
+caption: { text: "", hashtags: [] }
+keywords: [CLAY, LED WALL, AUTOMOTIVE, DESIGN WEEK]
+notes:
+  fact: []
+  interpretation: []
+  speculation: []
+scores: { tangible: null, originality: null, reliability: null, applicability: null, postability: null }
+checklist: { humor_linked: false, info_not_buried: false }
+stage: 출처 확인 중
+scope: TANGIBLE

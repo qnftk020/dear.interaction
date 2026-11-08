@@ -1,0 +1,42 @@
+id: BT-A-001
+letter_no: null
+title: musicBottles
+creator: Hiroshi Ishii, Tangible Media Group (MIT Media Lab)
+year: 미확인
+location: 미국
+context: 연구
+status: 연구 프로토타입
+summary_ko: 유리병 마개를 열면 병에 담긴 소리가 흘러나오는, 병을 디지털 정보의 그릇으로 쓰는 인터페이스. (출처 검증 전 후보 기록)
+physical_object: 유리병과 마개
+input: 병마개를 연다 / 닫는다
+output: 병에 할당된 소리가 재생된다 (빛 반응은 추정)
+mechanism: 미확인
+tags:
+  input: [TOUCH]
+  object: [TOOL]
+  sensing: [UNKNOWN]
+  output: [SOUND]
+  context: [RESEARCH]
+  ai: [NONE]
+  mode: []
+  era: []
+ai_evidence: ""
+source_primary: https://tangible.media.mit.edu/project/musicbottles/
+source_checked_at: ""
+archive_snapshot: ""
+evidence:
+  identity: { note: "", url: "", status: 미확인, link_opened: false }
+  interaction: { note: "", url: "", status: 미확인, link_opened: false }
+  technology: { note: "", url: "", status: 미확인, link_opened: false }
+  context: { note: "", url: "", status: 미확인, link_opened: false }
+media: []
+ad_insight: ""
+what_if: { context: null, audience: "", action: "", response: "", message: "" }
+carousel: { cover: "", work: "", why: "", what_if: "", ps: "" }
+caption: { text: "", hashtags: [] }
+keywords: []
+notes: { fact: [], interpretation: [], speculation: [] }
+scores: { tangible: null, originality: null, reliability: null, applicability: null, postability: null }
+checklist: { humor_linked: false, info_not_buried: false }
+stage: 출처 확인 중
+scope: TANGIBLE

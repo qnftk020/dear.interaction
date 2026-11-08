@@ -1,0 +1,131 @@
+id: BT-A-005
+letter_no: 3
+title: Dream Brush
+creator: Chuanqi Sun, Yuhan Wang, Quincy Kuang, Hiroshi Ishii (MIT Media Lab, Tangible Media Group)
+year: 2026 (DIS 2026)
+location: 미국 (MIT Media Lab)
+context: 연구 / 인터랙티브 AI 회화 설치
+status: 연구 프로토타입
+summary_ko: 물붓으로 캔버스에 한자를 쓰면, 마르며 사라지는 획을 시스템이 알아보고 글자의 뜻·크기·위치에 따라 산수화 이미지와 소리로 바꾸는 설치.
+physical_object: 물붓과 캔버스
+input: 물붓으로 캔버스에 한자를 쓴다
+output: 획이 그림과 소리가 된다
+mechanism: 미확인
+tags:
+  input:
+    - DRAW
+  object:
+    - TOOL
+    - PAPER
+  sensing:
+    - UNKNOWN
+  output:
+    - SOUND
+    - AI RESPONSE
+  context:
+    - RESEARCH
+    - ART
+  ai:
+    - AI-GENERATIVE
+  mode: []
+  era:
+    - 2020s
+ai_evidence: https://tangible.media.mit.edu/project/dream-brush/
+source_primary: https://doi.org/10.1145/3802974.3808682
+source_checked_at: 2026-11-08
+archive_snapshot: ""
+evidence:
+  identity:
+    note: "Dream Brush: Generative Painting with Chinese Calligraphy — Chuanqi Sun, Yuhan Wang, Quincy Kuang, Hiroshi Ishii. DIS '26 Companion, ACM, 2026-06-12, pp.661-663. DOI 10.1145/3802974.3808682 [자동 검증 2026-11-08: Crossref DOI 기록 + PDF 원문 대조]"
+    url: https://doi.org/10.1145/3802974.3808682
+    status: 확인
+    link_opened: true
+  interaction:
+    note: 관객이 물붓으로 실제 캔버스에 한자를 쓰면, 시스템이 사라지는 획을 인식해 글자의 뜻·크기·위치에 따라 동양화 이미지와 소리로 변환
+    url: https://tangible.media.mit.edu/project/dream-brush/
+    status: 확인
+    link_opened: true
+  technology:
+    note: 'p.2 "The hardware consists of a metal easel and semi-translucent matte canvas for back-projection, an infrared sensing setup surrounding the canvas for brush detection, a calligraphy brush and cup of water to preserve the …" / p.2 "The semi-translucent canvas back-projects the live trace, then lets it fade as if drying." / p.2 "The canvas shows a back-projected trace of the brushstroke that visibly dries over a few seconds." [자동 검증 2026-11-08: Crossref DOI 기록 + PDF 원문 대조]'
+    url: https://trackr-media.tangiblemedia.org/publishedmedia/Papers/749-MTEwN/Published/PDF
+    status: 확인
+    link_opened: true
+  context:
+    note: "프로젝트 페이지 분류: AI for education / creativity / design. 설치 장소·전시 이력은 확인 못 함"
+    url: https://tangible.media.mit.edu/project/dream-brush/
+    status: 부분 확인
+    link_opened: true
+media:
+  - url: https://doi.org/10.1145/3802974.3808682
+    credit: Sun et al., DIS '26 Companion (2026) — Figure 1
+    permission: 허용 확인됨
+    permission_basis: "CC BY-NC-ND 4.0 (https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode) — 출판사가 DOI에 등록한 라이선스. 조건: 원작자·출처 표기, 비상업적 이용만, 변형 금지 — 자르기·합성·색 보정 없이 원본 그대로"
+    image: figures/BT-A-005/fig-1.jpg
+  - url: https://doi.org/10.1145/3802974.3808682
+    credit: Sun et al., DIS '26 Companion (2026) — Figure 2
+    permission: 허용 확인됨
+    permission_basis: "CC BY-NC-ND 4.0 (https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode) — 출판사가 DOI에 등록한 라이선스. 조건: 원작자·출처 표기, 비상업적 이용만, 변형 금지 — 자르기·합성·색 보정 없이 원본 그대로"
+    image: figures/BT-A-005/fig-2.jpg
+  - url: https://tangible.media.mit.edu/project/dream-brush/
+    credit: MIT Media Lab Tangible Media Group (촬영자 미표기)
+    permission: 권한 확인 필요
+    permission_basis: ""
+    image: ""
+ad_insight: 흔적이 곧 사라진다는 조건이, 결과를 '남기기'보다 '불러내기'로 바꾼다.
+what_if:
+  context: 공공 문화시설
+  audience: 도서관 어린이실의 아이와 가족
+  action: 바닥 석판에 물붓으로 좋아하는 낱말을 쓴다
+  response: 글씨가 마르는 동안 그 낱말에 어울리는 그림책 장면과 소리가 벽에 피어난다
+  message: 글자는 읽기 전에 먼저 그려 보는 것
+carousel:
+  cover: |-
+    물로 쓴 글씨가
+    그림이 됩니다
+  work: |-
+    물로 쓴 한자를 알아보고
+    그림과 소리로 바꿉니다.
+  why: |-
+    잘 쓰기 대신 뜻을 담으면
+    서툴러도 참여할 수 있습니다.
+  what_if: |-
+    도서관에서 아이가 낱말을 쓰면
+    그림책 장면을 띄워 볼까요?
+  ps: |-
+    마르면 한 번 더 씁니다.
+    지우개는 필요 없습니다.
+caption:
+  text: |-
+    사라지는 글씨로 그림을 그릴 수 있을까요?
+    Dream Brush는 물붓으로 한자를 쓰면 마르는 획을 AI가 읽어 동양화 이미지와 소리로 바꾸는 설치입니다.
+    덧없는 입력이 오히려 참여를 부르는 이유를 경험을 설계하는 방식으로 살펴봤습니다.
+
+    Dream Brush — Chuanqi Sun, Yuhan Wang, Quincy Kuang / MIT Media Lab Tangible Media Group
+  hashtags:
+    - TangibleAI
+    - Calligraphy
+    - GenerativeArt
+    - dearinteraction
+keywords:
+  - BRUSH
+  - WATER
+  - CALLIGRAPHY
+  - GENERATIVE AI
+notes:
+  fact:
+    - "[03 원문] output: 사라져 가는 획이 인식되어 글자의 뜻·크기·위치에 따라 동양화 이미지와 소리로 바뀐다"
+    - 글자의 뜻·크기·위치가 구성을 이끈다고 프로젝트 페이지에 명시
+  interpretation:
+    - 사라지는 입력이 반복 참여를 유도한다
+  speculation: []
+scores:
+  tangible: null
+  originality: null
+  reliability: null
+  applicability: null
+  postability: null
+checklist:
+  humor_linked: false
+  info_not_buried: false
+stage: 원고 작성
+scope: TANGIBLE

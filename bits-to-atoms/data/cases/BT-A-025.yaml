@@ -1,0 +1,87 @@
+id: BT-A-025
+letter_no: null
+title: The Whole Picture (The Guardian)
+creator: Lucky Generals (London) — 광고주 The Guardian
+year: 2025 (Creative Moment 2025-09-24 보도)
+location: 미국 뉴욕 맨해튼 — 위치는 출처마다 엇갈림 (타임스스퀘어 / 미트패킹 디스트릭트)
+context: 광고 / 옥외 — The Guardian 미국 캠페인 (4주, 지하철·빌보드·팟캐스트)
+status: 실제 구현
+summary_ko: 문장 곳곳을 검은 테이프로 가린 빌보드. 지나가는 사람이 테이프를 직접 뜯어내야 전체 문장을 읽을 수 있다.
+physical_object: 빌보드 문장을 가린 검은 테이프
+input: 문장을 가린 테이프를 뜯어낸다
+output: 가려졌던 문장이 드러난다
+mechanism: 미확인
+tags:
+  input: [TOUCH]
+  object: [UNKNOWN]
+  sensing: []
+  output: [UNKNOWN]
+  context: [BRAND, PUBLIC SPACE]
+  ai: [NONE]
+  mode: [MULTI-USER]
+  era: [2020s]
+ai_evidence: ""
+source_primary: https://www.creativemoment.co/the-guardians-us-push-creative-plays-on-censorship-fears
+source_checked_at: "2026-10-20"
+archive_snapshot: ""
+evidence:
+  identity:
+    note: "캠페인 'The Whole Picture', The Guardian, 에이전시 Lucky Generals(London), 2025-09-24 보도"
+    url: https://www.creativemoment.co/the-guardians-us-push-creative-plays-on-censorship-fears
+    status: 확인
+    link_opened: true
+  interaction:
+    note: "행인이 빌보드로 다가가 검열된 문장을 덮은 테이프를 직접 뜯어냄. 드러나는 문구: 'Journalism that's global, independent and free.' (Creative Moment)"
+    url: https://www.creativemoment.co/the-guardians-us-push-creative-plays-on-censorship-fears
+    status: 확인
+    link_opened: true
+  technology: { note: "", url: "", status: 미확인, link_opened: false }
+  context:
+    note: "4주간 뉴욕 지하철·맨해튼 빌보드·미국 팟캐스트에 걸친 캠페인의 중심. 검열을 주제로 함"
+    url: https://www.creativemoment.co/the-guardians-us-push-creative-plays-on-censorship-fears
+    status: 확인
+    link_opened: true
+media: []
+ad_insight: "에디터 해석: 가려진 문장을 손으로 드러내게 하면 읽는 사람이 정보에 닿는 과정에 참여할 수 있습니다."
+what_if:
+  context: 박물관 아카이브
+  audience: 생활사 전시 관람객
+  action: 복제 편지의 가림 덮개를 젖힙니다
+  response: 가려졌던 편지의 문장이 드러납니다
+  message: 기록에 다가가는 과정을 손으로 겪습니다
+carousel:
+  cover: |-
+    광고를 읽으려면
+    일단 뜯습니다
+  work: |-
+    테이프를 뜯는 광고판입니다.
+    가린 문장이 드러납니다.
+  why: |-
+    못 읽던 글을 손으로 드러내면
+    읽기에 참여할 수 있습니다.
+  what_if: |-
+    박물관에서 편지 덮개를 열면
+    가린 문장이 드러납니다.
+  ps: |-
+    저는 광고를 뜯었습니다.
+    읽으려고 그랬습니다.
+caption:
+  text: |-
+    이 광고는 읽기 전에 손이 갑니다.
+    The Whole Picture는 행인이 검은 테이프를 뜯어 가려진 문장을 읽는 가디언의 광고입니다.
+    제 해석으로는 검열을 설명하는 데서 나아가 가림을 걷는 행동으로 읽는 사람을 참여시킬 수 있습니다.
+    
+    The Whole Picture — Lucky Generals / The Guardian
+  hashtags: ["참여형광고","아카이브","TheGuardian","dearinteraction"]
+keywords: ["PEEL","TEXT","PARTICIPATION"]
+notes:
+  fact:
+    - 테이프는 재사용 가능한 검은 스트립이라는 보도가 있음 (검색 결과, 미열람)
+    - "[출처 엇갈림] 위치 — Creative Moment는 타임스스퀘어, 다른 보도는 미트패킹 디스트릭트"
+    - "[출처 엇갈림] 드러나는 문구 — 다른 보도는 '가장 크거나 부유한 매체는 아니지만 독립적'이라는 취지의 문장으로 소개"
+  interpretation: []
+  speculation: []
+scores: { tangible: null, originality: null, reliability: null, applicability: null, postability: null }
+checklist: { humor_linked: false, info_not_buried: false }
+stage: 원고 작성
+scope: TANGIBLE

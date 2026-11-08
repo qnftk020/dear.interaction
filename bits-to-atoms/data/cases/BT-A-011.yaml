@@ -1,0 +1,98 @@
+id: BT-A-011
+letter_no: 9
+title: DataBites
+creator: Hasti Darabipourshiraz, Dev Ambani, Duri Long 외 (Creative Interfaces Lab, Northwestern University · Georgia Tech 협업)
+year: 2024 첫 발표(C&C '24) · 2026 박물관 전시 프로토타입 평가(TEI '26)
+location: 미국 (Northwestern University, Griffin Museum of Science and Industry 협업)
+context: 박물관 / 연구 — 중학생 AI 리터러시 전시 (NSF 지원)
+status: 연구 프로토타입
+summary_ko: 탠저블 조각으로 피자와 샌드위치 예시를 만들고 이름표를 붙여, 이미지 분류 AI의 학습 데이터를 직접 만들어 보는 박물관 전시 프로토타입.
+physical_object: 피자·샌드위치를 구성하는 탠저블 조각
+input: '음식 조각에 이름표를 붙인다'
+output: 'AI가 그 예시로 학습한다'
+mechanism: 미확인
+tags:
+  input: [ASSEMBLE, PLACE]
+  object: [TOKEN]
+  sensing: [UNKNOWN]
+  output: [AI RESPONSE]
+  context: [MUSEUM, EDUCATION]
+  ai: [AI-ADAPTIVE]
+  mode: [COLLABORATIVE]
+  era: [2020s]
+ai_evidence: https://informalscience.org/research/databites-an-embodied-co-creative-museum-exhibit-to-foster-childrens-understanding-of-supervised-machine-learning/
+source_primary: https://www.creativeinterfaces.northwestern.edu/project/453
+source_checked_at: "2026-10-17"
+archive_snapshot: ""
+evidence:
+  identity:
+    note: "DataBites (Darabipourshiraz, Ambani, Long, C&C '24 포스터). 후속: Darabipourshiraz, Rollins 외, 'Designing and Evaluating Museum Exhibit Prototypes to Foster Middle Schoolers' AI Literacy', TEI '26"
+    url: https://www.creativeinterfaces.northwestern.edu/project/453
+    status: 확인
+    link_opened: true
+  interaction:
+    note: "탠저블 조각으로 피자·샌드위치 라벨 예시를 협업해 만들고 → 이미지 분류기의 학습 데이터 → 결과를 보고 데이터셋을 자체 평가"
+    url: https://informalscience.org/research/databites-an-embodied-co-creative-museum-exhibit-to-foster-childrens-understanding-of-supervised-machine-learning/
+    status: 확인
+    link_opened: true
+  technology:
+    note: "조각 인식 방식과 분류 모델 사양은 열어 본 페이지에 없음 — 전문(NSF PAR) 접속 실패"
+    url: ""
+    status: 미확인
+    link_opened: false
+  context:
+    note: "NSF AISL 2214463, 노스웨스턴·조지아텍·Griffin Museum of Science and Industry. 2026 TEI 논문은 전시 프로토타입 평가 — 개별 전시 설치 여부는 미확인"
+    url: https://www.creativeinterfaces.northwestern.edu/project/453
+    status: 부분 확인
+    link_opened: true
+media:
+  - url: https://www.creativeinterfaces.northwestern.edu/project/453
+    credit: Creative Interfaces Lab, Northwestern University
+    permission: 권한 확인 필요
+    permission_basis: ""
+ad_insight: "'데이터가 중요하다'는 문장을 읽게 하는 대신, 엉성한 데이터를 직접 만들어 보게 하면 개념이 대화가 된다."
+what_if:
+  context: 브랜드 체험 공간
+  audience: 식품 브랜드 팝업을 찾은 가족
+  action: 블록으로 '우리 동네 빵' 예시를 만들고 이름표를 붙인다
+  response: AI가 새 빵 사진을 맞히거나 틀리고, 어떤 예시 때문인지 보여 준다
+  message: 좋은 추천은 좋은 데이터에서 시작된다
+carousel:
+  cover: |-
+    샌드위치로
+    AI를 가르칩니다
+  work: |-
+    음식 조각에 이름표를 붙여
+    AI를 가르치는 전시입니다.
+  why: |-
+    읽기 대신 예시를 만들면
+    실수 원인을 알 수 있습니다.
+  what_if: |-
+    식품 팝업에서 빵 블록을 쌓아
+    AI를 가르쳐 볼까요?
+  ps: |-
+    AI를 가르치려다
+    샌드위치의 정의로 다툽니다.
+
+caption:
+  text: |-
+    AI가 데이터로 배운다는 걸, 손으로 이해할 수 있을까요?
+    DataBites는 탠저블 조각으로 피자와 샌드위치 예시를 만들어 분류 AI를 직접 학습시켜 보는 박물관 전시 프로토타입입니다.
+    추상적인 AI 개념을 '함께 만드는 경험'으로 바꾸는 방식을 살펴봤습니다.
+
+    DataBites — Hasti Darabipourshiraz, Dev Ambani, Duri Long 외 / Creative Interfaces Lab, Northwestern University
+  hashtags: [TangibleAI, AILiteracy, MuseumDesign, dearinteraction]
+keywords: [TOKEN, MACHINE LEARNING, MUSEUM, AI LITERACY]
+notes:
+  fact:
+    - '[03 원문] input: 조각으로 피자와 샌드위치 예시를 함께 만들고 이름표를 붙인다'
+    - '[03 원문] output: 그 예시로 이미지 분류기가 학습하고, 관객은 분류 결과를 보며 자기 데이터셋을 평가한다'
+    - 대상은 중학생 연령, 협업 박물관은 Griffin Museum of Science and Industry
+    - 2026년 TEI 논문은 전시 프로토타입 설계·평가 — DataBites 자체는 2024년 발표
+  interpretation:
+    - 직접 만든 데이터가 편향 개념을 대화로 바꾼다
+  speculation: []
+scores: { tangible: null, originality: null, reliability: null, applicability: null, postability: null }
+checklist: { humor_linked: false, info_not_buried: false }
+stage: 원고 작성
+scope: TANGIBLE

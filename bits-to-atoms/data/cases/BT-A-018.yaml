@@ -1,0 +1,85 @@
+id: BT-A-018
+letter_no: 14
+title: Piano Stairs (The Fun Theory)
+creator: Volkswagen · 에이전시 DDB Stockholm (Classic FM은 NORD DDB로 표기)
+year: 2009
+location: 스웨덴 스톡홀름 — Odenplan 지하철역
+context: 광고 / 공공 공간 — Volkswagen BlueMotion 'The Fun Theory' 캠페인
+status: 실제 구현
+summary_ko: 지하철역 계단을 피아노 건반으로 바꿔, 밟는 칸마다 다른 음이 나게 한 Volkswagen 캠페인.
+physical_object: 피아노 건반처럼 꾸민 지하철역 계단
+input: 계단을 밟아 오른다
+output: 칸마다 다른 피아노 음이 난다
+mechanism: 미확인
+tags:
+  input: [PRESS]
+  object: [FURNITURE]
+  sensing: [UNKNOWN]
+  output: [SOUND]
+  context: [BRAND, PUBLIC SPACE]
+  ai: [NONE]
+  mode: [MULTI-USER]
+  era: [2000s]
+ai_evidence: ""
+source_primary: https://clever.dogonews.com/2009/10/8/piano-stairs-making-music-while-you-climb
+source_checked_at: "2026-10-17"
+archive_snapshot: ""
+evidence:
+  identity:
+    note: "DOGOnews 2009-10-08(Volkswagen, Odenplan). 에이전시는 Classic FM(2022)이 NORD DDB, 다수 매체가 DDB Stockholm으로 표기 — 공식 크레딧 미열람"
+    url: https://clever.dogonews.com/2009/10/8/piano-stairs-making-music-while-you-climb
+    status: 확인
+    link_opened: true
+  interaction:
+    note: "'밟을 때마다 계단 칸마다 다른 음' (Classic FM)"
+    url: https://www.classicfm.com/discover-music/instruments/piano/musical-staircase-experiment/
+    status: 확인
+    link_opened: true
+  technology: { note: "센서 방식 미기재", url: "", status: 미확인, link_opened: false }
+  context:
+    note: "재미가 행동을 바꿀 수 있다는 The Fun Theory. 계단 이용 66% 증가는 캠페인 측 자체 주장(DOGOnews 인용) — 독립 검증 아님"
+    url: https://clever.dogonews.com/2009/10/8/piano-stairs-making-music-while-you-climb
+    status: 부분 확인
+    link_opened: true
+media: []
+ad_insight: 자동차를 한 번도 보여 주지 않고, '재미가 더 나은 선택을 만든다'는 브랜드 철학을 계단으로 증명한다.
+what_if:
+  context: 공공 문화시설
+  audience: "어린이 과학관 입구의 가족 관람객"
+  action: "입구 경사로의 발판을 밟으며 올라간다"
+  response: "발판마다 다른 동물 소리가 나고 꼭대기에서 합창이 된다"
+  message: "소리는 진동이고, 진동은 발끝에서 시작된다"
+carousel:
+  cover: |-
+    계단을 밟으면
+    피아노가 됩니다
+  work: |-
+    밟는 칸마다 다른 음이 나는
+    피아노 건반 모양 계단입니다.
+  why: |-
+    안내 대신 발밑에 소리를 주면
+    오르며 연주할 수 있습니다.
+  what_if: |-
+    과학관 경사로 발판을 밟으면
+    동물 소리가 합창하게 할까요?
+  ps: |-
+    에스컬레이터가 외로워집니다.
+    계단에 인기를 뺏겼습니다.
+
+caption:
+  text: |-
+    계단을 오르게 만드는 건 안내문일까요, 재미일까요?
+    Piano Stairs는 지하철역 계단을 피아노 건반으로 바꿔, 밟는 칸마다 다른 음이 나게 한 Volkswagen의 캠페인입니다.
+    행동을 바꾸는 장치로서의 인터랙션을 살펴봤습니다.
+
+    Piano Stairs (The Fun Theory) — Volkswagen / DDB Stockholm (2009)
+  hashtags: [FunTheory, Volkswagen, InteractiveOOH, dearinteraction]
+keywords: [STAIRS, PIANO, BEHAVIOR CHANGE, PUBLIC SPACE]
+notes:
+  fact: []
+  interpretation: []
+  speculation: []
+scores: { tangible: null, originality: null, reliability: null, applicability: null, postability: null }
+checklist: { humor_linked: false, info_not_buried: false }
+stage: 원고 작성
+scope: TANGIBLE

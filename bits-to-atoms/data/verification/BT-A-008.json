@@ -1,0 +1,142 @@
+{
+  "id": "BT-A-008",
+  "checkedAt": "2026-11-08T08:37:15.510Z",
+  "verdict": "published",
+  "headline": "ACM · TEI '26에 실제로 게재된 논문입니다 (DOI 10.1145/3731459.3773304).",
+  "publication": {
+    "doi": "10.1145/3731459.3773304",
+    "doiUrl": "https://doi.org/10.1145/3731459.3773304",
+    "title": "GlassIO: Long-Term In-Home Study of Hybrid Craft Through Interactive Stained Glass",
+    "authors": [
+      "Daniel Gagnon-King",
+      "Lee Jones",
+      "Alisa Gamayunova",
+      "Sara Litwiniuk",
+      "Renee (Xinyu) Chen",
+      "Alisa Liu",
+      "Catherine Stinson",
+      "Sara Nabil"
+    ],
+    "venue": "TEI '26",
+    "container": "Proceedings of the Twentieth International Conference on Tangible, Embedded, and Embodied Interaction",
+    "publisher": "ACM",
+    "type": "proceedings-article",
+    "published": "2026-03-07",
+    "year": 2026,
+    "pages": "1-16",
+    "license": null,
+    "foundBy": "crossref-search"
+  },
+  "pdf": {
+    "url": "https://labs.cs.queensu.ca/istudio/wp-content/uploads/sites/12/2026/04/GlassIO-Long-Term-In-Home-Study.pdf",
+    "source": "기록의 링크",
+    "pages": 16,
+    "titleFound": true,
+    "doiFound": true,
+    "file": "figures/BT-A-008/paper.pdf"
+  },
+  "checks": [
+    {
+      "key": "doi",
+      "label": "DOI 등록 (Crossref)",
+      "state": "pass",
+      "detail": "10.1145/3731459.3773304 — Crossref 제목·저자 검색으로 찾음. ACM에서 직접 등록한 출판 번호입니다.",
+      "url": "https://api.crossref.org/works/10.1145/3731459.3773304"
+    },
+    {
+      "key": "venue",
+      "label": "게재처",
+      "state": "pass",
+      "detail": "TEI '26 (Proceedings of the Twentieth International Conference on Tangible, Embedded, and Embodied Interaction) · ACM · pp.1-16 · 2026-03-07 · 유형 proceedings-article"
+    },
+    {
+      "key": "title",
+      "label": "제목 일치",
+      "state": "pass",
+      "detail": "기록 \"GlassIO\" ↔ 논문 \"GlassIO: Long-Term In-Home Study of Hybrid Craft Through Interactive Stained Glass\" — 부제만 생략 — 같은 작품"
+    },
+    {
+      "key": "authors",
+      "label": "저자 일치",
+      "state": "pass",
+      "detail": "8/8명 일치"
+    },
+    {
+      "key": "year",
+      "label": "연도 일치",
+      "state": "pass",
+      "detail": "기록 \"2026 (TEI '26, Honorable Mention)\" ↔ 출판 2026-03-07"
+    },
+    {
+      "key": "doi-link",
+      "label": "DOI 링크 연결",
+      "state": "pass",
+      "detail": "doi.org → dl.acm.org (출판사 공식 페이지)",
+      "url": "https://doi.org/10.1145/3731459.3773304"
+    },
+    {
+      "key": "publisher-page",
+      "label": "dl.acm.org 페이지",
+      "state": "warn",
+      "detail": "봇 차단(Cloudflare)으로 자동 접속 불가. 브라우저로는 열립니다. 게재 여부는 위 DOI 기록으로 이미 확인됨.",
+      "url": "https://dl.acm.org/doi/10.1145/3731459.3773304"
+    },
+    {
+      "key": "license",
+      "label": "이용 라이선스",
+      "state": "warn",
+      "detail": "등록된 라이선스 없음 — 그림 재게시는 별도 허락 필요"
+    },
+    {
+      "key": "pdf",
+      "label": "PDF 원문 확보",
+      "state": "pass",
+      "detail": "기록의 링크에서 받음 · 16쪽",
+      "url": "https://labs.cs.queensu.ca/istudio/wp-content/uploads/sites/12/2026/04/GlassIO-Long-Term-In-Home-Study.pdf"
+    },
+    {
+      "key": "pdf-match",
+      "label": "PDF = 같은 논문",
+      "state": "pass",
+      "detail": "첫 쪽 제목 일치 · 본문 DOI 일치"
+    },
+    {
+      "key": "figures",
+      "label": "Figure 추출",
+      "state": "warn",
+      "detail": "PDF 안에 사진(래스터 이미지)이 없습니다. 도식은 벡터라 추출되지 않습니다."
+    },
+    {
+      "key": "tech",
+      "label": "사용 기술 근거",
+      "state": "pass",
+      "detail": "원문에서 4문장 인용"
+    }
+  ],
+  "figures": [],
+  "techQuotes": [
+    {
+      "text": "Using a long piece of metal as a touch sensor is generally risky in the context of interference, as the long piece acts as an antenna and will have a wider capacitive reach than a normal wide flat touch point.",
+      "page": 8
+    },
+    {
+      "text": "We used an Arduino Uno controlling a DFRobot voice recorder, LED NeoPixels, and a speaker for playback in response to touch using Indium Tin Oxide Glass (ITO) as capacitive touch electrodes.",
+      "page": 9
+    },
+    {
+      "text": "We used the NodeMCU v1.0 microcontroller because it is small in size, powerful (to run the LED animation algorithms), WiFi capable (for fetching weather data), and powered by an ESP8266 chip which is compatible with the Arduino SDK.",
+      "page": 9
+    },
+    {
+      "text": "We created a capacitive touch sensor using a 1MΩ resistor that controls 252 NeoPixels arranged in a 12x21 matrix.",
+      "page": 9
+    }
+  ],
+  "interactionQuotes": [
+    {
+      "text": "(3) Plan for Portability and Placement Flexibility It is important that we, as the HCI/TEI community, design hybrid crafts of daily use to be lightweight, stable, and portable, acknowledging how users move them to suit activities, social settings, and aesthetics.",
+      "page": 12
+    }
+  ],
+  "missingAuthors": []
+}

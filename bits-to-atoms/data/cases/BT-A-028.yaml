@@ -1,0 +1,91 @@
+id: BT-A-028
+letter_no: null
+title: Touchboard Discounts (Itaú)
+creator: Africa Creative (DDB, 상파울루) — 광고주 Itaú Unibanco
+year: 2024 (블랙프라이데이 주간, 11월 26일 경기)
+location: 브라질 — 브라질 리그(Brasileirão) 보타포구 vs 파우메이라스 경기
+context: 광고 / 스포츠 중계 — 은행 앱 속 마켓플레이스 Itaú Shop 홍보
+status: 실제 구현
+summary_ko: 축구장 사이드라인 광고판을 쇼핑 버튼으로 바꾼 캠페인. 경기 중 공이 광고판에 맞을 때마다 할인 쿠폰이 실시간으로 풀렸다.
+physical_object: 경기장 사이드라인 광고판, 축구공
+input: 경기 중 공이 광고판에 맞는다
+output: 할인 쿠폰이 풀린다
+mechanism: 미확인
+tags:
+  input: [UNKNOWN]
+  object: [UNKNOWN]
+  sensing: [UNKNOWN]
+  output: [SCREEN]
+  context: [BRAND]
+  ai: [NONE]
+  mode: [MULTI-USER]
+  era: [2020s]
+ai_evidence: ""
+source_primary: https://www.adsoftheworld.com/campaigns/touchboard-discounts
+source_checked_at: "2026-10-20"
+archive_snapshot: ""
+evidence:
+  identity:
+    note: "Touchboard Discounts, Africa Creative × Itaú Unibanco, 브라질, Ads of the World 2024-12 게재"
+    url: https://www.adsoftheworld.com/campaigns/touchboard-discounts
+    status: 확인
+    link_opened: true
+  interaction:
+    note: "'공이 특수 장비를 단 광고판에 닿을 때마다' 할인 쿠폰이 팬들에게 즉시 풀림 (B&T 2025-01-07)"
+    url: https://www.bandt.com.au/brazillian-soccer-sidelines-transformed-into-interactive-shopping-experience/
+    status: 확인
+    link_opened: true
+  technology:
+    note: "공이 닿은 것을 어떻게 감지했는지, 쿠폰이 어떤 채널(앱 알림·QR 등)로 전달됐는지 기사에 없음"
+    url: https://www.bandt.com.au/brazillian-soccer-sidelines-transformed-into-interactive-shopping-experience/
+    status: 미확인
+    link_opened: true
+  context:
+    note: "연말 쇼핑 시즌 시작을 알리며 Itaú Shop 마켓플레이스를 홍보"
+    url: https://www.adsoftheworld.com/campaigns/touchboard-discounts
+    status: 확인
+    link_opened: true
+media: []
+ad_insight: "에디터 해석: 이미 지켜보는 경기의 사건에 보상을 연결하면 광고에도 관심을 나눌 계기가 생길 수 있습니다."
+what_if:
+  context: 전시
+  audience: 물의 순환 전시 관람객
+  action: 전시 속 물방울이 내려오는 모습을 지켜봅니다
+  response: 물방울이 통에 닿을 때 물길 설명이 켜집니다
+  message: 이미 보는 움직임을 배움의 계기로 삼습니다
+carousel:
+  cover: |-
+    공은 경기 중
+    할인도 경기 중
+  work: |-
+    공이 광고판에 맞을 때마다
+    팬에게 할인 쿠폰을 줍니다.
+  why: |-
+    배경 대신 공에 혜택을 걸면
+    광고도 살펴볼 수 있습니다.
+  what_if: |-
+    전시의 물방울이 통에 닿으면
+    보던 관객에게 설명을 켭니다.
+  ps: |-
+    저는 공을 보고 있었습니다.
+    지갑은 쿠폰을 기다립니다.
+caption:
+  text: |-
+    공이 광고판에 맞으면 쿠폰이 풀립니다.
+    Touchboard Discounts는 경기 중 공이 광고판에 닿는 순간 팬들에게 할인 쿠폰을 제공한 캠페인입니다.
+    관객이 조작하는 대신 경기 속 공이 입력이 되는 확장 사례입니다.
+    제 해석으로는 이미 보는 경기의 사건에 혜택을 연결해 광고를 살필 계기를 만들 수 있습니다.
+    
+    Touchboard Discounts — Africa Creative / Itaú Unibanco
+  hashtags: ["스포츠마케팅","옥외광고","인터랙션디자인","dearinteraction"]
+keywords: ["FOOTBALL","COUPON","EVENT TRIGGER"]
+notes:
+  fact:
+    - 입력은 관객이 아니라 경기 중인 공. 관객은 쿠폰을 받는 쪽 — 그래서 확장 사례로 분류
+    - "[자체 발표 — 원고 사용 금지] 첫 이용자 400% 증가, 1시간 매출 등은 매체마다 수치·통화가 다름"
+  interpretation: []
+  speculation: []
+scores: { tangible: null, originality: null, reliability: null, applicability: null, postability: null }
+checklist: { humor_linked: false, info_not_buried: false }
+stage: 원고 작성
+scope: EXTENDED

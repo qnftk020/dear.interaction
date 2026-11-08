@@ -1,0 +1,91 @@
+id: BT-A-016
+letter_no: 12
+title: Netflix Rooftop Showcase — RFID Prop Displays
+creator: Netflix (광고 사업부) · 에이전시 Seen Presents
+year: 2025 (Cannes Lions 2025)
+location: 프랑스 칸 — Cannes Lions 2025 기간 루프톱
+context: 광고 / B2B 브랜드 체험 — 광고주 대상 Netflix 광고 상품 쇼케이스
+status: 실제 구현
+summary_ko: 각 Netflix 작품의 소품 진열대를 만지면 RFID로 인식해 광고주 맞춤 광고 콘텐츠가 재생되는 칸 라이언즈 쇼케이스.
+physical_object: Netflix 작품 소품
+input: '소품 진열대를 다룬다'
+output: 맞춤 광고 콘텐츠가 재생된다
+mechanism: 'RFID'
+tags:
+  input: [PLACE, TOUCH]
+  object: [TOKEN]
+  sensing: [NFC/RFID]
+  output: [SCREEN]
+  context: [BRAND, EXHIBITION]
+  ai: [NONE]
+  mode: [INDIVIDUAL]
+  era: [2020s]
+ai_evidence: ""
+source_primary: https://www.eventmarketer.com/article/inside-cannes-lions-2025/
+source_checked_at: "2026-10-17"
+archive_snapshot: ""
+evidence:
+  identity:
+    note: "Event Marketer 'Inside Cannes Lions 2025' — Netflix Rooftop Showcase, Agency: Seen Presents. 업계지 기준, Netflix 공식 자료 미열람"
+    url: https://www.eventmarketer.com/article/inside-cannes-lions-2025/
+    status: 확인
+    link_opened: true
+  interaction:
+    note: "'RFID 기술로 각 작품의 소품 진열대와 상호작용' → 맞춤 광고 콘텐츠 트리거. 같은 공간의 Mood Studio는 터치스크린 퀴즈 → 조명·소리 변화"
+    url: https://www.eventmarketer.com/article/inside-cannes-lions-2025/
+    status: 확인
+    link_opened: true
+  technology:
+    note: "RFID 명시. 리더 위치·소품 태그 방식은 미기재"
+    url: https://www.eventmarketer.com/article/inside-cannes-lions-2025/
+    status: 부분 확인
+    link_opened: true
+  context:
+    note: "광고주에게 Netflix의 광고 크리에이티브 가능성을 보여 주는 목적"
+    url: https://www.eventmarketer.com/article/inside-cannes-lions-2025/
+    status: 확인
+    link_opened: true
+media: []
+ad_insight: 광고 상품 설명서 대신, 소품을 집어 드는 손이 곧 광고 데모의 재생 버튼이 된다.
+what_if:
+  context: 박물관 아카이브
+  audience: "영화 박물관 관람객"
+  action: "진열장의 촬영 소품 복제품을 집어 든다"
+  response: "그 소품이 나온 장면과 제작 뒷이야기가 옆 화면에 재생된다"
+  message: "모든 장면은 손에 잡히는 물건에서 시작된다"
+carousel:
+  cover: |-
+    소품을 집으면
+    광고가 재생됩니다
+  work: |-
+    소품을 만지면 광고가 나오는
+    광고주 대상 전시입니다.
+  why: |-
+    설명 대신 소품을 집게 하면
+    광고를 상상할 수 있습니다.
+  what_if: |-
+    영화 박물관에서 소품을 들면
+    제작 뒷이야기를 틀어 볼까요?
+  ps: |-
+    소품을 내려놓기 어렵습니다.
+    다음 시즌까지 들고 싶습니다.
+
+caption:
+  text: |-
+    광고 설명회가 팬 전시처럼 느껴질 수 있을까요?
+    Netflix Rooftop Showcase는 작품 소품을 만지면 RFID로 인식해 맞춤 광고 콘텐츠를 재생하는 Cannes Lions 2025 쇼케이스입니다.
+    손에 쥔 물건이 광고 데모의 재생 버튼이 되는 방식을 살펴봤습니다.
+
+    Netflix Rooftop Showcase — Netflix / Seen Presents (Cannes Lions 2025)
+  hashtags: [Netflix, CannesLions, RFID, dearinteraction]
+keywords: [RFID, PROPS, CANNES LIONS, ADVERTISING]
+notes:
+  fact:
+    - '[03 원문] input: 방문객이 작품별 소품 진열대와 상호작용한다'
+    - '[03 원문] mechanism: RFID (구체 구성은 미기재)'
+  interpretation: []
+  speculation: []
+scores: { tangible: null, originality: null, reliability: null, applicability: null, postability: null }
+checklist: { humor_linked: false, info_not_buried: false }
+stage: 원고 작성
+scope: TANGIBLE

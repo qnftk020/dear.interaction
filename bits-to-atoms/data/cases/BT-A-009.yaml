@@ -1,0 +1,98 @@
+id: BT-A-009
+letter_no: 7
+title: Lighting the Reef
+creator: Ruhan Yang, Yuchen Zhang, Ellen Yi-Luen Do (ACME Lab, ATLAS Institute, University of Colorado Boulder)
+year: 2026 (TEI '26 Work-in-Progress)
+location: 미국 (University of Colorado Boulder)
+context: 연구 / 참여형 지속가능성 교육 워크숍
+status: 연구 프로토타입
+summary_ko: 구리 테이프와 저전압 부품을 넣은 종이 산호 모듈을 접어 쌓아, 연결이 맞으면 빛나고 오염 모듈을 끼우면 흐려지는 모듈형 종이 회로 설치.
+physical_object: 접는 3D 종이 산호 모듈, 오염 모듈
+input: '종이 산호를 쌓아 잇는다'
+output: '연결되면 산호가 빛난다'
+mechanism: '종이 회로의 전기 저항'
+tags:
+  input: [ASSEMBLE, FOLD]
+  object: [PAPER, BLOCK]
+  sensing: []
+  output: [LIGHT]
+  context: [EDUCATION, RESEARCH]
+  ai: [NONE]
+  mode: [COLLABORATIVE]
+  era: [2020s]
+ai_evidence: ""
+source_primary: https://www.colorado.edu/atlas/lighting-reef
+source_checked_at: "2026-10-17"
+archive_snapshot: ""
+evidence:
+  identity:
+    note: "Lighting the Reef: Modular Paper Circuits as Ecological Metaphor — Ruhan Yang, Yuchen Zhang, Ellen Yi-Luen Do, TEI '26 Works in Progress (ATLAS 공식 뉴스)"
+    url: https://www.colorado.edu/atlas/atlas-researchers-converge-tei26-showcase-their-work-tangible-embedded-and-embodied
+    status: 확인
+    link_opened: true
+  interaction:
+    note: "구리 테이프와 저전압 부품이 든 접이식 종이 산호 블록을 조립 → 연결이 맞으면 발광, 오염 모듈은 저항을 더해 빛을 줄이거나 차단"
+    url: https://www.colorado.edu/atlas/lighting-reef
+    status: 확인
+    link_opened: true
+  technology:
+    note: "구리 테이프·저전압 부품 종이 회로, 오염 = 저항 (프로젝트 페이지). 사용 LED·부품 사양은 미공개"
+    url: https://www.colorado.edu/atlas/lighting-reef
+    status: 확인
+    link_opened: true
+  context:
+    note: "Research through Design 사례. 15명 워크숍에서 돌봄·붕괴·상호의존에 대한 논의가 나왔다고 보고"
+    url: https://www.colorado.edu/atlas/lighting-reef
+    status: 확인
+    link_opened: true
+media:
+  - url: https://www.colorado.edu/atlas/lighting-reef
+    credit: ATLAS Institute, CU Boulder (촬영자 미표기)
+    permission: 권한 확인 필요
+    permission_basis: ""
+ad_insight: 빛이 켜지는 조건이 '정확한 연결'일 때, 관객은 설명문 없이 원인과 결과를 배운다.
+what_if:
+  context: 전시
+  audience: 해양 전시를 찾은 가족 관람객
+  action: 산호 블록을 함께 쌓고, '플라스틱'·'수온' 블록을 끼워 본다
+  response: 연결된 산호가 빛나다가 오염 블록이 들어가면 흐려진다
+  message: 생태계는 연결로 유지되고, 하나가 빠지면 모두 어두워진다
+carousel:
+  cover: |-
+    연결이 맞아야
+    산호가 숨 쉽니다
+  work: |-
+    종이 산호를 쌓는 설치로
+    연결이 맞으면 빛납니다.
+  why: |-
+    설명 대신 빛이 흐려지면
+    오염을 볼 수 있습니다.
+  what_if: |-
+    가족이 오염 블록을 끼우면
+    산호 빛이 흐려지게 할까요?
+  ps: |-
+    누가 뺐는지 바로 압니다.
+    회로는 거짓말을 못 합니다.
+
+caption:
+  text: |-
+    산호가 아프다는 걸 손으로 느낄 수 있을까요?
+    Lighting the Reef는 종이 산호 모듈을 쌓아 연결이 맞으면 빛나고, 오염 모듈을 끼우면 흐려지는 종이 회로 설치입니다.
+    설명 대신 '연결'로 생태계를 이해하게 만드는 방식을 살펴봤습니다.
+
+    Lighting the Reef — Ruhan Yang, Yuchen Zhang, Ellen Yi-Luen Do / ACME Lab, ATLAS Institute, CU Boulder (TEI '26)
+  hashtags: [TangibleInterface, PaperCircuits, SustainabilityEducation, dearinteraction]
+keywords: [PAPER CIRCUIT, CORAL, LIGHT, ECOLOGY]
+notes:
+  fact:
+    - '[03 원문] input: 종이 산호 모듈을 접어 쌓고 연결을 맞춘다. 오염 모듈을 끼워 넣는다'
+    - '[03 원문] output: 연결이 맞으면 산호 모듈이 빛나고, 오염 모듈은 저항을 더해 빛을 흐리게 하거나 끊는다'
+    - '[03 원문] mechanism: 종이 회로 — 구리 테이프와 저전압 부품, 오염 모듈은 전기 저항으로 작동'
+    - 15명 참여 워크숍 진행 (프로젝트 페이지)
+  interpretation:
+    - 실패(소등)가 학습의 핵심 순간이 된다
+  speculation: []
+scores: { tangible: null, originality: null, reliability: null, applicability: null, postability: null }
+checklist: { humor_linked: false, info_not_buried: false }
+stage: 원고 작성
+scope: TANGIBLE

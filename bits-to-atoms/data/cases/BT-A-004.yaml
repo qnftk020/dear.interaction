@@ -1,0 +1,99 @@
+id: BT-A-004
+letter_no: 2
+title: The Anemoia Device
+creator: Cyrus Clarke (MIT Media Lab), Nomy Yu, Melo Chen, Yuen Zou (Harvard GSD), Hiroshi Ishii (MIT Media Lab)
+year: 2025 발표(NeurIPS Creative AI) · 2026 Core77 Design Awards 수상
+location: 미국 (MIT Media Lab, Tangible Media Group)
+context: 연구 / 디자인 어워드 — Core77 Design Awards 2026 Emerging Technologies 부문
+status: 연구 프로토타입
+summary_ko: 옛 사진을 넣고 다이얼 세 개를 돌리면, AI가 그 장면의 짧은 이야기를 쓰고 그 자리에서 향을 조향해 주는 '합성 기억' 장치.
+physical_object: 아날로그 사진, 로터리 다이얼 3개, 향 블렌딩 용기
+input: '사진을 넣고 다이얼을 돌린다'
+output: '이야기와 향이 만들어진다'
+mechanism: 'LLM이 향 레시피를 만든다'
+tags:
+  input: [PLACE, ROTATE]
+  object: [DIAL, PAPER]
+  sensing: [CAMERA]
+  output: [SCREEN, SCENT, AI RESPONSE]
+  context: [RESEARCH]
+  ai: [AI-GENERATIVE]
+  mode: [INDIVIDUAL]
+  era: [2020s]
+ai_evidence: https://designawards.core77.com/Emerging-Technologies/140684
+source_primary: https://designawards.core77.com/Emerging-Technologies/140684
+source_checked_at: "2026-10-17"
+archive_snapshot: ""
+evidence:
+  identity:
+    note: "The Anemoia Device. Cyrus Clarke(MIT Media Lab), Nomy Yu·Melo Chen·Yuen Zou(Harvard GSD), Hiroshi Ishii. Core77 Design Awards 2026 Emerging Technologies 수상(MIT Media Lab 2026-06-18 게시)"
+    url: https://www.media.mit.edu/posts/the-anemoia-device-receives-honoree-recognition-at-core77-design-awards-2026/
+    status: 확인
+    link_opened: true
+  interaction:
+    note: "사진 삽입 → VLM 캡션이 LCD에 표시 → 다이얼 1(피사체), 2(생애 시점), 3(감정) → 이야기 생성 → 향 블렌딩 후 용기를 들어 맡음"
+    url: https://designawards.core77.com/Emerging-Technologies/140684
+    status: 확인
+    link_opened: true
+  technology:
+    note: "LLM이 few-shot 예시와 45종 오일 라이브러리로 최대 4종 레시피 생성 → 연동 펌프 4개 구동 시간으로 비율 조절"
+    url: https://designawards.core77.com/Emerging-Technologies/140684
+    status: 확인
+    link_opened: true
+  context:
+    note: "NeurIPS 2025 Creative AI Track 논문으로 먼저 발표. 2026년은 Core77 수상 — '2026 신작'은 아님"
+    url: https://www.media.mit.edu/posts/the-anemoia-device-receives-honoree-recognition-at-core77-design-awards-2026/
+    status: 확인
+    link_opened: true
+media:
+  - url: https://www.media.mit.edu/posts/the-anemoia-device-receives-honoree-recognition-at-core77-design-awards-2026/
+    credit: Cyrus Clarke
+    permission: 권한 확인 필요
+    permission_basis: "게시물에 'Copyright Cyrus Clarke' 표기 — 작가에게 문의 필요"
+ad_insight: 결과가 정답이 아니라 '선택한 관점'일 때, 사람은 같은 사진을 여러 번 다시 해석해 본다.
+what_if:
+  context: 박물관 아카이브
+  audience: 지역사 박물관 관람객
+  action: 소장 사진 카드를 넣고 다이얼로 인물·시절·감정을 고른다
+  response: 그 시절 골목의 향과 짧은 이야기가 돌아온다
+  message: 기록은 읽는 것이면서 맡아 보는 것이기도 하다
+carousel:
+  cover: |-
+    사진을 넣으면
+    향이 나옵니다
+  work: |-
+    사진을 향으로 바꾸는 장치로
+    다이얼로 관점을 고릅니다.
+  why: |-
+    정답 대신 관점을 고르면
+    다시 해석해 볼 수 있습니다.
+  what_if: |-
+    박물관에서 사진과 시절을 골라
+    골목의 향을 맡게 할까요?
+  ps: |-
+    다이얼 세 칸짜리 타임머신,
+    저도 한 번 돌려 보겠습니다.
+
+caption:
+  text: |-
+    살아 본 적 없는 시절이 그리울 수 있을까요?
+    The Anemoia Device는 옛 사진을 넣고 다이얼 세 개를 돌리면, AI가 그 장면의 이야기를 쓰고 향으로 조향해 주는 장치입니다.
+    화면 밖으로 나온 AI가 '기억을 만드는 도구'가 될 때 무엇이 달라지는지 살펴봤습니다.
+
+    The Anemoia Device — Cyrus Clarke, Nomy Yu, Melo Chen, Yuen Zou, Hiroshi Ishii / MIT Media Lab · Harvard GSD
+  hashtags: [TangibleAI, ScentDesign, InteractionDesign, dearinteraction]
+keywords: [DIAL, SCENT, MEMORY, GENERATIVE AI]
+notes:
+  fact:
+    - '[03 원문] input: 사진을 넣고, 다이얼 세 개로 사진 속 피사체·생애 시점·감정을 고른다'
+    - '[03 원문] output: 화면에 짧은 이야기가 뜨고, 펌프가 최대 네 가지 오일을 섞어 향을 만든다 — 용기를 들어 향을 맡는다'
+    - '[03 원문] mechanism: 비전-언어 모델이 사진 캡션 생성 → LLM이 이야기와 향 레시피 생성 → 연동 펌프 4개가 유리병에서 오일을 블렌딩'
+    - 다이얼 3개(피사체·생애 시점·감정), 45종 오일 라이브러리, 펌프 4개 (Core77)
+    - 2025 NeurIPS 발표, 2026 Core77 수상 — 공개 연도는 2025
+  interpretation:
+    - 정답이 없는 출력이 반복 조작을 부른다
+  speculation: []
+scores: { tangible: null, originality: null, reliability: null, applicability: null, postability: null }
+checklist: { humor_linked: false, info_not_buried: false }
+stage: 원고 작성
+scope: TANGIBLE

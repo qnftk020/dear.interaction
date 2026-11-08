@@ -1,0 +1,175 @@
+{
+  "id": "BT-A-005",
+  "checkedAt": "2026-11-08T08:40:56.630Z",
+  "verdict": "published",
+  "headline": "ACM · DIS '26 Companion에 실제로 게재된 논문입니다 (DOI 10.1145/3802974.3808682).",
+  "publication": {
+    "doi": "10.1145/3802974.3808682",
+    "doiUrl": "https://doi.org/10.1145/3802974.3808682",
+    "title": "Dream Brush: Generative Painting with Chinese Calligraphy",
+    "authors": [
+      "Chuanqi Sun",
+      "Yuhan Wang",
+      "Quincy Kuang",
+      "Hiroshi Ishii"
+    ],
+    "venue": "DIS '26 Companion",
+    "container": "Companion Publication of the 2026 ACM Designing Interactive Systems Conference",
+    "publisher": "ACM",
+    "type": "proceedings-article",
+    "published": "2026-06-12",
+    "year": 2026,
+    "pages": "661-663",
+    "license": {
+      "url": "https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode",
+      "label": "CC BY-NC-ND 4.0"
+    },
+    "foundBy": "record"
+  },
+  "pdf": {
+    "url": "https://trackr-media.tangiblemedia.org/publishedmedia/Papers/749-MTEwN/Published/PDF",
+    "source": "tangible.media.mit.edu 페이지의 PDF 링크",
+    "pages": 3,
+    "titleFound": true,
+    "doiFound": true,
+    "file": "figures/BT-A-005/paper.pdf"
+  },
+  "checks": [
+    {
+      "key": "doi",
+      "label": "DOI 등록 (Crossref)",
+      "state": "pass",
+      "detail": "10.1145/3802974.3808682 — 기록의 링크에서 찾음. ACM에서 직접 등록한 출판 번호입니다.",
+      "url": "https://api.crossref.org/works/10.1145/3802974.3808682"
+    },
+    {
+      "key": "venue",
+      "label": "게재처",
+      "state": "pass",
+      "detail": "DIS '26 Companion (Companion Publication of the 2026 ACM Designing Interactive Systems Conference) · ACM · pp.661-663 · 2026-06-12 · 유형 proceedings-article"
+    },
+    {
+      "key": "title",
+      "label": "제목 일치",
+      "state": "pass",
+      "detail": "기록 \"Dream Brush\" ↔ 논문 \"Dream Brush: Generative Painting with Chinese Calligraphy\" — 부제만 생략 — 같은 작품"
+    },
+    {
+      "key": "authors",
+      "label": "저자 일치",
+      "state": "pass",
+      "detail": "4/4명 일치"
+    },
+    {
+      "key": "year",
+      "label": "연도 일치",
+      "state": "pass",
+      "detail": "기록 \"2026 (DIS 2026)\" ↔ 출판 2026-06-12"
+    },
+    {
+      "key": "doi-link",
+      "label": "DOI 링크 연결",
+      "state": "pass",
+      "detail": "doi.org → dl.acm.org (출판사 공식 페이지)",
+      "url": "https://doi.org/10.1145/3802974.3808682"
+    },
+    {
+      "key": "publisher-page",
+      "label": "dl.acm.org 페이지",
+      "state": "warn",
+      "detail": "봇 차단(Cloudflare)으로 자동 접속 불가. 브라우저로는 열립니다. 게재 여부는 위 DOI 기록으로 이미 확인됨.",
+      "url": "https://dl.acm.org/doi/10.1145/3802974.3808682"
+    },
+    {
+      "key": "license",
+      "label": "이용 라이선스",
+      "state": "pass",
+      "detail": "CC BY-NC-ND 4.0 — 출판사가 DOI에 등록",
+      "url": "https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode"
+    },
+    {
+      "key": "pdf",
+      "label": "PDF 원문 확보",
+      "state": "pass",
+      "detail": "tangible.media.mit.edu 페이지의 PDF 링크에서 받음 · 3쪽",
+      "url": "https://trackr-media.tangiblemedia.org/publishedmedia/Papers/749-MTEwN/Published/PDF"
+    },
+    {
+      "key": "pdf-match",
+      "label": "PDF = 같은 논문",
+      "state": "pass",
+      "detail": "첫 쪽 제목 일치 · 본문 DOI 일치"
+    },
+    {
+      "key": "figures",
+      "label": "Figure 추출",
+      "state": "pass",
+      "detail": "사진 3장 · 캡션 3개 연결"
+    },
+    {
+      "key": "tech",
+      "label": "사용 기술 근거",
+      "state": "pass",
+      "detail": "원문에서 4문장 인용"
+    }
+  ],
+  "figures": [
+    {
+      "no": 1,
+      "caption": "Dream Brush is a tangible AI-driven system that turns Chinese calligraphy writing into a Chinese painting.",
+      "page": 1,
+      "file": "figures/BT-A-005/fig-1.jpg",
+      "width": 1600,
+      "height": 709
+    },
+    {
+      "no": 2,
+      "caption": "Dream Brush installation with projector, easel, canvas, and brush.",
+      "page": 3,
+      "file": "figures/BT-A-005/fig-2.jpg",
+      "width": 1600,
+      "height": 686
+    },
+    {
+      "no": 3,
+      "caption": "Example of a session with multiple inscriptions and evolving composition. The user writes \"山\" (mountain) first, causing a full sized mountain to appear as the main subject, then writes a smaller \"日\" (sun) at a corner, resulting in the sun to appear in the corresponding size and location.",
+      "page": 3,
+      "file": "figures/BT-A-005/fig-3.jpg",
+      "width": 1600,
+      "height": 378
+    }
+  ],
+  "techQuotes": [
+    {
+      "text": "The hardware consists of a metal easel and semi-translucent matte canvas for back-projection, an infrared sensing setup surrounding the canvas for brush detection, a calligraphy brush and cup of water to preserve the feel of brushing without pigment, a speaker for sound, and a computer that coordinates sensing, recognition, generation, and output.",
+      "page": 2
+    },
+    {
+      "text": "The semi-translucent canvas back-projects the live trace, then lets it fade as if drying.",
+      "page": 2
+    },
+    {
+      "text": "The canvas shows a back-projected trace of the brushstroke that visibly dries over a few seconds.",
+      "page": 2
+    },
+    {
+      "text": "On each stroke, the handwritten character is captured as an image and recognized with a vision model.",
+      "page": 2
+    }
+  ],
+  "interactionQuotes": [
+    {
+      "text": "We built a physical installation where participants write Chinese characters with water on a canvas and watch the system transform each mark into Chinese painting motifs with sound.",
+      "page": 1
+    },
+    {
+      "text": "A participant wets a calligraphy brush with water and writes Chinese characters on a physical canvas mounted on an easel.",
+      "page": 2
+    },
+    {
+      "text": "Dream Brush is a generative AI painting experience where people use a real brush with water to write Chinese characters on a physical canvas mounted on an easel.",
+      "page": 2
+    }
+  ],
+  "missingAuthors": []
+}

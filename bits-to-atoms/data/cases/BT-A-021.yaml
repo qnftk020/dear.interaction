@@ -1,0 +1,92 @@
+id: BT-A-021
+letter_no: 17
+title: Protection Ad (Nivea Sun Kids)
+creator: NIVEA · 에이전시 DraftFCB Brasil (São Paulo)
+year: 2014
+location: 브라질 리우데자네이루 (잡지 배포 지역 — 열람 출처 기준 미확인)
+context: 광고 / 인쇄 + 모바일 — Nivea Sun Kids 자외선 차단제 캠페인
+status: 실제 구현
+summary_ko: 잡지 광고에서 팔찌를 떼어 아이 손목에 채우고 앱과 연결하면, 아이가 정한 거리를 벗어날 때 부모 휴대폰에 알림이 오는 Nivea 광고.
+physical_object: 잡지 광고에서 떼어 내는 종이 팔찌
+input: '팔찌를 떼어 아이에게 채운다'
+output: '멀어지면 휴대폰이 울린다'
+mechanism: '블루투스 팔찌 + 앱'
+tags:
+  input: [PLACE, MOVE]
+  object: [PAPER]
+  sensing: []
+  output: [SOUND, SCREEN]
+  context: [BRAND, PRODUCT]
+  ai: [NONE]
+  mode: [INDIVIDUAL]
+  era: [2010s]
+ai_evidence: ""
+source_primary: https://www.lovethework.com/work-awards/entries/protection-ad-151407
+source_checked_at: "2026-10-17"
+archive_snapshot: ""
+evidence:
+  identity:
+    note: "Love The Work: 'Protection Ad', NIVEA, DraftFCB Brasil, 2014 Cannes Lions Mobile Grand Prix"
+    url: https://www.lovethework.com/work-awards/entries/protection-ad-151407
+    status: 확인
+    link_opened: true
+  interaction:
+    note: "잡지 인서트에서 팔찌 분리 → 아이 손목 착용 → 앱과 블루투스 연동 → 최대 거리 초과 시 알람 + 레이더식 지도"
+    url: https://martech.org/magazine-ad-removable-bracelet-links-app-tracks-child-beach
+    status: 확인
+    link_opened: true
+  technology:
+    note: "블루투스, '습기에 강한' 종이 팔찌. 물속 작동 여부는 불명확 (MarTech)"
+    url: https://martech.org/magazine-ad-removable-bracelet-links-app-tracks-child-beach
+    status: 부분 확인
+    link_opened: true
+  context:
+    note: "자외선 차단의 '보호'를 미아 방지로 확장. 잡지명(Veja Rio)·배포 부수·판매 증가 수치는 미열람"
+    url: https://martech.org/magazine-ad-removable-bracelet-links-app-tracks-child-beach
+    status: 부분 확인
+    link_opened: true
+media: []
+ad_insight: 지면 광고가 읽고 버리는 종이가 아니라, 떼어 내 쓰는 제품의 일부가 된다.
+what_if:
+  context: 공공 문화시설
+  audience: "주말 과학관의 가족 관람객"
+  action: "입장권에서 종이 팔찌를 떼어 아이 손목에 채운다"
+  response: "아이가 보호자와 멀어지면 가까운 전시물 조명이 깜빡여 서로를 찾게 돕는다"
+  message: "안심해야 마음껏 구경할 수 있다"
+carousel:
+  cover: |-
+    광고를 떼어
+    손목에 채웁니다
+  work: |-
+    팔찌를 떼어 쓰는 잡지 광고로
+    아이가 멀어지면 알려 줍니다.
+  why: |-
+    읽기 대신 팔찌로 쓰게 하면
+    아이를 찾을 수 있습니다.
+  what_if: |-
+    과학관 입장권의 팔찌를 채우면
+    아이 곁 조명을 켜 볼까요?
+  ps: |-
+    이번에도 잡지를 오렸습니다.
+    숙제 대신 안심이 남습니다.
+
+caption:
+  text: |-
+    광고 지면이 아이를 지켜 줄 수 있을까요?
+    Protection Ad는 잡지 광고에서 팔찌를 떼어 아이에게 채우면, 정한 거리를 벗어날 때 부모 휴대폰에 알람이 울리는 Nivea 캠페인입니다.
+    읽는 광고가 쓰는 물건이 되는 방식을 살펴봤습니다.
+
+    Protection Ad — NIVEA / DraftFCB Brasil (2014)
+  hashtags: [NIVEA, PrintInnovation, CannesLions, dearinteraction]
+keywords: [PRINT AD, WEARABLE, BLUETOOTH, CHILD SAFETY]
+notes:
+  fact:
+    - '[03 원문] input: 광고에서 팔찌를 떼어 아이 손목에 채우고 앱과 블루투스로 연결한다'
+    - '[03 원문] output: 아이가 설정 거리를 벗어나면 부모 휴대폰에 알람이 울리고 레이더 지도로 위치를 찾는다'
+    - '[03 원문] mechanism: 블루투스 팔찌 + 스마트폰 앱 (MarTech)'
+  interpretation: []
+  speculation: []
+scores: { tangible: null, originality: null, reliability: null, applicability: null, postability: null }
+checklist: { humor_linked: false, info_not_buried: false }
+stage: 원고 작성
+scope: TANGIBLE

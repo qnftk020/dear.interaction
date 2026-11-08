@@ -1,0 +1,86 @@
+id: BT-A-030
+letter_no: null
+title: SOS Spritz Stop (Tower 28)
+creator: Tower 28 Beauty (에이전시 미표기)
+year: 2026 (RetailBoss 2026-06-24 보도)
+location: 미국 뉴욕 389 Canal Street
+context: 광고 / 옥외 — SOS Daily Rescue Spray 홍보
+status: 실제 구현
+summary_ko: 버튼을 누르면 제품 미스트가 뿜어져 나오는 빌보드. 지나가던 사람이 그 자리에서 스프레이를 직접 맞아 볼 수 있다.
+physical_object: 빌보드의 버튼과 분사구
+input: 빌보드의 버튼을 누른다
+output: 페이셜 미스트가 뿜어져 나온다
+mechanism: 미확인
+tags:
+  input: [PRESS]
+  object: [UNKNOWN]
+  sensing: []
+  output: [UNKNOWN]
+  context: [BRAND, PUBLIC SPACE]
+  ai: [NONE]
+  mode: [INDIVIDUAL]
+  era: [2020s]
+ai_evidence: ""
+source_primary: https://retailboss.co/tower-28s-hypochlorous-acid-spraying-sos-billboard-is-misting-nyc-commuters/
+source_checked_at: "2026-10-20"
+archive_snapshot: ""
+evidence:
+  identity:
+    note: "Tower 28 'SOS Spritz Stop', 뉴욕 389 Canal Street, RetailBoss 2026-06-24. 에이전시 이름 없음"
+    url: https://retailboss.co/tower-28s-hypochlorous-acid-spraying-sos-billboard-is-misting-nyc-commuters/
+    status: 확인
+    link_opened: true
+  interaction:
+    note: "행인이 빌보드로 다가가 버튼을 누르면 SOS Daily Rescue Spray(차아염소산 페이셜 미스트)가 분사됨"
+    url: https://retailboss.co/tower-28s-hypochlorous-acid-spraying-sos-billboard-is-misting-nyc-commuters/
+    status: 확인
+    link_opened: true
+  technology: { note: "", url: "", status: 미확인, link_opened: false }
+  context:
+    note: "기간 한정 설치 (NYC 이벤트 리스팅, 미열람)"
+    url: https://www.nycforfree.co/events/tower-28-billboard
+    status: 부분 확인
+    link_opened: false
+media: []
+ad_insight: "에디터 해석: 제품을 본 자리에서 직접 써 볼 수 있게 하면 관심과 시험 사이의 단계를 줄일 수 있습니다."
+what_if:
+  context: 브랜드 체험 공간
+  audience: 필기구 매장 방문객
+  action: 진열대 옆 시험지에 펜으로 선을 긋습니다
+  response: 자신이 그은 선의 굵기와 색이 바로 보입니다
+  message: 제품이 궁금한 자리에서 바로 시험합니다
+carousel:
+  cover: |-
+    광고를 눌렀더니
+    제 얼굴로 옵니다
+  work: |-
+    미스트를 뿌리는 광고판입니다.
+    버튼을 누르면 분사됩니다.
+  why: |-
+    보기 대신 바로 써 보게 하면
+    직접 판단할 수 있습니다.
+  what_if: |-
+    펜 매장 진열대 옆에 그으면
+    선의 굵기가 바로 보입니다.
+  ps: |-
+    광고를 보고 왔습니다.
+    얼굴도 보고받았습니다.
+caption:
+  text: |-
+    이 광고는 버튼을 누르면 얼굴로 다가옵니다.
+    Tower 28의 SOS Spritz Stop은 버튼을 누르면 페이셜 미스트가 분사되는 광고판입니다.
+    제 해석으로는 제품을 본 자리에서 바로 써 보게 해 관심에서 시험으로 옮겨 갈 단계를 줄일 수 있습니다.
+    
+    SOS Spritz Stop — Tower 28 Beauty
+  hashtags: ["제품체험","옥외광고","Tower28","dearinteraction"]
+keywords: ["PRESS","MIST","PRODUCT TRIAL"]
+notes:
+  fact:
+    - "[브랜드 주장 — 원고 사용 금지] '세계 최초의 차아염소산 분사 빌보드'"
+    - "[원고 사용 주의] 땀·트러블 완화 등 제품 효능 설명은 브랜드 주장"
+  interpretation: []
+  speculation: []
+scores: { tangible: null, originality: null, reliability: null, applicability: null, postability: null }
+checklist: { humor_linked: false, info_not_buried: false }
+stage: 원고 작성
+scope: TANGIBLE

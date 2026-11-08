@@ -1,0 +1,98 @@
+id: BT-A-010
+letter_no: 8
+title: Rig-a-Doodle
+creator: Krithik Ranjan, Khushbu Kshirsagar, Harrison Jesse Smith, Ellen Yi-Luen Do (ACME Lab, ATLAS Institute, University of Colorado Boulder)
+year: 2026 (TEI '26 Work-in-Progress)
+location: 미국 (University of Colorado Boulder)
+context: 연구 — 손그림 캐릭터 애니메이션용 탠저블 키트와 웹 앱
+status: 연구 프로토타입
+summary_ko: 캐릭터를 그리고, 일상 재료로 만든 리그에 마커를 붙여 손으로 움직이면 그림이 실시간으로 같은 동작을 하는 애니메이션 키트.
+physical_object: 일상 재료로 만든 물리 리그와 오려 붙인 비전 마커
+input: '그림 리그를 손으로 움직인다'
+output: '캐릭터가 같은 동작을 한다'
+mechanism: '마커 추적 웹 앱'
+tags:
+  input: [DRAW, ASSEMBLE, MOVE]
+  object: [PAPER, TOOL]
+  sensing: [CAMERA]
+  output: [SCREEN]
+  context: [RESEARCH, EDUCATION]
+  ai: [NONE]
+  mode: [INDIVIDUAL]
+  era: [2020s]
+ai_evidence: ""
+source_primary: https://www.colorado.edu/atlas/rig-doodle
+source_checked_at: "2026-10-17"
+archive_snapshot: ""
+evidence:
+  identity:
+    note: "Rig-a-Doodle: Tangible Kit for Dynamic Hand-drawn Character Animation — Krithik Ranjan, Khushbu Kshirsagar, Harrison Jesse Smith, Ellen Yi-Luen Do, TEI '26 Works in Progress (ATLAS 공식 뉴스)"
+    url: https://www.colorado.edu/atlas/atlas-researchers-converge-tei26-showcase-their-work-tangible-embedded-and-embodied
+    status: 확인
+    link_opened: true
+  interaction:
+    note: "캐릭터를 그리고 일상 재료로 맞춤 리그를 만들어 직접 조작하면 실시간으로 애니메이션 (Capture → Assign → Animate)"
+    url: https://www.colorado.edu/atlas/rig-doodle
+    status: 확인
+    link_opened: true
+  technology:
+    note: "ATLAS 뉴스에 'CV 마커를 오려 붙이고 시스템이 리그를 실시간 추적'으로 설명. 카메라·소프트웨어 사양은 미공개"
+    url: https://www.colorado.edu/atlas/atlas-researchers-converge-tei26-showcase-their-work-tangible-embedded-and-embodied
+    status: 부분 확인
+    link_opened: true
+  context:
+    note: "기존 도구가 정해진 동작과 사람 형태 캐릭터에 한정된다는 문제의식. 성인 대상 예비 워크숍 진행"
+    url: https://www.colorado.edu/atlas/rig-doodle
+    status: 확인
+    link_opened: true
+media:
+  - url: https://www.colorado.edu/atlas/rig-doodle
+    credit: ATLAS Institute, CU Boulder (촬영자 미표기)
+    permission: 권한 확인 필요
+    permission_basis: ""
+ad_insight: 키프레임 대신 손으로 '연기'하게 하면, 애니메이션이 기술이 아니라 놀이가 된다.
+what_if:
+  context: 전시
+  audience: 애니메이션 박물관의 어린이 관람객
+  action: 원화 속 캐릭터를 따라 그린 뒤 나무젓가락 리그로 움직인다
+  response: 벽면 화면에서 자기 그림이 원작 배경 속을 걷는다
+  message: 모든 애니메이션은 손에서 시작된다
+carousel:
+  cover: |-
+    인형극처럼 낙서를
+    움직입니다
+  work: |-
+    손그림을 움직이는 키트로
+    손동작을 그림이 따라 합니다.
+  why: |-
+    설정 대신 손으로 연기하면
+    또 시도할 수 있습니다.
+  what_if: |-
+    박물관에서 아이가 그림을 그려
+    젓가락으로 움직이게 할까요?
+  ps: |-
+    제 캐릭터가 걷습니다.
+    젓가락 두 개면 됩니다.
+
+caption:
+  text: |-
+    애니메이션을 타임라인 대신 손으로 만들 수 있을까요?
+    Rig-a-Doodle은 손그림 캐릭터에 직접 만든 리그를 연결해, 인형극처럼 움직이면 그림이 실시간으로 따라 움직이는 키트입니다.
+    '연기하는 인터페이스'가 창작의 문턱을 어떻게 낮추는지 살펴봤습니다.
+
+    Rig-a-Doodle — Krithik Ranjan, Khushbu Kshirsagar, Harrison Jesse Smith, Ellen Yi-Luen Do / ACME Lab, ATLAS Institute, CU Boulder (TEI '26)
+  hashtags: [TangibleInterface, Animation, CreativeTools, dearinteraction]
+keywords: [RIG, PUPPETRY, ANIMATION, DRAWING]
+notes:
+  fact:
+    - '[03 원문] input: 캐릭터를 그리고, 마커를 오려 리그를 만든 뒤 손으로 움직인다'
+    - '[03 원문] output: 웹 앱이 리그를 실시간 추적해 손그림 캐릭터를 같은 동작으로 움직인다'
+    - '[03 원문] mechanism: 컴퓨터비전 마커 추적 + 웹 앱 (카메라 종류는 미공개)'
+    - Capture → Assign → Animate 3단계 (프로젝트 페이지)
+  interpretation:
+    - 손 연기가 키프레임보다 진입 장벽이 낮다
+  speculation: []
+scores: { tangible: null, originality: null, reliability: null, applicability: null, postability: null }
+checklist: { humor_linked: false, info_not_buried: false }
+stage: 원고 작성
+scope: TANGIBLE

@@ -1,0 +1,87 @@
+id: BT-A-026
+letter_no: null
+title: All Good in the Hood (Sweaty Betty)
+creator: Sweaty Betty (에이전시 미표기)
+year: 2025 (2025-12-03~04)
+location: 영국 런던 — 비를 자주 맞는 깜짝 장소들 (구체 위치 미표기)
+context: 광고 / 옥외 — 아우터 컬렉션 캠페인, 이동형 빌보드
+status: 실제 구현
+summary_ko: 진짜 코트를 붙인 이동형 빌보드. 비 오는 런던 거리에서 행인이 코트 후드 아래로 들어가 비를 피할 수 있다.
+physical_object: 빌보드에 붙인 실제 아우터 코트와 후드
+input: 코트 후드 아래로 들어간다
+output: 후드가 비를 막아 준다
+mechanism: 미확인
+tags:
+  input: [MOVE]
+  object: [BODY]
+  sensing: []
+  output: [UNKNOWN]
+  context: [BRAND, PUBLIC SPACE]
+  ai: [NONE]
+  mode: [MULTI-USER]
+  era: [2020s]
+ai_evidence: ""
+source_primary: https://www.retailgazette.co.uk/blog/2025/12/sweaty-betty-stunt/
+source_checked_at: "2026-10-20"
+archive_snapshot: ""
+evidence:
+  identity:
+    note: "Sweaty Betty 'All Good in the Hood', 2025-12-03~04 런던. 기사에 에이전시 이름 없음"
+    url: https://www.retailgazette.co.uk/blog/2025/12/sweaty-betty-stunt/
+    status: 확인
+    link_opened: true
+  interaction:
+    note: "행인이 코트로 덮인 빌보드 아래에서 비를 피하고, 사진을 찍고, 코트 경품에 응모. 센서·디지털 반응 없음 — BT-A-023 Intimissimi처럼 선정 질문 2('시스템이 감지하고 반응하는가')에는 해당하지 않음"
+    url: https://www.retailgazette.co.uk/blog/2025/12/sweaty-betty-stunt/
+    status: 확인
+    link_opened: true
+  technology: { note: "", url: "", status: 미확인, link_opened: false }
+  context:
+    note: "영국인이 일주일에 날씨 이야기를 17번 한다는 조사에서 출발했다는 보도 (검색 결과, Retail Times 미열람)"
+    url: https://retailtimes.co.uk/sweaty-betty-unveils-weather-defying-all-good-in-the-hood-stunt/
+    status: 부분 확인
+    link_opened: false
+media: []
+ad_insight: "에디터 해석: 광고가 당장 필요한 쓰임을 제공하면 행인이 제품을 써 볼 이유를 얻을 수 있습니다."
+what_if:
+  context: 공공 문화시설
+  audience: 비 오는 날 도서관 방문객
+  action: 입구의 책 모양 차양 아래로 들어갑니다
+  response: 차양이 비를 막아 줍니다
+  message: 문화시설이 일상에서 필요한 자리가 됩니다
+carousel:
+  cover: |-
+    광고 앞입니다
+    비부터 피합니다
+  work: |-
+    코트로 덮은 광고판입니다.
+    그 아래서 비를 피합니다.
+  why: |-
+    구경 대신 쓸모를 건네면
+    발을 멈출 수 있습니다.
+  what_if: |-
+    도서관에 책 모양 차양을 두면
+    방문객이 비를 피합니다.
+  ps: |-
+    저는 광고를 보고 있습니다.
+    정확히는 아래 있습니다.
+caption:
+  text: |-
+    오늘은 광고 아래서 비를 피합니다.
+    Sweaty Betty의 All Good in the Hood는 런던에 코트로 덮인 이동형 광고판을 선보였습니다.
+    행인은 광고판 아래에서 비를 피할 수 있습니다.
+    제 해석으로는 당장 쓸모가 있는 광고가 제품을 만나 볼 이유를 만들 수 있습니다.
+    
+    All Good in the Hood — Sweaty Betty
+  hashtags: ["옥외광고","공공공간","SweatyBetty","dearinteraction"]
+keywords: ["SHELTER","COAT","UTILITY"]
+notes:
+  fact:
+    - 이틀 동안 런던 곳곳에 깜짝 등장한 이동형 빌보드
+    - 코트는 그 시즌 아우터 컬렉션 제품 (검색 결과 — Nimbus 방수 패딩 등 제품명은 미열람)
+  interpretation: []
+  speculation: []
+scores: { tangible: null, originality: null, reliability: null, applicability: null, postability: null }
+checklist: { humor_linked: false, info_not_buried: false }
+stage: 원고 작성
+scope: TANGIBLE
