@@ -13,9 +13,9 @@
     <form class="lock-card" id="lock-form" autocomplete="off">
       <p class="brand">dear.interaction</p>
       <h1>작업 대시보드</h1>
-      <p class="lock-sub">PIN을 넣으면 데이터가 이 브라우저 안에서만 풀립니다.</p>
-      <label class="sr" for="pin">PIN 8자리</label>
-      <input id="pin" name="pin" inputmode="numeric" pattern="[0-9]*" maxlength="8" placeholder="PIN 8자리" autofocus />
+      <p class="lock-sub">PIN 8자리를 넣어 주세요.</p>
+      <label class="sr" for="pin">PIN</label>
+      <input id="pin" name="pin" inputmode="numeric" pattern="[0-9]*" maxlength="8" placeholder="••••••••" autofocus />
       <button type="submit" id="unlock">열기</button>
       <p id="lock-msg" class="lock-msg" role="status" aria-live="polite"></p>
     </form>
@@ -24,56 +24,29 @@
   <div id="app" hidden>
     <header class="top">
       <div class="top-inner">
-        <div class="top-title">
-          <p class="brand">dear.interaction</p>
-          <p class="top-meta" id="meta"></p>
-        </div>
-        <div class="seg" role="tablist" aria-label="컬렉션" id="collections"></div>
-        <button class="ghost" id="lock-btn" type="button">잠그기</button>
+        <p class="brand">dear.interaction</p>
+        <nav class="tabs" role="tablist" aria-label="화면">
+          <button type="button" role="tab" data-tab="todo">내 할 일 <span id="tab-todo-n" class="tab-n"></span></button>
+          <button type="button" role="tab" data-tab="cases">사례 <span id="tab-cases-n" class="tab-n"></span></button>
+          <button type="button" role="tab" data-tab="status">진행 현황</button>
+        </nav>
+        <button class="lock-btn" id="lock-btn" type="button">잠그기</button>
       </div>
     </header>
 
     <div class="wrap">
-      <section class="tiles" id="tiles" aria-label="한눈에"></section>
-
-      <div class="two">
-        <section class="card" aria-labelledby="h-flow">
-          <div class="card-head"><h2 id="h-flow">단계별 흐름</h2><p class="hint">막대를 누르면 아래 목록이 그 단계로 좁혀집니다</p></div>
-          <div id="flow" class="bars"></div>
-        </section>
-        <section class="card" aria-labelledby="h-todo">
-          <div class="card-head"><h2 id="h-todo">지금 할 일</h2><p class="hint">사례를 누르면 상세가 열립니다</p></div>
-          <div id="todo" class="todo"></div>
-        </section>
-      </div>
-
-      <section class="card" aria-labelledby="h-cls">
-        <div class="card-head"><h2 id="h-cls">분류 초안</h2><p class="hint" id="cls-hint"></p></div>
-        <div id="cls" class="cls"></div>
-      </section>
-
-      <section class="card" aria-labelledby="h-list">
-        <div class="card-head"><h2 id="h-list">사례</h2><p class="hint" id="list-count"></p></div>
-        <div class="filters">
-          <input id="q" type="search" placeholder="제목·작가·ID 검색" aria-label="검색" />
-          <select id="f-stage" aria-label="단계"></select>
-          <select id="f-grade" aria-label="등급"></select>
-          <label class="check"><input type="checkbox" id="f-todo" /> 할 일 있는 것만</label>
-          <button class="ghost small" id="f-reset" type="button">필터 지우기</button>
-        </div>
-        <div id="list" class="list" role="list"></div>
-      </section>
-
-      <footer class="foot" id="foot"></footer>
+      <section id="view-todo" class="view" role="tabpanel" aria-label="내 할 일"></section>
+      <section id="view-cases" class="view" role="tabpanel" aria-label="사례" hidden></section>
+      <section id="view-status" class="view" role="tabpanel" aria-label="진행 현황" hidden></section>
+      <p class="foot" id="foot"></p>
     </div>
 
     <div id="scrim" class="scrim" hidden></div>
-    <aside id="drawer" class="drawer" hidden aria-modal="true" role="dialog" aria-labelledby="d-title">
-      <div class="drawer-head">
-        <div><p class="d-id" id="d-id"></p><h2 id="d-title"></h2><p class="d-meta" id="d-meta"></p></div>
-        <button class="ghost" id="d-close" type="button" aria-label="닫기">닫기 ✕</button>
+    <aside id="panel" class="panel" hidden role="dialog" aria-modal="true" aria-labelledby="p-title">
+      <div class="panel-head">
+        <button class="back" id="p-close" type="button">← 목록으로</button>
       </div>
-      <div class="drawer-body" id="d-body"></div>
+      <div class="panel-body" id="p-body"></div>
     </aside>
   </div>
   <script src="app.js"></script>

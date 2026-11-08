@@ -132,9 +132,43 @@ for (const col of COLS) {
   }
 }
 
+// ── 사람이 직접 해야 하는 일 (2026-11-08 검증 결과에서 뽑음) ──────────
+type Link = { label: string; url: string }
+type Task = { id: string; group: string; pri: 1 | 2 | 3; title: string; how: string; links?: Link[]; cases?: string[]; options?: string[] }
+const byId = Object.fromEntries(out.map((c) => [c.id, c]))
+const acm = (doi: string): Link => ({ label: 'ACM에서 PDF 열기', url: `https://dl.acm.org/doi/pdf/${doi}` })
+const wb = (u: string): Link => ({ label: 'Wayback에 저장', url: `https://web.archive.org/save/${u}` })
+const src = (id: string, label = '출처 열기'): Link => ({ label, url: byId[id].source })
+const TASKS: Task[] = [
+  { id: 'd-grade', group: 'decide', pri: 1, title: '1,000개에 넣을 분류 범위 정하기', how: '추천: 핵심 탠저블·탠저블 컨트롤러는 산입, 신체·환경은 ‘확장 사례’로 표기, 아날로그 참여형은 별도 연재.', options: ['추천안대로', 'T1만 산입', '전부 산입'] },
+  { id: 'd-figs', group: 'decide', pri: 1, title: '공개 저장소에 올라간 권리 미확인 그림 16장 처리', how: 'BT-A-001·004·013의 논문 그림이 공개 저장소에 있습니다.', options: ['저장소를 비공개로', '그림을 빼고 이력 정리', '그대로 두기'] },
+  { id: 'd-split', group: 'decide', pri: 2, title: '한 논문에 작품이 여러 개일 때', how: 'GlassIO는 스테인드글라스 작품 3개(식사 추천·기억 녹음·날씨 창)입니다.', options: ['1건으로 유지', '작품별로 나누기'], cases: ['BT-A-008'] },
+  { id: 'd-wayback', group: 'decide', pri: 2, title: 'Wayback 저장을 Claude가 대신 해도 될지', how: '외부(archive.org)에 기록이 남는 일이라 허락이 필요합니다. 직접 하시려면 아래 ‘링크 보존’ 버튼을 누르면 됩니다.', options: ['Claude가 해도 됨', '직접 하겠음'] },
+  { id: 'd-email', group: 'decide', pri: 3, title: '논문 검색 API 키 신청에 쓸 이메일', how: 'OpenAlex·Semantic Scholar·CORE 무료 키. 키가 없으면 자동 검색이 자주 막힙니다(Semantic Scholar 10번 중 4번).' },
+  { id: 'd-domain', group: 'decide', pri: 3, title: '도메인과 등록자', how: 'dearinteraction.com이 미등록으로 조회됐습니다(구매 직전 재확인 필요).' },
+
+  { id: 'p-005', group: 'pdf', pri: 1, title: 'Dream Brush 원문 PDF', how: '브라우저로 열어 저장 → 저에게 파일을 주시면 그림 캡처·원문 분석을 돌립니다.', links: [acm('10.1145/3802974.3808682')], cases: ['BT-A-005'] },
+  { id: 'p-009', group: 'pdf', pri: 1, title: 'Lighting the Reef 원문 PDF', how: 'TEI ’26 Work-in-Progress. ACM에만 있습니다.', links: [acm('10.1145/3731459.3779321')], cases: ['BT-A-009'] },
+  { id: 'p-010', group: 'pdf', pri: 1, title: 'Rig-a-Doodle 원문 PDF', how: 'TEI ’26 Work-in-Progress. ACM에만 있습니다.', links: [acm('10.1145/3731459.3779320')], cases: ['BT-A-010'] },
+  { id: 'p-011', group: 'pdf', pri: 2, title: 'DataBites 원래 논문 (C&C ’24)', how: '지금은 후속 논문(TEI ’26)만 있습니다. NSF 저장소가 이 Mac에서 안 열렸으니 브라우저로 먼저 시도해 주세요.', links: [{ label: 'NSF 저장소', url: 'https://par.nsf.gov/servlets/purl/10526805' }, acm('10.1145/3635636.3664247')], cases: ['BT-A-011'] },
+
+  { id: 'f-019', group: 'find', pri: 1, title: 'Coca-Cola Hug Machine — 새 출처 찾기', how: '지금 출처(afaqs)는 봇 차단이고 보존본도 없습니다. 브랜드·에이전시 공식 자료나 수상 기록을 찾아 주세요.', links: [src('BT-A-019', '지금 출처')], cases: ['BT-A-019'] },
+  { id: 'f-018', group: 'find', pri: 2, title: 'Piano Stairs — 1차 출처 찾기', how: '지금 출처가 어린이 뉴스 사이트입니다. Volkswagen·DDB 공식 케이스 영상이나 수상 기록이 필요합니다.', links: [src('BT-A-018', '지금 출처')], cases: ['BT-A-018'] },
+  { id: 'f-006', group: 'find', pri: 2, title: 'Sound Bananas — 무엇으로 감지하는지', how: '공식 기록에는 ‘전자 장치 내장’까지만 있습니다. 작가(ligeti zentrum) 페이지·영상에서 센서 종류를 찾아 주세요.', links: [{ label: 'Ars 작품 기록', url: ARS['BT-A-006'].url }], cases: ['BT-A-006'] },
+  { id: 'f-012', group: 'find', pri: 2, title: 'Who Is Jumping, Jack? — 몸짓 감지 장치', how: '서보로 움직이는 건 확인됐지만, 팔 동작을 무엇으로 읽는지(카메라·센서)는 없습니다.', links: [src('BT-A-012', '지금 출처')], cases: ['BT-A-012'] },
+  { id: 'f-digital', group: 'find', pri: 2, title: '디지털 장치가 들어 있는지 확인 (4건)', how: '센서·전자 부품이 있으면 탠저블, 순수 기계식이면 아날로그로 분류됩니다.', cases: ['BT-A-014', 'BT-A-029', 'BT-A-030', 'BT-E-014'] },
+  { id: 'f-hold', group: 'find', pri: 3, title: '관객이 정확히 무엇을 하는지 (2건)', how: 'Netflix는 ‘진열대를 다룬다’, Power-Up Band는 구체 동작이 없습니다.', cases: ['BT-A-016', 'BT-E-007'] },
+  { id: 'f-020', group: 'find', pri: 3, title: 'Small World Machines — 넣을지 뺄지', how: '터치스크린 자판기라 브리프 기준으로는 제외 대상입니다.', cases: ['BT-A-020'] },
+  { id: 'f-credit', group: 'find', pri: 3, title: 'Ars Electronica 사진 크레딧 (3건)', how: '사진 아카이브에서 작품 사진과 사진가 이름을 찾아 주세요 (CC BY-NC-ND, 크레딧 필수).', links: [{ label: 'Ars 사진 아카이브', url: 'https://photos.ars.electronica.art/' }], cases: ['BT-A-006', 'BT-A-007', 'BT-A-012'] },
+
+  ...['BT-A-018', 'BT-A-020', 'BT-A-021', 'BT-A-022', 'BT-A-030'].map((id): Task => ({ id: `s-${id}`, group: 'save', pri: 2, title: byId[id].title, how: '보존본이 없습니다. 버튼을 누르면 archive.org가 지금 페이지를 저장합니다.', links: [wb(byId[id].source), src(id)], cases: [id] })),
+
+  ...['BT-A-025', 'BT-A-026', 'BT-A-028', 'BT-E-005', 'BT-E-008', 'BT-E-009', 'BT-E-012', 'BT-E-013', 'BT-E-014'].map((id): Task => ({ id: `o-${id}`, group: 'open', pri: 3, title: byId[id].title, how: '자동 접속만 막혔고 보존본은 있습니다. 브라우저로 열어 내용이 기록과 맞는지만 봐 주세요.', links: [src(id)], cases: [id] })),
+]
+
 const payload = {
   generatedAt: new Date().toISOString(), commit: COMMIT, goal: LETTER_TOTAL, stages: STAGES,
-  collections: COLS.map(({ key, label }) => ({ key, label })), broken, cases: out,
+  collections: COLS.map(({ key, label }) => ({ key, label })), broken, cases: out, tasks: TASKS,
   run: { date: '2026-11-08', note: '원문 찾기·그림 캡처·원문 분석·Ars 경로·출처 접근 검증 실행 결과 포함. 분류는 초안이며 ✓ 표시는 원문과 대조한 사례.' },
 }
 
