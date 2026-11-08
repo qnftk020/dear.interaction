@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>dear.interaction 대시보드</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main id="lock" class="lock">
+    <form class="lock-card" id="lock-form" autocomplete="off">
+      <p class="brand">dear.interaction</p>
+      <h1>작업 대시보드</h1>
+      <p class="lock-sub">PIN을 넣으면 데이터가 이 브라우저 안에서만 풀립니다.</p>
+      <label class="sr" for="pin">PIN 8자리</label>
+      <input id="pin" name="pin" inputmode="numeric" pattern="[0-9]*" maxlength="8" placeholder="PIN 8자리" autofocus />
+      <button type="submit" id="unlock">열기</button>
+      <p id="lock-msg" class="lock-msg" role="status" aria-live="polite"></p>
+    </form>
+  </main>
+
+  <div id="app" hidden>
+    <header class="top">
+      <div class="top-inner">
+        <div class="top-title">
+          <p class="brand">dear.interaction</p>
+          <p class="top-meta" id="meta"></p>
+        </div>
+        <div class="seg" role="tablist" aria-label="컬렉션" id="collections"></div>
+        <button class="ghost" id="lock-btn" type="button">잠그기</button>
+      </div>
+    </header>
+
+    <div class="wrap">
+      <section class="tiles" id="tiles" aria-label="한눈에"></section>
+
+      <div class="two">
+        <section class="card" aria-labelledby="h-flow">
+          <div class="card-head"><h2 id="h-flow">단계별 흐름</h2><p class="hint">막대를 누르면 아래 목록이 그 단계로 좁혀집니다</p></div>
+          <div id="flow" class="bars"></div>
+        </section>
+        <section class="card" aria-labelledby="h-todo">
+          <div class="card-head"><h2 id="h-todo">지금 할 일</h2><p class="hint">사례를 누르면 상세가 열립니다</p></div>
+          <div id="todo" class="todo"></div>
+        </section>
+      </div>
+
+      <section class="card" aria-labelledby="h-cls">
+        <div class="card-head"><h2 id="h-cls">분류 초안</h2><p class="hint" id="cls-hint"></p></div>
+        <div id="cls" class="cls"></div>
+      </section>
+
+      <section class="card" aria-labelledby="h-list">
+        <div class="card-head"><h2 id="h-list">사례</h2><p class="hint" id="list-count"></p></div>
+        <div class="filters">
+          <input id="q" type="search" placeholder="제목·작가·ID 검색" aria-label="검색" />
+          <select id="f-stage" aria-label="단계"></select>
+          <select id="f-grade" aria-label="등급"></select>
+          <label class="check"><input type="checkbox" id="f-todo" /> 할 일 있는 것만</label>
+          <button class="ghost small" id="f-reset" type="button">필터 지우기</button>
+        </div>
+        <div id="list" class="list" role="list"></div>
+      </section>
+
+      <footer class="foot" id="foot"></footer>
+    </div>
+
+    <div id="scrim" class="scrim" hidden></div>
+    <aside id="drawer" class="drawer" hidden aria-modal="true" role="dialog" aria-labelledby="d-title">
+      <div class="drawer-head">
+        <div><p class="d-id" id="d-id"></p><h2 id="d-title"></h2><p class="d-meta" id="d-meta"></p></div>
+        <button class="ghost" id="d-close" type="button" aria-label="닫기">닫기 ✕</button>
+      </div>
+      <div class="drawer-body" id="d-body"></div>
+    </aside>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
