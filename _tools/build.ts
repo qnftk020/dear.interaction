@@ -22,6 +22,9 @@ const DATA = path.resolve(APP, '../data')
 const j = (f: string) => JSON.parse(readFileSync(f, 'utf8'))
 const step4 = j(path.join(VERIFY, 'step4.json')).results as Record<string, any>
 const step5 = j(path.join(VERIFY, 'step5.json')) as any[]
+// 2026-11-08 Simon이 브라우저로 받아 준 PDF (ACM)
+const userIds = existsSync(path.join(VERIFY, 'in-user', 'identity.json')) ? j(path.join(VERIFY, 'in-user', 'identity.json')) : {}
+const saved = existsSync(path.join(VERIFY, 'saved.json')) ? j(path.join(VERIFY, 'saved.json')) : {}
 const access = Object.fromEntries(step5.map(([id, , host, http, note, wb]) => [id, { host, http, note, wayback: wb }]))
 
 // ── 분류 초안 (2026-11-08 대화에서 만든 안 + 원문 대조 결과) ─────────────
@@ -31,13 +34,13 @@ const CLS: Record<string, ReturnType<typeof G>> = {
   'BT-A-002': G('T1', '테이블 아래 IR 카메라가 fiducial 마커 추적 → 테이블 표면에 투사 (TEI ’07 p4)', true),
   'BT-A-003': G('T1', '단어 타일·노브·페이더 → 기기 위 ePaper에 LLM 응답 (C&C ’26 p2–3)', true),
   'BT-A-004': G('T1', '사진·로터리 엔코더 3개 → 이야기 + 펌프로 향 조합 · 왕복(물리→디지털→물리) (Fig 6)', true),
-  'BT-A-005': G('T1', '물붓 획 → 캔버스 위 투사·소리 (원문 미확보 — ACM)'),
+  'BT-A-005': G('T1', '캔버스를 둘러싼 적외선 감지 프레임이 붓을 인식 → 같은 캔버스에 배면 투사 + text-to-sound (DIS ’26 p2, Fig 2)', true),
   'BT-A-006': G('T2', '흔들리는 바나나 사물에 앉고 흔듦 → 공간에 음악 · 초안 E에서 정정 (Ars 2026 작품 기록)', true),
   'BT-A-007': G('T1', '막대로 모래에 그림 → 카메라 추적 → 로봇 팔이 씨앗 그물에 물 · 왕복 (Ars 2026 작품 기록)', true),
   'BT-A-008': G('T1', '유리 조각 터치(ITO 정전식) → 유리 속 LED·스피커 (TEI ’26 p9)', true),
-  'BT-A-009': G('T1', '종이 산호 모듈 연결 → 모듈이 빛남 (원문 미확보 — ACM)'),
-  'BT-A-010': G('T2', '종이 리그를 움직임 → 웹 앱 화면 속 캐릭터 (원문 미확보 — ACM)'),
-  'BT-A-011': G('T2', '음식 조각으로 예시 구성 → 벽면 화면의 분류 결과 · 감지 방식은 그림 판독(추정)', true),
+  'BT-A-009': G('T1', '구리 테이프 회로와 모듈 안 전자 부품 → 연결되면 그 모듈이 빛남 (TEI ’26 p4, Fig 5)', true),
+  'BT-A-010': G('T2', '기기 카메라가 CV 마커를 추적 → 웹 앱 화면 속 캐릭터가 움직임 (TEI ’26 p3)', true),
+  'BT-A-011': G('T2', '테이블 위 고정 카메라가 조각을 촬영 → 큰 화면에 분류 결과 (C&C ’24 p3)', true),
   'BT-A-012': G('E', '팔 동작 → 서보 코르크스크루 · 디지털→물리 (Ars 2026 작품 기록)', true),
   'BT-A-013': G('X', '정적인 촉각 모형, 시스템 반응 없음 (arXiv p6)', true),
   'BT-A-014': G('?', '디지털 여부 확인 필요 (기계식 자판기일 수 있음)'),
@@ -106,9 +109,11 @@ for (const col of COLS) {
     const vFigs = rep ? await Promise.all(rep.figures.slice(0, 8).map(async (f: any) => ({ no: f.no, page: f.page, caption: f.caption, src: await thumb(f.file) }))) : []
     const s4 = step4[c.id]
     let find: any = { status: 'n/a', label: '논문 사례 아님' }
-    if (s4?.found) find = { status: s4.found.verdict, label: FIND_LABEL[s4.found.verdict], via: s4.found.via, url: s4.found.url, pages: s4.found.pages }
+    const u = userIds[c.id]
+    if (u?.verdict === 'same') find = { status: 'same', label: FIND_LABEL.same, via: 'Simon이 브라우저로 받음 (ACM)', url: `https://doi.org/${u.doi}`, pages: u.pages }
+    else if (s4?.found) find = { status: s4.found.verdict, label: FIND_LABEL[s4.found.verdict], via: s4.found.via, url: s4.found.url, pages: s4.found.pages }
     else if (s4) find = { status: 'human', label: '사람 브라우저로 받아야 함 (ACM 전용)', url: c.source, tried: s4.tried.length }
-    const repDir = path.join(VERIFY, 'out', c.id)
+    const repDir = u?.verdict === 'same' ? path.join(VERIFY, 'out-user', c.id) : path.join(VERIFY, 'out', c.id)
     let quotes: any[] = [], captured = 0
     if (existsSync(path.join(repDir, 'report.json'))) {
       const r = j(path.join(repDir, 'report.json'))
@@ -134,7 +139,7 @@ for (const col of COLS) {
 
 // ── 사람이 직접 해야 하는 일 (2026-11-08 검증 결과에서 뽑음) ──────────
 type Link = { label: string; url: string }
-type Task = { id: string; group: string; pri: 1 | 2 | 3; title: string; how: string; links?: Link[]; cases?: string[]; options?: string[] }
+type Task = { id: string; group: string; pri: 1 | 2 | 3; title: string; how: string; links?: Link[]; cases?: string[]; options?: string[]; done?: string }
 const byId = Object.fromEntries(out.map((c) => [c.id, c]))
 const acm = (doi: string): Link => ({ label: 'ACM에서 PDF 열기', url: `https://dl.acm.org/doi/pdf/${doi}` })
 const wb = (u: string): Link => ({ label: 'Wayback에 저장', url: `https://web.archive.org/save/${u}` })
@@ -152,19 +157,28 @@ const TASKS: Task[] = [
   { id: 'p-010', group: 'pdf', pri: 1, title: 'Rig-a-Doodle 원문 PDF', how: 'TEI ’26 Work-in-Progress. ACM에만 있습니다.', links: [acm('10.1145/3731459.3779320')], cases: ['BT-A-010'] },
   { id: 'p-011', group: 'pdf', pri: 2, title: 'DataBites 원래 논문 (C&C ’24)', how: '지금은 후속 논문(TEI ’26)만 있습니다. NSF 저장소가 이 Mac에서 안 열렸으니 브라우저로 먼저 시도해 주세요.', links: [{ label: 'NSF 저장소', url: 'https://par.nsf.gov/servlets/purl/10526805' }, acm('10.1145/3635636.3664247')], cases: ['BT-A-011'] },
 
-  { id: 'f-019', group: 'find', pri: 1, title: 'Coca-Cola Hug Machine — 새 출처 찾기', how: '지금 출처(afaqs)는 봇 차단이고 보존본도 없습니다. 브랜드·에이전시 공식 자료나 수상 기록을 찾아 주세요.', links: [src('BT-A-019', '지금 출처')], cases: ['BT-A-019'] },
+  { id: 'f-019', group: 'find', pri: 1, title: 'Coca-Cola Hug Machine — 새 출처 찾기', how: '지금 출처(afaqs) 주소가 엉뚱한 기사로 넘어갑니다. 출처가 사라졌으니 브랜드·에이전시(Ogilvy Singapore) 공식 자료나 수상 기록을 찾아 주세요.', links: [src('BT-A-019', '지금 출처')], cases: ['BT-A-019'] },
   { id: 'f-018', group: 'find', pri: 2, title: 'Piano Stairs — 1차 출처 찾기', how: '지금 출처가 어린이 뉴스 사이트입니다. Volkswagen·DDB 공식 케이스 영상이나 수상 기록이 필요합니다.', links: [src('BT-A-018', '지금 출처')], cases: ['BT-A-018'] },
   { id: 'f-006', group: 'find', pri: 2, title: 'Sound Bananas — 무엇으로 감지하는지', how: '공식 기록에는 ‘전자 장치 내장’까지만 있습니다. 작가(ligeti zentrum) 페이지·영상에서 센서 종류를 찾아 주세요.', links: [{ label: 'Ars 작품 기록', url: ARS['BT-A-006'].url }], cases: ['BT-A-006'] },
   { id: 'f-012', group: 'find', pri: 2, title: 'Who Is Jumping, Jack? — 몸짓 감지 장치', how: '서보로 움직이는 건 확인됐지만, 팔 동작을 무엇으로 읽는지(카메라·센서)는 없습니다.', links: [src('BT-A-012', '지금 출처')], cases: ['BT-A-012'] },
   { id: 'f-digital', group: 'find', pri: 2, title: '디지털 장치가 들어 있는지 확인 (4건)', how: '센서·전자 부품이 있으면 탠저블, 순수 기계식이면 아날로그로 분류됩니다.', cases: ['BT-A-014', 'BT-A-029', 'BT-A-030', 'BT-E-014'] },
   { id: 'f-hold', group: 'find', pri: 3, title: '관객이 정확히 무엇을 하는지 (2건)', how: 'Netflix는 ‘진열대를 다룬다’, Power-Up Band는 구체 동작이 없습니다.', cases: ['BT-A-016', 'BT-E-007'] },
-  { id: 'f-020', group: 'find', pri: 3, title: 'Small World Machines — 넣을지 뺄지', how: '터치스크린 자판기라 브리프 기준으로는 제외 대상입니다.', cases: ['BT-A-020'] },
+  { id: 'f-020', group: 'find', pri: 2, title: 'Small World Machines — 넣을지 뺄지, 넣는다면 새 출처', how: '터치스크린 자판기라 브리프 기준으로는 제외 대상입니다. 그리고 지금 출처(The Drum)는 유료 회원 페이지로 넘어가 내용을 볼 수 없습니다.', cases: ['BT-A-020'] },
   { id: 'f-credit', group: 'find', pri: 3, title: 'Ars Electronica 사진 크레딧 (3건)', how: '사진 아카이브에서 작품 사진과 사진가 이름을 찾아 주세요 (CC BY-NC-ND, 크레딧 필수).', links: [{ label: 'Ars 사진 아카이브', url: 'https://photos.ars.electronica.art/' }], cases: ['BT-A-006', 'BT-A-007', 'BT-A-012'] },
 
-  ...['BT-A-018', 'BT-A-020', 'BT-A-021', 'BT-A-022', 'BT-A-030'].map((id): Task => ({ id: `s-${id}`, group: 'save', pri: 2, title: byId[id].title, how: '보존본이 없습니다. 버튼을 누르면 archive.org가 지금 페이지를 저장합니다.', links: [wb(byId[id].source), src(id)], cases: [id] })),
+  ...['BT-A-018', 'BT-A-021', 'BT-A-022', 'BT-A-030'].map((id): Task => ({ id: `s-${id}`, group: 'save', pri: 2, title: byId[id].title, how: '보존본이 없습니다. 버튼을 누르면 archive.org가 지금 페이지를 저장합니다.', links: [wb(byId[id].source), src(id)], cases: [id] })),
 
   ...['BT-A-025', 'BT-A-026', 'BT-A-028', 'BT-E-005', 'BT-E-008', 'BT-E-009', 'BT-E-012', 'BT-E-013', 'BT-E-014'].map((id): Task => ({ id: `o-${id}`, group: 'open', pri: 3, title: byId[id].title, how: '자동 접속만 막혔고 보존본은 있습니다. 브라우저로 열어 내용이 기록과 맞는지만 봐 주세요.', links: [src(id)], cases: [id] })),
 ]
+
+// 끝난 일 표시 (2026-11-08)
+const DONE: Record<string, string> = {
+  'd-wayback': 'Claude가 하기로 결정 (11-08)',
+  ...Object.fromEntries(Object.entries(userIds).filter(([, v]: any) => v.verdict === 'same').map(([id]: any) => [`p-${id.slice(-3)}`, '받은 PDF가 같은 논문으로 확인됨 · 그림 캡처·원문 분석 완료'])),
+  ...Object.fromEntries(Object.entries(saved).filter(([, v]: any) => v.ok).map(([id, v]: any) => [`s-${id}`, `Wayback에 저장됨 (${v.when})${v.note ? ' · ' + v.note : ''}`])),
+}
+for (const t of TASKS) if (DONE[t.id]) t.done = DONE[t.id]
+for (const c of out) if (saved[c.id]?.ok && c.access) c.access.wayback = saved[c.id].when.replace(/-/g, '')
 
 const payload = {
   generatedAt: new Date().toISOString(), commit: COMMIT, goal: LETTER_TOTAL, stages: STAGES,

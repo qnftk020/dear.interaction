@@ -67,7 +67,8 @@ async function tryStoredKey() {
 /* ── 데이터 도우미 ── */
 const caseById = (id) => DATA.cases.find((c) => c.id === id)
 const errorsOf = (c) => c.issues.filter((i) => i.level === 'error')
-const tasksOf = (c) => DATA.tasks.filter((t) => t.cases?.includes(c.id) && !done.has(t.id))
+const isDone = (t) => Boolean(t.done) || done.has(t.id)
+const tasksOf = (c) => DATA.tasks.filter((t) => t.cases?.includes(c.id) && !isDone(t))
 const todoCount = (c) => tasksOf(c).length + errorsOf(c).length
 const colLabel = (c) => DATA.collections.find((k) => k.key === c.collection)?.label ?? ''
 const stageIdx = (c) => DATA.stages.indexOf(c.stage)
@@ -83,16 +84,16 @@ function flag(c) {
 /* ── 화면: 내 할 일 ── */
 function renderTodo() {
   const all = DATA.tasks
-  const finished = all.filter((t) => done.has(t.id)).length
-  const visible = all.filter((t) => (!ui.onlyFirst || t.pri === 1) && (!ui.hideDone || !done.has(t.id)))
+  const finished = all.filter(isDone).length
+  const visible = all.filter((t) => (!ui.onlyFirst || t.pri === 1) && (!ui.hideDone || !isDone(t)))
   const taskHtml = (t) => {
-    const isDone = done.has(t.id)
+    const fin = isDone(t)
     const cases = (t.cases ?? []).map((id) => caseById(id)).filter(Boolean)
-    return `<article class="task${isDone ? ' done' : ''}">
-      <button type="button" class="tick" data-tick="${esc(t.id)}" aria-pressed="${isDone}" aria-label="${esc(t.title)} 완료 표시">✓</button>
+    return `<article class="task${fin ? ' done' : ''}">
+      <button type="button" class="tick" ${t.done ? 'disabled' : `data-tick="${esc(t.id)}"`} aria-pressed="${fin}" aria-label="${esc(t.title)} 완료 표시">✓</button>
       <div class="task-body">
         <p class="task-title">${t.pri === 1 ? '<span class="first">먼저</span>' : ''}${esc(t.title)}</p>
-        <p class="task-how">${esc(t.how)}</p>
+        ${t.done ? `<p class="task-result">✓ ${esc(t.done)}</p>` : `<p class="task-how">${esc(t.how)}</p>`}
         ${t.options ? `<p class="options">선택지 ${t.options.map((o) => `<span>${esc(o)}</span>`).join('')}</p>` : ''}
         ${(t.links?.length || cases.length) ? `<div class="task-row">${(t.links ?? []).map((l, i) => ext(l.url, l.label, i === 0 ? 'primary' : 'line')).join('')}${cases.map((c) => `<button type="button" class="case-link" data-open="${esc(c.id)}">${esc(c.title)}</button>`).join('')}</div>` : ''}
       </div></article>`
@@ -232,7 +233,7 @@ function setTab(tab) {
   window.scrollTo(0, 0)
 }
 function refreshCounts() {
-  $('#tab-todo-n').textContent = DATA.tasks.filter((t) => !done.has(t.id)).length
+  $('#tab-todo-n').textContent = DATA.tasks.filter((t) => !isDone(t)).length
   $('#tab-cases-n').textContent = DATA.cases.length
 }
 

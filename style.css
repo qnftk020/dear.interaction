@@ -92,7 +92,9 @@ button, input, select { font: inherit; color: inherit; }
 .group-head .n { color: var(--muted); font-weight: 600; }
 .group-head p { flex-basis: 100%; color: var(--muted); font-size: 14px; }
 .task { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 14px; background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 16px 18px; box-shadow: var(--shadow); }
-.task.done { opacity: 0.55; }
+.task.done { opacity: 0.6; }
+.task-result { color: var(--good); font-weight: 600; font-size: 14.5px; }
+.tick:disabled { cursor: default; }
 .task.done .task-title { text-decoration: line-through; }
 .tick { width: 26px; height: 26px; border-radius: 8px; border: 2px solid var(--line); background: var(--surface); cursor: pointer; display: grid; place-items: center; margin-top: 1px; padding: 0; color: transparent; font-weight: 800; font-size: 15px; }
 .tick[aria-pressed='true'] { background: var(--good); border-color: var(--good); color: #fff; }
