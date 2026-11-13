@@ -56,7 +56,11 @@ evidence:
     url: https://news.seoul.go.kr/economy/archives/574649
     status: 확인
     link_opened: true
-media: []
+media:
+  - url: https://www.youtube.com/watch?v=GUL07r7vrfY
+    credit: 엔터테크 서울 2026 DDP 랜덤플레이댄스 (체험존 영상은 아님) · 채널 확인 전
+    permission: 권한 확인 필요
+    permission_basis: ""
 ad_insight: 무대를 보여 주지 않고 데뷔 과정을 시켜 본다. 팬이 가장 궁금해하는 "무대 뒤"를 내 이름으로 한 번 지나가게 한다. (에디터 해석)
 what_if:
   context: 브랜드 체험 공간

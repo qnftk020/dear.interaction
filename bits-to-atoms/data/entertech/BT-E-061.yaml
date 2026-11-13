@@ -1,0 +1,134 @@
+id: BT-E-061
+letter_no: null
+title: Mundo Pixar Experience London
+creator: Pixar Animation Studios 외
+year: "2026"
+location: 런던 Wembley Park
+context: IP 워크스루 전시
+status: 실제 구현
+summary_ko: 픽사 영화 14편의 세계를 실제 크기로 걸어 다니며, 방마다 숨은 빨간 별 노란 공을 찾는 전시.
+physical_object: 세트, 숨은 노란 공
+input: 14개 픽사 세계를 걸어 다니고, 앤디의 방에서 장난감 크기가 되어 보고, 숨은 공을 찾는다
+output: 방마다 음악과 향이 달라진다
+mechanism: 배경 음악, 맞춤 향기 (디지털 인터랙션 언급 없음)
+tags:
+  input:
+    - MOVE
+    - GAZE
+  object:
+    - BODY
+  sensing:
+    - UNKNOWN
+  output:
+    - SOUND
+    - SCENT
+  context:
+    - EXHIBITION
+    - FANDOM
+  ai:
+    - NONE
+  mode:
+    - MULTI-USER
+  era:
+    - 2020s
+ai_evidence: ""
+source_primary: https://www.broadwayworld.com/article/Photos-First-Look-at-MUNDO-PIXAR-EXPERIENCE-at-Londons-Wembley-Park-20260213
+source_checked_at: 2026-11-13
+archive_snapshot: ""
+evidence:
+  identity:
+    note: BroadwayWorld(2026-02-13). 2026년 2월 개막, 6월까지, 3,500㎡ 이상
+    url: https://www.broadwayworld.com/article/Photos-First-Look-at-MUNDO-PIXAR-EXPERIENCE-at-Londons-Wembley-Park-20260213
+    status: 확인
+    link_opened: true
+  interaction:
+    note: 14개 세계 탐색, 장난감 크기 체험, 숨은 공 찾기
+    url: https://www.broadwayworld.com/article/Photos-First-Look-at-MUNDO-PIXAR-EXPERIENCE-at-Londons-Wembley-Park-20260213
+    status: 확인
+    link_opened: true
+  technology:
+    note: 음악과 향기
+    url: https://www.broadwayworld.com/article/Photos-First-Look-at-MUNDO-PIXAR-EXPERIENCE-at-Londons-Wembley-Park-20260213
+    status: 부분 확인
+    link_opened: true
+  context:
+    note: 개막 첫 주 매진 보도
+    url: https://www.broadwayworld.com/article/Photos-First-Look-at-MUNDO-PIXAR-EXPERIENCE-at-Londons-Wembley-Park-20260213
+    status: 확인
+    link_opened: true
+media:
+  - url: https://www.youtube.com/watch?v=7ALisjXERDA
+    credit: Mundo Pixar Experience Opens at London’s Wembley Park · 채널 확인 전
+    permission: 권한 확인 필요
+    permission_basis: ""
+  - url: https://www.youtube.com/watch?v=b5VJ21JxQx8
+    credit: Mundo Pixar Experience London 2026 Complete Walkthrough · 채널 확인 전
+    permission: 권한 확인 필요
+    permission_basis: ""
+  - url: https://www.youtube.com/watch?v=252BCwqV3zs
+    credit: Pixar Brings Movie Magic To Life In London · 채널 확인 전
+    permission: 권한 확인 필요
+    permission_basis: ""
+ad_insight: 공 하나를 숨겼을 뿐인데 관람이 찾기 놀이가 됐다. 찾을 것이 있으면 구석까지 본다. (에디터 해석)
+what_if:
+  context: 전시
+  audience: 가족 관람객
+  action: 전시실마다 숨은 작가 서명을 찾는다
+  response: 다 찾으면 출구에서 서명이 모인 엽서 한 장을 받는다
+  message: 숨긴 것 하나가 관람 시간을 늘린다 (가상 제안)
+carousel:
+  cover: |-
+    픽사 보러 갔다가
+    공 찾느라 바쁨
+  work: |-
+    픽사 영화 14편 속을 걷고
+    방마다 숨은 공을 찾는 전시
+  why: |-
+    그냥 둘러보기 대신 공 찾기
+    구석까지 눈길이 갈 수 있다
+  what_if: |-
+    상상: 가족이 숨은 서명 찾기
+    다 찾으면 출구에서 서명 엽서
+  ps: |-
+    분명 영화 속에 들어왔는데
+    내 눈은 공 수색 중.
+caption:
+  text: |-
+    LOVE LETTER (번호 미배정)
+    Mundo Pixar Experience London
+    Pixar Animation Studios 외 · 2026 · 런던 Wembley Park
+
+    픽사 영화 14편의 세계를 실제 크기로 걸어 다니는 전시. 앤디의 방에서는 장난감 크기가 되어 보고, 방마다 숨은 빨간 별이 그려진 노란 공을 찾습니다. 공간마다 음악과 향도 달라집니다.
+
+    제가 눈여겨본 건 숨은 공입니다. 찾을 것이 하나 생기면, 지나칠 구석도 다시 살펴볼 수 있겠죠. 관람에 작은 목표를 더한다는 해석입니다.
+
+    이 원리를 전시에 옮겨본다면? 가족 관람객이 전시실마다 숨은 작가 서명을 찾고, 모두 찾으면 출구에서 서명이 모인 엽서 한 장을 받는 겁니다. 숨은 서명을 찾으며 작품 주변까지 더 살펴보게 될까요? 실제 진행 사례가 아닌 제 상상이며, 관람 시간이 늘어날지는 확인이 필요합니다.
+
+    공 하나가 제 눈길에 할 일을 주네요.
+
+    Love Letter (번호 미배정) · Dear, Interaction.
+  hashtags:
+    - "#DearInteraction"
+    - "#MundoPixar"
+    - "#전시디자인"
+    - "#관람경험"
+keywords:
+  - pixar
+  - walkthrough
+  - hidden-object
+  - scent
+notes:
+  fact: []
+  interpretation: []
+  speculation: []
+scores:
+  tangible: null
+  originality: null
+  reliability: null
+  applicability: null
+  postability: null
+checklist:
+  humor_linked: false
+  info_not_buried: false
+stage: 원고 작성
+scope: EXTENDED

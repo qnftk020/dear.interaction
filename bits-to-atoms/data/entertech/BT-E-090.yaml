@@ -1,0 +1,89 @@
+letter_no: null
+ai_evidence: ""
+source_checked_at: 2026-11-13
+archive_snapshot: ""
+media: []
+carousel:
+  cover: ""
+  work: ""
+  why: ""
+  what_if: ""
+  ps: ""
+caption:
+  text: ""
+  hashtags: []
+scores:
+  tangible: null
+  originality: null
+  reliability: null
+  applicability: null
+  postability: null
+checklist:
+  humor_linked: false
+  info_not_buried: false
+id: BT-E-090
+title: Floating Sky
+creator: Prismax
+year: "2026"
+location: Tomorrowland
+context: 키네틱 스테이지
+status: 미확인
+summary_ko: 무대를 넓히는 대신 관객 머리 위 공간을 디지털 캔버스로 쓰는 스테이지 개념.
+physical_object: 미확인
+input: 미확인
+output: 미확인
+mechanism: 미확인
+tags:
+  input:
+    - UNKNOWN
+  object:
+    - UNKNOWN
+  sensing:
+    - UNKNOWN
+  output:
+    - UNKNOWN
+  context:
+    - UNKNOWN
+  ai:
+    - UNKNOWN
+  mode:
+    - UNKNOWN
+  era:
+    - 2020s
+source_primary: https://www.tpimagazine.com/?p=85946
+evidence:
+  identity:
+    note: 검색 요약으로만 확인. 2025년 첫 시험
+    url: https://www.tpimagazine.com/?p=85946
+    status: 미확인
+    link_opened: false
+  interaction:
+    note: 관객이 무엇을 하는지 확인 전
+    url: ""
+    status: 미확인
+    link_opened: false
+  technology:
+    note: ""
+    url: ""
+    status: 미확인
+    link_opened: false
+  context:
+    note: ""
+    url: ""
+    status: 미확인
+    link_opened: false
+ad_insight: ""
+what_if:
+  context: null
+  audience: ""
+  action: ""
+  response: ""
+  message: ""
+keywords: []
+notes:
+  fact:
+    - 검색 요약으로만 확인. 2025년 첫 시험
+  interpretation: []
+  speculation: []
+stage: 발견
+scope: EXTENDED

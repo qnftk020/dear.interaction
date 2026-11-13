@@ -56,7 +56,11 @@ evidence:
     url: https://www.microsoft.com/en-us/research/publication/storycaster-an-ai-system-for-immersive-room-based-storytelling/
     status: 확인
     link_opened: true
-media: []
+media:
+  - url: https://www.youtube.com/watch?v=ckCtta27LJQ
+    credit: Storycaster (CHI 2026) 발표 영상 · 채널 확인 전
+    permission: 권한 확인 필요
+    permission_basis: ""
 ad_insight: 가상 세계로 데려가지 않고 내 방을 바꿨다. 낯선 무대가 아니라 아는 공간이 변하니, 이야기가 내 것이 된다. (에디터 해석)
 what_if:
   context: 박물관 아카이브

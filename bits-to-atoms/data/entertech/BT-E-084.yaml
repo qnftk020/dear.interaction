@@ -1,0 +1,89 @@
+letter_no: null
+ai_evidence: ""
+source_checked_at: 2026-11-13
+archive_snapshot: ""
+media: []
+carousel:
+  cover: ""
+  work: ""
+  why: ""
+  what_if: ""
+  ps: ""
+caption:
+  text: ""
+  hashtags: []
+scores:
+  tangible: null
+  originality: null
+  reliability: null
+  applicability: null
+  postability: null
+checklist:
+  humor_linked: false
+  info_not_buried: false
+id: BT-E-084
+title: Metallica 'Life Burns Faster' — Sphere 레지던시
+creator: Metallica
+year: "2026"
+location: 라스베이거스 Sphere
+context: Sphere 레지던시
+status: 미확인
+summary_ko: 같은 주에 곡을 반복하지 않는 메탈리카의 첫 Sphere 공연.
+physical_object: 미확인
+input: 미확인
+output: 미확인
+mechanism: 미확인
+tags:
+  input:
+    - UNKNOWN
+  object:
+    - UNKNOWN
+  sensing:
+    - UNKNOWN
+  output:
+    - UNKNOWN
+  context:
+    - UNKNOWN
+  ai:
+    - UNKNOWN
+  mode:
+    - UNKNOWN
+  era:
+    - 2020s
+source_primary: https://www.broadwayworld.com/article/Metallica-to-Play-Life-Burns-Faster-Residency-at-Sphere-20260225
+evidence:
+  identity:
+    note: 2026-10 8회. 관객 참여 요소·연출 세부 미기재
+    url: https://www.broadwayworld.com/article/Metallica-to-Play-Life-Burns-Faster-Residency-at-Sphere-20260225
+    status: 부분 확인
+    link_opened: true
+  interaction:
+    note: 관객이 무엇을 하는지 확인 전
+    url: ""
+    status: 미확인
+    link_opened: false
+  technology:
+    note: ""
+    url: ""
+    status: 미확인
+    link_opened: false
+  context:
+    note: ""
+    url: ""
+    status: 미확인
+    link_opened: false
+ad_insight: ""
+what_if:
+  context: null
+  audience: ""
+  action: ""
+  response: ""
+  message: ""
+keywords: []
+notes:
+  fact:
+    - 2026-10 8회. 관객 참여 요소·연출 세부 미기재
+  interpretation: []
+  speculation: []
+stage: 발견
+scope: EXTENDED

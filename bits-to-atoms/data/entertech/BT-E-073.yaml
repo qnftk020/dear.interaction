@@ -1,0 +1,89 @@
+letter_no: null
+ai_evidence: ""
+source_checked_at: 2026-11-13
+archive_snapshot: ""
+media: []
+carousel:
+  cover: ""
+  work: ""
+  why: ""
+  what_if: ""
+  ps: ""
+caption:
+  text: ""
+  hashtags: []
+scores:
+  tangible: null
+  originality: null
+  reliability: null
+  applicability: null
+  postability: null
+checklist:
+  humor_linked: false
+  info_not_buried: false
+id: BT-E-073
+title: KMF 2026 XR 스마트글래스 체험존
+creator: 과학기술정보통신부
+year: "2026"
+location: 서울 코엑스
+context: 산업 전시
+status: 미확인
+summary_ko: 140개사 270부스 규모의 가상융합산업대전과 XR 스마트글래스 체험존.
+physical_object: 미확인
+input: 미확인
+output: 미확인
+mechanism: 미확인
+tags:
+  input:
+    - UNKNOWN
+  object:
+    - UNKNOWN
+  sensing:
+    - UNKNOWN
+  output:
+    - UNKNOWN
+  context:
+    - UNKNOWN
+  ai:
+    - UNKNOWN
+  mode:
+    - UNKNOWN
+  era:
+    - 2020s
+source_primary: https://www.dt.co.kr/article/12066955
+evidence:
+  identity:
+    note: 검색 요약으로만 확인
+    url: https://www.dt.co.kr/article/12066955
+    status: 미확인
+    link_opened: false
+  interaction:
+    note: 관객이 무엇을 하는지 확인 전
+    url: ""
+    status: 미확인
+    link_opened: false
+  technology:
+    note: ""
+    url: ""
+    status: 미확인
+    link_opened: false
+  context:
+    note: ""
+    url: ""
+    status: 미확인
+    link_opened: false
+ad_insight: ""
+what_if:
+  context: null
+  audience: ""
+  action: ""
+  response: ""
+  message: ""
+keywords: []
+notes:
+  fact:
+    - 검색 요약으로만 확인
+  interpretation: []
+  speculation: []
+stage: 발견
+scope: EXTENDED

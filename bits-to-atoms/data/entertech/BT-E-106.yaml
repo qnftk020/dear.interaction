@@ -1,0 +1,89 @@
+letter_no: null
+ai_evidence: ""
+source_checked_at: 2026-11-13
+archive_snapshot: ""
+media: []
+carousel:
+  cover: ""
+  work: ""
+  why: ""
+  what_if: ""
+  ps: ""
+caption:
+  text: ""
+  hashtags: []
+scores:
+  tangible: null
+  originality: null
+  reliability: null
+  applicability: null
+  postability: null
+checklist:
+  humor_linked: false
+  info_not_buried: false
+id: BT-E-106
+title: Hisense 디지털 미러 — 월드컵 2026
+creator: Hisense
+year: "2026"
+location: FIFA World Cup 2026 팬 공간
+context: 스폰서 체험
+status: 미확인
+summary_ko: 화면 앞에 서면 유니폼을 가상으로 입어 볼 수 있는 디지털 미러.
+physical_object: 미확인
+input: 미확인
+output: 미확인
+mechanism: 미확인
+tags:
+  input:
+    - UNKNOWN
+  object:
+    - UNKNOWN
+  sensing:
+    - UNKNOWN
+  output:
+    - UNKNOWN
+  context:
+    - UNKNOWN
+  ai:
+    - UNKNOWN
+  mode:
+    - UNKNOWN
+  era:
+    - 2020s
+source_primary: https://www.sportbusiness.com/2026/07/how-hisense-is-bringing-fan-experience-beyond-the-stadium-at-the-fifa-world-cup-2026/
+evidence:
+  identity:
+    note: 페이지 접근 차단(403) — 검색 요약으로만 확인
+    url: https://www.sportbusiness.com/2026/07/how-hisense-is-bringing-fan-experience-beyond-the-stadium-at-the-fifa-world-cup-2026/
+    status: 미확인
+    link_opened: false
+  interaction:
+    note: 관객이 무엇을 하는지 확인 전
+    url: ""
+    status: 미확인
+    link_opened: false
+  technology:
+    note: ""
+    url: ""
+    status: 미확인
+    link_opened: false
+  context:
+    note: ""
+    url: ""
+    status: 미확인
+    link_opened: false
+ad_insight: ""
+what_if:
+  context: null
+  audience: ""
+  action: ""
+  response: ""
+  message: ""
+keywords: []
+notes:
+  fact:
+    - 페이지 접근 차단(403) — 검색 요약으로만 확인
+  interpretation: []
+  speculation: []
+stage: 발견
+scope: EXTENDED

@@ -1,0 +1,122 @@
+id: BT-E-047
+letter_no: null
+title: Starry Eyes
+creator: Kyriakos Chatziparaskevas
+year: "2026"
+location: Coachella 2026, 캘리포니아
+context: 음악 페스티벌 설치 작품
+status: 실제 구현
+summary_ko: 선인장처럼 솟은 12m 탑 아래로 들어가 잔디에 누우면, 꼭대기의 둥근 창이 하늘을 액자처럼 잘라 보여 주는 작품.
+physical_object: 천으로 감싼 탑 구조물
+input: 탑 밑으로 들어가 잔디에 눕는다
+output: 꼭대기의 둥근 창(오큘러스)이 하늘을 잘라 보여 주고, 밤에는 탑이 등불처럼 빛난다
+mechanism: 바깥 뼈대에 천을 엮은 구조 (전자 장치 언급 없음)
+tags:
+  input:
+    - MOVE
+    - GAZE
+  object:
+    - FURNITURE
+  sensing:
+    - UNKNOWN
+  output:
+    - LIGHT
+  context:
+    - ART
+    - CONCERT
+  ai:
+    - NONE
+  mode:
+    - MULTI-USER
+  era:
+    - 2020s
+ai_evidence: ""
+source_primary: https://www.archdaily.com/1040623/coachella-2026-immersive-installations-explore-monumentality-and-light-transparency-in-the-california-desert
+source_checked_at: 2026-11-13
+archive_snapshot: ""
+evidence:
+  identity:
+    note: ArchDaily. Coachella 2026 신작 설치, 높이 약 40피트
+    url: https://www.archdaily.com/1040623/coachella-2026-immersive-installations-explore-monumentality-and-light-transparency-in-the-california-desert
+    status: 확인
+    link_opened: true
+  interaction:
+    note: 밑으로 들어가 잔디에 눕기
+    url: https://www.archdaily.com/1040623/coachella-2026-immersive-installations-explore-monumentality-and-light-transparency-in-the-california-desert
+    status: 확인
+    link_opened: true
+  technology:
+    note: 천 레이싱 구조
+    url: https://www.archdaily.com/1040623/coachella-2026-immersive-installations-explore-monumentality-and-light-transparency-in-the-california-desert
+    status: 확인
+    link_opened: true
+  context:
+    note: 낮과 밤의 모습이 다름
+    url: https://www.archdaily.com/1040623/coachella-2026-immersive-installations-explore-monumentality-and-light-transparency-in-the-california-desert
+    status: 확인
+    link_opened: true
+media: []
+ad_insight: 눕는 자세 하나로 관객의 시선을 무대에서 하늘로 돌렸다. 자세를 바꾸면 보는 것이 바뀐다. (에디터 해석)
+what_if:
+  context: 전시
+  audience: 미술관 로비 방문객
+  action: 바닥 쿠션에 눕는다
+  response: 천장 창 너머 구름에 맞춰 조용한 소리가 흐른다
+  message: 눕게 하면 천장이 작품이 된다 (가상 제안)
+carousel:
+  cover: |-
+    누워서 감상합니다
+    태도는 진지합니다
+  work: |-
+    Starry Eyes 2026
+    코첼라 하늘을 담는 탑
+  why: |-
+    자세를 바꿔 시선을 하늘로
+    익숙한 하늘도 새로 보일지도
+  what_if: |-
+    상상: 로비 쿠션에 누우면
+    천장 창 구름 따라 소리가
+  ps: |-
+    감상 자세가 불량하다고요?
+    저는 하늘을 보는 중입니다
+caption:
+  text: |-
+    LOVE LETTER (번호 미배정)
+    Starry Eyes — Kyriakos Chatziparaskevas
+
+    감상하려고 누웠습니다. 꽤 진지하게요.
+
+    2026년 캘리포니아 코첼라에 설치된 Starry Eyes는 선인장처럼 솟은 12m 탑입니다. 탑 아래 잔디에 누우면 꼭대기의 둥근 창이 하늘을 액자처럼 잘라 보여 줍니다. 바깥 뼈대에 천을 엮은 구조로, 밤에는 등불처럼 빛납니다.
+
+    제가 주목한 건 눕는 자세입니다. 자세를 바꾸며 시선을 무대에서 하늘로 옮긴다는 것. 늘 있던 하늘도 새롭게 바라볼 수 있지 않을까요? 작가의 의도가 아닌, 저의 해석입니다.
+
+    이 원리를 전시에 가져온다면? 미술관 로비 방문객이 바닥 쿠션에 누우면, 천장 창 너머 구름에 맞춰 조용한 소리가 흐르는 공간을 상상합니다. 눕는 행동이 천장을 감상하는 계기가 될 수 있을까요? 실제 프로젝트가 아닌 가상 제안입니다.
+
+    오늘의 감상 태도: 일단 누워 보겠습니다.
+
+    Love Letter (번호 미배정) · Dear, Interaction.
+  hashtags:
+    - "#StarryEyes"
+    - "#Coachella2026"
+    - "#설치미술"
+    - "#인터랙션디자인"
+keywords:
+  - coachella
+  - installation
+  - sky
+  - posture
+notes:
+  fact: []
+  interpretation: []
+  speculation: []
+scores:
+  tangible: null
+  originality: null
+  reliability: null
+  applicability: null
+  postability: null
+checklist:
+  humor_linked: false
+  info_not_buried: false
+stage: 원고 작성
+scope: EXTENDED

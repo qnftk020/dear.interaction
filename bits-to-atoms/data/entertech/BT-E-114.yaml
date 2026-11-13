@@ -1,0 +1,89 @@
+letter_no: null
+ai_evidence: ""
+source_checked_at: 2026-11-13
+archive_snapshot: ""
+media: []
+carousel:
+  cover: ""
+  work: ""
+  why: ""
+  what_if: ""
+  ps: ""
+caption:
+  text: ""
+  hashtags: []
+scores:
+  tangible: null
+  originality: null
+  reliability: null
+  applicability: null
+  postability: null
+checklist:
+  humor_linked: false
+  info_not_buried: false
+id: BT-E-114
+title: A Design Space for Live Music Agents
+creator: Yewon Kim 외 (CHI 2026)
+year: "2026"
+location: CHI 2026
+context: 학술 논문
+status: 미확인
+summary_ko: 실시간 연주를 돕는 음악 에이전트 시스템 184개를 분석해 설계 공간을 정리한 논문.
+physical_object: 미확인
+input: 미확인
+output: 미확인
+mechanism: 미확인
+tags:
+  input:
+    - UNKNOWN
+  object:
+    - UNKNOWN
+  sensing:
+    - UNKNOWN
+  output:
+    - UNKNOWN
+  context:
+    - UNKNOWN
+  ai:
+    - UNKNOWN
+  mode:
+    - UNKNOWN
+  era:
+    - 2020s
+source_primary: https://arxiv.org/abs/2602.05064
+evidence:
+  identity:
+    note: arXiv 2602.05064, CHI 2026 풀 페이퍼. 작품이 아닌 문헌 분석
+    url: https://arxiv.org/abs/2602.05064
+    status: 부분 확인
+    link_opened: true
+  interaction:
+    note: 관객이 무엇을 하는지 확인 전
+    url: ""
+    status: 미확인
+    link_opened: false
+  technology:
+    note: ""
+    url: ""
+    status: 미확인
+    link_opened: false
+  context:
+    note: ""
+    url: ""
+    status: 미확인
+    link_opened: false
+ad_insight: ""
+what_if:
+  context: null
+  audience: ""
+  action: ""
+  response: ""
+  message: ""
+keywords: []
+notes:
+  fact:
+    - arXiv 2602.05064, CHI 2026 풀 페이퍼. 작품이 아닌 문헌 분석
+  interpretation: []
+  speculation: []
+stage: 발견
+scope: EXTENDED

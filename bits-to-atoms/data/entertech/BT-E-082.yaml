@@ -1,0 +1,89 @@
+letter_no: null
+ai_evidence: ""
+source_checked_at: 2026-11-13
+archive_snapshot: ""
+media: []
+carousel:
+  cover: ""
+  work: ""
+  why: ""
+  what_if: ""
+  ps: ""
+caption:
+  text: ""
+  hashtags: []
+scores:
+  tangible: null
+  originality: null
+  reliability: null
+  applicability: null
+  postability: null
+checklist:
+  humor_linked: false
+  info_not_buried: false
+id: BT-E-082
+title: aespa 'LEMONADE' LA·뉴욕 팝업
+creator: SM (aespa)
+year: "2026"
+location: Complex LA, 뉴욕 space kei
+context: 앨범 팝업
+status: 미확인
+summary_ko: 새 앨범 발매 주간에 LA와 뉴욕에서 연 팬 체험 팝업.
+physical_object: 미확인
+input: 미확인
+output: 미확인
+mechanism: 미확인
+tags:
+  input:
+    - UNKNOWN
+  object:
+    - UNKNOWN
+  sensing:
+    - UNKNOWN
+  output:
+    - UNKNOWN
+  context:
+    - UNKNOWN
+  ai:
+    - UNKNOWN
+  mode:
+    - UNKNOWN
+  era:
+    - 2020s
+source_primary: https://www.broadwayworld.com/article/Aespa-Sets-Pop-Up-Experiences-in-Los-Angeles-and-New-York-for-New-Album-20260526
+evidence:
+  identity:
+    note: 2026-05-29~31. '이머시브 팬 체험'의 내용 미기재
+    url: https://www.broadwayworld.com/article/Aespa-Sets-Pop-Up-Experiences-in-Los-Angeles-and-New-York-for-New-Album-20260526
+    status: 부분 확인
+    link_opened: true
+  interaction:
+    note: 관객이 무엇을 하는지 확인 전
+    url: ""
+    status: 미확인
+    link_opened: false
+  technology:
+    note: ""
+    url: ""
+    status: 미확인
+    link_opened: false
+  context:
+    note: ""
+    url: ""
+    status: 미확인
+    link_opened: false
+ad_insight: ""
+what_if:
+  context: null
+  audience: ""
+  action: ""
+  response: ""
+  message: ""
+keywords: []
+notes:
+  fact:
+    - 2026-05-29~31. '이머시브 팬 체험'의 내용 미기재
+  interpretation: []
+  speculation: []
+stage: 발견
+scope: EXTENDED

@@ -1,0 +1,89 @@
+letter_no: null
+ai_evidence: ""
+source_checked_at: 2026-11-13
+archive_snapshot: ""
+media: []
+carousel:
+  cover: ""
+  work: ""
+  why: ""
+  what_if: ""
+  ps: ""
+caption:
+  text: ""
+  hashtags: []
+scores:
+  tangible: null
+  originality: null
+  reliability: null
+  applicability: null
+  postability: null
+checklist:
+  humor_linked: false
+  info_not_buried: false
+id: BT-E-113
+title: LEVEL99 Disney Springs
+creator: LEVEL99
+year: "2026"
+location: Walt Disney World Disney Springs
+context: 소셜 챌린지 룸
+status: 미확인
+summary_ko: 2~6명이 몸과 머리를 쓰는 챌린지 룸 60여 개를 도는 소셜 게임 공간.
+physical_object: 미확인
+input: 미확인
+output: 미확인
+mechanism: 미확인
+tags:
+  input:
+    - UNKNOWN
+  object:
+    - UNKNOWN
+  sensing:
+    - UNKNOWN
+  output:
+    - UNKNOWN
+  context:
+    - UNKNOWN
+  ai:
+    - UNKNOWN
+  mode:
+    - UNKNOWN
+  era:
+    - 2020s
+source_primary: https://www.laughingplace.com/disney-parks/level99-opening-2026-at-disney-springs
+evidence:
+  identity:
+    note: 2026년 개장 예고(2025-12 자료). 실제 개장 확인 필요
+    url: https://www.laughingplace.com/disney-parks/level99-opening-2026-at-disney-springs
+    status: 부분 확인
+    link_opened: true
+  interaction:
+    note: 관객이 무엇을 하는지 확인 전
+    url: ""
+    status: 미확인
+    link_opened: false
+  technology:
+    note: ""
+    url: ""
+    status: 미확인
+    link_opened: false
+  context:
+    note: ""
+    url: ""
+    status: 미확인
+    link_opened: false
+ad_insight: ""
+what_if:
+  context: null
+  audience: ""
+  action: ""
+  response: ""
+  message: ""
+keywords: []
+notes:
+  fact:
+    - 2026년 개장 예고(2025-12 자료). 실제 개장 확인 필요
+  interpretation: []
+  speculation: []
+stage: 발견
+scope: EXTENDED

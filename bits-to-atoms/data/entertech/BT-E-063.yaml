@@ -1,0 +1,121 @@
+id: BT-E-063
+letter_no: null
+title: "Dog Walk: Narrating Human-AI Alignment through Companion Robots"
+creator: Robert Twomey (UC San Diego), Jesse Fleming (The Awareness Lab)
+year: "2026"
+location: SIGGRAPH 2026 Spatial Storytelling
+context: 학술 전시 / 로봇 개 공동 양육
+status: 연구 프로토타입
+summary_ko: 언어 모델이 들어 있는 로봇 개 두 마리를 관객이 함께 "키우며", 매일의 경험으로 로봇이 달라지는 것을 따라가는 작품.
+physical_object: 로봇 개 2마리
+input: 로봇 개 두 마리를 함께 돌본다
+output: 로봇에 탑재된 언어 모델이 일상의 경험에 따라 달라진다
+mechanism: 로봇 개에 탑재된 언어 모델
+tags:
+  input:
+    - MOVE
+    - VOICE
+  object:
+    - TOY
+  sensing:
+    - UNKNOWN
+  output:
+    - MOTION
+    - AI RESPONSE
+  context:
+    - RESEARCH
+    - EXHIBITION
+  ai:
+    - AI-ADAPTIVE
+  mode:
+    - COLLABORATIVE
+  era:
+    - 2020s
+ai_evidence: https://s2026.siggraph.org/siggraph-2026-experience-hall-invites-attendees-to-step-inside-the-future-of-interaction-and-storytelling/
+source_primary: https://s2026.siggraph.org/siggraph-2026-experience-hall-invites-attendees-to-step-inside-the-future-of-interaction-and-storytelling/
+source_checked_at: 2026-11-13
+archive_snapshot: ""
+evidence:
+  identity:
+    note: SIGGRAPH 2026 공식 보도자료(2026-07-10)
+    url: https://s2026.siggraph.org/siggraph-2026-experience-hall-invites-attendees-to-step-inside-the-future-of-interaction-and-storytelling/
+    status: 확인
+    link_opened: true
+  interaction:
+    note: "'co-parent a pair of robot dogs' — 온보드 언어 모델이 일상을 통해 진화"
+    url: https://s2026.siggraph.org/siggraph-2026-experience-hall-invites-attendees-to-step-inside-the-future-of-interaction-and-storytelling/
+    status: 확인
+    link_opened: true
+  technology:
+    note: 온보드 언어 모델
+    url: https://s2026.siggraph.org/siggraph-2026-experience-hall-invites-attendees-to-step-inside-the-future-of-interaction-and-storytelling/
+    status: 부분 확인
+    link_opened: true
+  context:
+    note: 친밀감·체화·인공 반려를 탐구
+    url: https://s2026.siggraph.org/siggraph-2026-experience-hall-invites-attendees-to-step-inside-the-future-of-interaction-and-storytelling/
+    status: 확인
+    link_opened: true
+media: []
+ad_insight: 로봇을 "쓰게" 하지 않고 "키우게" 했다. 책임이 생기면 기계가 물건이 아니라 관계가 된다. (에디터 해석)
+what_if:
+  context: 전시
+  audience: 전시 기간 내내 오는 관람객들
+  action: 로봇에게 오늘 한마디씩 말을 가르친다
+  response: 폐막 날 로봇이 그동안 배운 말로 관람객에게 인사한다
+  message: 전시가 끝날 때 완성되는 작품 (가상 제안)
+carousel:
+  cover: |-
+    로봇인 줄 알았는데
+    공동 양육이었다
+  work: |-
+    〈Dog Walk〉 로봇개 둘
+    관객이 함께 키우는 연구작
+  why: |-
+    사용 대신 함께 돌보게 한다
+    기계와 관계를 느낄 수도
+  what_if: |-
+    상상: 매일 와 말 가르쳐
+    폐막 인사로 완성되는 전시
+  ps: |-
+    사용법만 읽으려 했는데
+    양육 분담까지 하게 생겼다
+caption:
+  text: |-
+    로봇 개 두 마리, 관객은 공동 양육자.
+
+    〈Dog Walk: Narrating Human-AI Alignment through Companion Robots〉는 Robert Twomey(UC San Diego)와 Jesse Fleming(The Awareness Lab)의 연구 프로토타입입니다. 2026년 SIGGRAPH Spatial Storytelling에서 선보인 이 작품에서는 관객이 로봇 개 둘을 함께 돌보고, 로봇에 탑재된 언어 모델은 일상의 경험에 따라 달라집니다.
+
+    작품은 친밀감과 몸을 통한 경험, 인공 반려를 탐구합니다. 제가 주목한 건 ‘사용’에서 ‘돌봄’으로 바뀐 관객의 역할이에요. 함께 돌보는 일이 쌓이면 기계를 관계의 상대로 느낄 수도 있겠죠. 에디터의 해석입니다.
+
+    전시에 적용해 본다면? 전시 기간에 거듭 찾아오는 관람객이 로봇에게 오늘의 한마디를 가르치고, 폐막 날 로봇이 그동안 배운 말로 인사하는 겁니다. 관객의 말이 쌓여 마지막 날 완성되는 작품. 실제 프로젝트가 아닌 가상 제안입니다.
+
+    사용 설명서 옆에 양육 분담표도 놓아야겠어요.
+
+    Love Letter (번호 미배정) · Dear, Interaction.
+  hashtags:
+    - "#DearInteraction"
+    - "#인터랙션디자인"
+    - "#로봇개"
+    - "#SIGGRAPH2026"
+    - "#DogWalk"
+keywords:
+  - robot-dog
+  - llm
+  - siggraph2026
+  - companion
+notes:
+  fact: []
+  interpretation: []
+  speculation: []
+scores:
+  tangible: null
+  originality: null
+  reliability: null
+  applicability: null
+  postability: null
+checklist:
+  humor_linked: false
+  info_not_buried: false
+stage: 원고 작성
+scope: EXTENDED

@@ -1,0 +1,50 @@
+# 엔터테크 러브레터 업로드 일정. start부터 하루 1건, order의 순서대로 올린다.
+# 순서를 바꾸려면 이 목록만 고치면 된다 (날짜는 대시보드가 start에서 계산).
+# 국내·해외를 번갈아, 아티스트 프로모션 → 공연 → 전시 → 기술이 한쪽으로 몰리지 않게 섞었다.
+start: 2026-11-18
+order:
+  - BT-E-032 # ARTE MUSEUM X BTS THE CITY ARIRANG
+  - BT-E-024 # 로봇 올라프
+  - BT-E-036 # IVE × DDP 365 Light
+  - BT-E-043 # Bruno Mars × Roblox
+  - BT-E-037 # PLAVE 스타디움 공연
+  - BT-E-049 # Radiohead Motion Picture House
+  - BT-E-017 # 곱을락
+  - BT-E-026 # Forest of Time
+  - BT-E-034 # BTS 드론쇼·미디어 파사드
+  - BT-E-048 # Phoebe Bridgers 플라네타리움 청음회
+  - BT-E-016 # 인사이드 더 플레이: 군체
+  - BT-E-029 # Cosmos Unseen: Black Holes
+  - BT-E-041 # Baby Shark The Experience
+  - BT-E-053 # 洛天依 투어
+  - BT-E-018 # 심청 in 성수
+  - BT-E-030 # DATALAND
+  - BT-E-033 # BTS THE CITY ARIRANG SEOUL
+  - BT-E-045 # Billie Eilish × Roblox
+  - BT-E-015 # 갤럭시 로봇파크
+  - BT-E-058 # Punchdrunk Lander 23
+  - BT-E-019 # 하이브 응원 파티
+  - BT-E-027 # Storycaster
+  - BT-E-042 # 서울역사박물관 AR 글래스
+  - BT-E-056 # FIFA Fan Festival Dallas LED 구
+  - BT-E-021 # 이머시브 궁
+  - BT-E-064 # Immersive Fort Tokyo 폐장
+  - BT-E-039 # 콩X고질라 : 더 라이드
+  - BT-E-054 # 华晨宇 火星演唱会乐园
+  - BT-E-023 # 아이돌 데뷔 체험존
+  - BT-E-035 # BTS × 대영박물관
+  - BT-E-038 # 케데헌 1주년 팝업
+  - BT-E-051 # 初音ミク × XREAL 불꽃 AR
+  - BT-E-040 # 메이플 아일랜드 존
+  - BT-E-055 # teamLab Chicago
+  - BT-E-046 # Coachella Maze
+  - BT-E-044 # Zara Larsson Roblox
+  - BT-E-060 # iQIYI LAND
+  - BT-E-050 # Dua Lipa 공간 음향 팝업
+  - BT-E-063 # Dog Walk
+  - BT-E-059 # Cosm Detroit
+  - BT-E-047 # Coachella Starry Eyes
+  - BT-E-052 # 1st Stage XR 라이브하우스
+  - BT-E-057 # Faces of Fan Festival
+  - BT-E-061 # Mundo Pixar Experience
+  - BT-E-062 # Miraikan 몰입형 상영 공간

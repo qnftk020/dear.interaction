@@ -56,7 +56,15 @@ evidence:
     url: https://www.tenasia.co.kr/article/2026102656604
     status: 확인
     link_opened: true
-media: []
+media:
+  - url: https://www.youtube.com/watch?v=j0qy60OyfcY
+    credit: HYBE CINE FEST 2026 Concept Trailer · 채널 확인 전
+    permission: 권한 확인 필요
+    permission_basis: ""
+  - url: https://www.youtube.com/watch?v=zfl8y9YAn2M
+    credit: HYBE CINE FEST 2026 Line-up Trailer · 채널 확인 전
+    permission: 권한 확인 필요
+    permission_basis: ""
 ad_insight: 화면이 시키는 응원은 차분했고, 무대를 보다 터져 나온 응원은 뜨거웠다. 참여는 지시가 아니라 이유에서 나온다는 대비가 남는다. (에디터 해석)
 what_if:
   context: 브랜드 체험 공간

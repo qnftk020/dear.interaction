@@ -1,0 +1,125 @@
+id: BT-E-035
+letter_no: null
+title: BTS × 대영박물관 — What is Your Arirang?
+creator: 방탄소년단 × The British Museum
+year: "2026"
+location: 런던 대영박물관 한국실
+context: 박물관 협업 / 관람 코스
+status: 실제 구현
+summary_ko: 대영박물관 한국실에서 QR을 찍고 유물 코스를 돈 뒤, '당신의 아리랑은 무엇인가요?'에 답하는 프로젝트.
+physical_object: 관람객의 스마트폰
+input: 전시실 입구 QR을 찍고 유물 코스를 돈 뒤, 마음에 남은 유물을 SNS에 올려 질문에 답한다
+output: 한국실 관람 코스(Korea Gallery Trail)가 휴대폰에 열린다
+mechanism: QR 코드
+tags:
+  input:
+    - MOVE
+    - TOUCH
+  object:
+    - TOOL
+  sensing:
+    - CAMERA
+  output:
+    - SCREEN
+  context:
+    - MUSEUM
+    - FANDOM
+  ai:
+    - NONE
+  mode:
+    - INDIVIDUAL
+  era:
+    - 2020s
+ai_evidence: ""
+source_primary: https://www.vogue.co.kr/2026/07/08/%EB%B0%A9%ED%83%84%EC%86%8C%EB%85%84%EB%8B%A8%EA%B3%BC-%EB%8C%80%EC%98%81%EB%B0%95%EB%AC%BC%EA%B4%80%EC%9D%B4-%ED%95%A8%EA%BB%98-%EC%84%A0%EB%B3%B4%EC%9D%B4%EB%8A%94-%ED%8A%B9%EB%B3%84-%ED%94%84/
+source_checked_at: 2026-11-13
+archive_snapshot: ""
+evidence:
+  identity:
+    note: 보그 코리아(2026-07-08). 7월 6~23일, 'BTS THE CITY ARIRANG – LONDON'의 일환
+    url: https://www.vogue.co.kr/2026/07/08/%EB%B0%A9%ED%83%84%EC%86%8C%EB%85%84%EB%8B%A8%EA%B3%BC-%EB%8C%80%EC%98%81%EB%B0%95%EB%AC%BC%EA%B4%80%EC%9D%B4-%ED%95%A8%EA%BB%98-%EC%84%A0%EB%B3%B4%EC%9D%B4%EB%8A%94-%ED%8A%B9%EB%B3%84-%ED%94%84/
+    status: 확인
+    link_opened: true
+  interaction:
+    note: QR 스캔으로 참여, 관람 후 유물을 SNS에 공유하며 질문에 답하기
+    url: https://www.vogue.co.kr/2026/07/08/%EB%B0%A9%ED%83%84%EC%86%8C%EB%85%84%EB%8B%A8%EA%B3%BC-%EB%8C%80%EC%98%81%EB%B0%95%EB%AC%BC%EA%B4%80%EC%9D%B4-%ED%95%A8%EA%BB%98-%EC%84%A0%EB%B3%B4%EC%9D%B4%EB%8A%94-%ED%8A%B9%EB%B3%84-%ED%94%84/
+    status: 확인
+    link_opened: true
+  technology:
+    note: QR 코드
+    url: https://www.vogue.co.kr/2026/07/08/%EB%B0%A9%ED%83%84%EC%86%8C%EB%85%84%EB%8B%A8%EA%B3%BC-%EB%8C%80%EC%98%81%EB%B0%95%EB%AC%BC%EA%B4%80%EC%9D%B4-%ED%95%A8%EA%BB%98-%EC%84%A0%EB%B3%B4%EC%9D%B4%EB%8A%94-%ED%8A%B9%EB%B3%84-%ED%94%84/
+    status: 확인
+    link_opened: true
+  context:
+    note: 관람 코스에 신라 유물 코스 포함
+    url: https://www.vogue.co.kr/2026/07/08/%EB%B0%A9%ED%83%84%EC%86%8C%EB%85%84%EB%8B%A8%EA%B3%BC-%EB%8C%80%EC%98%81%EB%B0%95%EB%AC%BC%EA%B4%80%EC%9D%B4-%ED%95%A8%EA%BB%98-%EC%84%A0%EB%B3%B4%EC%9D%B4%EB%8A%94-%ED%8A%B9%EB%B3%84-%ED%94%84/
+    status: 확인
+    link_opened: true
+media: []
+ad_insight: 팬을 굿즈 매장이 아니라 유물 앞으로 보냈다. 질문 하나가 팬심을 박물관 관람의 이유로 바꾼다. (에디터 해석)
+what_if:
+  context: 박물관 아카이브
+  audience: 좋아하는 아티스트를 따라 처음 박물관에 온 팬
+  action: 노래 제목과 닮은 유물을 하나 골라 사진을 찍는다
+  response: 고른 유물들이 그 사람만의 앨범 재킷 한 장으로 묶여 나온다
+  message: 팬심이 유물을 읽는 눈이 된다 (가상 제안)
+carousel:
+  cover: |-
+    최애 따라왔는데
+    유물에 입덕
+  work: |-
+    BTS × 대영박물관 2026
+    한국실 돌고 내 답을 남긴다
+  why: |-
+    유물 감상에 내 답을 더해
+    관람이 내 이야기가 될 수도
+  what_if: |-
+    상상: 노래 닮은 유물 고르면
+    내 앨범 재킷으로 엮어준다면?
+  ps: |-
+    최애 따라 유물까지 왔다
+    내 취향, 활동 반경이 넓네
+caption:
+  text: |-
+    LOVE LETTER (번호 미배정)
+    BTS × 대영박물관 — What is Your Arirang?
+    방탄소년단 × The British Museum
+
+    최애를 따라 박물관에 왔다면, 어떤 유물이 마음에 남을까요?
+
+    2026년 7월 6~23일, 런던 대영박물관 한국실에서 진행된 프로젝트. ‘BTS THE CITY ARIRANG – LONDON’의 일환입니다.
+
+    입구 QR을 찍으면 휴대폰에 한국실 관람 코스가 열립니다. 관람객은 코스를 돈 뒤 마음에 남은 유물을 SNS에 공유하며 ‘당신의 아리랑은 무엇인가요?’에 답합니다.
+
+    제가 주목한 건 관람객에게 자기 답을 남길 자리를 준다는 점입니다. 유물을 고르고 질문에 답하면서, 관람이 자신의 취향과 이야기를 발견하는 시간이 될 수도 있겠어요. 에디터의 해석입니다.
+
+    여기서부터는 박물관 아카이브를 위한 가상 제안. 좋아하는 아티스트를 따라 처음 온 팬이 노래 제목과 닮은 유물을 골라 사진을 찍으면 어떨까요? 고른 유물 사진들이 그 사람만의 앨범 재킷 한 장으로 묶여 나오는 겁니다. 팬심이 유물을 읽는 눈이 되도록요.
+
+    최애 따라왔는데, 취향의 연대가 신라까지 넓어질 줄이야.
+
+    Love Letter (번호 미배정) · Dear, Interaction.
+  hashtags:
+    - "#디어인터랙션"
+    - "#BTS"
+    - "#대영박물관"
+    - "#인터랙션디자인"
+keywords:
+  - bts
+  - museum
+  - qr
+  - trail
+notes:
+  fact: []
+  interpretation: []
+  speculation: []
+scores:
+  tangible: null
+  originality: null
+  reliability: null
+  applicability: null
+  postability: null
+checklist:
+  humor_linked: false
+  info_not_buried: false
+stage: 원고 작성
+scope: EXTENDED

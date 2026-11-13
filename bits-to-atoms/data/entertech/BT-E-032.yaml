@@ -1,0 +1,127 @@
+id: BT-E-032
+letter_no: null
+title: ARTE MUSEUM X BTS THE CITY ARIRANG
+creator: d'strict × HYBE (방탄소년단)
+year: "2026"
+location: 아르떼뮤지엄 부산·라스베이거스·뉴욕
+context: 아티스트 협업 미디어아트 전시
+status: 실제 구현
+summary_ko: 방탄소년단 정규 5집 '아리랑'의 곡들을 미디어아트로 바꿔 걷고 보는 전시. 내가 그린 그림을 미디어 월에 띄울 수도 있다.
+physical_object: 종이와 색연필 (라이브 스케치북)
+input: 아리랑 가든을 걸으며 보고, 라이브 스케치북에서 그림을 그리고, 스탬프 랠리 QR을 찍는다
+output: 내가 그린 그림이 미디어 월에 떠오른다. 가든에는 곡을 옮긴 미디어아트 5점이 상영된다
+mechanism: 미확인
+tags:
+  input:
+    - DRAW
+    - MOVE
+  object:
+    - PAPER
+  sensing:
+    - UNKNOWN
+  output:
+    - PROJECTION
+    - SCREEN
+  context:
+    - EXHIBITION
+    - FANDOM
+  ai:
+    - NONE
+  mode:
+    - MULTI-USER
+  era:
+    - 2020s
+ai_evidence: ""
+source_primary: https://v.daum.net/v/20260524200001665
+source_checked_at: 2026-11-13
+archive_snapshot: ""
+evidence:
+  identity:
+    note: 부산 2026-06-05~07-03, 라스베이거스·뉴욕 순차 개최. 기획·미디어 기술 디스트릭트, 하이브 더 시티 프로젝트
+    url: https://v.daum.net/v/20260524200001665
+    status: 확인
+    link_opened: true
+  interaction:
+    note: 아리랑 가든 미디어아트 5점 감상, 라이브 스케치북에서 그린 그림을 미디어 월에 띄우기, 스탬프 랠리 QR 스캔
+    url: https://v.daum.net/v/20260524200001665
+    status: 확인
+    link_opened: true
+  technology:
+    note: 디지털 미디어아트라고만 기재. 스캔·투사 방식 없음
+    url: https://v.daum.net/v/20260524200001665
+    status: 미확인
+    link_opened: true
+  context:
+    note: 앨범을 '눈으로 듣는' 전시로 소개
+    url: https://v.daum.net/v/20260524200001665
+    status: 확인
+    link_opened: true
+media: []
+ad_insight: 앨범을 틀어 주지 않고 걸어 들어가게 했다. 팬은 듣는 사람에서 그 안에 그림 한 장을 보태는 사람이 된다. (에디터 해석)
+what_if:
+  context: 브랜드 체험 공간
+  audience: 새 앨범을 기다리는 팬
+  action: 가사 한 줄을 골라 종이에 그림으로 그린다
+  response: 그림이 그 곡이 흐르는 벽의 풍경에 섞여 떠다닌다
+  message: 앨범은 듣는 것에서 같이 그리는 것이 된다 (가상 제안)
+carousel:
+  cover: |-
+    앨범 보러 갔다가
+    그림까지 보탰다
+  work: |-
+    BTS ‘아리랑’을 걷고 보며
+    내 그림을 벽에 띄우는 전시
+  why: |-
+    감상에 내 그림을 보태면
+    앨범이 더 가깝게 느껴질지도
+  what_if: |-
+    상상: 신보 기다려 그린 가사
+    그 곡의 벽에 떠다닌다면
+  ps: |-
+    내 그림도 앨범 구경 왔다가
+    벽에 데뷔했다
+caption:
+  text: |-
+    LOVE LETTER (번호 미배정)
+
+    ARTE MUSEUM X BTS THE CITY ARIRANG
+    d'strict × HYBE (방탄소년단), 2026
+    아르떼뮤지엄 부산·라스베이거스·뉴욕
+
+    방탄소년단 정규 5집 ‘아리랑’의 곡들을 미디어아트로 옮긴 협업 전시예요. 아리랑 가든에서는 작품 5점을 걸으며 보고, 라이브 스케치북에서는 종이에 그린 내 그림을 미디어 월에 띄울 수 있어요.
+
+    제가 주목한 건 감상에 그림 한 장을 보태는 순간이에요. 팬이 앨범 속 풍경에 자기 흔적을 남기면, 음악을 조금 더 가깝게 느낄 수도 있겠죠. 제 해석이에요.
+
+    여기서부터는 가상 제안. 새 앨범을 기다리는 팬을 위한 브랜드 체험 공간이라면? 팬이 가사 한 줄을 골라 종이에 그림으로 그리고, 그 그림이 해당 곡이 흐르는 벽의 풍경에 섞여 떠다니는 거예요. 앨범을 듣는 데서 함께 그리는 경험으로 넓혀보는 상상이에요.
+
+    P.S. 내 그림도 앨범 구경 왔다가 벽에 데뷔했다.
+
+    Love Letter (번호 미배정) · Dear, Interaction.
+  hashtags:
+    - "#DearInteraction"
+    - "#아르떼뮤지엄"
+    - "#BTS"
+    - "#미디어아트"
+    - "#인터랙션디자인"
+keywords:
+  - bts
+  - dstrict
+  - media-art
+  - album
+notes:
+  fact:
+    - 대표작 '웨이브'가 '아리랑 웨이브'로 바뀜, 아리랑 카페 운영
+    - "가든 작품: No.29, Body to Body, SWIM(범고래), 2.0, Into the Sun (검색 요약으로 확인, 기사 재확인 필요)"
+  interpretation: []
+  speculation: []
+scores:
+  tangible: null
+  originality: null
+  reliability: null
+  applicability: null
+  postability: null
+checklist:
+  humor_linked: false
+  info_not_buried: false
+stage: 원고 작성
+scope: TANGIBLE

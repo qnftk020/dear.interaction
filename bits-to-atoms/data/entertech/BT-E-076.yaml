@@ -1,0 +1,89 @@
+letter_no: null
+ai_evidence: ""
+source_checked_at: 2026-11-13
+archive_snapshot: ""
+media: []
+carousel:
+  cover: ""
+  work: ""
+  why: ""
+  what_if: ""
+  ps: ""
+caption:
+  text: ""
+  hashtags: []
+scores:
+  tangible: null
+  originality: null
+  reliability: null
+  applicability: null
+  postability: null
+checklist:
+  humor_linked: false
+  info_not_buried: false
+id: BT-E-076
+title: Inside Other Spaces
+creator: 리움미술관
+year: "2026"
+location: 서울 리움미술관
+context: 미술관 전시
+status: 미확인
+summary_ko: 1956~1976년 여성 작가들의 몰입형 환경 작업을 재구성한 전시.
+physical_object: 미확인
+input: 미확인
+output: 미확인
+mechanism: 미확인
+tags:
+  input:
+    - UNKNOWN
+  object:
+    - UNKNOWN
+  sensing:
+    - UNKNOWN
+  output:
+    - UNKNOWN
+  context:
+    - UNKNOWN
+  ai:
+    - UNKNOWN
+  mode:
+    - UNKNOWN
+  era:
+    - 2020s
+source_primary: https://www.pulse.bot/art/news/leeum-museum-to-open-immersive-women-artists-exhibition-through-nov-2026-9943e1db-6454-4b3c-9a9f-5595099e092a/
+evidence:
+  identity:
+    note: 2026-11-29까지. 검색 요약으로만 확인
+    url: https://www.pulse.bot/art/news/leeum-museum-to-open-immersive-women-artists-exhibition-through-nov-2026-9943e1db-6454-4b3c-9a9f-5595099e092a/
+    status: 미확인
+    link_opened: false
+  interaction:
+    note: 관객이 무엇을 하는지 확인 전
+    url: ""
+    status: 미확인
+    link_opened: false
+  technology:
+    note: ""
+    url: ""
+    status: 미확인
+    link_opened: false
+  context:
+    note: ""
+    url: ""
+    status: 미확인
+    link_opened: false
+ad_insight: ""
+what_if:
+  context: null
+  audience: ""
+  action: ""
+  response: ""
+  message: ""
+keywords: []
+notes:
+  fact:
+    - 2026-11-29까지. 검색 요약으로만 확인
+  interpretation: []
+  speculation: []
+stage: 발견
+scope: EXTENDED

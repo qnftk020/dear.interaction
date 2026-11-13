@@ -1,0 +1,126 @@
+id: BT-E-038
+letter_no: null
+title: "'케이팝 데몬 헌터스' 1주년 공식 팝업"
+creator: 비마이프렌즈 × 넷플릭스
+year: "2026"
+location: 서울 더현대 서울
+context: IP 팝업 스토어
+status: 실제 구현
+summary_ko: 애니메이션 '케이팝 데몬 헌터스' 공개 1주년을 맞아, 한옥 인테리어 속 포토존과 굿즈를 한 동선으로 묶은 팝업.
+physical_object: 포토존, 한정 부채·키링
+input: 사전 예약하고 들어가 포토존에서 찍고, 굿즈를 고르고, SNS에 인증한다
+output: 1주년 한정 부채와 랜덤 키링, 더피 풍선을 받는다
+mechanism: 미확인
+tags:
+  input:
+    - MOVE
+  object:
+    - TOKEN
+  sensing:
+    - UNKNOWN
+  output:
+    - UNKNOWN
+  context:
+    - BRAND
+    - FANDOM
+  ai:
+    - NONE
+  mode:
+    - MULTI-USER
+  era:
+    - 2020s
+ai_evidence: ""
+source_primary: https://sports.khan.co.kr/article/202605220249003
+source_checked_at: 2026-11-13
+archive_snapshot: ""
+evidence:
+  identity:
+    note: 스포츠경향. 2026-05-21~06-03, 더현대 서울 지하 2층 아이코닉존
+    url: https://sports.khan.co.kr/article/202605220249003
+    status: 확인
+    link_opened: true
+  interaction:
+    note: 포토존 → MD존 → 결제존, SNS 인증
+    url: https://sports.khan.co.kr/article/202605220249003
+    status: 확인
+    link_opened: true
+  technology:
+    note: 디지털 장치 언급 없음
+    url: https://sports.khan.co.kr/article/202605220249003
+    status: 미확인
+    link_opened: true
+  context:
+    note: 신규 상품 59종, 6월부터 대구·홍콩·자카르타 등으로 투어
+    url: https://sports.khan.co.kr/article/202605220249003
+    status: 확인
+    link_opened: true
+media:
+  - url: https://www.youtube.com/watch?v=45enRUSy_Ro
+    credit: "MTN STAR: '케이팝 데몬 헌터스' 1주년 팝업 · 채널 확인 전"
+    permission: 권한 확인 필요
+    permission_basis: ""
+ad_insight: 반응하는 장치 하나 없이도 줄을 세웠다. 팬이 원한 것은 기술이 아니라 "그 세계 안에 서 있는 내 사진"이었다. (에디터 해석)
+what_if:
+  context: 브랜드 체험 공간
+  audience: 캐릭터 팬
+  action: 포토존에서 주인공과 같은 포즈를 잡는다
+  response: 포즈가 맞으면 배경 조명이 무대 조명으로 바뀐다
+  message: 사진 한 장에도 반응 하나를 더할 수 있다 (가상 제안)
+carousel:
+  cover: |-
+    퇴마는 못 해도
+    인증샷은 남긴다
+  work: |-
+    한옥 포토존에서 굿즈까지
+    한 동선에 묶은 1주년 팝업
+  why: |-
+    보는 관객에서 사진 속 인물로
+    내 이야기로 남길 수 있다
+  what_if: |-
+    팬의 포즈가 맞으면 무대 조명
+    브랜드 공간에 더해볼 상상
+  ps: |-
+    제 퇴마 실력은 미확인
+    주인공 포즈는 준비됐습니다
+caption:
+  text: |-
+    LOVE LETTER (번호 미배정)
+
+    『‘케이팝 데몬 헌터스’ 1주년 공식 팝업』
+    비마이프렌즈 × 넷플릭스 · 2026
+    더현대 서울 · IP 팝업 스토어
+
+    한옥 인테리어 속 포토존에서 사진을 찍고, MD존에서 굿즈를 고르고, 결제존으로 이동합니다. 사진과 굿즈를 하나의 동선으로 연결한 팝업이에요.
+
+    제가 주목한 건 사진 속 관객의 자리입니다. 작품을 보던 내가 그 세계 안에 선 모습으로 남는 것. 팬에게는 작품을 자기 이야기로 간직하는 경험이 될 수 있다고 봅니다.
+
+    여기서 반응 하나를 더해본다면? 브랜드 체험 공간에서 캐릭터 팬이 주인공과 같은 포즈를 잡고, 포즈가 맞으면 배경 조명이 무대 조명으로 바뀌는 거예요. 사진 한 장에 ‘내 행동에 공간이 답하는 순간’을 더해보는 가상 제안입니다. 실제 팝업에 구현된 기능은 아닙니다.
+
+    Love Letter (번호 미배정) · Dear, Interaction.
+  hashtags:
+    - "#디어인터랙션"
+    - "#케이팝데몬헌터스"
+    - "#팝업스토어"
+    - "#포토존"
+    - "#경험디자인"
+keywords:
+  - kpop-demon-hunters
+  - pop-up
+  - photo-zone
+  - netflix
+notes:
+  fact:
+    - 사전 예약 전 회차 매진 (보도)
+  interpretation: []
+  speculation: []
+scores:
+  tangible: null
+  originality: null
+  reliability: null
+  applicability: null
+  postability: null
+checklist:
+  humor_linked: false
+  info_not_buried: false
+stage: 원고 작성
+scope: EXTENDED

@@ -1,0 +1,132 @@
+id: BT-E-054
+letter_no: null
+title: 华晨宇 火星演唱会乐园 2.0
+creator: 华晨宇 (Hua Chenyu)
+year: "2026"
+location: 난징 탕산 음악 계곡
+context: 콘서트 + 테마파크
+status: 실제 구현
+summary_ko: 낮에는 설치 작품과 게임, 캠핑을 즐기고 밤에는 9,000㎡ 스크린 앞에서 콘서트를 보는, 가수 한 명의 "콘서트 놀이공원".
+physical_object: 설치 작품, 캠핑장
+input: 낮에는 설치 작품과 게임, 먹거리, 캠핑장을 돌고 밤에는 콘서트를 본다
+output: 밤이 되면 같은 공간이 조명과 물 스크린, 드론으로 공연장이 된다
+mechanism: 9,000㎡ 메인 스크린, 회전 기둥, 전면 워터 스크린, 드론, 조명 6,000여 대
+tags:
+  input:
+    - MOVE
+  object:
+    - BODY
+  sensing:
+    - UNKNOWN
+  output:
+    - SCREEN
+    - LIGHT
+  context:
+    - CONCERT
+    - THEME PARK
+    - FANDOM
+  ai:
+    - NONE
+  mode:
+    - MULTI-USER
+  era:
+    - 2020s
+ai_evidence: ""
+source_primary: https://www.yzwb.net/news/wy/202609/t20260928_397664.html
+source_checked_at: 2026-11-13
+archive_snapshot: ""
+evidence:
+  identity:
+    note: 양쯔완바오(2026-09-28). 2026-09-25 개막, 난징 7회 공연
+    url: https://www.yzwb.net/news/wy/202609/t20260928_397664.html
+    status: 확인
+    link_opened: true
+  interaction:
+    note: "낮: 설치·게임·캠핑(무료 구역 Mars Camp), 밤: 콘서트"
+    url: https://www.yzwb.net/news/wy/202609/t20260928_397664.html
+    status: 확인
+    link_opened: true
+  technology:
+    note: 강재 약 2,000톤, 스크린 9,000㎡, 폭 130m
+    url: https://www.yzwb.net/news/wy/202609/t20260928_397664.html
+    status: 확인
+    link_opened: true
+  context:
+    note: 데뷔 13주년 기념
+    url: https://www.yzwb.net/news/wy/202609/t20260928_397664.html
+    status: 확인
+    link_opened: true
+media:
+  - url: https://www.bilibili.com/video/BV1RKp367EuB/
+    credit: 华晨宇火星演唱会2.0全揭秘 (bilibili) · 채널 확인 전
+    permission: 권한 확인 필요
+    permission_basis: ""
+  - url: https://www.bilibili.com/video/BV1jLhU6LEvo/
+    credit: 火星演唱会乐园2.0 南京 Day1 (팬 촬영, bilibili) · 채널 확인 전
+    permission: 권한 확인 필요
+    permission_basis: ""
+ad_insight: 공연 두 시간을 팔지 않고 하루를 팔았다. 기다리는 시간까지 공연의 일부로 설계하면 표값의 이유가 늘어난다. (에디터 해석)
+what_if:
+  context: 공공 문화시설
+  audience: 야외 공연을 기다리는 관객
+  action: 공연 전 낮에 광장의 악기 조형물을 두드린다
+  response: 낮에 모인 소리가 밤 공연의 첫 박자로 쓰인다
+  message: 기다림이 공연의 재료가 된다 (가상 제안)
+carousel:
+  cover: |-
+    공연 보러 왔다가
+    낮부터 출근
+  work: |-
+    화천위의 콘서트 놀이공원
+    낮엔 놀고, 밤엔 공연을 본다
+  why: |-
+    공연 전 대기 대신 낮의 놀이
+    기다림도 즐길 수 있다
+  what_if: |-
+    상상: 낮에 친 악기 소리가
+    밤 공연의 첫 박자가 된다
+  ps: |-
+    밤 공연에 낮부터 오라니
+    이 초대장, 제법 치밀하다
+caption:
+  text: |-
+    LOVE LETTER (번호 미배정)
+
+    华晨宇 火星演唱会乐园 2.0
+    华晨宇(Hua Chenyu) · 2026
+    난징 탕산 음악 계곡
+
+    콘서트를 보러 왔는데, 낮부터 할 일이 있습니다. 설치 작품을 구경하고 게임과 캠핑을 즐기다가, 밤에는 같은 공간에서 콘서트를 봅니다. 조명과 워터 스크린, 드론이 공간을 공연장으로 바꿉니다.
+
+    제 눈에 들어온 건 9,000㎡ 스크린만이 아닙니다. 공연 전에 도착한 관객에게 낮의 놀이를 마련했다는 점입니다. 기다리는 시간에도 즐길 거리가 있다면, 공연을 기억하는 장면이 더 늘어날 수 있겠죠. 제 해석입니다.
+
+    공공 문화시설에 이 원리를 가져온다면 어떨까요? 야외 공연을 기다리는 관객이 낮에 광장의 악기 조형물을 두드리고, 모인 소리가 밤 공연의 첫 박자로 쓰이는 겁니다. 기다림이 공연의 재료가 되는 경험. 실제 프로젝트가 아닌 가상 제안입니다.
+
+    저녁 약속인 줄 알았는데 하루 약속이었군요. 초대장부터 다시 읽겠습니다.
+
+    Love Letter (번호 미배정) · Dear, Interaction.
+  hashtags:
+    - "#인터랙션디자인"
+    - "#공간경험"
+    - "#공연디자인"
+    - "#화천위"
+keywords:
+  - concert-park
+  - china
+  - stage
+  - day-night
+notes:
+  fact: []
+  interpretation: []
+  speculation: []
+scores:
+  tangible: null
+  originality: null
+  reliability: null
+  applicability: null
+  postability: null
+checklist:
+  humor_linked: false
+  info_not_buried: false
+stage: 원고 작성
+scope: EXTENDED

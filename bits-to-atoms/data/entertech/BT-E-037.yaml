@@ -1,0 +1,127 @@
+id: BT-E-037
+letter_no: null
+title: PLAVE 월드 투어 '킵 잇 매닉' 인천 공연
+creator: 블래스트 (PLAVE)
+year: "2026"
+location: 인천문학경기장 주경기장
+context: 버추얼 아이돌 스타디움 공연
+status: 실제 구현
+summary_ko: 버추얼 아이돌 플레이브가 첫 스타디움 공연에서 가로 120m LED 속에 서서 객석의 응원에 실시간으로 답한 공연.
+physical_object: 팬라이트(응원봉)
+input: 팬라이트를 흔들고 함성을 지르고, 멤버가 시키는 대로 "오빠"를 외친다
+output: 화면 속 멤버가 그 자리에서 응원에 말로 답한다. 함성이 커서 진행이 잠시 멈추기도 했다
+mechanism: 실시간 모션캡처·송출, 가로 120m·세로 20m 이상 LED
+tags:
+  input:
+    - VOICE
+    - MOVE
+  object:
+    - TOOL
+  sensing:
+    - UNKNOWN
+  output:
+    - SCREEN
+    - SOUND
+  context:
+    - CONCERT
+    - FANDOM
+  ai:
+    - NONE
+  mode:
+    - MULTI-USER
+  era:
+    - 2020s
+ai_evidence: ""
+source_primary: https://www.wikitree.co.kr/articles/1159055
+source_checked_at: 2026-11-13
+archive_snapshot: ""
+evidence:
+  identity:
+    note: 위키트리 르포. 2026-09-12~13, 첫 스타디움·첫 야외 공연, 약 3시간
+    url: https://www.wikitree.co.kr/articles/1159055
+    status: 확인
+    link_opened: true
+  interaction:
+    note: 팬라이트·함성으로 호응, 멤버가 "오빠" 외치기를 유도하고 소감으로 답함
+    url: https://www.wikitree.co.kr/articles/1159055
+    status: 확인
+    link_opened: true
+  technology:
+    note: 실시간 모션캡처·송출 기반, LED 규모, 유선 인프라 사전 점검
+    url: https://www.wikitree.co.kr/articles/1159055
+    status: 확인
+    link_opened: true
+  context:
+    note: 버추얼 아이돌의 첫 스타디움 공연
+    url: https://www.wikitree.co.kr/articles/1159055
+    status: 확인
+    link_opened: true
+media:
+  - url: https://www.youtube.com/watch?v=nd1WnpWkpN4
+    credit: 2026 PLAVE World Tour [KEEP IT MANIC] in Incheon ID CLIP · 채널 확인 전
+    permission: 권한 확인 필요
+    permission_basis: ""
+ad_insight: 녹화가 아니라 지금 답한다는 것 하나가 "화면 속 캐릭터"를 "무대 위 사람"으로 바꾼다. (에디터 해석)
+what_if:
+  context: 브랜드 체험 공간
+  audience: 브랜드 캐릭터를 아는 방문객
+  action: 캐릭터 이름을 크게 부른다
+  response: 화면 속 캐릭터가 부른 쪽을 돌아보고 그 사람 옷 색을 말하며 인사한다
+  message: 캐릭터는 지금 대답할 때 살아난다 (가상 제안)
+carousel:
+  cover: |-
+    화면 속 그가
+    내 함성에 답장했다
+  work: |-
+    플레이브의 첫 스타디움 공연
+    화면 속 멤버가 응원에 답한다
+  why: |-
+    보기만 하던 화면에서 말대꾸로
+    함께 있다고 느낄 수 있다
+  what_if: |-
+    상상: 캐릭터 이름을 부르면
+    돌아보고 옷 색으로 인사한다
+  ps: |-
+    화면과 나 사이, 대답 하나.
+    이쯤 되면 함성도 대화체다.
+caption:
+  text: |-
+    LOVE LETTER (번호 미배정)
+    PLAVE 월드 투어 '킵 잇 매닉' 인천 공연 · 블래스트 (PLAVE) · 2026
+
+    인천문학경기장 주경기장. 플레이브는 첫 스타디움 공연에서 가로 120m LED 속에 서서 객석의 응원에 실시간으로 답했다. 팬들은 팬라이트를 흔들고 함성을 보냈고, 멤버가 유도한 “오빠” 외치기에도 호응했다. 함성이 커서 진행이 잠시 멈추기도 했다.
+
+    내가 주목한 건 화면의 크기보다 대답의 타이밍이다. 내 응원에 지금 답이 돌아오면, 화면을 바라보는 일이 서로 말을 건네는 경험으로 바뀔 수 있다. 작가의 기획 의도가 아닌, 나의 해석이다.
+
+    브랜드 체험 공간에 이 원리를 가져온다면? 캐릭터를 아는 방문객이 이름을 크게 부르면, 화면 속 캐릭터가 부른 쪽으로 돌아보고 그 사람의 옷 색을 말하며 인사하는 장면을 상상했다. ‘나를 향한 답변’으로 캐릭터가 지금 여기 있다는 느낌을 전하는 가상 제안이다.
+
+    화면 너머로 보낸 함성에 답장이 왔다. 오늘은 내 목소리도 출연한 셈.
+
+    Love Letter (번호 미배정) · Dear, Interaction.
+  hashtags:
+    - "#DearInteraction"
+    - "#PLAVE"
+    - "#플레이브"
+    - "#인터랙션디자인"
+    - "#버추얼아이돌"
+keywords:
+  - plave
+  - virtual-idol
+  - motion-capture
+  - stadium
+notes:
+  fact:
+    - 앙코르에서 미공개곡 1절 공개
+  interpretation: []
+  speculation: []
+scores:
+  tangible: null
+  originality: null
+  reliability: null
+  applicability: null
+  postability: null
+checklist:
+  humor_linked: false
+  info_not_buried: false
+stage: 원고 작성
+scope: EXTENDED

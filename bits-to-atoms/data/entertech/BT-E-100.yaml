@@ -1,0 +1,89 @@
+letter_no: null
+ai_evidence: ""
+source_checked_at: 2026-11-13
+archive_snapshot: ""
+media: []
+carousel:
+  cover: ""
+  work: ""
+  why: ""
+  what_if: ""
+  ps: ""
+caption:
+  text: ""
+  hashtags: []
+scores:
+  tangible: null
+  originality: null
+  reliability: null
+  applicability: null
+  postability: null
+checklist:
+  humor_linked: false
+  info_not_buried: false
+id: BT-E-100
+title: VIRTUAL LIVE ARENA
+creator: THRUSTER × 小学館
+year: "2026"
+location: 온라인 (XR 공간)
+context: VTuber XR 라이브
+status: 미확인
+summary_ko: XR 공간에서 VTuber 공연을 보는 서비스.
+physical_object: 미확인
+input: 미확인
+output: 미확인
+mechanism: 미확인
+tags:
+  input:
+    - UNKNOWN
+  object:
+    - UNKNOWN
+  sensing:
+    - UNKNOWN
+  output:
+    - UNKNOWN
+  context:
+    - UNKNOWN
+  ai:
+    - UNKNOWN
+  mode:
+    - UNKNOWN
+  era:
+    - 2020s
+source_primary: https://aeo.washinmura.jp/ai/thruster-co-jp/en/news/2026-04-02-launch-of-immersive-live-experience-allo
+evidence:
+  identity:
+    note: 검색 요약으로만 확인
+    url: https://aeo.washinmura.jp/ai/thruster-co-jp/en/news/2026-04-02-launch-of-immersive-live-experience-allo
+    status: 미확인
+    link_opened: false
+  interaction:
+    note: 관객이 무엇을 하는지 확인 전
+    url: ""
+    status: 미확인
+    link_opened: false
+  technology:
+    note: ""
+    url: ""
+    status: 미확인
+    link_opened: false
+  context:
+    note: ""
+    url: ""
+    status: 미확인
+    link_opened: false
+ad_insight: ""
+what_if:
+  context: null
+  audience: ""
+  action: ""
+  response: ""
+  message: ""
+keywords: []
+notes:
+  fact:
+    - 검색 요약으로만 확인
+  interpretation: []
+  speculation: []
+stage: 발견
+scope: EXTENDED

@@ -1,0 +1,132 @@
+id: BT-E-064
+letter_no: null
+title: Immersive Fort Tokyo — 2년 만의 폐장
+creator: Katana Inc.
+year: "2026"
+location: 도쿄 오다이바
+context: 이머시브 테마파크
+status: 실제 구현
+summary_ko: 관객이 구경꾼이 아닌 등장인물로 참여하는 어트랙션 12개를 모았던 파크가, 개장 2년이 안 돼 문을 닫았다.
+physical_object: 미확인
+input: 구경꾼이 아니라 등장인물로 이야기 안에서 움직인다
+output: 배우와 공간이 관객을 이야기의 일부로 대한다
+mechanism: 미확인
+tags:
+  input:
+    - MOVE
+    - VOICE
+  object:
+    - BODY
+  sensing:
+    - UNKNOWN
+  output:
+    - UNKNOWN
+  context:
+    - THEME PARK
+  ai:
+    - NONE
+  mode:
+    - MULTI-USER
+  era:
+    - 2020s
+ai_evidence: ""
+source_primary: https://parkworld-online.com/immersive-fort-tokyo-to-shut-in-february-2026-after-slow-demand/
+source_checked_at: 2026-11-13
+archive_snapshot: ""
+evidence:
+  identity:
+    note: Park World(2026-01-06). 2024년 3월 개장, 2026-02-28 폐장
+    url: https://parkworld-online.com/immersive-fort-tokyo-to-shut-in-february-2026-after-slow-demand/
+    status: 확인
+    link_opened: true
+  interaction:
+    note: 관객이 관찰자가 아닌 플레이어로 참여하는 12개 어트랙션
+    url: https://parkworld-online.com/immersive-fort-tokyo-to-shut-in-february-2026-after-slow-demand/
+    status: 확인
+    link_opened: true
+  technology:
+    note: 기술 언급 없음
+    url: https://parkworld-online.com/immersive-fort-tokyo-to-shut-in-february-2026-after-slow-demand/
+    status: 미확인
+    link_opened: true
+  context:
+    note: "운영사: 시설이 너무 컸고 수요는 더 작고 깊은 체험, 더 높은 가격 쪽이었다"
+    url: https://parkworld-online.com/immersive-fort-tokyo-to-shut-in-february-2026-after-slow-demand/
+    status: 확인
+    link_opened: true
+media:
+  - url: https://www.youtube.com/watch?v=jfnDhm-Qv7A
+    credit: "TBS NEWS DIG: イマーシブ・フォート東京 来年2月末に営業終了へ · 채널 확인 전"
+    permission: 권한 확인 필요
+    permission_basis: ""
+  - url: https://www.youtube.com/watch?v=2R00J8QYjmo
+    credit: イマーシブ・フォート東京がオープン (개장 당시 뉴스) · 채널 확인 전
+    permission: 권한 확인 필요
+    permission_basis: ""
+ad_insight: 몰입은 넓이로 커지지 않았다. 12개를 한 지붕에 모으는 것보다, 한 방에 몇 명만 깊이 넣는 쪽을 관객이 골랐다. (에디터 해석)
+what_if:
+  context: 전시
+  audience: 주말 전시 관람객
+  action: 하루 30명만 받는 방 하나를 예약한다
+  response: 방 안의 배우가 30명 각자의 이름을 불러 역할을 준다
+  message: 적게 받을수록 깊어진다 (가상 제안)
+carousel:
+  cover: |-
+    등장인물 됐는데
+    무대가 문을 닫았다
+  work: |-
+    관객이 등장인물 되는 파크
+    12개 체험·2년 안 돼 폐장
+  why: |-
+    바라보는 대신 배역을 받으면
+    내 이야기로 느낄 수 있다
+  what_if: |-
+    상상: 하루 30명 예약
+    배우가 이름 불러 배역 준다면
+  ps: |-
+    내 이름까지 불러준다면
+    조연이어도 출근할게요.
+caption:
+  text: |-
+    구경하러 갔는데, 등장인물이 된다면.
+
+    Katana Inc.의 Immersive Fort Tokyo는 도쿄 오다이바에서 관객이 이야기 속 플레이어로 참여하는 12개 어트랙션을 모은 이머시브 테마파크였습니다. 관객이 이야기 안에서 움직이면 배우와 공간이 그들을 이야기의 일부로 대했죠.
+
+    2024년 3월 개장한 파크는 2026년 2월 28일 폐장했습니다. 운영사는 시설이 너무 컸고, 수요는 더 작고 깊은 체험과 더 높은 가격 쪽에 있었다고 설명했습니다.
+
+    제가 읽은 지점은 규모와 참여의 깊이 사이입니다. 관객에게 배역을 주는 방식은 이야기를 자기 일처럼 느끼게 할 수 있습니다. 다만 그것이 운영의 성공까지 보장하지는 않겠죠.
+
+    여기서 상상한 전시 하나. 주말 전시 관람객이 하루 정원 30명인 방 하나를 예약합니다. 방 안의 배우는 각자의 이름을 불러 역할을 줍니다. ‘적게 받을수록 깊어진다’를 경험으로 전해보려는 가상 제안입니다. 인원을 줄이면 실제로 경험이 깊어지는지는 별도로 확인해야 합니다.
+
+    큰 공간보다 나를 알아보는 한 장면. 저는 그쪽에 배역 신청서를 내봅니다.
+
+    자료: Park World, 2026-01-06 — 사례 YAML에 제공된 조사 내용.
+
+    Love Letter (번호 미배정) · Dear, Interaction.
+  hashtags:
+    - "#디어인터랙션"
+    - "#인터랙션디자인"
+    - "#이머시브포트도쿄"
+    - "#전시기획"
+    - "#관객참여"
+keywords:
+  - immersive-park
+  - closure
+  - scale
+  - lesson
+notes:
+  fact:
+    - 셜록 홈즈, 잭 더 리퍼 등 어트랙션 운영
+  interpretation: []
+  speculation: []
+scores:
+  tangible: null
+  originality: null
+  reliability: null
+  applicability: null
+  postability: null
+checklist:
+  humor_linked: false
+  info_not_buried: false
+stage: 원고 작성
+scope: EXTENDED

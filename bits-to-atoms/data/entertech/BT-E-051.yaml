@@ -1,0 +1,127 @@
+id: BT-E-051
+letter_no: null
+title: 初音ミク 夜空プログラム 2026 × XREAL 불꽃 AR
+creator: Gugenka × XREAL
+year: "2026"
+location: 니가타 일보 미디어십
+context: 불꽃놀이 + AR 글래스
+status: 실제 구현
+summary_ko: 실제 밤하늘의 불꽃놀이 위에, AR 글래스로만 보이는 가상 연출이 겹쳐지는 하츠네 미쿠 행사.
+physical_object: XREAL AR 글래스
+input: AR 글래스를 쓰고 불꽃놀이를 올려다본다
+output: 진짜 불꽃 위에 가상 효과가 겹쳐 보인다
+mechanism: XREAL AR 글래스, 공간 컴퓨팅
+tags:
+  input:
+    - GAZE
+  object:
+    - WEARABLE
+  sensing:
+    - UNKNOWN
+  output:
+    - SCREEN
+    - LIGHT
+  context:
+    - CONCERT
+    - FANDOM
+  ai:
+    - NONE
+  mode:
+    - MULTI-USER
+  era:
+    - 2020s
+ai_evidence: ""
+source_primary: https://www.gamespark.jp/release/prtimes/20260805/305467.html
+source_checked_at: 2026-11-13
+archive_snapshot: ""
+evidence:
+  identity:
+    note: PR TIMES 보도자료(2026-08-05). 9월 21~23일, 21일 불꽃 AR 체험은 인원 한정
+    url: https://www.gamespark.jp/release/prtimes/20260805/305467.html
+    status: 확인
+    link_opened: true
+  interaction:
+    note: 글래스 착용 후 불꽃 관람, 부스에서 Spatial Disc·Holomodel 시연
+    url: https://www.gamespark.jp/release/prtimes/20260805/305467.html
+    status: 확인
+    link_opened: true
+  technology:
+    note: XREAL AR 글래스
+    url: https://www.gamespark.jp/release/prtimes/20260805/305467.html
+    status: 확인
+    link_opened: true
+  context:
+    note: 4회째 행사
+    url: https://www.gamespark.jp/release/prtimes/20260805/305467.html
+    status: 확인
+    link_opened: true
+media:
+  - url: https://www.youtube.com/watch?v=PF05Oweuhqk
+    credit: Bloom Out feat.初音ミク — 夜空プログラム2026 테마곡 (불꽃 AR 영상은 아님) · 채널 확인 전
+    permission: 권한 확인 필요
+    permission_basis: ""
+ad_insight: 가상 가수의 공연에 진짜 불꽃을 썼다. 가짜와 진짜를 한 하늘에 겹치니, 어느 쪽이 무대인지 묻지 않게 된다. (에디터 해석)
+what_if:
+  context: 공공 문화시설
+  audience: 지역 불꽃축제 관람객
+  action: 강둑에서 글래스를 쓰고 하늘을 본다
+  response: 불꽃이 터진 자리에서 그 지역 설화 속 동물이 걸어 나온다
+  message: 하늘은 그대로 두고 이야기만 겹친다 (가상 제안)
+carousel:
+  cover: |-
+    불꽃도 글래스 쓰면
+    추가 출연진
+  work: |-
+    Gugenka × XREAL
+    실제 불꽃에 가상을 겹친 행사
+  why: |-
+    불꽃만 보던 하늘에 가상 연출
+    한 하늘을 무대로 느낄 수도
+  what_if: |-
+    상상: 관객이 글래스 쓰면
+    불꽃 자리엔 지역 설화 동물이
+  ps: |-
+    하늘은 두고 이야기를 얹는다.
+    이 정도면 하늘도 겸업 중.
+caption:
+  text: |-
+    LOVE LETTER (번호 미배정)
+
+    初音ミク 夜空プログラム 2026 × XREAL 불꽃 AR
+    Gugenka × XREAL · 2026 · 니가타 일보 미디어십
+
+    AR 글래스를 쓰고 불꽃놀이를 올려다보면, 실제 불꽃 위에 가상 효과가 겹쳐 보입니다. 하츠네 미쿠 행사에서 선보인 불꽃 AR 체험이에요.
+
+    제가 주목한 건 같은 하늘에 연출을 더하는 방식입니다. 실제 불꽃과 가상 효과를 함께 보면, 하늘 전체를 하나의 무대로 느낄 수도 있겠어요. 여기부터는 제 해석입니다.
+
+    공공 문화시설에 이 원리를 가져온다면? 지역 불꽃축제 관람객이 강둑에서 글래스를 쓰고 하늘을 봅니다. 불꽃이 터진 자리에서 지역 설화 속 동물이 걸어 나오는 거죠. 하늘은 그대로 두고 이야기만 겹치는 경험. 실제 프로젝트가 아닌 가상 제안입니다.
+
+    저는 하늘 보러 갔다가 이야기까지 보고 오는 쪽에 한 표.
+
+    Love Letter (번호 미배정) · Dear, Interaction.
+  hashtags:
+    - "#디어인터랙션"
+    - "#인터랙션디자인"
+    - "#하츠네미쿠"
+    - "#AR글래스"
+    - "#불꽃놀이"
+keywords:
+  - hatsune-miku
+  - ar-glasses
+  - fireworks
+  - xreal
+notes:
+  fact: []
+  interpretation: []
+  speculation: []
+scores:
+  tangible: null
+  originality: null
+  reliability: null
+  applicability: null
+  postability: null
+checklist:
+  humor_linked: false
+  info_not_buried: false
+stage: 원고 작성
+scope: EXTENDED

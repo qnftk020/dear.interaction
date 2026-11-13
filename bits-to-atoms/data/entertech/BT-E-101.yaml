@@ -1,0 +1,89 @@
+letter_no: null
+ai_evidence: ""
+source_checked_at: 2026-11-13
+archive_snapshot: ""
+media: []
+carousel:
+  cover: ""
+  work: ""
+  why: ""
+  what_if: ""
+  ps: ""
+caption:
+  text: ""
+  hashtags: []
+scores:
+  tangible: null
+  originality: null
+  reliability: null
+  applicability: null
+  postability: null
+checklist:
+  humor_linked: false
+  info_not_buried: false
+id: BT-E-101
+title: 《歌手2026》 영화관 생중계
+creator: MC Cinema
+year: "2026"
+location: 중국 창사
+context: 음악 예능 극장 생중계
+status: 미확인
+summary_ko: 음악 경연 프로그램 생방송을 영화관에서 함께 보는 상영.
+physical_object: 미확인
+input: 미확인
+output: 미확인
+mechanism: 미확인
+tags:
+  input:
+    - UNKNOWN
+  object:
+    - UNKNOWN
+  sensing:
+    - UNKNOWN
+  output:
+    - UNKNOWN
+  context:
+    - UNKNOWN
+  ai:
+    - UNKNOWN
+  mode:
+    - UNKNOWN
+  era:
+    - 2020s
+source_primary: https://cn.chinadaily.com.cn/a/202608/01/WS6a6db591a310d709c2fc0f7f.html
+evidence:
+  identity:
+    note: 2026-07-31. 관람 외 참여 요소 미기재
+    url: https://cn.chinadaily.com.cn/a/202608/01/WS6a6db591a310d709c2fc0f7f.html
+    status: 부분 확인
+    link_opened: true
+  interaction:
+    note: 관객이 무엇을 하는지 확인 전
+    url: ""
+    status: 미확인
+    link_opened: false
+  technology:
+    note: ""
+    url: ""
+    status: 미확인
+    link_opened: false
+  context:
+    note: ""
+    url: ""
+    status: 미확인
+    link_opened: false
+ad_insight: ""
+what_if:
+  context: null
+  audience: ""
+  action: ""
+  response: ""
+  message: ""
+keywords: []
+notes:
+  fact:
+    - 2026-07-31. 관람 외 참여 요소 미기재
+  interpretation: []
+  speculation: []
+stage: 발견
+scope: EXTENDED

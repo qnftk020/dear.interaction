@@ -1,0 +1,89 @@
+letter_no: null
+ai_evidence: ""
+source_checked_at: 2026-11-13
+archive_snapshot: ""
+media: []
+carousel:
+  cover: ""
+  work: ""
+  why: ""
+  what_if: ""
+  ps: ""
+caption:
+  text: ""
+  hashtags: []
+scores:
+  tangible: null
+  originality: null
+  reliability: null
+  applicability: null
+  postability: null
+checklist:
+  humor_linked: false
+  info_not_buried: false
+id: BT-E-079
+title: 피프티피프티 LBE VR — 엔터테크·GES 서울 2026
+creator: 서울특별시
+year: "2026"
+location: 서울 DDP
+context: K-POP VR 체험
+status: 미확인
+summary_ko: 피프티피프티 IP와 결합한 LBE VR, SM 아티스트 무대의 360도 VR 감상 체험.
+physical_object: 미확인
+input: 미확인
+output: 미확인
+mechanism: 미확인
+tags:
+  input:
+    - UNKNOWN
+  object:
+    - UNKNOWN
+  sensing:
+    - UNKNOWN
+  output:
+    - UNKNOWN
+  context:
+    - UNKNOWN
+  ai:
+    - UNKNOWN
+  mode:
+    - UNKNOWN
+  era:
+    - 2020s
+source_primary: https://news.seoul.go.kr/economy/archives/574649
+evidence:
+  identity:
+    note: 서울시 보도자료. VR 착용 감상까지만 기재
+    url: https://news.seoul.go.kr/economy/archives/574649
+    status: 부분 확인
+    link_opened: true
+  interaction:
+    note: 관객이 무엇을 하는지 확인 전
+    url: ""
+    status: 미확인
+    link_opened: false
+  technology:
+    note: ""
+    url: ""
+    status: 미확인
+    link_opened: false
+  context:
+    note: ""
+    url: ""
+    status: 미확인
+    link_opened: false
+ad_insight: ""
+what_if:
+  context: null
+  audience: ""
+  action: ""
+  response: ""
+  message: ""
+keywords: []
+notes:
+  fact:
+    - 서울시 보도자료. VR 착용 감상까지만 기재
+  interpretation: []
+  speculation: []
+stage: 발견
+scope: EXTENDED

@@ -1,0 +1,124 @@
+id: BT-E-041
+letter_no: null
+title: "Baby Shark The Experience: Unlock the Secret Ocean"
+creator: 더핑크퐁컴퍼니
+year: "2026"
+location: 서울 DDP
+context: 생성형 AI 캐릭터 체험 전시
+status: 실제 구현
+summary_ko: 아이가 말하고 손짓하면 아기상어 캐릭터가 실시간으로 대답하고, 나만의 아기상어 노래를 만들어 주는 전시.
+physical_object: 미확인
+input: 캐릭터에게 말을 걸고, 손짓하고, 몸을 움직인다
+output: 캐릭터가 실시간으로 대화하고 움직임에 반응한다. 아이 이름이 들어간 아기상어 노래가 만들어진다
+mechanism: 대규모 언어 모델, 음성 인식, 음성 합성, 컴퓨터 비전 (4개 언어)
+tags:
+  input:
+    - VOICE
+    - GESTURE
+    - MOVE
+  object:
+    - BODY
+  sensing:
+    - CAMERA
+    - MICROPHONE
+  output:
+    - SCREEN
+    - SOUND
+    - AI RESPONSE
+  context:
+    - EXHIBITION
+    - EDUCATION
+  ai:
+    - AI-GENERATIVE
+  mode:
+    - MULTI-USER
+  era:
+    - 2020s
+ai_evidence: https://www.thepinkfongcompany.com/en/news/pr/131
+source_primary: https://www.thepinkfongcompany.com/en/news/pr/131
+source_checked_at: 2026-11-13
+archive_snapshot: ""
+evidence:
+  identity:
+    note: 더핑크퐁컴퍼니 보도자료. 6월 18일 DDP 개막(연도는 2026년 4월 얼리버드 보도와 대조), 약 18,000 sq ft, 체험 약 20종
+    url: https://www.thepinkfongcompany.com/en/news/pr/131
+    status: 확인
+    link_opened: true
+  interaction:
+    note: 말·몸짓·이동에 캐릭터가 반응, 개인화된 AI 아기상어 노래 생성
+    url: https://www.thepinkfongcompany.com/en/news/pr/131
+    status: 확인
+    link_opened: true
+  technology:
+    note: LLM, 음성 인식·합성, 컴퓨터 비전
+    url: https://www.thepinkfongcompany.com/en/news/pr/131
+    status: 확인
+    link_opened: true
+  context:
+    note: 영어·중국어·일본어·한국어 지원
+    url: https://www.thepinkfongcompany.com/en/news/pr/131
+    status: 확인
+    link_opened: true
+media: []
+ad_insight: 아이가 수백 번 "본" 캐릭터가 처음으로 아이를 "본다". 이름을 불러 주는 노래 한 곡이 기념품이 된다. (에디터 해석)
+what_if:
+  context: 공공 문화시설
+  audience: 어린이 도서관 방문 가족
+  action: 그림책 캐릭터에게 오늘 읽은 책 제목을 말한다
+  response: 캐릭터가 그 책 이야기로 되묻고, 아이 대답으로 한 줄짜리 뒷이야기를 지어 준다
+  message: 읽은 책이 대화가 된다 (가상 제안)
+carousel:
+  cover: |-
+    아기상어야,
+    내 말도 들어줄래?
+  work: |-
+    말 걸면 대답하는 아기상어
+    내 이름 넣은 노래도 만든다
+  why: |-
+    보기만 하던 캐릭터와 대화로
+    내 이야기처럼 느껴질 수 있다
+  what_if: |-
+    상상: 도서관에서 책을 말하면
+    되묻고 내 답으로 뒷이야기를
+  ps: 이름까지 넣다니, 내적 친밀감 뚜루루.
+caption:
+  text: |-
+    LOVE LETTER (번호 미배정)
+
+    맨날 따라 부르던 아기상어에게, 이번엔 내가 할 말이 생겼다.
+
+    〈Baby Shark The Experience: Unlock the Secret Ocean〉은 더핑크퐁컴퍼니가 2026년 서울 DDP에서 선보인 생성형 AI 캐릭터 체험 전시다. 아이가 말을 걸고 손짓하거나 몸을 움직이면 캐릭터가 실시간으로 대화하고 움직임에 반응한다. 아이 이름이 들어간 아기상어 노래도 만들어진다.
+
+    내가 주목한 건 ‘보던 캐릭터’가 ‘대화하는 상대’로 바뀌는 순간이다. 내 말과 움직임에 답이 돌아오면, 익숙한 캐릭터의 이야기가 내 이야기처럼 느껴질 수 있다. 이는 작가의 기획 의도가 아닌 나의 해석이다.
+
+    이 원리를 어린이 도서관에 가져온다면? 여기부터는 가상 제안. 방문 가족의 아이가 그림책 캐릭터에게 오늘 읽은 책 제목을 말한다. 캐릭터가 그 책 이야기로 되묻고, 아이의 답으로 한 줄짜리 뒷이야기를 지어 준다. 읽은 책이 대화가 되는 경험을 상상했다.
+
+    늘 노래를 따라 부르던 사이에 내 이름까지 들어간다니. 이 정도면 나도 피처링 아닌가요.
+
+    Love Letter (번호 미배정) · Dear, Interaction.
+  hashtags:
+    - "#디어인터랙션"
+    - "#아기상어"
+    - "#인터랙션디자인"
+    - "#생성형AI"
+    - "#캐릭터체험"
+keywords:
+  - baby-shark
+  - generative-ai
+  - character
+  - kids
+notes:
+  fact: []
+  interpretation: []
+  speculation: []
+scores:
+  tangible: null
+  originality: null
+  reliability: null
+  applicability: null
+  postability: null
+checklist:
+  humor_linked: false
+  info_not_buried: false
+stage: 원고 작성
+scope: EXTENDED

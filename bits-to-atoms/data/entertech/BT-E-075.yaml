@@ -1,0 +1,89 @@
+letter_no: null
+ai_evidence: ""
+source_checked_at: 2026-11-13
+archive_snapshot: ""
+media: []
+carousel:
+  cover: ""
+  work: ""
+  why: ""
+  what_if: ""
+  ps: ""
+caption:
+  text: ""
+  hashtags: []
+scores:
+  tangible: null
+  originality: null
+  reliability: null
+  applicability: null
+  postability: null
+checklist:
+  humor_linked: false
+  info_not_buried: false
+id: BT-E-075
+title: 반 고흐 이머시브 'Love, Vincent Garden'
+creator: 미확인
+year: "2026"
+location: 서울
+context: 이머시브 전시
+status: 미확인
+summary_ko: 2026년 4월 서울에서 개막한 반 고흐 이머시브 전시.
+physical_object: 미확인
+input: 미확인
+output: 미확인
+mechanism: 미확인
+tags:
+  input:
+    - UNKNOWN
+  object:
+    - UNKNOWN
+  sensing:
+    - UNKNOWN
+  output:
+    - UNKNOWN
+  context:
+    - UNKNOWN
+  ai:
+    - UNKNOWN
+  mode:
+    - UNKNOWN
+  era:
+    - 2020s
+source_primary: https://www.pulse.bot/art/news/van-gogh-immersive-love-vincent-garden-opens-in-seoul-expands-global-tour-1a53b6e2-5748-4154-b51a-2fb8f164810a/
+evidence:
+  identity:
+    note: 검색 요약으로만 확인. 제작사·기간 미확인
+    url: https://www.pulse.bot/art/news/van-gogh-immersive-love-vincent-garden-opens-in-seoul-expands-global-tour-1a53b6e2-5748-4154-b51a-2fb8f164810a/
+    status: 미확인
+    link_opened: false
+  interaction:
+    note: 관객이 무엇을 하는지 확인 전
+    url: ""
+    status: 미확인
+    link_opened: false
+  technology:
+    note: ""
+    url: ""
+    status: 미확인
+    link_opened: false
+  context:
+    note: ""
+    url: ""
+    status: 미확인
+    link_opened: false
+ad_insight: ""
+what_if:
+  context: null
+  audience: ""
+  action: ""
+  response: ""
+  message: ""
+keywords: []
+notes:
+  fact:
+    - 검색 요약으로만 확인. 제작사·기간 미확인
+  interpretation: []
+  speculation: []
+stage: 발견
+scope: EXTENDED

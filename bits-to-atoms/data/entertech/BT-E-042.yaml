@@ -1,0 +1,124 @@
+id: BT-E-042
+letter_no: null
+title: Time Travel in Seoul — AR 글래스 관람
+creator: 서울역사박물관 × Qualcomm × Hypercloud
+year: "2026"
+location: 서울역사박물관 3층 상설전시실
+context: 박물관 / AR 글래스 시범 운영
+status: 실제 구현
+summary_ko: AR 글래스를 쓰고 상설전시실을 걸으면 옛 서울의 건물과 일상이 눈앞에 겹쳐 보이는 시범 관람.
+physical_object: AR 글래스
+input: AR 글래스를 쓰고 걸으며 가상 유물 카드를 모으고, 시대 퀴즈를 푼다
+output: 옛 랜드마크와 생활 모습이 전시실 위에 겹쳐 보이고, 안내 캐릭터 갓생 도령이 길을 잡아 준다
+mechanism: AR 글래스, 공간 컴퓨팅, 카메라 기반 실내 위치 인식
+tags:
+  input:
+    - MOVE
+    - GAZE
+  object:
+    - WEARABLE
+  sensing:
+    - CAMERA
+  output:
+    - SCREEN
+    - SOUND
+  context:
+    - MUSEUM
+  ai:
+    - UNKNOWN
+  mode:
+    - MULTI-USER
+  era:
+    - 2020s
+ai_evidence: ""
+source_primary: https://www.koreatimes.co.kr/amp/lifestyle/people-events/20260721/seoul-museum-turns-history-into-living-journey-with-ar-glasses
+source_checked_at: 2026-11-13
+archive_snapshot: ""
+evidence:
+  identity:
+    note: 코리아타임스(2026-07-21). 10월 31일까지, 무료, 회차당 4~5명
+    url: https://www.koreatimes.co.kr/amp/lifestyle/people-events/20260721/seoul-museum-turns-history-into-living-journey-with-ar-glasses
+    status: 확인
+    link_opened: true
+  interaction:
+    note: AR 글래스 착용, 가상 유물 카드 수집, 오디오 가이드 선택, 시대 퀴즈
+    url: https://www.koreatimes.co.kr/amp/lifestyle/people-events/20260721/seoul-museum-turns-history-into-living-journey-with-ar-glasses
+    status: 확인
+    link_opened: true
+  technology:
+    note: AR 글래스, 공간 컴퓨팅, 카메라 기반 실내 측위
+    url: https://www.koreatimes.co.kr/amp/lifestyle/people-events/20260721/seoul-museum-turns-history-into-living-journey-with-ar-glasses
+    status: 확인
+    link_opened: true
+  context:
+    note: 시범 사업
+    url: https://www.koreatimes.co.kr/amp/lifestyle/people-events/20260721/seoul-museum-turns-history-into-living-journey-with-ar-glasses
+    status: 확인
+    link_opened: true
+media: []
+ad_insight: 설명 패널을 읽게 하지 않고 카드를 모으게 했다. 모을 것이 생기면 다음 전시실로 가는 이유가 생긴다. (에디터 해석)
+what_if:
+  context: 박물관 아카이브
+  audience: 역사관을 찾은 초등학생
+  action: 전시실마다 숨은 생활 도구 카드를 찾는다
+  response: 모은 카드로 그 시대 사람의 하루 일과표가 완성된다
+  message: 유물은 모아서 하루가 될 때 이해된다 (가상 제안)
+carousel:
+  cover: |-
+    안경 하나 썼더니
+    서울이 과거형
+  work: |-
+    서울역사박물관 AR 시범 관람
+    걸으면 옛 서울이 겹치는 안경
+  why: |-
+    설명 읽기에서 카드 모으기로
+    다음 전시실이 궁금해질지도
+  what_if: |-
+    상상: 초등생이 도구카드 모아
+    그 시대 하루 일과표 완성
+  ps: |-
+    옛 서울 구경에 발품이라니.
+    시간여행도 걷기는 해야겠네요.
+caption:
+  text: |-
+    LOVE LETTER (번호 미배정)
+
+    안경을 쓰고 걸으면, 전시실 위로 옛 서울의 건물과 생활 모습이 겹쳐 보입니다.
+
+    〈Time Travel in Seoul — AR 글래스 관람〉은 서울역사박물관 × Qualcomm × Hypercloud의 2026년 시범 관람 프로젝트입니다. 장소는 서울역사박물관 3층 상설전시실.
+
+    관객은 가상 유물 카드를 모으고 시대 퀴즈를 풉니다. 안내 캐릭터 ‘갓생 도령’은 길을 잡아 줍니다.
+
+    제가 눈여겨본 건 카드 수집입니다. 읽어야 할 설명에 모으고 싶은 대상이 더해지면, 다음 전시실로 향할 이유가 생길 수 있겠죠. 이건 작품을 바라본 제 해석입니다.
+
+    박물관 아카이브에 이 원리를 가져온다면? 역사관을 찾은 초등학생이 전시실마다 숨은 생활 도구 카드를 찾고, 모은 카드로 그 시대 사람의 하루 일과표를 완성하는 겁니다. 유물들을 하루의 흐름으로 연결해 이해하도록 돕는 가상 제안입니다.
+
+    저는 과거를 보러 갔는데, 발걸음은 자꾸 다음으로 가겠네요.
+
+    Love Letter (번호 미배정) · Dear, Interaction.
+  hashtags:
+    - "#디어인터랙션"
+    - "#인터랙션디자인"
+    - "#서울역사박물관"
+    - "#AR글래스"
+    - "#박물관경험"
+keywords:
+  - ar-glasses
+  - museum
+  - seoul
+  - spatial-computing
+notes:
+  fact: []
+  interpretation: []
+  speculation: []
+scores:
+  tangible: null
+  originality: null
+  reliability: null
+  applicability: null
+  postability: null
+checklist:
+  humor_linked: false
+  info_not_buried: false
+stage: 원고 작성
+scope: EXTENDED

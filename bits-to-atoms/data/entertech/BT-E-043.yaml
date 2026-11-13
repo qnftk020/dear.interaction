@@ -1,0 +1,129 @@
+id: BT-E-043
+letter_no: null
+title: Bruno Mars × Roblox 'Steal a Brainrot' 콘서트
+creator: Bruno Mars × Roblox
+year: "2026"
+location: Roblox (온라인)
+context: 게임 안 콘서트
+status: 실제 구현
+summary_ko: 브루노 마스가 아바타로 로블록스 게임 'Steal a Brainrot' 안에 나타나 노래한, 동시 접속 1,286만 명의 게임 속 콘서트.
+physical_object: 미확인
+input: 게임에 접속해 내 아바타로 공연을 보고, 한정 아이템 Brunito Marsito를 받는다
+output: 브루노 마스 아바타가 게임 안에서 두 곡을 부른다
+mechanism: Roblox 아바타 공연 (게임 내 이벤트)
+tags:
+  input:
+    - MOVE
+  object:
+    - BODY
+  sensing:
+    - UNKNOWN
+  output:
+    - SCREEN
+    - SOUND
+  context:
+    - GAME
+    - CONCERT
+  ai:
+    - NONE
+  mode:
+    - MULTI-USER
+  era:
+    - 2020s
+ai_evidence: ""
+source_primary: https://www.guinnessworldrecords.com/news/commercial/2026/2/bruno-mars-hosts-largest-concert-in-a-videogame-during-steal-a-brainrot-on-roblox
+source_checked_at: 2026-11-13
+archive_snapshot: ""
+evidence:
+  identity:
+    note: 기네스 세계기록(2026-02). 2026-01-17, 단일 아티스트 게임 내 콘서트 최다 동시 시청 기록
+    url: https://www.guinnessworldrecords.com/news/commercial/2026/2/bruno-mars-hosts-largest-concert-in-a-videogame-during-steal-a-brainrot-on-roblox
+    status: 확인
+    link_opened: true
+  interaction:
+    note: 접속해 관람. 한정 Brainrot 아이템 5,428,644회 다운로드
+    url: https://www.guinnessworldrecords.com/news/commercial/2026/2/bruno-mars-hosts-largest-concert-in-a-videogame-during-steal-a-brainrot-on-roblox
+    status: 확인
+    link_opened: true
+  technology:
+    note: Roblox 아바타 공연
+    url: https://www.guinnessworldrecords.com/news/commercial/2026/2/bruno-mars-hosts-largest-concert-in-a-videogame-during-steal-a-brainrot-on-roblox
+    status: 확인
+    link_opened: true
+  context:
+    note: "'I Just Might', 'Locked Out of Heaven' 공연"
+    url: https://www.guinnessworldrecords.com/news/commercial/2026/2/bruno-mars-hosts-largest-concert-in-a-videogame-during-steal-a-brainrot-on-roblox
+    status: 확인
+    link_opened: true
+media:
+  - url: https://www.youtube.com/watch?v=Ha-wJRuAqdI
+    credit: Bruno Mars x Steal a Brainrot "The Most Unexpected Concert" · 채널 확인 전
+    permission: 권한 확인 필요
+    permission_basis: ""
+  - url: https://www.youtube.com/watch?v=jqjVt7Dnq-g
+    credit: "LIVE: Bruno Mars Concert in Steal A Brainrot (팬 녹화) · 채널 확인 전"
+    permission: 권한 확인 필요
+    permission_basis: ""
+ad_insight: 새 공연장을 짓지 않고 이미 사람이 가장 많은 게임으로 들어갔다. 관객을 부르는 대신 관객이 놀던 곳으로 간다. (에디터 해석)
+what_if:
+  context: 브랜드 체험 공간
+  audience: 모바일 게임 이용자
+  action: 평소 하던 게임에 접속한다
+  response: 게임 속 광장에 브랜드 캐릭터가 나타나 그날만 얻는 아이템을 건넨다
+  message: 사람을 부르지 말고 사람이 있는 곳으로 간다 (가상 제안)
+carousel:
+  cover: |-
+    브루노 보러
+    오늘도 게임 접속
+  work: |-
+    브루노 마스 × 로블록스
+    2026 아바타 콘서트
+  why: |-
+    가설: 관객이 놀던 게임이
+    공연장이 될 수도 있다
+  what_if: |-
+    상상: 늘 하던 게임 광장에서
+    브랜드 캐릭터가 당일 아이템을
+  ps: |-
+    공연 보러 게임 켰습니다
+    오늘 접속 사유는 브루노
+caption:
+  text: |-
+    브루노 마스 보러 가는 길, 이번엔 로그인부터.
+
+    2026년 1월 17일, Bruno Mars × Roblox의 ‘Steal a Brainrot’ 콘서트. 브루노 마스는 게임 안에 아바타로 등장해 ‘I Just Might’와 ‘Locked Out of Heaven’을 불렀습니다. 관객은 자신의 아바타로 공연을 보고, 한정 아이템 Brunito Marsito를 받았습니다.
+
+    기네스가 확인한 동시 시청자는 12,862,161명. 단일 아티스트 게임 내 콘서트 최다 동시 시청 기록입니다.
+
+    제가 주목한 건 공연이 찾아간 장소입니다. 관객이 이미 놀던 게임으로 들어가면, 익숙한 놀이 공간이 공연을 만나는 장소가 될 수 있습니다. 이는 에디터의 해석입니다.
+
+    여기서 확장한 가상 제안 하나. 모바일 게임 이용자가 평소 하던 게임에 접속하면, 광장에 브랜드 캐릭터가 나타나 그날만 얻는 아이템을 건넨다면? 브랜드 체험 공간을 이용자의 일상 안으로 옮겨보는 상상입니다. 전달하고 싶은 메시지는 ‘사람이 있는 곳으로 간다’입니다.
+
+    Love Letter (번호 미배정) · Dear, Interaction.
+  hashtags:
+    - "#DearInteraction"
+    - "#인터랙션디자인"
+    - "#브루노마스"
+    - "#로블록스"
+    - "#게임속콘서트"
+keywords:
+  - roblox
+  - bruno-mars
+  - in-game-concert
+  - record
+notes:
+  fact:
+    - 동시 시청 12,862,161명 (기네스). 이전 기록은 Travis Scott의 Fortnite 공연 12,300,000명
+  interpretation: []
+  speculation: []
+scores:
+  tangible: null
+  originality: null
+  reliability: null
+  applicability: null
+  postability: null
+checklist:
+  humor_linked: false
+  info_not_buried: false
+stage: 원고 작성
+scope: EXTENDED

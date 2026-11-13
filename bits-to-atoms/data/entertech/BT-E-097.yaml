@@ -1,0 +1,89 @@
+letter_no: null
+ai_evidence: ""
+source_checked_at: 2026-11-13
+archive_snapshot: ""
+media: []
+carousel:
+  cover: ""
+  work: ""
+  why: ""
+  what_if: ""
+  ps: ""
+caption:
+  text: ""
+  hashtags: []
+scores:
+  tangible: null
+  originality: null
+  reliability: null
+  applicability: null
+  postability: null
+checklist:
+  humor_linked: false
+  info_not_buried: false
+id: BT-E-097
+title: adidas × Oasis 'Original Forever'
+creator: Johannes Leonardo × adidas
+year: "2026"
+location: 영국
+context: 브랜드 × 투어 협업
+status: 미확인
+summary_ko: 오아시스 재결합 투어와 함께한 협업으로 칸 라이언즈 엔터테인먼트·뮤직 그랑프리 2관왕.
+physical_object: 미확인
+input: 미확인
+output: 미확인
+mechanism: 미확인
+tags:
+  input:
+    - UNKNOWN
+  object:
+    - UNKNOWN
+  sensing:
+    - UNKNOWN
+  output:
+    - UNKNOWN
+  context:
+    - UNKNOWN
+  ai:
+    - UNKNOWN
+  mode:
+    - UNKNOWN
+  era:
+    - 2020s
+source_primary: https://au.variety.com/2026/biz/news/cannes-lions-entertainment-adidas-oasis-original-forever-38053/
+evidence:
+  identity:
+    note: 팬이 무엇을 했는지는 기사에 없음
+    url: https://au.variety.com/2026/biz/news/cannes-lions-entertainment-adidas-oasis-original-forever-38053/
+    status: 부분 확인
+    link_opened: true
+  interaction:
+    note: 관객이 무엇을 하는지 확인 전
+    url: ""
+    status: 미확인
+    link_opened: false
+  technology:
+    note: ""
+    url: ""
+    status: 미확인
+    link_opened: false
+  context:
+    note: ""
+    url: ""
+    status: 미확인
+    link_opened: false
+ad_insight: ""
+what_if:
+  context: null
+  audience: ""
+  action: ""
+  response: ""
+  message: ""
+keywords: []
+notes:
+  fact:
+    - 팬이 무엇을 했는지는 기사에 없음
+  interpretation: []
+  speculation: []
+stage: 발견
+scope: EXTENDED

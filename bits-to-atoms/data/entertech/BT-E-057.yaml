@@ -1,0 +1,120 @@
+id: BT-E-057
+letter_no: null
+title: Faces of Fan Festival
+creator: Miami Host Committee
+year: "2026"
+location: 마이애미 Bayfront Park
+context: 월드컵 팬 페스티벌 설치
+status: 실제 구현
+summary_ko: 팬이 사진과 짧은 메시지를 내면 그것이 계속 자라는 대형 콜라주의 한 조각이 되는 설치.
+physical_object: 미확인
+input: 내 사진과 짧은 메시지를 낸다
+output: 사진과 메시지가 계속 커지는 대형 콜라주에 더해진다
+mechanism: 미확인
+tags:
+  input:
+    - TOUCH
+  object:
+    - UNKNOWN
+  sensing:
+    - UNKNOWN
+  output:
+    - SCREEN
+  context:
+    - PUBLIC SPACE
+    - FANDOM
+  ai:
+    - NONE
+  mode:
+    - MULTI-USER
+  era:
+    - 2020s
+ai_evidence: ""
+source_primary: https://our.today/miami-brings-the-spirit-of-the-fifa-world-cup-2026-to-bayfront-park/
+source_checked_at: 2026-11-13
+archive_snapshot: ""
+evidence:
+  identity:
+    note: Our Today. 팬 페스티벌 2026-06-13~07-05, 무료
+    url: https://our.today/miami-brings-the-spirit-of-the-fifa-world-cup-2026-to-bayfront-park/
+    status: 확인
+    link_opened: true
+  interaction:
+    note: 사진과 개인 메시지 제출 → 콜라주에 합류
+    url: https://our.today/miami-brings-the-spirit-of-the-fifa-world-cup-2026-to-bayfront-park/
+    status: 확인
+    link_opened: true
+  technology:
+    note: "'interactive large-scale installation'이라고만 기재"
+    url: https://our.today/miami-brings-the-spirit-of-the-fifa-world-cup-2026-to-bayfront-park/
+    status: 미확인
+    link_opened: true
+  context:
+    note: 대회의 공동 기억으로 남기려는 취지
+    url: https://our.today/miami-brings-the-spirit-of-the-fifa-world-cup-2026-to-bayfront-park/
+    status: 확인
+    link_opened: true
+media: []
+ad_insight: 대회가 끝나도 남는 것을 관객에게 맡겼다. "나도 저기 있다"는 조각 하나가 기념품보다 오래간다. (에디터 해석)
+what_if:
+  context: 박물관 아카이브
+  audience: 지역 축제 방문객
+  action: 축제에서 찍은 사진 한 장과 한 줄을 낸다
+  response: 사진이 그해 축제 지도 위 찍은 자리에 붙는다
+  message: 축제의 기록은 방문객이 채운다 (가상 제안)
+carousel:
+  cover: |-
+    응원하러 왔다가
+    작품에 합류
+  work: |-
+    2026 마이애미 월드컵 축제
+    팬 사진·글로 자라는 콜라주
+  why: |-
+    정해진 기록 대신 팬의 조각을
+    내가 채운 기억이 될 수 있다
+  what_if: |-
+    상상 속 박물관, 축제 손님이
+    사진·한 줄로 축제맵 채우면
+  ps: |-
+    응원만 하고 가려 했는데
+    제 얼굴도 작품에 출전했네요
+caption:
+  text: |-
+    LOVE LETTER (번호 미배정)
+
+    응원하러 갔다가 작품의 한 조각이 된다면.
+
+    〈Faces of Fan Festival〉은 Miami Host Committee의 2026년 월드컵 팬 페스티벌 설치입니다. 마이애미 Bayfront Park에서 팬이 사진과 짧은 메시지를 내면, 계속 커지는 대형 콜라주에 더해집니다. 대회의 공동 기억을 남기려는 취지예요.
+
+    제가 주목한 건 기록을 채우는 사람입니다. 팬이 자기 사진과 말을 보태면, 대회의 기록을 ‘나도 들어 있는 기억’으로 느낄 수 있겠죠. 이건 저의 해석입니다.
+
+    이 원리를 박물관 아카이브에 가져온다면 어떨까요? 지역 축제 방문객이 사진 한 장과 한 줄을 내면, 그해 축제 지도에서 사진을 찍은 자리에 붙는 거예요. 방문객이 축제의 기록을 채우는 가상 제안입니다.
+
+    응원만 하러 왔는데, 작품에 제 자리까지 생겼네요.
+
+    Love Letter (번호 미배정) · Dear, Interaction.
+  hashtags:
+    - "#디어인터랙션"
+    - "#참여형설치"
+    - "#콜라주"
+    - "#아카이브"
+keywords:
+  - world-cup
+  - collage
+  - participation
+  - archive
+notes:
+  fact: []
+  interpretation: []
+  speculation: []
+scores:
+  tangible: null
+  originality: null
+  reliability: null
+  applicability: null
+  postability: null
+checklist:
+  humor_linked: false
+  info_not_buried: false
+stage: 원고 작성
+scope: EXTENDED

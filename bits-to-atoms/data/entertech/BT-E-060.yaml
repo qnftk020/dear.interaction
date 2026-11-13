@@ -1,0 +1,123 @@
+id: BT-E-060
+letter_no: null
+title: iQIYI LAND 扬州
+creator: iQIYI
+year: "2026"
+location: 중국 장쑤성 양저우
+context: OTT IP 실내 이머시브 파크
+status: 실제 구현
+summary_ko: 스트리밍 플랫폼의 드라마 속으로 들어가, 살아 있는 등장인물(NPC)을 만나고 숨은 이야기를 따라가는 실내 파크.
+physical_object: 미확인
+input: 일곱 개 구역을 돌며 배우가 연기하는 NPC를 만나고, 숨은 스토리와 소셜 게임에 참여한다
+output: 선택에 따라 숨은 이야기가 열린다 (세부 미기재)
+mechanism: 인터랙티브 빛·그림자 설치, 첨단 극장, 라이브 공연
+tags:
+  input:
+    - MOVE
+    - VOICE
+  object:
+    - BODY
+  sensing:
+    - UNKNOWN
+  output:
+    - LIGHT
+    - SCREEN
+  context:
+    - THEME PARK
+    - FANDOM
+  ai:
+    - UNKNOWN
+  mode:
+    - MULTI-USER
+  era:
+    - 2020s
+ai_evidence: ""
+source_primary: https://www.timeout.com/asia/news/the-worlds-first-iqiyi-land-immersive-entertainment-park-is-opening-in-asia-012026
+source_checked_at: 2026-11-13
+archive_snapshot: ""
+evidence:
+  identity:
+    note: Time Out. 2026-02-08 개장, 세 곳 계획 중 첫 번째
+    url: https://www.timeout.com/asia/news/the-worlds-first-iqiyi-land-immersive-entertainment-park-is-opening-in-asia-012026
+    status: 확인
+    link_opened: true
+  interaction:
+    note: 7개 구역 탐색, 라이브 NPC, 숨은 스토리라인·소셜 게임
+    url: https://www.timeout.com/asia/news/the-worlds-first-iqiyi-land-immersive-entertainment-park-is-opening-in-asia-012026
+    status: 확인
+    link_opened: true
+  technology:
+    note: 빛·그림자 설치, 극장, 라이브 무대
+    url: https://www.timeout.com/asia/news/the-worlds-first-iqiyi-land-immersive-entertainment-park-is-opening-in-asia-012026
+    status: 부분 확인
+    link_opened: true
+  context:
+    note: IP 테마 식음·쇼핑 포함
+    url: https://www.timeout.com/asia/news/the-worlds-first-iqiyi-land-immersive-entertainment-park-is-opening-in-asia-012026
+    status: 확인
+    link_opened: true
+media: []
+ad_insight: 놀이기구가 아니라 등장인물을 뒀다. 드라마 팬이 원한 것은 탈것이 아니라 "말을 걸 수 있는 그 사람"이다. (에디터 해석)
+what_if:
+  context: 브랜드 체험 공간
+  audience: 드라마 팬
+  action: 극 중 가게 주인에게 암호 같은 대사를 건넨다
+  response: 주인이 뒷문을 열어 본편에 없던 장면의 방으로 안내한다
+  message: 대사를 아는 사람만 여는 문 (가상 제안)
+carousel:
+  cover: |-
+    최애에게 말 걸기
+    재생 버튼은 어디?
+  work: |-
+    드라마 NPC 만나는 실내파크
+    iQIYI·2026·中양저우
+  why: |-
+    화면 속 인물과 대화하면
+    나도 이야기 속이라 느낄지도
+  what_if: |-
+    상상: 팬이 대사 건네면
+    주인이 숨은 장면 안내
+  ps: |-
+    다음 화를 누르던 손으로
+    이번엔 제가 말 좀 걸겠습니다
+caption:
+  text: |-
+    LOVE LETTER (번호 미배정)
+
+    iQIYI LAND 扬州 · iQIYI · 2026
+    중국 장쑤성 양저우의 OTT IP 실내 파크.
+
+    드라마를 보던 사람이 이야기 속으로 들어갑니다. 일곱 구역을 돌며 배우가 연기하는 NPC를 만나고, 숨은 이야기와 소셜 게임에 참여하죠. 선택에 따라 숨은 이야기가 열립니다. 구체적인 분기 방식은 자료에 나와 있지 않습니다.
+
+    제가 주목한 건 등장인물과의 거리입니다. 화면으로 보던 인물이 말을 걸 수 있는 상대가 되면, 관객도 자신이 이야기의 일부라고 느낄 수 있겠죠. 작가의 의도가 아닌, 제 해석입니다.
+
+    브랜드 체험 공간에 적용한다면? 여기부터는 가상 제안입니다. 드라마 팬이 극 중 가게 주인에게 암호 같은 대사를 건네면, 주인이 뒷문을 열어 본편에 없던 장면의 방으로 안내하는 거예요. 기억하던 대사가 공간을 여는 열쇠가 되는 경험입니다.
+
+    대사 외운 보람, 문 앞에서 찾을 줄이야.
+
+    Love Letter (번호 미배정) · Dear, Interaction.
+  hashtags:
+    - "#디어인터랙션"
+    - "#인터랙션디자인"
+    - "#아이치이랜드"
+    - "#공간경험"
+keywords:
+  - iqiyi
+  - npc
+  - ip-park
+  - china
+notes:
+  fact: []
+  interpretation: []
+  speculation: []
+scores:
+  tangible: null
+  originality: null
+  reliability: null
+  applicability: null
+  postability: null
+checklist:
+  humor_linked: false
+  info_not_buried: false
+stage: 원고 작성
+scope: EXTENDED

@@ -1,0 +1,132 @@
+id: BT-E-040
+letter_no: null
+title: 메이플 아일랜드 존
+creator: 롯데월드 × 넥슨
+year: "2026"
+location: 서울 롯데월드 매직아일랜드
+context: 테마파크 / 게임 IP 테마존
+status: 실제 구현
+summary_ko: 게임 '메이플스토리'의 마을들을 놀이기구와 광장으로 옮긴 약 600평 테마존.
+physical_object: 놀이기구 3종, 캐릭터 조형물
+input: 게임 속 마을 이름이 붙은 놀이기구 3종을 타고, 캐릭터 광장에서 사진을 찍는다
+output: 헤네시스·아르카나·루디브리엄이 실제 공간과 놀이기구로 나타난다
+mechanism: 미확인
+tags:
+  input:
+    - MOVE
+  object:
+    - FURNITURE
+  sensing:
+    - UNKNOWN
+  output:
+    - MOTION
+  context:
+    - THEME PARK
+    - GAME
+  ai:
+    - NONE
+  mode:
+    - MULTI-USER
+  era:
+    - 2020s
+ai_evidence: ""
+source_primary: https://www.khan.co.kr/article/202604101309001
+source_checked_at: 2026-11-13
+archive_snapshot: ""
+evidence:
+  identity:
+    note: 경향신문(2026-04-10). 매직아일랜드, 약 600평, 10년 상설 운영 계획
+    url: https://www.khan.co.kr/article/202604101309001
+    status: 확인
+    link_opened: true
+  interaction:
+    note: 어트랙션 3종(스톤익스프레스, 에오스타워, 아르카나라이드), 포토존, 스토어
+    url: https://www.khan.co.kr/article/202604101309001
+    status: 확인
+    link_opened: true
+  technology:
+    note: 디지털 인터랙션 언급 없음
+    url: https://www.khan.co.kr/article/202604101309001
+    status: 미확인
+    link_opened: true
+  context:
+    note: 2024년부터 약 2년간 조성
+    url: https://www.khan.co.kr/article/202604101309001
+    status: 확인
+    link_opened: true
+media:
+  - url: https://www.youtube.com/watch?v=UY2KCVzFS24
+    credit: "[메이플스토리X롯데월드] 메이플 아일랜드 티저 · 채널 확인 전"
+    permission: 권한 확인 필요
+    permission_basis: ""
+  - url: https://www.youtube.com/watch?v=q_dSAxgPaMk
+    credit: 메이플로 뒤덮인 롯데월드, '메이플 아일랜드' · 채널 확인 전
+    permission: 권한 확인 필요
+    permission_basis: ""
+  - url: https://www.youtube.com/watch?v=p7-i08w61xI
+    credit: 메이플 아일랜드 곳곳에 숨은 핑크빈 · 채널 확인 전
+    permission: 권한 확인 필요
+    permission_basis: ""
+ad_insight: 화면 속에서 수백 시간을 보낸 마을에 처음 "발을 딛는다". 새 이야기가 아니라 아는 장소에 간다는 것이 표를 사게 한다. (에디터 해석)
+what_if:
+  context: 브랜드 체험 공간
+  audience: 오래된 게임 이용자
+  action: 게임 닉네임을 입구에서 말한다
+  response: 마을 게시판에 그 닉네임과 접속 연도가 걸린다
+  message: 오래 논 사람을 알아봐 주는 공간 (가상 제안)
+carousel:
+  cover: |-
+    나 메이플 하는 중
+    이번엔 두 발로
+  work: |-
+    메이플 아일랜드 존 2026
+    게임 마을을 기구와 광장으로
+  why: |-
+    화면 속 마을을 걸으면
+    새롭게 느껴질지도
+  what_if: |-
+    상상: 입구에서 말한 닉네임
+    접속 연도와 함께 게시판에
+  ps: |-
+    마을에 왔으니 인사할게요
+    저예요, 화면 밖은 초면이죠?
+caption:
+  text: |-
+    LOVE LETTER (번호 미배정)
+    메이플 아일랜드 존 · 롯데월드 × 넥슨
+
+    2026년 서울 롯데월드 매직아일랜드에 구현된 약 600평의 게임 IP 테마존. 메이플스토리의 헤네시스·아르카나·루디브리엄을 실제 공간과 놀이기구로 옮겼습니다. 관객은 놀이기구 3종을 타고, 캐릭터 광장에서 사진을 찍습니다.
+
+    제가 주목한 건 익숙한 장소를 만나는 방식이에요. 화면으로 보던 마을에 몸으로 들어가면, 이미 아는 풍경에서도 새로운 반가움을 느낄 수 있겠죠. 작품을 보고 떠올린 제 해석입니다.
+
+    이 원리를 브랜드 체험 공간으로 가져온다면? 오래된 게임 이용자가 입구에서 닉네임을 말하면, 그 이름과 접속 연도를 마을 게시판에 걸어주는 겁니다. 오래 놀았던 시간을 공간이 알아봐 주는 경험을 상상했어요. 실제 운영 내용이 아닌 가상 제안이며, 접속 연도를 받는 방식은 별도로 설계해야 합니다.
+
+    게임 속 마을에 두 발로 출석하는 날이라니. 오늘은 제 신발도 접속했습니다.
+
+    Love Letter (번호 미배정) · Dear, Interaction.
+  hashtags:
+    - "#디어인터랙션"
+    - "#메이플아일랜드"
+    - "#메이플스토리"
+    - "#공간디자인"
+    - "#인터랙션디자인"
+keywords:
+  - maplestory
+  - theme-park
+  - game-ip
+notes:
+  fact:
+    - 개장 후 전주 대비 입장객 약 20% 증가 (롯데월드 발언)
+  interpretation: []
+  speculation: []
+scores:
+  tangible: null
+  originality: null
+  reliability: null
+  applicability: null
+  postability: null
+checklist:
+  humor_linked: false
+  info_not_buried: false
+stage: 원고 작성
+scope: EXTENDED

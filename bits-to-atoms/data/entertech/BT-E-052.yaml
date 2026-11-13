@@ -1,0 +1,123 @@
+id: BT-E-052
+letter_no: null
+title: 1st Stage — XR 라이브하우스
+creator: FreeStyle Co., Ltd.
+year: "2026"
+location: 도쿄 하치오지
+context: 버추얼 아티스트용 상설 공연장
+status: 실제 구현
+summary_ko: 투명 LED 패널로 실제 무대 위에 버추얼 가수를 세우는, 상설 XR 라이브하우스.
+physical_object: 투명 LED 패널 무대
+input: 공연장에 가거나 생중계로 버추얼 아티스트의 공연을 본다
+output: 투명 LED 패널에 뜬 캐릭터가 실제 무대 위에 서 있는 것처럼 보인다
+mechanism: 상설 투명 LED 패널, LED 스크린
+tags:
+  input:
+    - GAZE
+  object:
+    - BODY
+  sensing:
+    - UNKNOWN
+  output:
+    - SCREEN
+    - SOUND
+  context:
+    - CONCERT
+    - FANDOM
+  ai:
+    - NONE
+  mode:
+    - MULTI-USER
+  era:
+    - 2020s
+ai_evidence: ""
+source_primary: https://www.moguravr.com/?p=316791
+source_checked_at: 2026-11-13
+archive_snapshot: ""
+evidence:
+  identity:
+    note: Mogura VR. 2026-06-19 개장, 운영사는 "라이브하우스로는 일본 최초"라고 주장
+    url: https://www.moguravr.com/?p=316791
+    status: 확인
+    link_opened: true
+  interaction:
+    note: 현장 또는 생중계 관람
+    url: https://www.moguravr.com/?p=316791
+    status: 확인
+    link_opened: true
+  technology:
+    note: 투명 LED 패널로 캐릭터를 무대에 겹침
+    url: https://www.moguravr.com/?p=316791
+    status: 확인
+    link_opened: true
+  context:
+    note: 대관료 11만 엔(스튜디오·기술 스태프 2명 포함)
+    url: https://www.moguravr.com/?p=316791
+    status: 확인
+    link_opened: true
+media: []
+ad_insight: 스타디움이 아니라 동네 라이브하우스에 버추얼 무대를 뒀다. 큰 기술이 작은 판에 내려오면 신인이 설 자리가 생긴다. (에디터 해석)
+what_if:
+  context: 공공 문화시설
+  audience: 지역 청소년 창작자
+  action: 직접 만든 캐릭터 파일을 들고 온다
+  response: 주말 저녁 무대에 그 캐릭터가 서서 10분 공연을 한다
+  message: 누구의 캐릭터도 무대에 설 수 있다 (가상 제안)
+carousel:
+  cover: |-
+    최애는 버추얼
+    출근지는 하치오지
+  work: |-
+    버추얼 가수가 서는 실제 무대
+    투명 LED를 둔 상설 공연장
+  why: |-
+    화면 속 가수를 실제 무대로
+    같은 자리에 있다고 느낄 수도
+  what_if: |-
+    상상: 청소년 캐릭터 파일이
+    문화시설서 주말 10분 공연
+  ps: |-
+    최애에게 주소가 생겼다
+    이제 내 발로 보러 갈 차례
+caption:
+  text: |-
+    LOVE LETTER (번호 미배정)
+
+    1st Stage — XR 라이브하우스
+    FreeStyle Co., Ltd. · 2026 · 도쿄 하치오지
+
+    버추얼 아티스트를 위한 상설 공연장입니다. 투명 LED 패널에 뜬 캐릭터가 실제 무대 위에 서 있는 것처럼 보이죠. 현장에서도, 생중계로도 공연을 볼 수 있습니다.
+
+    제가 주목한 건 버추얼 가수가 서는 ‘장소’입니다. 실제 무대에 캐릭터를 겹치면, 관객은 가수와 같은 자리에 있다는 느낌을 받을 수도 있겠어요. 여기부터는 제 해석입니다.
+
+    이 원리를 공공 문화시설에 가져온다면? 지역 청소년 창작자가 직접 만든 캐릭터 파일을 가져오고, 주말 저녁 그 캐릭터가 무대에서 10분 공연을 하는 겁니다. ‘누구의 캐릭터도 무대에 설 수 있다’는 메시지를 담은 가상 제안이에요.
+
+    최애에게 주소가 생기다니. 제 외출 사유도 하나 늘었습니다.
+
+    Love Letter (번호 미배정) · Dear, Interaction.
+  hashtags:
+    - "#디어인터랙션"
+    - "#인터랙션디자인"
+    - "#버추얼아티스트"
+    - "#투명LED"
+    - "#XR라이브하우스"
+keywords:
+  - vtuber
+  - transparent-led
+  - live-house
+  - japan
+notes:
+  fact: []
+  interpretation: []
+  speculation: []
+scores:
+  tangible: null
+  originality: null
+  reliability: null
+  applicability: null
+  postability: null
+checklist:
+  humor_linked: false
+  info_not_buried: false
+stage: 원고 작성
+scope: EXTENDED

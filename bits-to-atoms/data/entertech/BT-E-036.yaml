@@ -1,0 +1,128 @@
+id: BT-E-036
+letter_no: null
+title: IVE × DDP 365 Light — DIVE IN TO LIGHT
+creator: IVE × 서울시 × 서울디자인재단 × Livelab
+year: "2026"
+location: 서울 DDP 외벽
+context: 컴백 프로모션 / 미디어 파사드·레이저쇼
+status: 실제 구현
+summary_ko: 아이브 새 앨범 영상이 DDP 외벽을 덮고 레이저가 건물을 가로지르는 컴백 프로모션.
+physical_object: 히어로 마스크 전시물, 포토존
+input: 외벽 영상과 레이저쇼를 보고, 히어로 포토존에서 사진을 찍어 SNS에 올린다
+output: DDP 외벽에 컴백 영상이 상영되고 레이저·조명·사운드가 더해진다. 인증하면 기념엽서를 받는다
+mechanism: "DDP 365 Light: 영상·레이저·조명·사운드를 결합한 외벽 미디어아트"
+tags:
+  input:
+    - GAZE
+    - MOVE
+  object:
+    - BODY
+  sensing:
+    - UNKNOWN
+  output:
+    - PROJECTION
+    - LIGHT
+    - SOUND
+  context:
+    - PUBLIC SPACE
+    - FANDOM
+  ai:
+    - NONE
+  mode:
+    - MULTI-USER
+  era:
+    - 2020s
+ai_evidence: ""
+source_primary: https://sports.khan.co.kr/en/article/202610280717007/
+source_checked_at: 2026-11-13
+archive_snapshot: ""
+evidence:
+  identity:
+    note: 스포츠경향(2026-10-28) + 서울시 보도자료. 10-19~11-22 (히어로 마스크·SNS 이벤트는 11-1까지)
+    url: https://sports.khan.co.kr/en/article/202610280717007/
+    status: 확인
+    link_opened: true
+  interaction:
+    note: 히어로 마스크 관람, Hero IVE 포토존 촬영, SNS 인증 이벤트
+    url: https://sports.khan.co.kr/en/article/202610280717007/
+    status: 확인
+    link_opened: true
+  technology:
+    note: 영상·레이저·조명·사운드 결합 외벽 미디어아트
+    url: https://sports.khan.co.kr/en/article/202610280717007/
+    status: 확인
+    link_opened: true
+  context:
+    note: "'Looks Can Kill' 뮤직비디오 DDP 버전 공개"
+    url: https://sports.khan.co.kr/en/article/202610280717007/
+    status: 확인
+    link_opened: true
+media: []
+ad_insight: 뮤직비디오를 휴대폰 화면에서 꺼내 건물 크기로 키웠다. 지나가던 사람도 컴백을 "목격"하게 된다. (에디터 해석)
+what_if:
+  context: 공공 문화시설
+  audience: 저녁 산책 나온 시민
+  action: 광장 바닥의 표시 위에 선다
+  response: 선 사람 수만큼 외벽의 빛줄기가 늘어난다
+  message: 건물은 모인 사람 수로 완성된다 (가상 제안)
+carousel:
+  cover: |-
+    컴백했더니
+    건물이 무대 체질
+  work: |-
+    2026, 아이브 컴백 영상이
+    DDP 외벽에 펼쳐진다
+  why: |-
+    휴대폰 화면에서 건물 외벽으로
+    지나가다 컴백을 만날 수도
+  what_if: |-
+    상상: 산책 나온 시민이 서면
+    사람 수만큼 외벽 빛줄기가
+  ps: |-
+    이번 컴백은 화면이 좀 크네요
+    제 주머니엔 안 들어가겠어요
+caption:
+  text: |-
+    LOVE LETTER (번호 미배정)
+
+    IVE × DDP 365 Light — DIVE IN TO LIGHT
+    IVE × 서울시 × 서울디자인재단 × Livelab, 2026
+
+    아이브의 컴백 영상이 서울 DDP 외벽에 펼쳐집니다. ‘Looks Can Kill’ 뮤직비디오의 DDP 버전에 레이저·조명·사운드가 더해집니다.
+
+    외벽 공연을 보는 경험에 더해, 히어로 마스크 전시물과 포토존도 마련됐습니다. 포토존에서 촬영하고 SNS에 인증하면 기념엽서를 받는 이벤트도 진행됐습니다. 마스크와 SNS 이벤트는 11월 1일까지였어요.
+
+    제가 주목한 건 화면의 자리입니다. 휴대폰 안의 뮤직비디오가 건물 외벽으로 옮겨오면, 찾아보지 않던 사람도 산책 중 컴백을 목격할 수 있겠죠. 이건 관람 효과가 검증됐다는 뜻이 아닌, 저의 해석입니다.
+
+    여기서 공공 문화시설을 위한 상상 하나. 저녁 산책 나온 시민이 광장 바닥의 표시 위에 서면, 선 사람 수만큼 외벽의 빛줄기가 늘어나는 겁니다. ‘건물은 모인 사람 수로 완성된다’는 메시지를 함께 만드는 경험으로요. 실제 프로젝트가 아닌 가상 제안입니다.
+
+    이번 컴백, 화면 크기부터 주머니 사정을 벗어났네요.
+
+    Love Letter (번호 미배정) · Dear, Interaction.
+  hashtags:
+    - "#DearInteraction"
+    - "#아이브"
+    - "#DDP"
+    - "#미디어파사드"
+    - "#인터랙션디자인"
+keywords:
+  - ive
+  - ddp
+  - laser
+  - media-facade
+notes:
+  fact:
+    - 서울시 자료는 행사 기간을 10-19~11-30으로, 홍보부스를 10-19~11-1 17:30~23:00로 안내
+  interpretation: []
+  speculation: []
+scores:
+  tangible: null
+  originality: null
+  reliability: null
+  applicability: null
+  postability: null
+checklist:
+  humor_linked: false
+  info_not_buried: false
+stage: 원고 작성
+scope: EXTENDED

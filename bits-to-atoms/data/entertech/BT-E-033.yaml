@@ -1,0 +1,128 @@
+id: BT-E-033
+letter_no: null
+title: BTS THE CITY ARIRANG SEOUL
+creator: 서울특별시 × HYBE
+year: "2026"
+location: 서울 랜드마크 15곳
+context: 도시 단위 컴백 프로모션
+status: 실제 구현
+summary_ko: 방탄소년단 컴백에 맞춰 서울 랜드마크 15곳이 조명과 미디어파사드, 분수쇼로 팬을 맞은 도시 프로젝트.
+physical_object: 미확인
+input: 청계천 500m 빛길을 걷고, 반포대교 분수쇼를 보고, K-pop 도보 코스를 따라 도시를 돈다
+output: 랜드마크 15곳에 경관 조명이 켜지고, 미디어파사드 10곳에 7개 국어 환영 문구가 뜨고, 음악에 맞춘 분수가 솟는다
+mechanism: LED 경관 조명, 음악 연동 분수(1km 이상), 한강 드론 라이트쇼
+tags:
+  input:
+    - MOVE
+  object:
+    - BODY
+  sensing:
+    - UNKNOWN
+  output:
+    - LIGHT
+    - PROJECTION
+  context:
+    - PUBLIC SPACE
+    - FANDOM
+  ai:
+    - NONE
+  mode:
+    - MULTI-USER
+  era:
+    - 2020s
+ai_evidence: ""
+source_primary: https://news.tf.co.kr/read/life/2302404.htm
+source_checked_at: 2026-11-13
+archive_snapshot: ""
+evidence:
+  identity:
+    note: 서울시 발표 기사. 3/20~21 경관조명, 4/6~19 아리랑 라이트워크(청계천 오간수교~버들다리 약 500m), 4/21~22 분수쇼
+    url: https://news.tf.co.kr/read/life/2302404.htm
+    status: 확인
+    link_opened: true
+  interaction:
+    note: 청계천 산책, 분수쇼 관람, 한강버스 승선, K-pop 도보코스
+    url: https://news.tf.co.kr/read/life/2302404.htm
+    status: 확인
+    link_opened: true
+  technology:
+    note: LED 조명, 음악 연동 분수, 한강드론라이트쇼
+    url: https://news.tf.co.kr/read/life/2302404.htm
+    status: 확인
+    link_opened: true
+  context:
+    note: BTS 컴백 공연 연계 글로벌 팬 맞이 프로그램
+    url: https://news.tf.co.kr/read/life/2302404.htm
+    status: 확인
+    link_opened: true
+media:
+  - url: https://www.youtube.com/watch?v=EgANbvb2zrU
+    credit: BTS 'ARIRANG' EVERYWHERE | THE CITY ARIRANG SEOUL · 채널 확인 전
+    permission: 권한 확인 필요
+    permission_basis: ""
+ad_insight: 공연장을 넓히지 않고 도시를 무대로 썼다. 표가 없는 팬도 걷는 것만으로 컴백에 참여한다. (에디터 해석)
+what_if:
+  context: 공공 문화시설
+  audience: 축제 기간 도시를 찾은 방문객
+  action: 정해진 빛길을 끝까지 걷는다
+  response: 걸은 구간만큼 다리 조명이 한 칸씩 이어 켜진다
+  message: 도시는 걸은 만큼 무대가 된다 (가상 제안)
+carousel:
+  cover: |-
+    컴백했더니
+    서울이 응원봉
+  work: |-
+    BTS 컴백을 맞은 서울
+    15곳의 조명·영상·분수쇼
+  why: |-
+    공연장 대신 도시를 무대로
+    걷기도 참여가 될 수 있다
+  what_if: |-
+    상상: 축제 손님의 걸음만큼
+    다리 조명이 한 칸씩 켜진다면
+  ps: 이 무대, 제법 걸어야겠네요.
+caption:
+  text: |-
+    LOVE LETTER (번호 미배정)
+
+    BTS THE CITY ARIRANG SEOUL
+    서울특별시 × HYBE · 2026
+
+    BTS 컴백에 맞춰 서울 랜드마크 15곳을 조명과 미디어파사드, 분수쇼로 연결한 도시 단위 프로모션입니다. 미디어파사드 10곳에는 7개 국어 환영 문구가 뜨고, 분수는 음악에 맞춰 솟습니다.
+
+    팬은 청계천 500m 빛길을 걷고, 반포대교 분수쇼를 보고, K-pop 도보 코스를 따라 도시를 돕니다. 관객의 걸음에 조명이 반응하는 구조로 확인된 것은 아닙니다.
+
+    제가 주목한 건 무대의 범위예요. 도시를 무대로 삼으면, 걷고 구경하는 일도 컴백에 참여하는 경험이 될 수 있겠다고 읽었습니다. 이는 에디터의 해석입니다.
+
+    여기서 상상 하나. 공공 문화시설의 축제 프로그램에서 방문객이 정해진 빛길을 끝까지 걸으면, 걸은 구간만큼 다리 조명이 한 칸씩 이어 켜진다면요. ‘도시는 걸은 만큼 무대가 된다’는 메시지를 발걸음으로 경험하게 하는 가상 제안입니다.
+
+    응원하러 나왔는데 산책까지. 오늘의 앙코르는 조금 더 걷겠습니다.
+
+    Love Letter (번호 미배정) · Dear, Interaction.
+  hashtags:
+    - "#DearInteraction"
+    - "#BTS_THE_CITY"
+    - "#도시경험"
+    - "#인터랙션디자인"
+keywords:
+  - bts
+  - city
+  - media-facade
+  - lighting
+notes:
+  fact:
+    - 숭례문 미디어 파사드 관람객의 약 73%가 외국인 (MTN 2026-09-02)
+    - BTS 컴백 공연에 최대 26만 명 방문 예상 (서울시)
+  interpretation: []
+  speculation: []
+scores:
+  tangible: null
+  originality: null
+  reliability: null
+  applicability: null
+  postability: null
+checklist:
+  humor_linked: false
+  info_not_buried: false
+stage: 원고 작성
+scope: EXTENDED

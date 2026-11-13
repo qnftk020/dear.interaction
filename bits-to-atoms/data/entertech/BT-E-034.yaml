@@ -1,0 +1,135 @@
+id: BT-E-034
+letter_no: null
+title: BTS 'THE CITY ARIRANG' 드론쇼·미디어 파사드
+creator: HYBE (방탄소년단)
+year: "2026"
+location: 서울 뚝섬·숭례문, 런던 사우스 뱅크, 뉴욕 브루클린 브리지
+context: 컴백 프로모션 / 드론쇼
+status: 실제 구현
+summary_ko: 서울 하늘에 드론 수천 대가 멤버 7명의 얼굴을 그리고, 숭례문과 런던·뉴욕의 건물에 앨범 영상이 뜬 컴백 프로모션.
+physical_object: 미확인
+input: 한강공원과 숭례문 앞에 모여 올려다보고 휴대폰으로 찍는다
+output: 뚝섬 하늘의 드론 수천 대가 멤버 7인의 얼굴을, 뉴욕의 드론 수백 대가 북두칠성을 그린다. 숭례문에는 멤버 실루엣이 뜬다
+mechanism: 드론쇼, 미디어 파사드, 3D 비주얼(신세계스퀘어)
+tags:
+  input:
+    - GAZE
+  object:
+    - BODY
+  sensing:
+    - UNKNOWN
+  output:
+    - LIGHT
+    - PROJECTION
+  context:
+    - PUBLIC SPACE
+    - FANDOM
+  ai:
+    - NONE
+  mode:
+    - MULTI-USER
+  era:
+    - 2020s
+ai_evidence: ""
+source_primary: https://mobile.newsis.com/view/NISX20260326_0003564281
+source_checked_at: 2026-11-13
+archive_snapshot: ""
+evidence:
+  identity:
+    note: 뉴시스(2026-03-26). 'BTS 더 시티 아리랑' 영상 공개. 숭례문 파사드는 3월 20일
+    url: https://mobile.newsis.com/view/NISX20260326_0003564281
+    status: 확인
+    link_opened: true
+  interaction:
+    note: 서울 현장 시민 수천 명이 휴대폰으로 촬영. 관객이 조작하는 요소는 없음
+    url: https://mobile.newsis.com/view/NISX20260326_0003564281
+    status: 확인
+    link_opened: true
+  technology:
+    note: 드론 수백~수천 대, 미디어 파사드, 3D 비주얼
+    url: https://mobile.newsis.com/view/NISX20260326_0003564281
+    status: 확인
+    link_opened: true
+  context:
+    note: 문화유산(숭례문) 활용 사례로 평가
+    url: https://mobile.newsis.com/view/NISX20260326_0003564281
+    status: 확인
+    link_opened: true
+media:
+  - url: https://www.youtube.com/watch?v=p_IgNu0dsYc
+    credit: "[LIVE] BTS Comeback Drone Light Show 20260320 · 채널 확인 전"
+    permission: 권한 확인 필요
+    permission_basis: ""
+  - url: https://www.youtube.com/watch?v=nfSgM0y5C70
+    credit: When the Sky Starts to Swim — BTS Drone Show in Seoul · 채널 확인 전
+    permission: 권한 확인 필요
+    permission_basis: ""
+  - url: https://www.youtube.com/watch?v=5bpPsZpRNGc
+    credit: BTS Faces Light Up Seoul Sky In Stunning Drone Show · 채널 확인 전
+    permission: 권한 확인 필요
+    permission_basis: ""
+ad_insight: 관객이 조작하는 것은 없다. 대신 수천 명이 같은 하늘을 같은 순간 올려다보게 만들었고, 그 장면을 찍는 손이 홍보가 됐다. (에디터 해석)
+what_if:
+  context: 공공 문화시설
+  audience: 야간 축제 관람객
+  action: 강변에서 휴대폰 불빛을 들어 올린다
+  response: 불빛이 많이 모인 쪽 하늘부터 드론 그림이 완성된다
+  message: 올려다보기만 하던 하늘에 내 불빛을 보탠다 (가상 제안)
+carousel:
+  cover: |-
+    최애 뜨자
+    하늘로 출근한 폰
+  work: |-
+    HYBE 2026 BTS 컴백
+    드론·건물에 뜬 멤버들
+  why: |-
+    같은 하늘을 함께 보면
+    기억에 남을지도 몰라
+  what_if: |-
+    야간 축제라면 어떨까?
+    불빛 모인 쪽부터 드론 완성
+  ps: |-
+    분명 하늘을 보러 갔는데
+    내 폰도 맨 앞줄을 원하네
+caption:
+  text: |-
+    최애가 하늘에 뜨면, 휴대폰도 고개를 든다.
+
+    BTS ‘THE CITY ARIRANG’은 HYBE의 2026년 컴백 프로모션이다. 서울 뚝섬에서는 드론 수천 대가 멤버 7명의 얼굴을 그렸고, 숭례문에는 멤버 실루엣이 떴다. 런던과 뉴욕의 건물에도 앨범 영상이 펼쳐졌다.
+
+    관객이 화면이나 드론을 조작하는 요소는 없다. 현장의 시민들은 모여 올려다보고 휴대폰으로 촬영했다. 촬영에 따라 작품이 달라지는 구조는 아니다.
+
+    내가 주목한 건 시선이 모이는 방식이다. 각자의 화면을 보던 사람들이 같은 순간 같은 하늘을 바라본다. 함께 본 장면이 컴백의 기억으로 남을 수 있다는 게 내 해석이다. 촬영한 장면이 홍보로 이어질 가능성도 떠올려 본다.
+
+    여기서부터는 가상 제안. 공공 문화시설의 야간 축제에서 관람객이 강변에 모여 휴대폰 불빛을 든다면? 불빛이 많이 모인 쪽 하늘부터 드론 그림이 완성되게 해보는 것이다. 올려다보던 하늘에 내 불빛도 보탰다는 경험을 제안한다.
+
+    분명 하늘을 보러 갔는데, 내 폰도 맨 앞줄을 원하네.
+
+    Love Letter (번호 미배정) · Dear, Interaction.
+  hashtags:
+    - "#DearInteraction"
+    - "#BTS"
+    - "#드론쇼"
+    - "#미디어파사드"
+    - "#경험디자인"
+keywords:
+  - bts
+  - drone-show
+  - media-facade
+  - heritage
+notes:
+  fact:
+    - 런던 미디어 파사드에는 청사초롱을 든 멤버와 앨범 로고
+  interpretation: []
+  speculation: []
+scores:
+  tangible: null
+  originality: null
+  reliability: null
+  applicability: null
+  postability: null
+checklist:
+  humor_linked: false
+  info_not_buried: false
+stage: 원고 작성
+scope: EXTENDED

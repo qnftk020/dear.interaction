@@ -56,7 +56,19 @@ evidence:
     url: https://news.mtn.co.kr/news-detail/2026051516503447321
     status: 확인
     link_opened: true
-media: []
+media:
+  - url: https://www.youtube.com/watch?v=Ls0eVy0dwBY
+    credit: 갤럭시 로봇파크 오픈 영상 · 채널 확인 전
+    permission: 권한 확인 필요
+    permission_basis: ""
+  - url: https://www.youtube.com/watch?v=IhGtA40qMxo
+    credit: "뉴스: 공장 밖으로 나온 로봇…'갤럭시 로봇파크' 오픈 · 채널 확인 전"
+    permission: 권한 확인 필요
+    permission_basis: ""
+  - url: https://www.youtube.com/watch?v=jHJaCUa_3KY
+    credit: "영문 뉴스: Galaxy Robot Park opens in Seoul · 채널 확인 전"
+    permission: 권한 확인 필요
+    permission_basis: ""
 ad_insight: 로봇을 진열대에 세워 두는 대신 "나를 그려 주는 상대"로 만났다. 기술 설명보다 내 얼굴이 담긴 결과물이 먼저 남는다. (에디터 해석)
 what_if:
   context: 브랜드 체험 공간

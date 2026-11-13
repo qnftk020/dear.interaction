@@ -1,0 +1,127 @@
+id: BT-E-062
+letter_no: null
+title: "Voyage: Beyond the Unexplored / Sky: Cloud Journey"
+creator: 日本科学未来館 (Miraikan) × WOW
+year: "2026"
+location: 도쿄 미라이칸 7층
+context: 과학관 / 몰입형 상영 공간
+status: 실제 구현
+summary_ko: 곡면 LED와 12.2채널 소리, 안개와 바람으로 미지의 세계와 구름 속을 보여 주는 과학관의 새 상영 공간.
+physical_object: 곡면 LED, 안개
+input: 15석 극장에 앉아 약 15분 상영을 보거나, 홀에서 5분 영상을 본다
+output: 화면이 앞·뒤·옆·바닥을 채우고, 특별 회차에는 안개와 바람이 나온다
+mechanism: 곡면 LED 패널, 12.2채널 공간 음향, 4면+바닥 4K 투사, 안개·바람
+tags:
+  input:
+    - GAZE
+  object:
+    - FURNITURE
+  sensing:
+    - UNKNOWN
+  output:
+    - SCREEN
+    - PROJECTION
+    - SOUND
+  context:
+    - MUSEUM
+    - EDUCATION
+  ai:
+    - NONE
+  mode:
+    - MULTI-USER
+  era:
+    - 2020s
+ai_evidence: ""
+source_primary: https://www.miraikan.jst.go.jp/en/news/general/202605154537.html
+source_checked_at: 2026-11-13
+archive_snapshot: ""
+evidence:
+  identity:
+    note: 미라이칸 공식. 2026-04-25 개관, 2026-10-01~2027-04-22 개보수 휴관
+    url: https://www.miraikan.jst.go.jp/en/news/general/202605154537.html
+    status: 확인
+    link_opened: true
+  interaction:
+    note: 상영 관람 (Voyage 15석·번호표, Sky 예약 불필요)
+    url: https://www.miraikan.jst.go.jp/en/news/general/202605154537.html
+    status: 확인
+    link_opened: true
+  technology:
+    note: 곡면 LED, 12.2ch, 4K 투사, 안개·바람
+    url: https://www.miraikan.jst.go.jp/en/news/general/202605154537.html
+    status: 확인
+    link_opened: true
+  context:
+    note: 내레이션 青葉市子
+    url: https://www.miraikan.jst.go.jp/en/news/general/202605154537.html
+    status: 확인
+    link_opened: true
+media: []
+ad_insight: 정원을 15명으로 줄였다. 큰 화면보다 "몇 명만 들어가는 방"이 과학관에서 가장 기다려지는 곳이 된다. (에디터 해석)
+what_if:
+  context: 전시
+  audience: 과학관 관람객
+  action: 번호표를 받고 15명이 함께 어두운 방에 들어간다
+  response: 15명의 숨소리가 잦아들 때까지 화면이 시작되지 않는다
+  message: 조용해져야 열리는 화면 (가상 제안)
+carousel:
+  cover: |-
+    구름 보러 왔다가
+    바람까지 맞았다
+  work: |-
+    미라이칸 × WOW, 2026
+    구름과 미지를 보는 상영 공간
+  why: |-
+    가설: 15명이 함께 보면
+    서로의 기척도 느껴질까?
+  what_if: |-
+    상상: 번호표 든 15명의 방
+    숨소리 잦아들면 화면 시작
+  ps: |-
+    화면에도 눈치가 있다면?
+    일단 제 수다부터 끄겠습니다.
+caption:
+  text: |-
+    LOVE LETTER (번호 미배정)
+
+    Voyage: Beyond the Unexplored / Sky: Cloud Journey
+    日本科学未来館(Miraikan) × WOW, 2026
+    도쿄 미라이칸 7층
+
+    미지의 세계와 구름 속을 보여 주는 과학관 상영 공간입니다. Voyage는 15석 극장에서 약 15분, Sky는 홀에서 5분 동안 관람합니다.
+
+    곡면 LED와 12.2채널 공간 음향, 4면과 바닥을 채우는 투사를 사용하고, 특별 회차에는 안개와 바람도 나옵니다. 관객의 행동에 화면이 반응하는 방식이 아니라, 상영을 보고 감각으로 받아들이는 경험입니다.
+
+    제가 가져오고 싶은 건 ‘15명이 함께 기다리는 방’이라는 조건입니다. 작은 공간에서 시작을 기다리면 화면뿐 아니라 옆 사람의 기척도 느낄 수 있지 않을까요? 이는 제 해석입니다.
+
+    여기서 한 걸음 더 간 가상 전시를 상상합니다. 과학관 관람객 15명이 번호표를 받고 어두운 방에 들어갑니다. 모두의 숨소리가 잦아들면 화면이 시작됩니다. 함께 조용해지는 행동이 관람의 시작을 여는 셈이죠. 실제 작품의 기능이 아닌 제안입니다.
+
+    관람 참고: 제공된 공식 안내상 2026년 10월 1일부터 2027년 4월 22일까지 개보수 휴관 기간입니다.
+
+    Love Letter (번호 미배정) · Dear, Interaction.
+  hashtags:
+    - "#DearInteraction"
+    - "#미라이칸"
+    - "#WOW"
+    - "#전시디자인"
+    - "#공간경험"
+keywords:
+  - miraikan
+  - spatial-audio
+  - fog
+  - science
+notes:
+  fact: []
+  interpretation: []
+  speculation: []
+scores:
+  tangible: null
+  originality: null
+  reliability: null
+  applicability: null
+  postability: null
+checklist:
+  humor_linked: false
+  info_not_buried: false
+stage: 원고 작성
+scope: EXTENDED

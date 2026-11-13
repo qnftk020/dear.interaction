@@ -1,0 +1,89 @@
+letter_no: null
+ai_evidence: ""
+source_checked_at: 2026-11-13
+archive_snapshot: ""
+media: []
+carousel:
+  cover: ""
+  work: ""
+  why: ""
+  what_if: ""
+  ps: ""
+caption:
+  text: ""
+  hashtags: []
+scores:
+  tangible: null
+  originality: null
+  reliability: null
+  applicability: null
+  postability: null
+checklist:
+  humor_linked: false
+  info_not_buried: false
+id: BT-E-112
+title: Buzz Lightyear's Space Ranger Spin 개편
+creator: Walt Disney Imagineering
+year: "2026"
+location: Walt Disney World
+context: 슈팅 다크라이드 개편
+status: 미확인
+summary_ko: 새 탑승체와 손에 드는 블래스터, 반응하는 표적으로 바뀐 슈팅 라이드.
+physical_object: 미확인
+input: 미확인
+output: 미확인
+mechanism: 미확인
+tags:
+  input:
+    - UNKNOWN
+  object:
+    - UNKNOWN
+  sensing:
+    - UNKNOWN
+  output:
+    - UNKNOWN
+  context:
+    - UNKNOWN
+  ai:
+    - UNKNOWN
+  mode:
+    - UNKNOWN
+  era:
+    - 2020s
+source_primary: https://thepointsguy.com/news/new-at-disney-world-disneyland-2026
+evidence:
+  identity:
+    note: 검색 요약으로만 확인. 재개장일 보도가 엇갈림
+    url: https://thepointsguy.com/news/new-at-disney-world-disneyland-2026
+    status: 부분 확인
+    link_opened: true
+  interaction:
+    note: 관객이 무엇을 하는지 확인 전
+    url: ""
+    status: 미확인
+    link_opened: false
+  technology:
+    note: ""
+    url: ""
+    status: 미확인
+    link_opened: false
+  context:
+    note: ""
+    url: ""
+    status: 미확인
+    link_opened: false
+ad_insight: ""
+what_if:
+  context: null
+  audience: ""
+  action: ""
+  response: ""
+  message: ""
+keywords: []
+notes:
+  fact:
+    - 검색 요약으로만 확인. 재개장일 보도가 엇갈림
+  interpretation: []
+  speculation: []
+stage: 발견
+scope: EXTENDED

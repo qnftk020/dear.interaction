@@ -1,0 +1,125 @@
+id: BT-E-056
+letter_no: null
+title: FIFA Fan Festival Dallas — 인터랙티브 LED 구
+creator: Unilumin × AMS Events
+year: "2026"
+location: FIFA Fan Festival 댈러스
+context: 월드컵 팬 페스티벌 설치
+status: 실제 구현
+summary_ko: 팬이 QR로 올린 사진이 지름 5m LED 구의 360도 화면에 바로 뜨는 월드컵 팬 페스티벌 설치물.
+physical_object: 관람객의 스마트폰
+input: QR을 찍고 내 사진을 올린다
+output: 사진이 지름 5m LED 구의 360도 화면에 실시간으로 뜬다
+mechanism: 5m 인터랙티브 LED 구
+tags:
+  input:
+    - TOUCH
+  object:
+    - TOOL
+  sensing:
+    - CAMERA
+  output:
+    - SCREEN
+  context:
+    - PUBLIC SPACE
+    - FANDOM
+  ai:
+    - NONE
+  mode:
+    - MULTI-USER
+  era:
+    - 2020s
+ai_evidence: ""
+source_primary: https://www.mondostadia.com/?p=26994
+source_checked_at: 2026-11-13
+archive_snapshot: ""
+evidence:
+  identity:
+    note: Mondo Stadia(2026-07-03). 제조사 Unilumin 관련 기사
+    url: https://www.mondostadia.com/?p=26994
+    status: 확인
+    link_opened: true
+  interaction:
+    note: QR로 사진 업로드 → 360도 화면에 실시간 표시
+    url: https://www.mondostadia.com/?p=26994
+    status: 확인
+    link_opened: true
+  technology:
+    note: 5m LED 구
+    url: https://www.mondostadia.com/?p=26994
+    status: 확인
+    link_opened: true
+  context:
+    note: 경기 밖 시간까지 참여를 늘리려는 설치
+    url: https://www.mondostadia.com/?p=26994
+    status: 확인
+    link_opened: true
+media:
+  - url: https://www.youtube.com/watch?v=RiiClW1PXjI
+    credit: Dallas FIFA Fan Fest opens today at Fair Park (LED 구가 나오는지는 미확인) · 채널 확인 전
+    permission: 권한 확인 필요
+    permission_basis: ""
+ad_insight: 경기장에 못 들어간 팬에게 "전광판에 뜨는 얼굴" 자리를 줬다. 화면에 내가 나오면 그 자리가 내 좌석이 된다. (에디터 해석)
+what_if:
+  context: 공공 문화시설
+  audience: 거리 응원 나온 시민
+  action: QR로 응원 한마디와 사진을 올린다
+  response: 골이 들어가면 그 순간 올라온 얼굴들이 광장 화면을 가득 채운다
+  message: 함성에 얼굴을 붙인다 (가상 제안)
+carousel:
+  cover: |-
+    내 얼굴도
+    월드컵에 출전
+  work: |-
+    댈러스 팬축제 5m LED 구
+    팬이 올린 사진이 바로 뜬다
+  why: |-
+    가설: 화면에 내 얼굴 뜨면
+    나도 축제 일부라 느낄지도
+  what_if: |-
+    상상: QR로 사진·응원 등록
+    골 때 얼굴로 광장 채운다면
+  ps: |-
+    공은 선수들이 차고
+    나는 얼굴로 출전할게요
+caption:
+  text: |-
+    LOVE LETTER (번호 미배정)
+
+    FIFA Fan Festival Dallas — 인터랙티브 LED 구
+    Unilumin × AMS Events, 2026
+
+    월드컵 팬 페스티벌 댈러스에 놓인 지름 5m LED 구. 팬이 QR을 찍고 사진을 올리면, 360도 화면에 실시간으로 나타납니다.
+
+    제가 주목한 건 화면에 등장하는 사람이 바뀐다는 점이에요. 구경하던 내 얼굴이 축제의 화면에 들어갑니다. 그 순간, 나도 이 축제의 일부라고 느낄 수 있지 않을까요. 제 해석입니다.
+
+    공공 문화시설의 광장에 적용해 본다면? 거리 응원에 나온 시민이 QR로 응원 한마디와 사진을 올리고, 골이 들어가면 그 순간 올라온 얼굴들이 광장 화면을 가득 채우는 거예요. ‘함성에 얼굴을 붙인다’는 가상 제안입니다.
+
+    오늘 제 출전 포지션은 전광판입니다.
+
+    Love Letter (번호 미배정) · Dear, Interaction.
+  hashtags:
+    - "#인터랙션디자인"
+    - "#미디어아트"
+    - "#팬페스티벌"
+    - "#관객참여"
+keywords:
+  - world-cup
+  - led-sphere
+  - qr
+  - fan-zone
+notes:
+  fact: []
+  interpretation: []
+  speculation: []
+scores:
+  tangible: null
+  originality: null
+  reliability: null
+  applicability: null
+  postability: null
+checklist:
+  humor_linked: false
+  info_not_buried: false
+stage: 원고 작성
+scope: EXTENDED

@@ -1,0 +1,89 @@
+letter_no: null
+ai_evidence: ""
+source_checked_at: 2026-11-13
+archive_snapshot: ""
+media: []
+carousel:
+  cover: ""
+  work: ""
+  why: ""
+  what_if: ""
+  ps: ""
+caption:
+  text: ""
+  hashtags: []
+scores:
+  tangible: null
+  originality: null
+  reliability: null
+  applicability: null
+  postability: null
+checklist:
+  humor_linked: false
+  info_not_buried: false
+id: BT-E-111
+title: Universal Kids Resort
+creator: Universal Destinations & Experiences
+year: "2026"
+location: 미국 텍사스 프리스코
+context: 어린이 전용 테마파크
+status: 미확인
+summary_ko: 일곱 개 테마 구역과, 만지고 듣고 색을 탐색하는 감각 정원을 둔 어린이 전용 파크.
+physical_object: 미확인
+input: 미확인
+output: 미확인
+mechanism: 미확인
+tags:
+  input:
+    - UNKNOWN
+  object:
+    - UNKNOWN
+  sensing:
+    - UNKNOWN
+  output:
+    - UNKNOWN
+  context:
+    - UNKNOWN
+  ai:
+    - UNKNOWN
+  mode:
+    - UNKNOWN
+  era:
+    - 2020s
+source_primary: https://www.nbcuniversal.com/article/4-innovative-initiatives-shaping-universal-destinations-experiences-2026
+evidence:
+  identity:
+    note: 2026년 개장 예고(2025-12 자료). 실제 개장일 확인 필요
+    url: https://www.nbcuniversal.com/article/4-innovative-initiatives-shaping-universal-destinations-experiences-2026
+    status: 부분 확인
+    link_opened: true
+  interaction:
+    note: 관객이 무엇을 하는지 확인 전
+    url: ""
+    status: 미확인
+    link_opened: false
+  technology:
+    note: ""
+    url: ""
+    status: 미확인
+    link_opened: false
+  context:
+    note: ""
+    url: ""
+    status: 미확인
+    link_opened: false
+ad_insight: ""
+what_if:
+  context: null
+  audience: ""
+  action: ""
+  response: ""
+  message: ""
+keywords: []
+notes:
+  fact:
+    - 2026년 개장 예고(2025-12 자료). 실제 개장일 확인 필요
+  interpretation: []
+  speculation: []
+stage: 발견
+scope: EXTENDED

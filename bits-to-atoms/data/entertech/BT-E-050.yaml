@@ -1,0 +1,123 @@
+id: BT-E-050
+letter_no: null
+title: Dua Lipa × L-Acoustics 공간 음향 청음 팝업
+creator: Dua Lipa × L-Acoustics
+year: "2026"
+location: 서울·시드니·멜버른·런던·뉴욕·LA
+context: 앨범 청음 팝업
+status: 실제 구현
+summary_ko: 여섯 도시의 팝업에서 사방에서 소리가 나는 청음실에 들어가 앨범을 듣는 프로모션.
+physical_object: 공간 음향 청음실
+input: 청음실에 들어가 앨범을 듣고, 포토 스폿을 돌고, DJ 세트에 춤춘다
+output: 모든 곡이 공간 음향으로 사방에서 들리고, 둘러싼 화면에 영상이 흐른다
+mechanism: L-ISA 공간 음향 (전곡 공간 음향 믹스)
+tags:
+  input:
+    - MOVE
+  object:
+    - BODY
+  sensing:
+    - UNKNOWN
+  output:
+    - SOUND
+    - SCREEN
+  context:
+    - BRAND
+    - FANDOM
+  ai:
+    - NONE
+  mode:
+    - MULTI-USER
+  era:
+    - 2020s
+ai_evidence: ""
+source_primary: https://www.l-acoustics.com/?p=1081714
+source_checked_at: 2026-11-13
+archive_snapshot: ""
+evidence:
+  identity:
+    note: L-Acoustics 자사 기사(2026-02-12). 행사 날짜는 기사에 없음 — 홍보성 자료
+    url: https://www.l-acoustics.com/?p=1081714
+    status: 확인
+    link_opened: true
+  interaction:
+    note: L-ISA 청음실 탐색, 굿즈·포토 스폿, DJ 세트
+    url: https://www.l-acoustics.com/?p=1081714
+    status: 확인
+    link_opened: true
+  technology:
+    note: L-ISA 공간 음향
+    url: https://www.l-acoustics.com/?p=1081714
+    status: 확인
+    link_opened: true
+  context:
+    note: 제조사 홍보 기사라 관객 반응 서술은 참고만
+    url: https://www.l-acoustics.com/?p=1081714
+    status: 확인
+    link_opened: true
+media: []
+ad_insight: 이어폰으로 이미 들은 앨범을 "방"으로 다시 팔았다. 같은 곡도 듣는 장소가 달라지면 새 경험이 된다. (에디터 해석)
+what_if:
+  context: 브랜드 체험 공간
+  audience: 오디오 브랜드 매장 방문객
+  action: 방 한가운데 의자에 앉아 좋아하는 곡을 고른다
+  response: 보컬은 앞에서, 코러스는 뒤에서 걸어 나오듯 들린다
+  message: 아는 노래를 처음 듣는 방 (가상 제안)
+carousel:
+  cover: |-
+    이 앨범,
+    방까지 잡았네
+  work: |-
+    두아 리파 × 엘어쿠스틱
+    사방에서 앨범 듣는 팝업
+  why: |-
+    같은 곡도 듣는 공간을 바꾸면
+    새롭게 귀 기울일 수 있다
+  what_if: |-
+    상상 속 오디오숍, 곡 고르면
+    앞엔 보컬, 뒤엔 코러스
+  ps: |-
+    최애 곡에게 방을 내줬다.
+    나는 잠깐 귀 좀 빌려주고.
+caption:
+  text: |-
+    LOVE LETTER (번호 미배정)
+
+    Dua Lipa × L-Acoustics 공간 음향 청음 팝업, 2026.
+
+    서울·시드니·멜버른·런던·뉴욕·LA, 여섯 도시에서 앨범을 듣는 방을 마련했습니다. 청음실에 들어가면 전곡이 L-ISA 공간 음향으로 사방에서 들리고, 둘러싼 화면에는 영상이 흐릅니다. 포토 스폿과 DJ 세트도 함께한 앨범 청음 팝업입니다.
+
+    제가 주목한 건 듣는 장소입니다. 같은 곡이라도 소리가 나를 둘러싸면, 익숙한 음악에 다시 귀 기울일 계기가 될 수 있겠죠. 관객 반응으로 검증된 효과가 아닌, 제 해석입니다.
+
+    이 원리를 오디오 브랜드 매장에 가져온다면? 방문객이 방 한가운데 의자에 앉아 좋아하는 곡을 고릅니다. 보컬은 앞에서, 코러스는 뒤에서 걸어 나오듯 들리는 거죠. ‘아는 노래를 처음 듣는 방’을 제안해 봅니다. 실제 진행된 프로젝트가 아닌 가상 아이디어입니다.
+
+    최애 곡에게 방까지 내주는 사이. 이 정도면 제법 진지한 청음입니다.
+
+    자료: YAML에 제시된 L-Acoustics 자사 기사(2026.02.12). 행사 날짜는 기재되지 않았으며, 제조사 홍보 자료를 바탕으로 작품 구조를 소개했습니다.
+
+    Love Letter (번호 미배정) · Dear, Interaction.
+  hashtags:
+    - "#디어인터랙션"
+    - "#공간음향"
+    - "#두아리파"
+    - "#청음팝업"
+keywords:
+  - dua-lipa
+  - spatial-audio
+  - listening
+  - pop-up
+notes:
+  fact: []
+  interpretation: []
+  speculation: []
+scores:
+  tangible: null
+  originality: null
+  reliability: null
+  applicability: null
+  postability: null
+checklist:
+  humor_linked: false
+  info_not_buried: false
+stage: 원고 작성
+scope: EXTENDED

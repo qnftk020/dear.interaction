@@ -1,0 +1,122 @@
+id: BT-E-046
+letter_no: null
+title: Maze
+creator: Sabine Marcelis
+year: "2026"
+location: Coachella 2026, 캘리포니아
+context: 음악 페스티벌 설치 작품
+status: 실제 구현
+summary_ko: 공기를 넣은 거대한 곡선 튜브 사이를 걸어 들어가 쉬는, 코첼라 2026의 설치 작품.
+physical_object: 공기를 넣은 PVC 튜브
+input: 곡선 튜브 사이를 걸어 들어가 안쪽 틈에서 쉰다
+output: 연노랑에서 진한 빨강으로 이어지는 벽이 그늘을 만들고, 밤에는 빛난다
+mechanism: 공기 주입 PVC (전자 장치 언급 없음)
+tags:
+  input:
+    - MOVE
+  object:
+    - FURNITURE
+  sensing:
+    - UNKNOWN
+  output:
+    - LIGHT
+  context:
+    - ART
+    - CONCERT
+  ai:
+    - NONE
+  mode:
+    - MULTI-USER
+  era:
+    - 2020s
+ai_evidence: ""
+source_primary: https://www.archdaily.com/1040623/coachella-2026-immersive-installations-explore-monumentality-and-light-transparency-in-the-california-desert
+source_checked_at: 2026-11-13
+archive_snapshot: ""
+evidence:
+  identity:
+    note: ArchDaily. Coachella 2026 신작 설치
+    url: https://www.archdaily.com/1040623/coachella-2026-immersive-installations-explore-monumentality-and-light-transparency-in-the-california-desert
+    status: 확인
+    link_opened: true
+  interaction:
+    note: 걸어 들어감, 틈에서 휴식. 낮에는 그늘, 밤에는 발광
+    url: https://www.archdaily.com/1040623/coachella-2026-immersive-installations-explore-monumentality-and-light-transparency-in-the-california-desert
+    status: 확인
+    link_opened: true
+  technology:
+    note: 공기 주입 PVC
+    url: https://www.archdaily.com/1040623/coachella-2026-immersive-installations-explore-monumentality-and-light-transparency-in-the-california-desert
+    status: 확인
+    link_opened: true
+  context:
+    note: 코첼라 밸리 산세를 본뜬 형태
+    url: https://www.archdaily.com/1040623/coachella-2026-immersive-installations-explore-monumentality-and-light-transparency-in-the-california-desert
+    status: 확인
+    link_opened: true
+media: []
+ad_insight: 사막 페스티벌에서 가장 필요한 것은 그늘이다. 작품이 쓸모를 먼저 주니 사람이 머물고, 머무니 사진이 남는다. (에디터 해석)
+what_if:
+  context: 공공 문화시설
+  audience: 여름 야외 축제 방문객
+  action: 그늘막 안 벤치에 앉는다
+  response: 앉은 사람이 늘수록 천막 색이 한 단계씩 짙어진다
+  message: 쉬는 일이 풍경을 만든다 (가상 제안)
+carousel:
+  cover: |-
+    미로에 들어갔다
+    쉬고 나왔다
+  work: |-
+    코첼라 2026의 Maze
+    공기 튜브 사이로 들어가 쉰다
+  why: |-
+    벽이 쉴 그늘이 된다면
+    머물 이유가 될지도
+  what_if: |-
+    상상: 쉼터에 앉을수록
+    천막 색이 한 단계 짙어지면
+  ps: |-
+    길 찾기는 잠시 미뤘다.
+    그늘 찾기는 성공했으니까.
+caption:
+  text: |-
+    LOVE LETTER (번호 미배정)
+    Maze · Sabine Marcelis · 2026
+
+    미로에 들어갔는데, 잠깐 쉬어도 된답니다.
+
+    코첼라 2026, 캘리포니아에 설치된 Maze는 공기를 넣은 거대한 PVC 곡선 튜브 사이로 걸어 들어가 쉬는 작품입니다. 코첼라 밸리의 산세를 본뜬 형태에, 연노랑부터 진한 빨강까지 이어지는 벽. 낮에는 그늘을 만들고 밤에는 빛납니다.
+
+    제가 주목한 건 그늘이라는 쓸모예요. 안으로 들어가 쉬는 행동이 작품을 경험하는 방법이 됩니다. 쉴 곳을 내어주는 것만으로도 관객에게 머물 이유를 줄 수 있겠죠. 작가의 기획 의도와는 구분되는 제 해석입니다.
+
+    이 원리를 공공 문화시설의 여름 야외 축제에 가져온다면? 여기부터는 가상 제안입니다. 방문객이 그늘막 안 벤치에 앉고, 앉은 사람이 늘수록 천막 색이 한 단계씩 짙어지는 거예요. 쉬는 일이 함께 풍경을 만드는 경험이 될 수 있도록요.
+
+    저는 일단 앉겠습니다. 풍경에 보탬이 된다니, 조금 더 앉겠습니다.
+
+    Love Letter (번호 미배정) · Dear, Interaction.
+  hashtags:
+    - "#DearInteraction"
+    - "#SabineMarcelis"
+    - "#Maze"
+    - "#공간디자인"
+    - "#인터랙션디자인"
+keywords:
+  - coachella
+  - installation
+  - inflatable
+  - shade
+notes:
+  fact: []
+  interpretation: []
+  speculation: []
+scores:
+  tangible: null
+  originality: null
+  reliability: null
+  applicability: null
+  postability: null
+checklist:
+  humor_linked: false
+  info_not_buried: false
+stage: 원고 작성
+scope: EXTENDED
