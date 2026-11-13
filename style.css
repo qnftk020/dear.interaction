@@ -223,3 +223,18 @@ button.r-card:hover { border-color: var(--accent); }
 .r-card .r-no { font-size: 12.5px; font-weight: 700; color: var(--accent-ink); }
 .r-card .r-src { font-size: 13px; color: var(--muted); }
 .r-card .r-src a { color: var(--accent-ink); }
+
+/* 업로드 일정 */
+.s-list { display: grid; gap: 8px; }
+.s-row { display: grid; grid-template-columns: 9.5em minmax(0, 1fr) auto; gap: 14px; align-items: center; text-align: left; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 12px 16px; cursor: pointer; font: inherit; color: inherit; box-shadow: var(--shadow); }
+.s-row:hover { border-color: var(--accent); }
+.s-row.today { border-color: var(--accent); background: var(--accent-soft); }
+.s-row.past { opacity: 0.6; }
+.s-row b { display: block; font-size: 15.5px; overflow-wrap: anywhere; }
+.s-row small { display: block; color: var(--muted); font-size: 13px; overflow-wrap: anywhere; }
+.s-date b { font-variant-numeric: tabular-nums; }
+.s-side { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; justify-content: flex-end; }
+@media (max-width: 640px) {
+  .s-row { grid-template-columns: minmax(0, 1fr); gap: 6px; }
+  .s-side { justify-content: flex-start; }
+}

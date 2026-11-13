@@ -23,6 +23,8 @@ const DATA = path.resolve(APP, '../data')
 const ENC_FILE = path.join(OUT, 'data.enc.json')
 const ITER = 600_000
 const RESEARCH_FILE = path.join(DATA, 'entertech', '_research-2026.yaml')
+const SCHEDULE_FILE = path.join(DATA, 'entertech', '_schedule-2026.yaml')
+const DAY_MS = 86_400_000
 const b64 = (u: Uint8Array) => Buffer.from(u).toString('base64')
 const unb64 = (s: string) => Buffer.from(s, 'base64')
 const text = new TextEncoder()
@@ -83,18 +85,26 @@ for (const col of COLS) {
   }
 }
 
+const plan = parse(readFileSync(SCHEDULE_FILE, 'utf8'))
+const startMs = Date.parse(`${plan.start}T00:00:00Z`)
+const schedule = { start: plan.start, items: plan.order.map((id: string, n: number) => ({ id, date: new Date(startMs + n * DAY_MS).toISOString().slice(0, 10) })) }
+const unknownIds = schedule.items.filter((it: any) => !cases.some((c) => c.id === it.id)).map((it: any) => it.id)
+if (unknownIds.length > 0) throw new Error(`일정에 없는 사례 id가 있습니다: ${unknownIds.join(', ')}`)
+
 const added = cases.filter((c) => !before.has(c.id))
-const hold = added.filter((c) => c.stage === '출처 확인 중').map((c) => c.id)
-const drafted = added.filter((c) => c.stage === '원고 작성').map((c) => c.id)
+const y2026 = cases.filter((c) => c.region)
+const hold = y2026.filter((c) => c.stage === '출처 확인 중' || c.stage === '발견').map((c) => c.id)
+const drafted = y2026.filter((c) => c.stage === '원고 작성').map((c) => c.id)
 const NEW_TASKS = [
   { id: 'd-copy-2026', group: 'decide', pri: 1, title: `2026 엔터테크 원고 ${drafted.length}건 — 읽고 고칠 곳 알려 주기`, how: 'Codex가 쓴 6장 원고와 캡션입니다. 말투·농담·WHAT IF가 마음에 드는지 봐 주세요. 번호는 아직 배정하지 않았습니다.', cases: drafted },
-  { id: 'f-2026-hold', group: 'find', pri: 2, title: `2026 엔터테크 ${hold.length}건 — 관객이 무엇을 하는지·공식 출처`, how: '관객의 행동이나 제작사 공식 페이지가 확인되지 않아 원고를 쓰지 않았습니다. 다녀온 곳이 있으면 알려 주세요.', cases: hold },
+  { id: 'f-2026-hold', group: 'find', pri: 2, title: `2026 엔터테크 후보 ${hold.length}건 — 관객이 무엇을 하는지·공식 출처`, how: '관객의 행동이나 공식 페이지가 확인되지 않아 원고를 쓰지 않았습니다. 다녀온 곳이나 꼭 넣고 싶은 것을 알려 주시면 먼저 확인합니다.', cases: hold },
+  { id: 'd-letter-no', group: 'decide', pri: 1, title: '엔터테크 러브레터 번호를 어떻게 매길지', how: `${schedule.start}부터 하루 1건 올리려면 LOVE LETTER 번호가 필요합니다. 지금은 전부 번호 미배정입니다.`, options: ['기존 인터랙션 번호에 이어서', '엔터테크만 따로 001부터'] },
 ]
 const tasks = [...payload.tasks.filter((t: any) => !NEW_TASKS.some((n) => n.id === t.id)), ...NEW_TASKS]
 
 const next = {
-  ...payload, generatedAt: new Date().toISOString(), commit: COMMIT || payload.commit, cases, tasks,
+  ...payload, generatedAt: new Date().toISOString(), commit: COMMIT || payload.commit, cases, tasks, schedule,
   research: { title: research.title, checkedAt: research.checked_at, note: research.note, insights: research.insights, tech: research.tech },
 }
 const bytes = await encryptPayload(next)
-console.log(`cases=${cases.length} (+${added.length}) tasks=${tasks.length} insights=${research.insights.length} tech=${research.tech.length} bytes=${bytes}`)
+console.log(`cases=${cases.length} (+${added.length}) tasks=${tasks.length} scheduled=${schedule.items.length} insights=${research.insights.length} tech=${research.tech.length} bytes=${bytes}`)
