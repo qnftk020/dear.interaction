@@ -36,12 +36,21 @@
 1. 한국 시간으로 오늘 날짜 `D`와 전날 `D-1`을 정한다. `data/daily/D.yaml`이 이미 있으면 아무것도 하지 않고 끝낸다.
 2. 국문·영문으로 나눠 `D-1` 소식을 검색하고, 후보 기사를 열어 3건을 고른다.
 3. `data/daily/D.yaml`을 쓴다. 형식은 `data/daily/2026-11-13.yaml`을 따른다 (`date: D`, `covers: D-1`).
-4. `app`에서 `npm run daily`로 검증한다. 문제가 나오면 고친다.
-5. main 브랜치에 커밋하고 푸시한다. 커밋 메시지: `docs: daily record D`.
-6. gh-pages 체크아웃에서 스냅샷을 다시 만든다.
-   `DASH_PIN=<PIN> APP=<main 체크아웃>/bits-to-atoms/app OUT=. COMMIT=<main 짧은 sha> node _tools/update.ts`
-   PIN은 저장소에 적지 않는다. 실행 환경의 `DASH_PIN` 환경 변수에서 읽는다.
-7. gh-pages에 커밋하고 푸시한다. 커밋 메시지: `Daily record D`.
-8. 한 줄로 결과를 남긴다: 올린 3건의 제목, 또는 못 올린 이유.
+4. 한 줄로 결과를 남긴다: 고른 3건의 제목, 또는 파일을 만들지 못한 이유.
 
-검색이 막히거나 전날 소식을 3건 찾지 못하면, 억지로 채우지 말고 찾은 만큼의 이유를 남기고 끝낸다 (하루 3건이 아니면 검증이 통과하지 않는다).
+검색이 막히거나 전날 소식을 3건 찾지 못하면, 억지로 채우지 말고 파일을 만들지 않은 채 이유를 남기고 끝낸다 (하루 3건이 아니면 검증이 통과하지 않는다).
+
+## 자동 실행 (`tools/daily-run.ps1`)
+
+파일을 쓰는 일만 Claude가 하고, 검증과 게시는 스크립트가 정해진 순서로 한다. Claude에게는 검색·읽기·쓰기 도구만 주고 셸은 주지 않는다.
+
+1. main을 최신으로 받는다. 그날 파일이 이미 있으면 쓰기를 건너뛴다.
+2. Claude Code를 무인 모드(`claude -p`)로 실행해 위 순서 1~4를 맡긴다.
+3. `npm run daily`로 검증한다. 통과하지 못하면 여기서 멈추고 아무것도 올리지 않는다.
+4. main에 `docs: daily record D`로 커밋하고 푸시한다.
+5. gh-pages 체크아웃에서 `_tools/update.ts`로 스냅샷을 다시 만들어 `Daily record D`로 커밋하고 푸시한다.
+
+- 이 PC에서는 Windows 작업 스케줄러의 `dear.interaction daily`가 매일 08:00에 이 스크립트를 실행한다. 그 시각에 PC가 꺼져 있었으면 켠 뒤에 실행된다.
+- 대시보드 PIN은 저장소에 없다. `%USERPROFILE%\.dear-interaction\pin.txt`에서 읽는다.
+- 실행 기록은 `%USERPROFILE%\.dear-interaction\logs\<날짜>.log`에 남는다.
+- 지난 날짜를 채우려면 `-Date 2026-11-12`처럼 날짜를 준다.
