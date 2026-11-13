@@ -216,6 +216,7 @@ function setTab(tab) {
   ui.tab = tab
   for (const b of document.querySelectorAll('[data-tab]')) b.setAttribute('aria-selected', String(b.dataset.tab === tab))
   for (const t of TABS) $(`#view-${t}`).hidden = t !== tab
+  document.querySelector('.tabs [aria-selected="true"]')?.scrollIntoView({ inline: 'center', block: 'nearest' })
   if (tab === 'todo') renderTodo()
   if (tab === 'cases') renderCases()
   if (tab === 'schedule') renderSchedule()

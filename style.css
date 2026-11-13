@@ -423,3 +423,54 @@ button.r-card:hover { border-color: var(--accent); }
 .slide.has-img .slide-rows > div { padding: 2.2cqi 0; }
 .slide.has-img .slide-rows dd { font-size: 4.4cqi; }
 .slide-imgcredit { font-size: 2.4cqi; color: var(--s-muted); }
+
+/* ── 모바일 (휴대폰 폭) ── */
+/* 좁은 화면에서도 카드가 화면 밖으로 밀리지 않게: 최소 폭이 화면보다 클 수 없다 */
+.cards { grid-template-columns: repeat(auto-fill, minmax(min(290px, 100%), 1fr)); }
+.r-grid { grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr)); }
+.daily-grid { grid-template-columns: repeat(auto-fill, minmax(min(320px, 100%), 1fr)); }
+.top { position: sticky; top: 0; z-index: 10; }
+.tabs { scroll-behavior: smooth; -webkit-overflow-scrolling: touch; }
+@media (max-width: 640px) {
+  body { -webkit-text-size-adjust: 100%; }
+  .wrap { padding: 20px 14px calc(48px + env(safe-area-inset-bottom)); gap: 20px; }
+  .top-inner { padding: 0 6px 0 10px; gap: 6px; min-height: 52px; }
+  .tabs { mask-image: linear-gradient(to right, #000 calc(100% - 24px), transparent); -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 24px), transparent); padding-right: 16px; }
+  .tabs button { padding: 15px 9px 13px; font-size: 15px; min-height: 48px; }
+  .lock-btn { padding: 7px 9px; font-size: 13px; }
+  .page-head h1 { font-size: 22px; }
+  .page-head p { font-size: 14.5px; }
+  .section-title { font-size: 17px; }
+  .section-title small { display: block; margin: 2px 0 0; }
+  .btn, .chip { min-height: 40px; }
+  .big { padding: 14px 16px; }
+  .big b { font-size: 30px; }
+  /* 업로드 일정·완료: 표지 두 장씩 */
+  .feed { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px 10px; }
+  .feed-meta b { font-size: 14.5px; }
+  .feed-meta small { font-size: 12.5px; }
+  .feed-tags .kind, .feed-tags .flag { font-size: 11.5px; padding: 2px 6px; }
+  .feed-meta .btn { width: 100%; justify-content: center; font-size: 13.5px; }
+  /* 사례 상세 */
+  .detail { padding: 14px 14px 0; gap: 14px; }
+  .d-head { align-items: stretch; }
+  .d-title h2 { font-size: 21px; }
+  .d-nav { width: 100%; display: grid; grid-template-columns: repeat(auto-fit, minmax(0, 1fr)); gap: 6px; }
+  .d-nav .btn { justify-content: center; padding-left: 8px; padding-right: 8px; font-size: 14px; }
+  .d-tabs button { padding: 12px 10px; font-size: 15px; min-height: 46px; }
+  /* 카드뉴스 6장: 인스타처럼 옆으로 넘긴다 */
+  .d-body > .carousel { display: flex; gap: 12px; overflow-x: auto; scroll-snap-type: x mandatory; scroll-padding: 0 14px; margin: 0 -14px; padding: 4px 14px 10px; scrollbar-width: none; -webkit-overflow-scrolling: touch; }
+  .d-body > .carousel::-webkit-scrollbar { display: none; }
+  .d-body > .carousel .slide-wrap { flex: 0 0 82%; scroll-snap-align: center; }
+  .edit-bar .btn { flex: 1 1 auto; justify-content: center; }
+  .caption-edit { font-size: 16px; }
+  .box { padding: 14px 15px; }
+  .box .lead { font-size: 16px; }
+  .daily-card { padding: 16px; }
+  .daily-card h3 { font-size: 17px; }
+  .lock-card { padding: 28px 22px; }
+}
+@media (max-width: 360px) {
+  .feed { grid-template-columns: minmax(0, 1fr); }
+  .d-body > .carousel .slide-wrap { flex-basis: 88%; }
+}
