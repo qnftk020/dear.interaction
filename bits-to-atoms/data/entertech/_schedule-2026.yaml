@@ -1,50 +1,50 @@
 # 엔터테크 러브레터 업로드 일정. start부터 하루 1건, order의 순서대로 올린다.
-# 순서를 바꾸려면 이 목록만 고치면 된다 (날짜는 대시보드가 start에서 계산).
-# 국내·해외를 번갈아, 아티스트 프로모션 → 공연 → 전시 → 기술이 한쪽으로 몰리지 않게 섞었다.
+# 러브레터 번호(letter_no)는 이 순서대로 엔터테크 001부터 매겼다 — 순서를 바꾸면 renumber를 다시 돌린다.
+# 릴스용 영상 후보가 있는 사례를 앞에 두고, 그 안에서는 국내·해외를 번갈아 놓았다.
 start: 2026-11-18
 order:
-  - BT-E-032 # ARTE MUSEUM X BTS THE CITY ARIRANG
-  - BT-E-024 # 로봇 올라프
-  - BT-E-036 # IVE × DDP 365 Light
-  - BT-E-043 # Bruno Mars × Roblox
-  - BT-E-037 # PLAVE 스타디움 공연
-  - BT-E-049 # Radiohead Motion Picture House
-  - BT-E-017 # 곱을락
-  - BT-E-026 # Forest of Time
-  - BT-E-034 # BTS 드론쇼·미디어 파사드
-  - BT-E-048 # Phoebe Bridgers 플라네타리움 청음회
-  - BT-E-016 # 인사이드 더 플레이: 군체
-  - BT-E-029 # Cosmos Unseen: Black Holes
-  - BT-E-041 # Baby Shark The Experience
-  - BT-E-053 # 洛天依 투어
-  - BT-E-018 # 심청 in 성수
-  - BT-E-030 # DATALAND
-  - BT-E-033 # BTS THE CITY ARIRANG SEOUL
-  - BT-E-045 # Billie Eilish × Roblox
-  - BT-E-015 # 갤럭시 로봇파크
-  - BT-E-058 # Punchdrunk Lander 23
-  - BT-E-019 # 하이브 응원 파티
-  - BT-E-027 # Storycaster
-  - BT-E-042 # 서울역사박물관 AR 글래스
-  - BT-E-056 # FIFA Fan Festival Dallas LED 구
-  - BT-E-021 # 이머시브 궁
-  - BT-E-064 # Immersive Fort Tokyo 폐장
-  - BT-E-039 # 콩X고질라 : 더 라이드
-  - BT-E-054 # 华晨宇 火星演唱会乐园
-  - BT-E-023 # 아이돌 데뷔 체험존
-  - BT-E-035 # BTS × 대영박물관
-  - BT-E-038 # 케데헌 1주년 팝업
-  - BT-E-051 # 初音ミク × XREAL 불꽃 AR
-  - BT-E-040 # 메이플 아일랜드 존
-  - BT-E-055 # teamLab Chicago
-  - BT-E-046 # Coachella Maze
-  - BT-E-044 # Zara Larsson Roblox
-  - BT-E-060 # iQIYI LAND
-  - BT-E-050 # Dua Lipa 공간 음향 팝업
-  - BT-E-063 # Dog Walk
-  - BT-E-059 # Cosm Detroit
-  - BT-E-047 # Coachella Starry Eyes
-  - BT-E-052 # 1st Stage XR 라이브하우스
-  - BT-E-057 # Faces of Fan Festival
-  - BT-E-061 # Mundo Pixar Experience
-  - BT-E-062 # Miraikan 몰입형 상영 공간
+  - BT-E-024 # 001 Olaf — Next-Generation Robotic Character
+  - BT-E-043 # 002 Bruno Mars × Roblox 'Steal a Brainrot' 콘서트
+  - BT-E-037 # 003 PLAVE 월드 투어 '킵 잇 매닉' 인천 공연
+  - BT-E-049 # 004 Motion Picture House — Kid A Mnesia
+  - BT-E-034 # 005 BTS 'THE CITY ARIRANG' 드론쇼·미디어 파사드
+  - BT-E-048 # 006 Phoebe Bridgers — 'Lost Weekend' 플라네타리움 청음회
+  - BT-E-053 # 007 洛天依「无限共鸣·纯蓝幻乐」 전국 투어
+  - BT-E-030 # 008 DATALAND — Machine Dreams: Rainforest
+  - BT-E-033 # 009 BTS THE CITY ARIRANG SEOUL
+  - BT-E-045 # 010 Billie Eilish × Roblox — The Block
+  - BT-E-015 # 011 갤럭시 로봇파크 (Galaxy Robot Park)
+  - BT-E-058 # 012 Lander 23
+  - BT-E-019 # 013 하이브 응원 파티 (HYBE Cheering Party)
+  - BT-E-027 # 014 Storycaster
+  - BT-E-056 # 015 FIFA Fan Festival Dallas — 인터랙티브 LED 구
+  - BT-E-021 # 016 이머시브 궁 (Palace Immersive Goong) — 1902, 황제가 세계를 초대한 밤
+  - BT-E-064 # 017 Immersive Fort Tokyo — 2년 만의 폐장
+  - BT-E-039 # 018 콩X고질라 : 더 라이드
+  - BT-E-054 # 019 华晨宇 火星演唱会乐园 2.0
+  - BT-E-023 # 020 아이돌 데뷔 체험존 — 엔터테크·GES 서울 2026
+  - BT-E-038 # 021 '케이팝 데몬 헌터스' 1주년 공식 팝업
+  - BT-E-051 # 022 初音ミク 夜空プログラム 2026 × XREAL 불꽃 AR
+  - BT-E-040 # 023 메이플 아일랜드 존
+  - BT-E-055 # 024 teamLab: Everything Exists in Infinite Continuity
+  - BT-E-044 # 025 Zara Larsson — 'Midnight Sun' Roblox 체험
+  - BT-E-059 # 026 Cosm Detroit
+  - BT-E-061 # 027 Mundo Pixar Experience London
+  - BT-E-032 # 028 ARTE MUSEUM X BTS THE CITY ARIRANG (영상 없음)
+  - BT-E-036 # 029 IVE × DDP 365 Light — DIVE IN TO LIGHT (영상 없음)
+  - BT-E-017 # 030 곱을락 (영상 없음)
+  - BT-E-026 # 031 Forest of Time (영상 없음)
+  - BT-E-016 # 032 인사이드 더 플레이: 군체 (영상 없음)
+  - BT-E-029 # 033 Cosmos Unseen: Black Holes (영상 없음)
+  - BT-E-041 # 034 Baby Shark The Experience: Unlock the Secret Ocean (영상 없음)
+  - BT-E-018 # 035 심청 in 성수 (영상 없음)
+  - BT-E-042 # 036 Time Travel in Seoul — AR 글래스 관람 (영상 없음)
+  - BT-E-035 # 037 BTS × 대영박물관 — What is Your Arirang? (영상 없음)
+  - BT-E-046 # 038 Maze (영상 없음)
+  - BT-E-060 # 039 iQIYI LAND 扬州 (영상 없음)
+  - BT-E-050 # 040 Dua Lipa × L-Acoustics 공간 음향 청음 팝업 (영상 없음)
+  - BT-E-063 # 041 Dog Walk: Narrating Human-AI Alignment through Companion Robots (영상 없음)
+  - BT-E-047 # 042 Starry Eyes (영상 없음)
+  - BT-E-052 # 043 1st Stage — XR 라이브하우스 (영상 없음)
+  - BT-E-057 # 044 Faces of Fan Festival (영상 없음)
+  - BT-E-062 # 045 Voyage: Beyond the Unexplored / Sky: Cloud Journey (영상 없음)

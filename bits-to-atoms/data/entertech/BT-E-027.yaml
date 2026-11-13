@@ -1,5 +1,5 @@
 id: BT-E-027
-letter_no: null
+letter_no: 14
 title: Storycaster
 creator: Naisha Agarwal, Judith Amores, Andrew D. Wilson (Microsoft Research)
 year: "2026"
@@ -86,7 +86,7 @@ carousel:
     캐스팅 담당은 내 목소리
 caption:
   text: |-
-    LOVE LETTER (번호 미배정)
+    LOVE LETTER 014 / 1000
 
     Storycaster는 목소리로 이야기를 지으면 방의 벽과 실제 물건을 이야기 속 장면으로 바꾸는 연구 프로토타입입니다. 헤드셋 없이, 내레이터의 안내를 따라 이야기를 이어갑니다.
 
@@ -103,7 +103,7 @@ caption:
     발표: 2026 · CHI 2026
     맥락: 학술 논문 / 방 크기 스토리텔링
 
-    Love Letter (번호 미배정) · Dear, Interaction.
+    Love Letter 014 / 1000 · Dear, Interaction.
   hashtags:
     - "#인터랙션디자인"
     - "#Storycaster"
