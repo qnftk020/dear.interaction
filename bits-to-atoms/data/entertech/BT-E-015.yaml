@@ -1,0 +1,125 @@
+id: BT-E-015
+letter_no: null
+title: 갤럭시 로봇파크 (Galaxy Robot Park)
+creator: 갤럭시코퍼레이션
+year: "2026"
+location: 서울 강동구
+context: 로봇 복합문화공간 / 공연·체험
+status: 실제 구현
+summary_ko: 로봇이 K-POP 군무를 추고, 관람객 초상화를 그리고, 아이스크림을 만드는 5,000평 규모의 로봇 복합문화공간.
+physical_object: 공연·체험용 로봇 (드로잉 로봇, 허깅 로봇, 복싱 로봇 등)
+input: 로봇을 직접 조종하거나 안고, 초상화 모델이 되어 준다
+output: 로봇이 내 초상화를 그리고, 아이스크림을 만들고, K-POP에 맞춰 군무를 춘다
+mechanism: 미확인
+tags:
+  input:
+    - MOVE
+    - TOUCH
+  object:
+    - BODY
+  sensing:
+    - UNKNOWN
+  output:
+    - MOTION
+    - SOUND
+  context:
+    - THEME PARK
+    - FANDOM
+  ai:
+    - UNKNOWN
+  mode:
+    - MULTI-USER
+  era:
+    - 2020s
+ai_evidence: ""
+source_primary: https://www.venturesquare.net/1107635/
+source_checked_at: 2026-11-13
+archive_snapshot: ""
+evidence:
+  identity:
+    note: 2026-05-05 어린이 초청 행사로 문을 열고 08-21 정식 개관. 5,000평, 신규 로봇 17종. 회사 보도자료를 옮긴 기사 — 회사 공식 사이트는 열지 못함
+    url: https://www.venturesquare.net/1107635/
+    status: 확인
+    link_opened: true
+  interaction:
+    note: "'로봇을 직접 조종하거나 교감할 수 있는 참여형 프로그램', 초상화·아이스크림·피아노, 로봇 아레나 K-POP 군무"
+    url: https://www.venturesquare.net/1107635/
+    status: 확인
+    link_opened: true
+  technology:
+    note: "'피지컬 AI'라고만 소개. 로봇 기종·제어 방식은 기사에 없음"
+    url: https://news.mtn.co.kr/news-detail/2026051516503447321
+    status: 미확인
+    link_opened: false
+  context:
+    note: "대표 발언: AI는 로봇이라는 '바디'로 구현될 것. 아레나 공연 하루 3~6회 계획, 어린이 테마파크 콘셉트"
+    url: https://news.mtn.co.kr/news-detail/2026051516503447321
+    status: 확인
+    link_opened: true
+media: []
+ad_insight: 로봇을 진열대에 세워 두는 대신 "나를 그려 주는 상대"로 만났다. 기술 설명보다 내 얼굴이 담긴 결과물이 먼저 남는다. (에디터 해석)
+what_if:
+  context: 브랜드 체험 공간
+  audience: 가족 단위 방문객
+  action: 아이가 로봇에게 포즈를 취해 준다
+  response: 로봇이 브랜드 캐릭터 화풍으로 초상화를 그려 건넨다
+  message: 기술은 설명이 아니라 선물로 기억된다 (가상 제안)
+carousel:
+  cover: |-
+    로봇 앞에선
+    저도 모델입니다
+  work: |-
+    갤럭시 로봇파크
+    춤추고 초상화 그리는 로봇들
+  why: |-
+    구경하던 로봇이 날 그리면
+    기술도 내 이야기로 남을지도
+  what_if: |-
+    상상: 아이가 포즈를 취하면
+    브랜드 캐릭터풍 초상화를 선물
+  ps: |-
+    기술 설명은 잠시 접어 둘게요
+    제 얼굴 그리는 중이거든요
+caption:
+  text: |-
+    LOVE LETTER (번호 미배정)
+
+    로봇 앞에서 제가 할 일은? 일단 포즈부터.
+
+    갤럭시 로봇파크(Galaxy Robot Park)는 갤럭시코퍼레이션이 2026년 서울 강동구에 연 로봇 복합문화공간입니다. 로봇이 K-POP 군무를 추고, 관람객의 초상화를 그리고, 아이스크림을 만듭니다. 관람객이 로봇을 직접 조종하거나 안아 보는 프로그램도 있습니다.
+
+    제가 주목한 건 초상화입니다. 로봇을 바라보던 사람이 그림의 주인공이 됩니다. 내 얼굴이 담긴 결과물 덕분에 기술 체험이 내 이야기로 남을 수 있겠다고 봤어요. 에디터의 해석입니다.
+
+    이 원리를 브랜드 체험 공간에 옮겨 본다면? 가족 방문객 중 아이가 포즈를 취하고, 로봇이 브랜드 캐릭터 화풍으로 초상화를 그려 건네는 장면을 상상했습니다. 기술을 설명보다 선물로 기억하게 하자는 가상 제안입니다.
+
+    오늘은 로봇 구경하러 왔다가 모델로 일하고 갑니다.
+
+    Love Letter (번호 미배정) · Dear, Interaction.
+  hashtags:
+    - "#디어인터랙션"
+    - "#갤럭시로봇파크"
+    - "#인터랙션디자인"
+    - "#브랜드경험"
+keywords:
+  - robot
+  - physical-ai
+  - k-pop
+  - theme-park
+notes:
+  fact:
+    - 프리오픈 사전 관람 전 회차 매진, 정식 개관 전 누적 관람객 2만 명 (회사 발표, venturesquare 2026-08-21)
+    - 2026-05-15 기자간담회에서 공연 중 로봇 1대가 쓰러져 철수 (MTN)
+    - 두바이·일본·미국 진출 계획 (회사 발표)
+  interpretation: []
+  speculation: []
+scores:
+  tangible: null
+  originality: null
+  reliability: null
+  applicability: null
+  postability: null
+checklist:
+  humor_linked: false
+  info_not_buried: false
+stage: 원고 작성
+scope: EXTENDED

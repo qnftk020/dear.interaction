@@ -1,0 +1,95 @@
+id: BT-E-025
+letter_no: null
+title: Jumanji — XD Dark Ride
+creator: Triotech × Sony Pictures × Merlin Entertainments
+year: "2026"
+location: Madame Tussauds (뉴욕·할리우드·라스베이거스·시드니)
+context: 도심형 어트랙션 / 영화 IP
+status: 실제 구현
+summary_ko: 4~40명이 4D 극장에 앉아 정글 미션을 함께 깨고 점수를 겨루는 주만지 어트랙션.
+physical_object: 미확인
+input: 좌석에서 실시간 게임에 참여한다 (조작 장치는 미기재)
+output: 모션 시트와 효과가 움직이고, 개인 점수가 매겨진다
+mechanism: Triotech XD Dark Ride 플랫폼, Unreal Engine 콘텐츠, 모션 시트
+tags:
+  input:
+    - UNKNOWN
+  object:
+    - FURNITURE
+  sensing:
+    - UNKNOWN
+  output:
+    - SCREEN
+    - MOTION
+  context:
+    - THEME PARK
+    - GAME
+  ai:
+    - NONE
+  mode:
+    - MULTI-USER
+  era:
+    - 2020s
+ai_evidence: ""
+source_primary: https://hauntedattractionnetwork.com/jumanji-xd-dark-ride-coming-to-madame-tussauds-this-summer/
+source_checked_at: 2026-11-13
+archive_snapshot: ""
+evidence:
+  identity:
+    note: 2026-03-24 발표를 옮긴 업계 매체 기사. 2026년 7월 마담 투소 4곳 데뷔 예정이라고 기재 — 실제 개장 여부는 확인 못 함
+    url: https://hauntedattractionnetwork.com/jumanji-xd-dark-ride-coming-to-madame-tussauds-this-summer/
+    status: 부분 확인
+    link_opened: true
+  interaction:
+    note: 함께 생물과 싸우고 장애물을 넘고 최고 점수를 겨룸. 손에 드는 장치가 무엇인지는 없음
+    url: https://hauntedattractionnetwork.com/jumanji-xd-dark-ride-coming-to-madame-tussauds-this-summer/
+    status: 부분 확인
+    link_opened: true
+  technology:
+    note: 4~40인 4D 극장, 실시간 인터랙티브 게임플레이, 모션 시트, Unreal Engine
+    url: https://hauntedattractionnetwork.com/jumanji-xd-dark-ride-coming-to-madame-tussauds-this-summer/
+    status: 확인
+    link_opened: true
+  context:
+    note: 대형 파크가 아닌 도심 시설에 들어가도록 설치 면적을 줄인 플랫폼
+    url: https://hauntedattractionnetwork.com/jumanji-xd-dark-ride-coming-to-madame-tussauds-this-summer/
+    status: 확인
+    link_opened: true
+media: []
+ad_insight: 큰 IP를 큰 땅 없이 도심에 넣는 방법. 놀이기구를 짓는 대신 극장 한 칸을 게임판으로 바꾼다. (에디터 해석)
+what_if:
+  context: null
+  audience: ""
+  action: ""
+  response: ""
+  message: ""
+carousel:
+  cover: ""
+  work: ""
+  why: ""
+  what_if: ""
+  ps: ""
+caption:
+  text: ""
+  hashtags: []
+keywords:
+  - dark-ride
+  - ip
+  - urban-attraction
+notes:
+  fact:
+    - 2026년 여름 이후 전 세계 XD Dark Ride 운영사에 콘텐츠 제공 예정 (발표)
+    - 조작 장치·실제 개장일 확인 전까지 보류
+  interpretation: []
+  speculation: []
+scores:
+  tangible: null
+  originality: null
+  reliability: null
+  applicability: null
+  postability: null
+checklist:
+  humor_linked: false
+  info_not_buried: false
+stage: 출처 확인 중
+scope: HOLD

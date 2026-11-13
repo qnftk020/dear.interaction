@@ -1,0 +1,95 @@
+id: BT-E-020
+letter_no: null
+title: 관객참여형 스마트폰 공연 연출을 위한 AI 제어 모델
+creator: 미확인 (스마트미디어저널 15권 1호)
+year: "2026"
+location: 미확인
+context: 학술 논문 / 공연 제어 시스템
+status: 연구 프로토타입
+summary_ko: 관객 스마트폰 입력을 받아 공연장 연출 값을 정하는 AI 제어 모델을 실제 공연장에서 실험한 논문.
+physical_object: 관객의 스마트폰
+input: 객석에서 스마트폰으로 참여 입력을 보낸다
+output: AI 모델이 관객 입력으로 공연 제어 값을 계산해 연출에 반영한다
+mechanism: 실시간 통신 + 좌석 기반 매핑 + AI 기반 적응형 제어 모델
+tags:
+  input:
+    - TOUCH
+  object:
+    - TOOL
+  sensing:
+    - UNKNOWN
+  output:
+    - UNKNOWN
+  context:
+    - CONCERT
+    - RESEARCH
+  ai:
+    - AI-ADAPTIVE
+  mode:
+    - MULTI-USER
+  era:
+    - 2020s
+ai_evidence: https://scholar.kyobobook.co.kr/article/detail/4010071859924
+source_primary: https://scholar.kyobobook.co.kr/article/detail/4010071859924
+source_checked_at: 2026-11-13
+archive_snapshot: ""
+evidence:
+  identity:
+    note: 스마트미디어저널 제15권 제1호 90–99쪽, DOI 10.30693/SMJ.2026.15.1.90. 저자는 초록 페이지에서 확인 못 함
+    url: https://scholar.kyobobook.co.kr/article/detail/4010071859924
+    status: 부분 확인
+    link_opened: true
+  interaction:
+    note: "초록: 관객 참여 데이터를 입력으로 제어 파라미터 산출. 관객이 화면에서 무엇을 누르는지, 무대에서 무엇이 바뀌는지는 초록에 없음"
+    url: https://scholar.kyobobook.co.kr/article/detail/4010071859924
+    status: 부분 확인
+    link_opened: true
+  technology:
+    note: 실시간 통신, 좌석 기반 매핑, AI 기반 적응형 제어 (초록)
+    url: https://scholar.kyobobook.co.kr/article/detail/4010071859924
+    status: 확인
+    link_opened: true
+  context:
+    note: 기존 공연 제어는 오퍼레이터 중심이라 다수 관객 입력 반영에 한계 — 지연과 실행 시각 분산 문제를 다룸
+    url: https://scholar.kyobobook.co.kr/article/detail/4010071859924
+    status: 확인
+    link_opened: true
+media: []
+ad_insight: 관객 참여의 적은 무관심이 아니라 지연이다. 내 입력이 늦게 반영되면 "내가 했다"는 느낌이 사라진다. (에디터 해석)
+what_if:
+  context: 공공 문화시설
+  audience: 야외 공연 관객
+  action: 자기 좌석에서 휴대폰 색을 고른다
+  response: 좌석 구역별로 객석 조명 색이 바로 바뀐다
+  message: 내 자리가 무대의 한 칸이 된다 (가상 제안)
+carousel:
+  cover: ""
+  work: ""
+  why: ""
+  what_if: ""
+  ps: ""
+caption:
+  text: ""
+  hashtags: []
+keywords:
+  - smartphone
+  - audience-participation
+  - latency
+  - paper
+notes:
+  fact:
+    - 실제 공연장에서 실증 실험 (공연장 이름은 초록에 없음)
+    - 원문 PDF 미확보 — 저자·실험 규모 확인 필요
+  interpretation: []
+  speculation: []
+scores:
+  tangible: null
+  originality: null
+  reliability: null
+  applicability: null
+  postability: null
+checklist:
+  humor_linked: false
+  info_not_buried: false
+stage: 출처 확인 중
+scope: EXTENDED

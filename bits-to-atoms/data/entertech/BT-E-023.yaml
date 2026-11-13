@@ -1,0 +1,125 @@
+id: BT-E-023
+letter_no: null
+title: 아이돌 데뷔 체험존 — 엔터테크·GES 서울 2026
+creator: 서울특별시
+year: "2026"
+location: 서울 DDP
+context: 공공 행사 / K-POP 체험
+status: 실제 구현
+summary_ko: 관람객이 자기만의 아이돌 캐릭터를 정하고, 프로필을 찍고, 데뷔곡까지 만들어 보는 체험존.
+physical_object: 미확인
+input: 아이돌 캐릭터를 설정하고, 프로필을 촬영하고, 키워드를 고른다
+output: 내 프로필 사진과 데뷔곡이 만들어진다. AI 작곡 체험에서는 고른 키워드로 AI가 음악을 만든다
+mechanism: 미확인
+tags:
+  input:
+    - TOUCH
+  object:
+    - BODY
+  sensing:
+    - UNKNOWN
+  output:
+    - SCREEN
+    - SOUND
+    - AI RESPONSE
+  context:
+    - PUBLIC SPACE
+    - FANDOM
+  ai:
+    - AI-GENERATIVE
+  mode:
+    - INDIVIDUAL
+  era:
+    - 2020s
+ai_evidence: https://news.seoul.go.kr/economy/archives/574649
+source_primary: https://news.seoul.go.kr/economy/archives/574649
+source_checked_at: 2026-11-13
+archive_snapshot: ""
+evidence:
+  identity:
+    note: "서울시 보도자료(2026-09-17): 9월 17~20일 DDP·이간수문 전시장·JW 메리어트 동대문"
+    url: https://news.seoul.go.kr/economy/archives/574649
+    status: 확인
+    link_opened: true
+  interaction:
+    note: "'나만의 아이돌 캐릭터를 설정하고 프로필을 촬영한 뒤 데뷔곡까지 제작', '관람객이 선택한 키워드를 바탕으로 AI가 음악을 만드는 AI 작곡 체험'"
+    url: https://news.seoul.go.kr/economy/archives/574649
+    status: 확인
+    link_opened: true
+  technology:
+    note: 체험존의 장비·모델은 보도자료에 없음
+    url: https://news.seoul.go.kr/economy/archives/574649
+    status: 미확인
+    link_opened: false
+  context:
+    note: K-POP을 '보는 공연'에서 직접 경험하는 콘텐츠로 — 서울시 표현. 무료 관람
+    url: https://news.seoul.go.kr/economy/archives/574649
+    status: 확인
+    link_opened: true
+media: []
+ad_insight: 무대를 보여 주지 않고 데뷔 과정을 시켜 본다. 팬이 가장 궁금해하는 "무대 뒤"를 내 이름으로 한 번 지나가게 한다. (에디터 해석)
+what_if:
+  context: 브랜드 체험 공간
+  audience: 신제품 팝업 방문객
+  action: 제품 이름·색·한 줄 소개를 직접 고른다
+  response: 내가 고른 조합으로 광고 한 컷과 짧은 로고송이 만들어진다
+  message: 만드는 사람 자리에 서 보면 브랜드가 달리 보인다 (가상 제안)
+carousel:
+  cover: |-
+    제 데뷔곡이요?
+    키워드로 뽑았죠
+  work: |-
+    서울시·2026·DDP
+    캐릭터·프로필·데뷔곡 만들기
+  why: |-
+    공연 감상에서 내 데뷔 준비로
+    내 이야기로 느껴질 수 있다
+  what_if: |-
+    상상: 제품 조합을 고르면
+    내 광고 컷·로고송이 나온다면
+  ps: |-
+    데뷔곡까지 생긴 나,
+    이제 출근길도 음악방송.
+caption:
+  text: |-
+    LOVE LETTER (번호 미배정)
+    아이돌 데뷔 체험존 — 엔터테크·GES 서울 2026
+    서울특별시 · 2026 · 서울 DDP
+
+    내 캐릭터를 정하고, 프로필을 찍고, 데뷔곡까지 만드는 체험존. AI 작곡 체험에서는 관람객이 고른 키워드로 AI가 음악을 만듭니다.
+
+    제가 주목한 건 ‘내가 정하는 과정’이에요. 공연을 감상하던 사람이 자기 캐릭터와 곡을 만드는 자리에 서면, K-POP을 내 이야기로 느낄 수도 있겠죠. 제 해석입니다.
+
+    이 원리를 신제품 팝업에 옮겨 본다면? 방문객이 제품 이름·색·한 줄 소개를 고르고, 그 조합으로 광고 한 컷과 짧은 로고송이 만들어지는 거예요. 만드는 사람 자리에 서면 브랜드가 달리 보일까? 실제 프로젝트가 아닌 저의 가상 제안입니다.
+
+    제 데뷔곡은 생겼는데, 출근 시간은 그대로네요.
+
+    Love Letter (번호 미배정) · Dear, Interaction.
+  hashtags:
+    - "#디어인터랙션"
+    - "#인터랙션디자인"
+    - "#아이돌데뷔체험"
+    - "#AI작곡"
+    - "#브랜드경험"
+keywords:
+  - k-pop
+  - ai-music
+  - idol
+  - public-event
+notes:
+  fact:
+    - 같은 행사에 피프티피프티 IP의 LBE VR, SM 아티스트 360도 VR 감상, AR글래스 프로그램도 있음
+    - 개막식에서 GIST 안창욱 교수의 AI 작곡 시연 예정이라고 안내
+  interpretation: []
+  speculation: []
+scores:
+  tangible: null
+  originality: null
+  reliability: null
+  applicability: null
+  postability: null
+checklist:
+  humor_linked: false
+  info_not_buried: false
+stage: 원고 작성
+scope: EXTENDED

@@ -1,0 +1,130 @@
+id: BT-E-027
+letter_no: null
+title: Storycaster
+creator: Naisha Agarwal, Judith Amores, Andrew D. Wilson (Microsoft Research)
+year: "2026"
+location: CHI 2026
+context: 학술 논문 / 방 크기 스토리텔링
+status: 연구 프로토타입
+summary_ko: 헤드셋 없이, 말 한마디로 내 방의 벽과 물건이 이야기 속 장면으로 바뀌는 생성형 AI 스토리텔링 시스템.
+physical_object: 방 안의 실제 물건
+input: 내레이터의 안내를 따라 목소리로 이야기를 지어 나간다
+output: 방의 벽에 생성된 장면이 투사되고, 방 안 물건이 이야기 속 사물로 바뀌며, 배경음과 대사가 흘러나온다
+mechanism: 실시간 카메라(깊이) 영상 → SDXL + Depth ControlNet + 원통형 LoRA로 벽 투사 이미지 생성, Grounded SAM으로 물건 분리, 내레이터 에이전트
+tags:
+  input:
+    - VOICE
+  object:
+    - UNKNOWN
+  sensing:
+    - CAMERA
+    - MICROPHONE
+  output:
+    - PROJECTION
+    - SOUND
+    - AI RESPONSE
+  context:
+    - RESEARCH
+  ai:
+    - AI-GENERATIVE
+  mode:
+    - UNKNOWN
+  era:
+    - 2020s
+ai_evidence: https://dl.acm.org/doi/10.1145/3772318.3791305
+source_primary: https://www.microsoft.com/en-us/research/publication/storycaster-an-ai-system-for-immersive-room-based-storytelling/
+source_checked_at: 2026-11-13
+archive_snapshot: ""
+evidence:
+  identity:
+    note: Microsoft Research 논문 페이지 + ACM DL (CHI ’26, 2026-04-13 게재, DOI 10.1145/3772318.3791305)
+    url: https://www.microsoft.com/en-us/research/publication/storycaster-an-ai-system-for-immersive-room-based-storytelling/
+    status: 확인
+    link_opened: true
+  interaction:
+    note: 음성 명령으로 3막 이야기 공동 창작 → 벽 투사·물건 변환·음향. 한 번에 20~25분 체험
+    url: https://dl.acm.org/doi/10.1145/3772318.3791305
+    status: 확인
+    link_opened: true
+  technology:
+    note: SDXL + Depth ControlNet + cylindrical LoRA, Grounded SAM + SD 1.5 인페인팅, Narrator Agent
+    url: https://dl.acm.org/doi/10.1145/3772318.3791305
+    status: 확인
+    link_opened: true
+  context:
+    note: 기존 CAVE는 콘텐츠가 미리 정해져 있었다는 문제의식. 참가자 13명 연구
+    url: https://www.microsoft.com/en-us/research/publication/storycaster-an-ai-system-for-immersive-room-based-storytelling/
+    status: 확인
+    link_opened: true
+media: []
+ad_insight: 가상 세계로 데려가지 않고 내 방을 바꿨다. 낯선 무대가 아니라 아는 공간이 변하니, 이야기가 내 것이 된다. (에디터 해석)
+what_if:
+  context: 박물관 아카이브
+  audience: 작가의 방을 재현한 전시실 관람객
+  action: 방 안에서 "이 책상에서 무슨 일이 있었어?" 하고 묻는다
+  response: 벽이 그 시절 풍경으로 바뀌고 책상 위 물건이 당시 모습으로 겹쳐 보인다
+  message: 유물은 질문을 받을 때 장면이 된다 (가상 제안)
+carousel:
+  cover: |-
+    내 방이 데뷔했다
+    대본은 내 입에서
+  work: |-
+    Storycaster
+    말로 지은 이야기를 방에 투사
+  why: |-
+    내 말로 이야기를 펼치면
+    내 이야기로 느껴질까
+  what_if: |-
+    상상: 작가의 책상에 묻자
+    벽과 물건에 그때가 겹친다면
+  ps: |-
+    내 방에 이런 배역이 있었다니
+    캐스팅 담당은 내 목소리
+caption:
+  text: |-
+    LOVE LETTER (번호 미배정)
+
+    Storycaster는 목소리로 이야기를 지으면 방의 벽과 실제 물건을 이야기 속 장면으로 바꾸는 연구 프로토타입입니다. 헤드셋 없이, 내레이터의 안내를 따라 이야기를 이어갑니다.
+
+    생성된 장면이 벽에 투사되고, 방 안 물건은 이야기 속 사물로 표현됩니다. 배경음과 대사도 함께 흘러나옵니다.
+
+    제가 주목한 건 정해진 장면을 보는 대신 내 말로 이야기를 전개한다는 점입니다. 익숙한 방이 내가 지은 장면으로 바뀌면, 이야기를 내 것으로 느낄 수 있지 않을까요. 이는 에디터의 해석입니다.
+
+    박물관 아카이브에 적용해 본다면? 작가의 방을 재현한 전시실에서 관람객이 “이 책상에서 무슨 일이 있었어?”라고 묻습니다. 벽에는 그 시절 풍경이, 책상 위 물건에는 당시 모습이 겹쳐 보이는 겁니다. 유물을 질문으로 장면처럼 만나게 하는 가상 제안입니다.
+
+    제 방도 출연 가능하겠네요. 정리부터 해야 오디션을 보겠지만요.
+
+    작품: Storycaster
+    제작: Naisha Agarwal, Judith Amores, Andrew D. Wilson (Microsoft Research)
+    발표: 2026 · CHI 2026
+    맥락: 학술 논문 / 방 크기 스토리텔링
+
+    Love Letter (번호 미배정) · Dear, Interaction.
+  hashtags:
+    - "#인터랙션디자인"
+    - "#Storycaster"
+    - "#스토리텔링"
+    - "#생성형AI"
+    - "#CHI2026"
+keywords:
+  - generative-ai
+  - cave
+  - storytelling
+  - chi2026
+notes:
+  fact:
+    - 참가자(n=13)는 내레이터와 음향을 가장 영향이 큰 요소로 꼽았고, 지연과 이미지 해상도를 개선점으로 지적 (초록)
+    - 헤드셋 VR과 달리 공간 감각을 유지한다고 설명
+  interpretation: []
+  speculation: []
+scores:
+  tangible: null
+  originality: null
+  reliability: null
+  applicability: null
+  postability: null
+checklist:
+  humor_linked: false
+  info_not_buried: false
+stage: 원고 작성
+scope: EXTENDED

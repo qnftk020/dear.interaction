@@ -1,0 +1,125 @@
+id: BT-E-017
+letter_no: null
+title: 곱을락
+creator: 컴퍼니 우연 (연출 양해연)
+year: "2026"
+location: 서울 연희예술극장
+context: 이머시브 연극 / 제주4·3
+status: 실제 구현
+summary_ko: 객석 없는 극장에서 관객이 사진을 들고 걷고 돌을 쌓으면, 멈춰 있던 공간에 빛과 소리가 돌아오는 제주4·3 소재 연극.
+physical_object: 가족사진, 돌, 꽃
+input: 가족사진을 들고 걷고, 돌을 쌓고, 꽃을 빛이 닿는 곳으로 옮긴다
+output: 멈춰 있던 공간에 빛과 소리가 돌아오고, 누워 있던 인물들이 하나둘 움직인다
+mechanism: 관객의 행동이 조명·영상·음향을 실시간으로 바꾸고, 중반부터는 센서를 착용한 배우의 이동이 신호를 대신한다 (센서 종류는 미기재)
+tags:
+  input:
+    - MOVE
+    - PLACE
+  object:
+    - TOKEN
+  sensing:
+    - UNKNOWN
+  output:
+    - LIGHT
+    - SOUND
+    - PROJECTION
+  context:
+    - ART
+  ai:
+    - NONE
+  mode:
+    - MULTI-USER
+  era:
+    - 2020s
+ai_evidence: ""
+source_primary: https://m.go.seoul.co.kr/news/life/performance/2026/09/04/20260904500128
+source_checked_at: 2026-11-13
+archive_snapshot: ""
+evidence:
+  identity:
+    note: 서울신문(2026-09-04). 2026-09-25~27 공연, '2026 예술분야 초기창업 지원사업'으로 개발
+    url: https://m.go.seoul.co.kr/news/life/performance/2026/09/04/20260904500128
+    status: 확인
+    link_opened: true
+  interaction:
+    note: 사진 들고 걷기·돌 쌓기·꽃 옮기기 → 빛과 소리, 인물이 움직임. 90분간 자유 이동
+    url: https://m.go.seoul.co.kr/news/life/performance/2026/09/04/20260904500128
+    status: 확인
+    link_opened: true
+  technology:
+    note: 관객 행동이 조명·영상·음향을 실시간 변경, 배우 착용 센서. 감지 방식·센서 종류는 기사에 없음
+    url: https://m.go.seoul.co.kr/news/life/performance/2026/09/04/20260904500128
+    status: 부분 확인
+    link_opened: true
+  context:
+    note: "연출 발언: 관객이 센서를 알아차리는 게 아니라 '기억하려 한 자신의 행동이 공간을 바꿨다'고 느끼는 것이 중요"
+    url: https://m.go.seoul.co.kr/news/life/performance/2026/09/04/20260904500128
+    status: 확인
+    link_opened: true
+media: []
+ad_insight: 센서를 숨겼다. 관객은 장치를 켠 것이 아니라, 누군가를 기억하려는 손짓이 공간을 깨웠다고 느낀다. (에디터 해석)
+what_if:
+  context: 박물관 아카이브
+  audience: 지역 역사관을 찾은 가족 관람객
+  action: 옛 주민의 물건 복제품을 제자리에 올려놓는다
+  response: 그 자리의 조명이 켜지고 주민의 목소리 기록이 흘러나온다
+  message: 기억은 읽는 것이 아니라 제자리에 돌려놓는 일 (가상 제안)
+carousel:
+  cover: |-
+    객석은 없고
+    내 자리는 있다
+  work: |-
+    걸으며 만나는 제주4·3 연극
+    〈곱을락〉 · 컴퍼니 우연
+  why: |-
+    바라보던 기억에 손을 보태면
+    내가 기억에 참여할 수 있다
+  what_if: |-
+    상상: 가족이 복제품 놓자
+    역사관에 불빛과 주민 목소리
+  ps: |-
+    제 자리는 어디냐고요?
+    기억 옆에 서 있겠습니다
+caption:
+  text: |-
+    LOVE LETTER (번호 미배정)
+    〈곱을락〉 · 컴퍼니 우연
+
+    객석 없는 극장에서는 관객도 걸음을 보탭니다. 가족사진을 들고 걷고, 돌을 쌓고, 꽃을 빛이 닿는 곳으로 옮깁니다. 그러면 멈춰 있던 공간에 빛과 소리가 돌아오고, 누워 있던 인물들이 하나둘 움직입니다.
+
+    〈곱을락〉은 컴퍼니 우연이 만들고 양해연이 연출한 제주4·3 소재의 이머시브 연극입니다. 2026년 9월 25~27일 서울 연희예술극장에서 공연됐습니다. 제목은 제주어로 숨는다는 뜻이자 숨바꼭질을 가리킵니다.
+
+    연출이 중요하게 여긴 것은 관객이 센서를 알아차리는 것보다, 기억하려 한 자신의 행동이 공간을 바꿨다고 느끼는 경험입니다. 제게는 기억을 바라보던 사람이 손을 보태는 사람이 된다는 점이 흥미롭습니다. 작은 행동에 공간이 응답하면, 기억에 참여한다는 감각이 생길 수 있겠지요.
+
+    이 원리를 박물관 아카이브에 가져온다면? 여기부터는 가상 제안입니다. 지역 역사관을 찾은 가족 관람객이 옛 주민의 물건 복제품을 제자리에 놓으면, 그 자리에 조명이 켜지고 주민의 목소리 기록이 흐르는 겁니다. 기억을 제자리에 돌려놓는 경험을 제안하고 싶습니다.
+
+    Love Letter (번호 미배정) · Dear, Interaction.
+  hashtags:
+    - "#DearInteraction"
+    - "#곱을락"
+    - "#컴퍼니우연"
+    - "#이머시브연극"
+    - "#제주43"
+keywords:
+  - immersive-theatre
+  - memory
+  - jeju-4.3
+  - hidden-sensor
+notes:
+  fact:
+    - "'곱을락'은 제주어로 숨는다는 뜻이자 숨바꼭질"
+    - "관객이 찾아가는 곳: 정방폭포, 정뜨르 비행장, 큰넓궤 동굴, 대전형무소"
+    - 마지막 장면에서 술래가 된 소녀가 한 사람씩 찾을 때마다 "찾았다"고 외친다
+  interpretation: []
+  speculation: []
+scores:
+  tangible: null
+  originality: null
+  reliability: null
+  applicability: null
+  postability: null
+checklist:
+  humor_linked: false
+  info_not_buried: false
+stage: 원고 작성
+scope: TANGIBLE

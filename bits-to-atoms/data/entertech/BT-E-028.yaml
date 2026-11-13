@@ -1,0 +1,93 @@
+id: BT-E-028
+letter_no: null
+title: EmerFlux
+creator: 清水海人 (Kaito Shimizu), 尼岡利崇 (Toshitaka Amaoka) — 明星大学
+year: "2026"
+location: SIGGRAPH 2026 Emerging Technologies
+context: 학술 전시 / 물 표면 디스플레이
+status: 연구 프로토타입
+summary_ko: 물과 기름 두 층을 이용해, 검은 수면 위에 흰 점을 솟아오르게 해서 그림을 보여 주는 수면 디스플레이.
+physical_object: 물과 기름 2층 수조
+input: 미확인
+output: 검은 수면 위로 흰 물 픽셀이 솟아올라 흔들리며 그림을 만든다
+mechanism: 물·기름 2층 구조 + 펌프와 노즐로 국소적으로 물을 뿜어 수면에 픽셀을 만든다
+tags:
+  input:
+    - UNKNOWN
+  object:
+    - UNKNOWN
+  sensing:
+    - UNKNOWN
+  output:
+    - SHAPE
+  context:
+    - RESEARCH
+    - EXHIBITION
+  ai:
+    - NONE
+  mode:
+    - UNKNOWN
+  era:
+    - 2020s
+ai_evidence: ""
+source_primary: https://www.meisei-u.ac.jp/2026/2026071601.html
+source_checked_at: 2026-11-13
+archive_snapshot: ""
+evidence:
+  identity:
+    note: "明星大学 공식 발표(2026-07-16 채택), ACM SIGGRAPH 블로그(2026-09-29): Emerging Technologies Best in Show"
+    url: https://blog.siggraph.org/2026/09/excellence-on-display-recognizing-the-siggraph-2026-award-winners.html/
+    status: 확인
+    link_opened: true
+  interaction:
+    note: 체험형 데모로 전시됐다는 것까지만 확인. 관람객이 무엇을 조작하는지는 없음
+    url: https://www.meisei-u.ac.jp/2026/2026071601.html
+    status: 미확인
+    link_opened: false
+  technology:
+    note: 물과 기름 2층 구조, 국소 분출로 검은 수면에 흰 픽셀. 액체 점성·펌프 출력·노즐 구조를 조정
+    url: https://www.meisei-u.ac.jp/2026/2026071601.html
+    status: 확인
+    link_opened: true
+  context:
+    note: 액체의 흔들림과 부드러움을 정보 표시에 쓰려는 연구
+    url: https://www.meisei-u.ac.jp/2026/2026071601.html
+    status: 확인
+    link_opened: true
+media: []
+ad_insight: 또렷함을 포기하고 흔들림을 얻었다. 번지고 출렁이는 화면은 정보보다 먼저 "살아 있다"는 인상을 준다. (에디터 해석)
+what_if:
+  context: null
+  audience: ""
+  action: ""
+  response: ""
+  message: ""
+carousel:
+  cover: ""
+  work: ""
+  why: ""
+  what_if: ""
+  ps: ""
+caption:
+  text: ""
+  hashtags: []
+keywords:
+  - liquid-display
+  - siggraph2026
+  - material
+notes:
+  fact:
+    - 관객 입력이 확인되면 보류 해제 — 지금은 출력만 확인된 디스플레이
+  interpretation: []
+  speculation: []
+scores:
+  tangible: null
+  originality: null
+  reliability: null
+  applicability: null
+  postability: null
+checklist:
+  humor_linked: false
+  info_not_buried: false
+stage: 출처 확인 중
+scope: HOLD

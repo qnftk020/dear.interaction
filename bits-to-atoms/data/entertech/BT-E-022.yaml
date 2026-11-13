@@ -1,0 +1,94 @@
+id: BT-E-022
+letter_no: null
+title: "TWS VR CONCERT : RUSH ROAD"
+creator: AMAZE (어메이즈)
+year: "2026"
+location: 극장 상영
+context: VR 콘서트 / 팬덤
+status: 실제 구현
+summary_ko: 극장 좌석에서 VR 기기를 쓰고 보는 투어스의 첫 VR 콘서트.
+physical_object: VR 기기
+input: 미확인
+output: 미확인
+mechanism: 미확인
+tags:
+  input:
+    - UNKNOWN
+  object:
+    - WEARABLE
+  sensing:
+    - UNKNOWN
+  output:
+    - SCREEN
+  context:
+    - CONCERT
+    - FANDOM
+  ai:
+    - UNKNOWN
+  mode:
+    - MULTI-USER
+  era:
+    - 2020s
+ai_evidence: ""
+source_primary: https://www.ajunews.com/view/20260312132131448
+source_checked_at: 2026-11-13
+archive_snapshot: ""
+evidence:
+  identity:
+    note: "아주경제(2026-03-12): 어메이즈의 2026년 첫 VR 콘서트 '투어스 VR 콘서트 : 러쉬로드'"
+    url: https://www.ajunews.com/view/20260312132131448
+    status: 확인
+    link_opened: true
+  interaction:
+    note: 이 작품에서 관객이 무엇을 조작하는지는 기사에 없음 (다른 어메이즈 작품의 손하트·멤버 선택 기능을 이 작품에 적용할 수 없음)
+    url: https://www.ajunews.com/view/20260312132131448
+    status: 미확인
+    link_opened: false
+  technology:
+    note: VR 콘서트라는 것만 확인
+    url: https://www.ajunews.com/view/20260312132131448
+    status: 미확인
+    link_opened: false
+  context:
+    note: 극장에서 일정 기간 상영되는 포맷이라 강한 팬덤 기반이 필요하다는 분석
+    url: https://www.ajunews.com/view/20260312132131448
+    status: 확인
+    link_opened: true
+media: []
+ad_insight: ""
+what_if:
+  context: null
+  audience: ""
+  action: ""
+  response: ""
+  message: ""
+carousel:
+  cover: ""
+  work: ""
+  why: ""
+  what_if: ""
+  ps: ""
+caption:
+  text: ""
+  hashtags: []
+keywords:
+  - vr-concert
+  - k-pop
+  - cinema
+notes:
+  fact:
+    - 메가박스 실관람 평점 9.9점, 전체 무비 차트 2위 (기사 기재)
+    - 관객 입력이 확인되기 전까지 보류
+  interpretation: []
+  speculation: []
+scores:
+  tangible: null
+  originality: null
+  reliability: null
+  applicability: null
+  postability: null
+checklist:
+  humor_linked: false
+  info_not_buried: false
+stage: 출처 확인 중
+scope: HOLD

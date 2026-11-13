@@ -1,0 +1,126 @@
+id: BT-E-029
+letter_no: null
+title: "Cosmos Unseen: Black Holes"
+creator: Marcus Moresby, Aditi Rajagopal, Bhaumik Patel, Mark Lynch
+year: "2026"
+location: SIGGRAPH 2026 Immersive Pavilion
+context: XR 과학 체험
+status: 실제 구현
+summary_ko: 헤드셋을 쓰고 맨손으로 별을 무너뜨리고 소행성을 블랙홀에 던져 보는 XR 과학 체험.
+physical_object: Galaxy XR 헤드셋
+input: 맨손으로 은하를 확대하고, 별을 붕괴시키고, 소행성을 블랙홀에 던진다
+output: 던진 소행성이 느려지다 사라지고, 사건의 지평선에서는 내 손이 가는 실처럼 늘어나 빨려 들어간다
+mechanism: Android XR(Galaxy XR) 단독 구동, Unity 6, 논문의 수식을 넣은 실시간 중력 렌즈·도플러 계산, 헤드셋 손 추적
+tags:
+  input:
+    - GESTURE
+  object:
+    - WEARABLE
+  sensing:
+    - CAMERA
+  output:
+    - SCREEN
+    - SOUND
+  context:
+    - EDUCATION
+    - EXHIBITION
+  ai:
+    - NONE
+  mode:
+    - INDIVIDUAL
+  era:
+    - 2020s
+ai_evidence: ""
+source_primary: https://dl.acm.org/doi/full/10.1145/3799823.3812454
+source_checked_at: 2026-11-13
+archive_snapshot: ""
+evidence:
+  identity:
+    note: "ACM DL: SIGGRAPH Immersive Pavilion ’26 (2026-07-19), Best in Show (SIGGRAPH 블로그)"
+    url: https://dl.acm.org/doi/full/10.1145/3799823.3812454
+    status: 확인
+    link_opened: true
+  interaction:
+    note: 손 인터랙션으로 확대, 별 붕괴 트리거, 소행성 투척, 사건의 지평선에서 손이 늘어나는 장면(spaghettification)
+    url: https://dl.acm.org/doi/full/10.1145/3799823.3812454
+    status: 확인
+    link_opened: true
+  technology:
+    note: Galaxy XR 온보드 추적, Unity 6000.1 LTS, 상대론적 빛·중력 시뮬레이션, Event Horizon Telescope 자료로 검증
+    url: https://dl.acm.org/doi/full/10.1145/3799823.3812454
+    status: 확인
+    link_opened: true
+  context:
+    note: 추상적인 시공간 현상을 몸으로 익히게 하려는 과학 커뮤니케이션. EHT·서식스대 천체물리학자와 협업
+    url: https://dl.acm.org/doi/full/10.1145/3799823.3812454
+    status: 확인
+    link_opened: true
+media: []
+ad_insight: 블랙홀을 설명하지 않고 내 손을 재료로 썼다. 남의 일이던 물리 법칙이 내 몸에 일어난 일이 된다. (에디터 해석)
+what_if:
+  context: 전시
+  audience: 과학관을 찾은 청소년
+  action: 화면 앞에서 손을 깊은 바다 쪽으로 뻗는다
+  response: 수심이 깊어질수록 화면 속 내 손이 수압에 눌려 작아진다
+  message: 숫자로 배운 압력을 내 손으로 겪는다 (가상 제안)
+carousel:
+  cover: |-
+    블랙홀에 손댔다가
+    손이 국수가 됐다
+  work: |-
+    맨손으로 별을 무너뜨리는
+    블랙홀 XR 과학 체험
+  why: |-
+    설명 대신 손의 변화
+    물리가 내 일 같아질지도
+  what_if: |-
+    상상 속 바다로 손 뻗기
+    깊어질수록 손이 작아진다면
+  ps: |-
+    물리 시간엔 손을 들었는데
+    여기선 손이 늘어나네요
+caption:
+  text: |-
+    LOVE LETTER (번호 미배정)
+
+    〈Cosmos Unseen: Black Holes〉
+    Marcus Moresby, Aditi Rajagopal, Bhaumik Patel, Mark Lynch
+    2026 · SIGGRAPH 2026 Immersive Pavilion
+
+    헤드셋을 쓰고 맨손으로 은하를 확대하고, 별을 붕괴시키고, 소행성을 블랙홀에 던지는 XR 과학 체험입니다. 던진 소행성은 느려지다 사라지고, 사건의 지평선에서는 내 손이 가는 실처럼 늘어나 빨려 들어갑니다.
+
+    제 눈에 들어온 건 설명의 재료가 된 ‘내 손’입니다. 추상적인 물리 법칙이 내 몸에 일어나는 장면으로 보이면, 조금 더 내 일처럼 느낄 수 있지 않을까요. 여기부터는 제 해석입니다.
+
+    이 원리를 과학관에 가져온다면? 청소년 관객이 화면 앞에서 깊은 바다 쪽으로 손을 뻗고, 수심이 깊어질수록 화면 속 자기 손이 수압에 눌려 작아지는 가상 체험을 상상했습니다. 숫자로 배운 압력을 내 손의 변화에 연결해 보는 제안입니다. 실제 프로젝트가 아닌 상상이며, 손의 축소는 압력을 전달하기 위한 시각적 비유입니다.
+
+    손 한번 댔을 뿐인데, 물리 법칙이 제 손부터 설명하네요.
+
+    Love Letter (번호 미배정) · Dear, Interaction.
+  hashtags:
+    - "#인터랙션디자인"
+    - "#XR"
+    - "#과학전시"
+    - "#손추적"
+    - "#DearInteraction"
+keywords:
+  - xr
+  - science
+  - hand-tracking
+  - siggraph2026
+notes:
+  fact:
+    - Google × Samsung Galaxy XR 헤드셋의 런치 타이틀로 개발 (논문 기재)
+    - "내레이션: Natascha McElhone"
+  interpretation: []
+  speculation: []
+scores:
+  tangible: null
+  originality: null
+  reliability: null
+  applicability: null
+  postability: null
+checklist:
+  humor_linked: false
+  info_not_buried: false
+stage: 원고 작성
+scope: EXTENDED

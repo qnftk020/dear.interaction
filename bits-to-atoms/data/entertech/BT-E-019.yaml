@@ -1,0 +1,131 @@
+id: BT-E-019
+letter_no: null
+title: 하이브 응원 파티 (HYBE Cheering Party)
+creator: HYBE
+year: "2026"
+location: 전 세계 극장 (HYBE CINE FEST 2026)
+context: 극장 상영 / 팬덤 참여 프로그램
+status: 실제 구현
+summary_ko: 극장 화면이 "지금 떼창", "지금 응원봉"을 알려 주면 관객이 따라 하는, 뮤직비디오 기반 참여형 상영.
+physical_object: 공식 응원봉
+input: 화면 안내에 맞춰 떼창하고, 함성을 지르고, 응원봉을 흔든다
+output: 13팀의 뮤직비디오·무대 영상 위에 3D 시각 효과와 실시간 안내가 타이밍마다 나온다
+mechanism: 상영 화면의 3D 시각 효과와 실시간 안내 (응원봉과 화면이 무선으로 연동되는지는 미기재)
+tags:
+  input:
+    - VOICE
+    - MOVE
+  object:
+    - TOOL
+  sensing:
+    - UNKNOWN
+  output:
+    - SCREEN
+    - SOUND
+  context:
+    - CONCERT
+    - FANDOM
+  ai:
+    - NONE
+  mode:
+    - MULTI-USER
+  era:
+    - 2020s
+ai_evidence: ""
+source_primary: https://www.tenasia.co.kr/article/2026102656604
+source_checked_at: 2026-11-13
+archive_snapshot: ""
+evidence:
+  identity:
+    note: "텐아시아 현장 기사(2026-10-26). HYBE CINE FEST 2026: 10-24~31, 60여 개국 1,100여 개 극장"
+    url: https://www.tenasia.co.kr/article/2026102656604
+    status: 확인
+    link_opened: true
+  interaction:
+    note: 특정 타이밍에 떼창·함성·응원봉 흔들기를 화면이 지시. 13팀 영상 + 3D 시각 효과 + 실시간 화면 안내
+    url: https://www.tenasia.co.kr/article/2026102656604
+    status: 확인
+    link_opened: true
+  technology:
+    note: 화면 안내 방식만 기재. 응원봉 무선 연동 여부는 없음
+    url: https://www.tenasia.co.kr/article/2026102656604
+    status: 부분 확인
+    link_opened: true
+  context:
+    note: 같은 날 BTS 라이브 뷰잉은 뜨거웠고 응원 파티는 차분했다는 현장 비교. 가장 뜨거운 결속은 로비 팬존(손글씨 메시지 월)에서 나왔다고 기록
+    url: https://www.tenasia.co.kr/article/2026102656604
+    status: 확인
+    link_opened: true
+media: []
+ad_insight: 화면이 시키는 응원은 차분했고, 무대를 보다 터져 나온 응원은 뜨거웠다. 참여는 지시가 아니라 이유에서 나온다는 대비가 남는다. (에디터 해석)
+what_if:
+  context: 브랜드 체험 공간
+  audience: 팝업을 찾은 팬
+  action: '"지금 흔드세요" 안내 없이, 좋아하는 장면에서 스스로 응원봉을 든다'
+  response: 많이 들린 장면일수록 로비 벽의 그 장면 조명이 밝아진다
+  message: 시키지 않은 반응이 가장 정확한 팬심 기록 (가상 제안)
+carousel:
+  cover: |-
+    응원도 큐 사인?
+    내 마음은 자율인데
+  work: |-
+    HYBE의 2026 응원 파티
+    화면 안내 따라 떼창하는 극장
+  why: |-
+    관람에 응원 타이밍을 더하면
+    참여는 해도 설레진 않을 수도
+  what_if: |-
+    상상: 팝업 팬들이 봉 들수록
+    그 장면 로비 조명이 밝아지면
+  ps: |-
+    응원 타이밍은 알려줘도
+    입덕 타이밍은 못 정하죠.
+caption:
+  text: |-
+    LOVE LETTER (번호 미배정)
+    하이브 응원 파티 (HYBE Cheering Party) · HYBE · 2026
+
+    HYBE CINE FEST 2026에서 선보인 참여형 극장 상영. 13팀의 뮤직비디오·무대 영상에 3D 시각 효과와 화면 안내가 나오면, 관객은 타이밍에 맞춰 떼창하고 함성을 지르고 응원봉을 흔듭니다.
+
+    다만 안내가 곧 열기를 뜻하진 않았어요. 현장 기사는 같은 날 BTS 라이브 뷰잉의 뜨거운 분위기와 응원 파티의 차분한 분위기를 비교합니다. 응원 파티와 라이브 뷰잉의 시간이 겹쳤다는 지적도 있어, 안내 방식만으로 차이를 설명할 수는 없고요.
+
+    제가 읽은 디자인 질문은 이거예요. 언제 응원할지 알려주는 것과, 응원하고 싶게 만드는 것은 얼마나 다를까?
+
+    그래서 상상한 브랜드 팝업. 팬이 좋아하는 장면에서 스스로 응원봉을 들면, 그 장면의 로비 벽 조명이 밝아집니다. 많이 들린 장면일수록 더 밝게요. ‘지금 흔드세요’라는 지시 없이 모인 반응을 팬심의 기록으로 남겨보는 가상 제안입니다.
+
+    이 조명 반응은 원작의 기능이 아닙니다. 원작의 응원봉과 화면이 무선으로 연동되는지도 자료에는 기재돼 있지 않습니다.
+
+    제 마음의 큐 사인은 제가 낼게요.
+
+    출처: 텐아시아 현장 기사(2026.10.26)
+    https://www.tenasia.co.kr/article/2026102656604
+
+    Love Letter (번호 미배정) · Dear, Interaction.
+  hashtags:
+    - "#디어인터랙션"
+    - "#하이브응원파티"
+    - "#인터랙션디자인"
+    - "#팬덤경험"
+keywords:
+  - fandom
+  - lightstick
+  - cinema
+  - sing-along
+notes:
+  fact:
+    - 2024년 중남미 11개국에서 처음 시도돼 약 26만 명 동원, 2026년 60여 개국으로 확대 (기사 기재)
+    - 응원 파티 회차가 BTS 라이브 뷰잉과 시간이 겹쳤다는 지적
+    - 기사는 닌텐도 Wii 시절 리듬 게임을 떠올리게 한다고 평함
+  interpretation: []
+  speculation: []
+scores:
+  tangible: null
+  originality: null
+  reliability: null
+  applicability: null
+  postability: null
+checklist:
+  humor_linked: false
+  info_not_buried: false
+stage: 원고 작성
+scope: EXTENDED

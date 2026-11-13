@@ -1,0 +1,124 @@
+id: BT-E-016
+letter_no: null
+title: "인사이드 더 플레이: 군체"
+creator: 롯데컬처웍스
+year: "2026"
+location: 서울 롯데시네마 신대방
+context: 이머시브 공연 / 영화 IP
+status: 실제 구현
+summary_ko: 영화 '군체'의 세계를 영화관 건물에 옮겨, 관객이 90분 동안 좀비를 피해 살아남는 관객 참여 공연.
+physical_object: 등에 붙인 벨크로 생존자 표식
+input: 상영관 6곳·로비·복도를 뛰어다니며 좀비를 피하고, 따라갈 배우를 고른다
+output: 좀비 배우가 등 뒤 벨크로를 뜯으면 좀비가 된다. 고른 배우에 따라 미끼반·제거반·탈출반으로 이야기가 갈린다
+mechanism: 미확인
+tags:
+  input:
+    - MOVE
+  object:
+    - BODY
+  sensing:
+    - UNKNOWN
+  output:
+    - UNKNOWN
+  context:
+    - EXHIBITION
+    - FANDOM
+  ai:
+    - NONE
+  mode:
+    - MULTI-USER
+  era:
+    - 2020s
+ai_evidence: ""
+source_primary: https://v.daum.net/v/20260604043248828
+source_checked_at: 2026-11-13
+archive_snapshot: ""
+evidence:
+  identity:
+    note: 동아일보 체험기(2026-06-04). 2026-05-21 개막, '롯데컬처웍스 제공'. 영화관·영화 IP를 공연으로 넓힌 국내 첫 시도라고 소개
+    url: https://v.daum.net/v/20260604043248828
+    status: 확인
+    link_opened: true
+  interaction:
+    note: 편집 영상 관람 → 좀비 등장 → 도망, 벨크로 표식, 후반 3개 반 선택, 좀비가 된 관객도 임무 수행
+    url: https://v.daum.net/v/20260604043248828
+    status: 확인
+    link_opened: true
+  technology:
+    note: 좀비가 된 관객이 '특별한 장치'를 착용한다고만 기재 — 무엇인지 불명
+    url: https://v.daum.net/v/20260604043248828
+    status: 미확인
+    link_opened: false
+  context:
+    note: 영화관이라는 공간의 가치를 넓히려는 기획. 비교 사례로 시크릿 시네마 언급
+    url: https://v.daum.net/v/20260604043248828
+    status: 확인
+    link_opened: true
+media: []
+ad_insight: 탈락한 관객을 집에 보내지 않고 좀비 편으로 다시 뛰게 한다. 지는 순간이 역할이 바뀌는 순간이 된다. (에디터 해석)
+what_if:
+  context: 전시
+  audience: 친구끼리 온 10~20대 관객
+  action: 전시 중간 퀴즈에서 틀린다
+  response: 퇴장 대신 '방해꾼' 역할 카드를 받아 다른 관객의 미션에 끼어든다
+  message: 틀려도 끝까지 같이 노는 전시 (가상 제안)
+carousel:
+  cover: |-
+    좀비가 됐는데
+    퇴근은 안 되나요
+  work: |-
+    영화 〈군체〉 속 좀비 생존극
+    롯데컬처웍스 · 2026
+  why: |-
+    탈락 대신 좀비로 역할 전환
+    실패해도 계속 놀 수 있다
+  what_if: |-
+    상상 속 전시, 퀴즈 틀리면
+    방해꾼 카드로 친구 미션 참견
+  ps: |-
+    생존에는 실패했지만
+    분량은 아직 남았습니다
+caption:
+  text: |-
+    LOVE LETTER (번호 미배정)
+    인사이드 더 플레이: 군체 · 롯데컬처웍스
+
+    2026년 서울 롯데시네마 신대방. 영화 〈군체〉의 세계를 영화관 건물로 옮긴 관객 참여 공연입니다. 관객은 90분 동안 상영관 6곳과 로비, 복도를 오가며 좀비를 피해 살아남습니다.
+
+    좀비 배우가 등 뒤 벨크로 생존자 표식을 뜯으면 관객도 좀비가 됩니다. 따라갈 배우를 고르면 미끼반·제거반·탈출반으로 이야기가 갈리고요. 좀비가 된 관객에게도 임무가 이어집니다.
+
+    제가 주목한 건 실패 다음의 역할입니다. 생존에 실패해도 참여할 자리가 남아 있다면, 끝까지 이야기 안에서 놀 수 있지 않을까요? 이는 작품을 보고 읽어낸 에디터의 해석입니다.
+
+    이 원리를 전시에 가져온다면? 친구끼리 온 10~20대 관객이 중간 퀴즈를 틀렸을 때, 퇴장 대신 ‘방해꾼’ 역할 카드를 받는 겁니다. 다른 관객의 미션에 끼어들며 끝까지 함께 노는 전시. 실제 프로젝트가 아닌 가상 제안입니다.
+
+    P.S. 생존에는 실패했지만, 분량은 아직 남았습니다.
+
+    Love Letter (번호 미배정) · Dear, Interaction.
+  hashtags:
+    - "#디어인터랙션"
+    - "#인사이드더플레이군체"
+    - "#관객참여"
+    - "#인터랙션디자인"
+keywords:
+  - immersive-theatre
+  - cinema
+  - zombie
+  - role-switch
+notes:
+  fact:
+    - 관객 20여 명, 제한 시간 90분, 무대는 상영관 6곳·로비·복도
+    - 영화 속 둥우리빌딩을 롯데시네마 건물로 바꾼 편집 영상으로 시작
+    - 기자는 제거반에 참여해 실패했다고 기록
+  interpretation: []
+  speculation: []
+scores:
+  tangible: null
+  originality: null
+  reliability: null
+  applicability: null
+  postability: null
+checklist:
+  humor_linked: false
+  info_not_buried: false
+stage: 원고 작성
+scope: EXTENDED

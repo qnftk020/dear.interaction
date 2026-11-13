@@ -1,0 +1,126 @@
+# 2026 국내외 엔터테크·이머시브 리서치 요약 (인사이트 → 아이디어 → 기술)
+# `_`로 시작하므로 사례로 읽히지 않는다. 대시보드(gh-pages)의 '2026 리서치' 탭이 이 파일을 쓴다.
+# 인사이트 본문은 에디터 해석이고, 근거(sources)는 2026-11-13에 실제로 연 페이지만 적었다.
+title: 2026 국내외 엔터테크·이머시브 리서치
+checked_at: 2026-11-13
+note: 사례 17건(BT-E-015~031)과 논문·업계 기사 2건을 묶었습니다. 인사이트는 에디터 해석이고, 아이디어는 실제 프로젝트가 아닌 가상 제안입니다.
+
+regions:
+  domestic: [BT-E-015, BT-E-016, BT-E-017, BT-E-018, BT-E-019, BT-E-020, BT-E-021, BT-E-022, BT-E-023]
+  overseas: [BT-E-024, BT-E-025, BT-E-026, BT-E-027, BT-E-028, BT-E-029, BT-E-030, BT-E-031]
+
+# 분류 초안 (대시보드 KINDS 기준). 원문 대조 전.
+cls:
+  BT-E-015: { grade: E, basis: 로봇을 안고 조종하고 모델이 됨 → 로봇이 그리고 춤춤 (신체형) }
+  BT-E-016: { grade: E, basis: 건물을 뛰어다니며 좀비를 피함 (신체형) }
+  BT-E-017: { grade: T2, basis: 사진·돌·꽃을 옮김 → 공간의 빛과 소리 }
+  BT-E-018: { grade: E, basis: VR 속에서 그리고 연주하고 팔로 이동 (신체형) }
+  BT-E-019: { grade: T2, basis: 응원봉을 흔듦 → 반응은 극장 화면 }
+  BT-E-020: { grade: T2, basis: 스마트폰 입력 → 공연장 연출 }
+  BT-E-021: { grade: 보류, basis: 관객이 무엇을 하는지 미확인 }
+  BT-E-022: { grade: 보류, basis: 관객 입력 미확인 }
+  BT-E-023: { grade: 보류, basis: 화면 위주 체험 — 장비 미확인 }
+  BT-E-024: { grade: E, basis: 말을 건넴 → 로봇이 걷고 말함 (신체형) }
+  BT-E-025: { grade: 보류, basis: 조작 장치 미기재 }
+  BT-E-026: { grade: T2, basis: 휴대폰이 조작기 → 반응은 대형 LED }
+  BT-E-027: { grade: E, basis: 목소리 → 방의 벽과 물건에 투사 }
+  BT-E-028: { grade: 보류, basis: 관객 입력 미확인 (출력만 확인) }
+  BT-E-029: { grade: E, basis: 맨손 제스처 → 헤드셋 화면 }
+  BT-E-030: { grade: 보류, basis: 생체 신호가 무엇을 바꾸는지 미확인 }
+  BT-E-031: { grade: 보류, basis: 공식 출처 미확인 }
+
+insights:
+  - title: 크게 짓는 것보다, 적은 인원에게 깊게
+    body: 12개 어트랙션을 넣은 이머시브 포트 도쿄는 개장 2년이 안 돼 2026-02-28 문을 닫았습니다. 운영사는 시설이 너무 컸고 수요는 더 작고 깊은 체험으로 갔다고 밝혔습니다. 같은 해 국내 신작은 회차당 6명으로 판을 짰습니다.
+    cases: [BT-E-018, BT-E-021, BT-E-031]
+    sources:
+      - { label: Park World — Immersive Fort Tokyo 폐장, url: "https://parkworld-online.com/immersive-fort-tokyo-to-shut-in-february-2026-after-slow-demand/" }
+  - title: 시키는 참여는 식고, 터져 나오는 참여는 뜨겁다
+    body: 같은 날 같은 극장에서, 화면이 "지금 흔드세요"라고 알려 준 응원 파티는 차분했고 무대를 보다 반응한 라이브 뷰잉은 뜨거웠습니다. 가장 뜨거운 곳은 손글씨 메시지 벽이 있는 로비였습니다.
+    cases: [BT-E-019]
+    sources:
+      - { label: 텐아시아 현장 기사, url: "https://www.tenasia.co.kr/article/2026102656604" }
+  - title: 탈락을 퇴장으로 끝내지 않는다
+    body: 좀비에게 잡힌 관객은 집에 가지 않고 좀비 편에서 다시 뜁니다. 지는 순간이 역할이 바뀌는 순간이 되면, 끝까지 남는 사람이 늘어납니다.
+    cases: [BT-E-016]
+    sources:
+      - { label: 동아일보 체험기, url: "https://v.daum.net/v/20260604043248828" }
+  - title: 기술을 숨길수록 내 행동이 보인다
+    body: 곱을락의 연출은 관객이 센서를 알아차리는 대신 "기억하려 한 내 행동이 공간을 바꿨다"고 느끼길 바랐습니다. 장치가 안 보여야 손짓의 의미가 남습니다.
+    cases: [BT-E-017]
+    sources:
+      - { label: 서울신문, url: "https://m.go.seoul.co.kr/news/life/performance/2026/09/04/20260904500128" }
+  - title: 주인공 자리 대신 조력자 자리를 준다
+    body: 관객을 심청이 아니라 심청을 돕는 고양이로 세웠습니다. 서툴러도 민망하지 않은 역할이라 낯선 관객도 손이 먼저 나갑니다.
+    cases: [BT-E-018, BT-E-023]
+    sources:
+      - { label: 식스도파민 보도자료, url: "https://www.specialtimes.co.kr/news/articleView.html?idxno=477609" }
+  - title: 로봇은 기계가 아니라 캐릭터로 무대에 선다
+    body: 디즈니는 올라프가 잘 걷는 것보다 올라프답게 걷도록 가르쳤고, 갤럭시 로봇파크는 로봇에게 K-POP 군무와 초상화를 맡겼습니다. 2026년의 로봇은 성능이 아니라 성격으로 소개됩니다.
+    cases: [BT-E-024, BT-E-015]
+    sources:
+      - { label: Disney Parks Blog, url: "https://disneyparksblog.com/disney-experiences/robotic-olaf-marks-new-era-of-disney-innovation/" }
+      - { label: 벤처스퀘어 — 갤럭시 로봇파크 개관, url: "https://www.venturesquare.net/1107635/" }
+  - title: 내 것이 재료가 될 때 내 이야기가 된다
+    body: 내 휴대폰이 숲의 입구가 되고, 내 방이 무대가 되고, 내 손이 블랙홀에 늘어나고, 내 얼굴이 로봇의 그림이 됩니다. 새 기기를 쥐여 주는 대신 관객이 이미 가진 것을 씁니다.
+    cases: [BT-E-026, BT-E-027, BT-E-029, BT-E-015]
+    sources:
+      - { label: borabora studios, url: "https://www.borastudios.com/work/forest-of-time" }
+      - { label: Microsoft Research — Storycaster, url: "https://www.microsoft.com/en-us/research/publication/storycaster-an-ai-system-for-immersive-room-based-storytelling/" }
+  - title: 영화관이 공연장이 되고 있다
+    body: 좀비 생존극, 응원봉 상영, VR 콘서트가 모두 영화관에서 열렸습니다. 새 건물을 짓지 않고, 이미 있는 좌석과 스크린의 쓰임을 바꾸는 쪽입니다.
+    cases: [BT-E-016, BT-E-019, BT-E-022]
+    sources:
+      - { label: 아주경제 — 어메이즈 VR 콘서트, url: "https://www.ajunews.com/view/20260312132131448" }
+  - title: 몰입을 재는 자는 아직 제각각이다
+    body: CHI 2026의 한 리뷰는 몰입형 경험 논문 375편을 훑고, 평가 방식이 연구마다 달라 서로 비교하기 어렵다고 정리했습니다. 시스템 출력이 아니라 사람이 실제로 겪은 경험을 중심에 두자는 제안입니다.
+    cases: []
+    sources:
+      - { label: "arXiv 2601.17811 (CHI 2026)", url: "https://arxiv.org/abs/2601.17811" }
+  - title: 가상 공연장에서는 관객과 공연자의 경계가 흐리다
+    body: CHI 2026의 VR 음악 씬 연구(설문 84명·인터뷰 27명·행사 17건 관찰)는 한 사람이 공연자·월드 제작자·기획자·관객을 오간다고 기록했습니다. 판은 플랫폼이 아니라 이용자들의 꾸준한 품으로 유지됩니다.
+    cases: []
+    sources:
+      - { label: "Kent Academic Repository (CHI ’26)", url: "https://kar.kent.ac.uk/115403/1/3772318.3791497.pdf" }
+
+tech:
+  - name: 강화학습으로 걸음마를 배운 캐릭터 로봇
+    what: 시뮬레이터 안 수천 개 환경에서 걷기와 균형을 학습시킨 뒤 실제 로봇에 옮깁니다. 올라프는 흔들리는 배 위 균형을 몇 시간 만에 익혔다고 합니다.
+    cases: [BT-E-024]
+    status: 확인
+  - name: 말하면 방에 투사되는 생성형 AI
+    what: 방을 찍은 깊이 영상과 음성 명령으로 벽에 맞는 장면을 생성해 투사하고, 방 안 물건을 골라 다른 사물로 덧씌웁니다.
+    cases: [BT-E-027]
+    status: 확인
+  - name: 내 휴대폰이 조작기가 되는 대형 LED
+    what: QR로 접속한 여러 사람의 입력을 실시간 엔진(Unreal + Ventuz)이 한 화면에 합칩니다. 기기 대여도, 앱 설치 안내도 없습니다.
+    cases: [BT-E-026]
+    status: 확인
+  - name: 헤드셋 하나로 도는 손 추적 XR
+    what: 외부 PC 없이 헤드셋의 추적과 연산만으로 실시간 중력 렌즈 계산과 맨손 조작을 돌립니다.
+    cases: [BT-E-029]
+    status: 확인
+  - name: 여럿이 함께 쓰는 VR + 실제 배우
+    what: 최대 6명이 같은 가상 공간에 들어가고, 실제 배우가 그 자리에서 연기합니다. 기종과 추적 방식은 공개 자료에 없습니다.
+    cases: [BT-E-018, BT-E-021]
+    status: 부분 확인
+  - name: 보이지 않는 센서로 바뀌는 무대
+    what: 관객의 행동과 센서를 찬 배우의 이동이 조명·영상·음향 신호를 대신합니다. 센서 종류는 공개되지 않았습니다.
+    cases: [BT-E-017]
+    status: 부분 확인
+  - name: 좌석별 스마트폰 입력을 받는 AI 공연 제어
+    what: 좌석 기반 매핑과 실시간 통신으로 많은 관객의 입력을 받고, AI 모델이 연출 값을 정합니다. 지연과 실행 시각 차이를 줄이는 것이 핵심 과제입니다.
+    cases: [BT-E-020]
+    status: 확인
+  - name: 물로 만든 화면
+    what: 물과 기름 두 층 위로 물을 국소적으로 뿜어 수면에 픽셀을 만듭니다. SIGGRAPH 2026 Emerging Technologies 최우수상.
+    cases: [BT-E-028]
+    status: 확인
+  - name: 생체 신호를 읽는 웨어러블 전시
+    what: 관람객이 찬 기기의 생체 데이터를 작품에 섞습니다. 어떤 신호가 무엇을 바꾸는지는 열어 본 출처로는 확인하지 못했습니다.
+    cases: [BT-E-030]
+    status: 부분 확인
+  - name: 도심에 들어가는 소형 다크라이드
+    what: 4~40인 극장 한 칸에 모션 시트와 실시간 게임을 넣어, 큰 부지 없이 영화 IP 어트랙션을 엽니다.
+    cases: [BT-E-025]
+    status: 확인
