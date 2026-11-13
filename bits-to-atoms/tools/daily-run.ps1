@@ -90,4 +90,10 @@ Step 'commit gh-pages' { git -C $Pages commit -q -m "Daily record $Date" -m $TRA
 Step 'push gh-pages' { git -C $Pages push -q origin HEAD:gh-pages }
 
 Write-Output "DONE: $Date published (main $sha)"
+
+# Mail is optional: exit 2 from daily-mail.ps1 means it has not been set up, which is not a failure.
+Write-Output '== send mail'
+& (Join-Path $PSScriptRoot 'daily-mail.ps1') -Root $Root -StateDir $StateDir -Date $Date
+$mailExit = $LASTEXITCODE
 Stop-Transcript | Out-Null
+if ($mailExit -eq 1) { exit 1 }
