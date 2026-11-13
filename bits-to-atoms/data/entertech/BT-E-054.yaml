@@ -61,10 +61,12 @@ media:
     credit: 华晨宇火星演唱会2.0全揭秘 (bilibili) · 채널 확인 전
     permission: 권한 확인 필요
     permission_basis: ""
+    image: ""
   - url: https://www.bilibili.com/video/BV1jLhU6LEvo/
     credit: 火星演唱会乐园2.0 南京 Day1 (팬 촬영, bilibili) · 채널 확인 전
     permission: 권한 확인 필요
     permission_basis: ""
+    image: ""
 ad_insight: 공연 두 시간을 팔지 않고 하루를 팔았다. 기다리는 시간까지 공연의 일부로 설계하면 표값의 이유가 늘어난다. (에디터 해석)
 what_if:
   context: 공공 문화시설
@@ -74,8 +76,8 @@ what_if:
   message: 기다림이 공연의 재료가 된다 (가상 제안)
 carousel:
   cover: |-
-    공연 보러 왔다가
-    낮부터 출근
+    밤 공연 왔는데
+    낮 놀이에 잡혔다
   work: |-
     화천위의 콘서트 놀이공원
     낮엔 놀고, 밤엔 공연을 본다

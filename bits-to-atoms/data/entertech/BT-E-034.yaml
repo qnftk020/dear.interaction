@@ -60,14 +60,17 @@ media:
     credit: "[LIVE] BTS Comeback Drone Light Show 20260320 · 채널 확인 전"
     permission: 권한 확인 필요
     permission_basis: ""
+    image: ""
   - url: https://www.youtube.com/watch?v=nfSgM0y5C70
     credit: When the Sky Starts to Swim — BTS Drone Show in Seoul · 채널 확인 전
     permission: 권한 확인 필요
     permission_basis: ""
+    image: ""
   - url: https://www.youtube.com/watch?v=5bpPsZpRNGc
     credit: BTS Faces Light Up Seoul Sky In Stunning Drone Show · 채널 확인 전
     permission: 권한 확인 필요
     permission_basis: ""
+    image: ""
 ad_insight: 관객이 조작하는 것은 없다. 대신 수천 명이 같은 하늘을 같은 순간 올려다보게 만들었고, 그 장면을 찍는 손이 홍보가 됐다. (에디터 해석)
 what_if:
   context: 공공 문화시설
@@ -78,7 +81,7 @@ what_if:
 carousel:
   cover: |-
     최애 뜨자
-    하늘로 출근한 폰
+    난 폰 받침대
   work: |-
     HYBE 2026 BTS 컴백
     드론·건물에 뜬 멤버들

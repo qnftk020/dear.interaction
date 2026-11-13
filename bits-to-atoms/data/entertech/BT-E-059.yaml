@@ -60,10 +60,12 @@ media:
     credit: Cosm brings its immersive LED dome experience to Detroit · 채널 확인 전
     permission: 권한 확인 필요
     permission_basis: ""
+    image: ""
   - url: https://www.youtube.com/watch?v=uFxl2CEiIb4
     credit: A look inside Cosm Detroit's new immersive film and sports experience · 채널 확인 전
     permission: 권한 확인 필요
     permission_basis: ""
+    image: ""
 ad_insight: 헤드셋 없이 "거기 있는 느낌"을 판다. 옆 사람과 같이 소리 지를 수 있다는 것이 VR이 못 주는 한 가지다. (에디터 해석)
 what_if:
   context: 공공 문화시설
@@ -72,9 +74,7 @@ what_if:
   response: 우리 구역 함성이 커질수록 돔 화면 속 관중석 색이 우리 팀 색으로 번진다
   message: 멀리서도 같이 지르는 함성 (가상 제안)
 carousel:
-  cover: |-
-    분명 앉았는데
-    경기장에 출근?
+  cover: 난 앉아서 경기장행
   work: |-
     좌석에서 생중계를 보면
     LED 돔이 시야를 채운다

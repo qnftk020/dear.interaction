@@ -62,6 +62,7 @@ media:
     credit: 洛天依2026全国巡演 예고 (bilibili) · 채널 확인 전
     permission: 권한 확인 필요
     permission_basis: ""
+    image: ""
 ad_insight: 세트리스트를 팬이 썼다. 관객이 "내가 만든 노래가 체육관에서 불린다"는 것을 들으러 온다. (에디터 해석)
 what_if:
   context: 브랜드 체험 공간
@@ -71,8 +72,8 @@ what_if:
   message: 무대의 첫 줄은 팬이 쓴다 (가상 제안)
 carousel:
   cover: |-
-    최애 공연에
-    내 곡이 출근했다
+    난 응원봉 흔들고
+    내 곡은 무대 서고
   work: |-
     2026 뤄톈이 체육관 투어
     팬 창작곡이 무대의 노래로
