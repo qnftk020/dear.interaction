@@ -28,6 +28,7 @@
         <p class="brand">dear.interaction</p>
         <nav class="tabs" role="tablist" aria-label="화면">
           <button type="button" role="tab" data-tab="todo">내 할 일 <span id="tab-todo-n" class="tab-n"></span></button>
+          <button type="button" role="tab" data-tab="daily">데일리 <span id="tab-daily-n" class="tab-n"></span></button>
           <button type="button" role="tab" data-tab="cases">사례 <span id="tab-cases-n" class="tab-n"></span></button>
           <button type="button" role="tab" data-tab="schedule">업로드 일정</button>
           <button type="button" role="tab" data-tab="done">완료 <span id="tab-done-n" class="tab-n"></span></button>
@@ -40,6 +41,7 @@
 
     <div class="wrap">
       <section id="view-todo" class="view" role="tabpanel" aria-label="내 할 일"></section>
+      <section id="view-daily" class="view" role="tabpanel" aria-label="데일리" hidden></section>
       <section id="view-cases" class="view" role="tabpanel" aria-label="사례" hidden></section>
       <section id="view-schedule" class="view" role="tabpanel" aria-label="업로드 일정" hidden></section>
       <section id="view-done" class="view" role="tabpanel" aria-label="완료" hidden></section>

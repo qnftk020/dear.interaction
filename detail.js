@@ -257,3 +257,26 @@ document.addEventListener('click', (e) => {
     navigator.clipboard.writeText(`[dear.interaction 업로드 완료]\n${lines.join('\n')}`).then(() => { if (state) state.textContent = '복사했습니다. Claude에게 붙여 넣어 주세요.' }, () => { if (state) state.textContent = '복사하지 못했습니다.' })
   }
 })
+
+/* ── 화면: 데일리 (전날 소식 3건 · 인사이트 → 아이디어 → 엑스큐션 → 기술) ── */
+const knownDay = (d) => (d && d !== '미확인' ? dayLabel(d) : '')
+function dailyCard(it) {
+  return `<article class="daily-card">
+    <p class="r-no">${esc(it.category)}${knownDay(it.happened) ? ` · ${esc(knownDay(it.happened))}` : ''}</p>
+    <h3>${esc(it.title)}</h3><p class="daily-what">${esc(it.what)}</p>
+    <dl class="daily-steps">
+      <div><dt>인사이트 <small>${esc(it.insight_basis)}</small></dt><dd>${esc(it.insight)}</dd></div>
+      <div><dt>아이디어</dt><dd>${esc(it.idea)}</dd></div>
+      <div><dt>엑스큐션</dt><dd><ol>${it.execution.map((x) => `<li>${esc(x)}</li>`).join('')}</ol></dd></div>
+      <div><dt>기술</dt><dd>${it.tech.length ? `<span class="daily-tech">${it.tech.map((t) => `<span class="kind">${esc(t)}</span>`).join('')}</span>` : '<span class="note">기사에 없음</span>'}</dd></div>
+    </dl>
+    ${it.unknown.length ? `<details class="more"><summary>기사에서 확인하지 못한 것 ${it.unknown.length}</summary><ul class="bullets">${it.unknown.map((u) => `<li>${esc(u)}</li>`).join('')}</ul></details>` : ''}
+    <p class="r-src">${okUrl(it.source.url) ? `<a href="${esc(it.source.url)}" target="_blank" rel="noopener noreferrer">${esc(it.source.name)} ↗</a>` : esc(it.source.name)}${knownDay(it.source.published) ? ` · ${esc(knownDay(it.source.published))} 게재` : ''}</p></article>`
+}
+function renderDaily() {
+  const days = DATA.daily ?? []
+  const body = days.map((d) => `<section><h2 class="section-title">${esc(dayLabel(d.date))} <small>${esc(dayLabel(d.covers))} 소식</small></h2><div class="daily-grid">${d.items.map(dailyCard).join('')}</div></section>`).join('')
+  $('#view-daily').innerHTML = `
+    <div class="page-head"><h1>데일리 <span class="note">${days.length}일치</span></h1><p>매일 아침, 전날 나온 엔터테크·이머시브·인터랙션·로봇·버추얼 소식 3건을 정리합니다. 아이디어는 에디터의 제안이 아니라 그 콘텐츠 자체의 아이디어입니다.</p></div>
+    ${body || '<p class="empty">아직 기록이 없습니다.</p>'}`
+}

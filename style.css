@@ -302,6 +302,19 @@ button.r-card:hover { border-color: var(--accent); }
   .d-title h2 { font-size: 22px; }
 }
 
+/* 데일리 */
+.daily-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 14px; }
+.daily-card { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 18px 20px; display: grid; gap: 10px; align-content: start; box-shadow: var(--shadow); min-width: 0; }
+.daily-card h3 { font-size: 18px; line-height: 1.4; overflow-wrap: anywhere; }
+.daily-what { color: var(--ink-2); font-size: 15px; }
+.daily-steps { margin: 4px 0 0; display: grid; }
+.daily-steps > div { padding: 12px 0; border-top: 1px solid var(--line); display: grid; gap: 4px; }
+.daily-steps dt { font-size: 13px; font-weight: 700; color: var(--accent-ink); }
+.daily-steps dt small { font-weight: 500; color: var(--muted); margin-left: 4px; }
+.daily-steps dd { margin: 0; font-size: 15.5px; line-height: 1.55; overflow-wrap: anywhere; }
+.daily-steps ol { margin: 0; padding-left: 20px; display: grid; gap: 4px; }
+.daily-tech { display: flex; flex-wrap: wrap; gap: 6px; }
+
 /* 캐러셀 슬라이드 = 실제 인스타 게시물 미리보기. 편지 + 토스:
    토스의 여백·굵은 산세리프·파란 강조·페이지 점 위에, 편지의 봉투 표지·봉랍·에어메일 줄무늬·손글씨를 얹는다.
    게시물 색이므로 화면 테마(다크 모드)와 무관하게 고정한다.

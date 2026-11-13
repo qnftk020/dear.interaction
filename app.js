@@ -22,7 +22,7 @@ const SLIDES = [['cover', '01 표지'], ['work', '02 THE WORK'], ['why', '04 WHY
 const KEY_STORE = 'di-dash-key', DONE_STORE = 'di-dash-done'
 
 let DATA = null
-const TABS = ['todo', 'cases', 'schedule', 'done', 'research', 'status']
+const TABS = ['todo', 'daily', 'cases', 'schedule', 'done', 'research', 'status']
 const REGIONS = [['all', '국내외 전체'], ['domestic', '국내'], ['overseas', '해외']]
 const ui = { tab: 'todo', onlyFirst: false, hideDone: false, q: '', filter: 'all', kind: '', region: 'all' }
 let done = new Set()
@@ -219,6 +219,7 @@ function setTab(tab) {
   if (tab === 'todo') renderTodo()
   if (tab === 'cases') renderCases()
   if (tab === 'schedule') renderSchedule()
+  if (tab === 'daily') renderDaily()
   if (tab === 'done') renderDone()
   if (tab === 'research') renderResearch()
   if (tab === 'status') renderStatus()
@@ -229,6 +230,7 @@ function refreshCounts() {
   $('#tab-todo-n').textContent = DATA.tasks.filter((t) => !isDone(t)).length
   $('#tab-cases-n').textContent = DATA.cases.length
   refreshDone()
+  $('#tab-daily-n').textContent = (DATA.daily ?? []).length
 }
 
 function start(data) {
@@ -238,7 +240,7 @@ function start(data) {
   const when = new Date(DATA.generatedAt).toLocaleString('ko-KR', { dateStyle: 'long', timeStyle: 'short', timeZone: 'Asia/Seoul' })
   $('#foot').textContent = `읽기 전용 스냅샷 · ${when} 기준${DATA.commit ? ` · 커밋 ${DATA.commit}` : ''}. 수정은 로컬 워크벤치에서 합니다.`
   refreshCounts()
-  const m = /^#(todo|cases|schedule|done|research|status)?(?:case\/(.+))?$/.exec(location.hash)
+  const m = /^#(todo|daily|cases|schedule|done|research|status)?(?:case\/(.+))?$/.exec(location.hash)
   setTab(m?.[1] || (m?.[2] ? 'cases' : 'todo'))
   if (m?.[2]) openCase(decodeURIComponent(m[2]), false)
 }

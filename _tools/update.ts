@@ -4,7 +4,7 @@
  *   DASH_PIN=… APP=<main 체크아웃>/bits-to-atoms/app OUT=. COMMIT=<sha> node _tools/update.ts
  * 기존 사례의 검증 기록(논문·그림·접근 확인)은 그대로 두고, YAML에서 온 칸만 새로 읽는다.
  */
-import { readFileSync, writeFileSync } from 'node:fs'
+import { existsSync, readdirSync, readFileSync, writeFileSync } from 'node:fs'
 import path from 'node:path'
 import { pathToFileURL } from 'node:url'
 import { createRequire } from 'node:module'
@@ -25,6 +25,8 @@ const ITER = 600_000
 const RESEARCH_FILE = path.join(DATA, 'entertech', '_research-2026.yaml')
 const SCHEDULE_FILE = path.join(DATA, 'entertech', '_schedule-2026.yaml')
 const DAY_MS = 86_400_000
+const DAILY_DIR = path.join(DATA, 'daily')
+const DAILY_FILE = /^\d{4}-\d{2}-\d{2}\.yaml$/
 const b64 = (u: Uint8Array) => Buffer.from(u).toString('base64')
 const unb64 = (s: string) => Buffer.from(s, 'base64')
 const text = new TextEncoder()
@@ -91,6 +93,11 @@ const schedule = { start: plan.start, items: plan.order.map((id: string, n: numb
 const unknownIds = schedule.items.filter((it: any) => !cases.some((c) => c.id === it.id)).map((it: any) => it.id)
 if (unknownIds.length > 0) throw new Error(`일정에 없는 사례 id가 있습니다: ${unknownIds.join(', ')}`)
 
+// 데일리 기록: 최근 날짜가 먼저 오게
+const daily = existsSync(DAILY_DIR)
+  ? readdirSync(DAILY_DIR).filter((f) => DAILY_FILE.test(f)).sort().reverse().map((f) => parse(readFileSync(path.join(DAILY_DIR, f), 'utf8')))
+  : []
+
 const added = cases.filter((c) => !before.has(c.id))
 const y2026 = cases.filter((c) => c.region)
 const hold = y2026.filter((c) => c.stage === '출처 확인 중' || c.stage === '발견').map((c) => c.id)
@@ -103,8 +110,8 @@ const RETIRED = ['d-letter-no'] // 2026-11-13 결정: 엔터테크는 001부터 
 const tasks = [...payload.tasks.filter((t: any) => !NEW_TASKS.some((n) => n.id === t.id) && !RETIRED.includes(t.id)), ...NEW_TASKS]
 
 const next = {
-  ...payload, generatedAt: new Date().toISOString(), commit: COMMIT || payload.commit, cases, tasks, schedule,
+  ...payload, generatedAt: new Date().toISOString(), commit: COMMIT || payload.commit, cases, tasks, schedule, daily,
   research: { title: research.title, checkedAt: research.checked_at, note: research.note, insights: research.insights, tech: research.tech },
 }
 const bytes = await encryptPayload(next)
-console.log(`cases=${cases.length} (+${added.length}) tasks=${tasks.length} scheduled=${schedule.items.length} insights=${research.insights.length} tech=${research.tech.length} bytes=${bytes}`)
+console.log(`cases=${cases.length} (+${added.length}) tasks=${tasks.length} scheduled=${schedule.items.length} daily=${daily.length} insights=${research.insights.length} tech=${research.tech.length} bytes=${bytes}`)
