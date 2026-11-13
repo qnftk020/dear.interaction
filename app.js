@@ -22,7 +22,7 @@ const SLIDES = [['cover', '01 표지'], ['work', '02 THE WORK'], ['why', '04 WHY
 const KEY_STORE = 'di-dash-key', DONE_STORE = 'di-dash-done'
 
 let DATA = null
-const TABS = ['todo', 'cases', 'schedule', 'research', 'status']
+const TABS = ['todo', 'cases', 'schedule', 'done', 'research', 'status']
 const REGIONS = [['all', '국내외 전체'], ['domestic', '국내'], ['overseas', '해외']]
 const ui = { tab: 'todo', onlyFirst: false, hideDone: false, q: '', filter: 'all', kind: '', region: 'all' }
 let done = new Set()
@@ -175,25 +175,6 @@ const DAYS = ['일', '월', '화', '수', '목', '금', '토']
 const dayLabel = (iso) => { const d = new Date(iso + 'T00:00:00Z'); return (d.getUTCMonth() + 1) + '월 ' + d.getUTCDate() + '일 (' + DAYS[d.getUTCDay()] + ')' }
 const kstDate = (iso) => new Date(new Date(iso).getTime() + 9 * 3600e3).toISOString().slice(0, 10)
 const readyState = (c) => !c ? ['no', '사례 없음'] : c.stage === '게시됨' ? ['done', '게시됨'] : errorsOf(c).length ? ['no', '오류 ' + errorsOf(c).length] : c.carousel.cover ? ['ok', '원고 준비됨'] : ['part', '원고 필요']
-function renderSchedule() {
-  const s = DATA.schedule
-  if (!s) { $('#view-schedule').innerHTML = '<p class="empty">업로드 일정이 아직 없습니다.</p>'; return }
-  const today = kstDate(new Date().toISOString())
-  const rows = s.items.map((it, n) => {
-    const c = caseById(it.id), [m, label] = readyState(c)
-    const cover = c?.carousel.cover ? c.carousel.cover.replace(/\n/g, ' ') : ''
-    return `<button type="button" class="s-row${it.date === today ? ' today' : ''}${it.date < today ? ' past' : ''}" data-open="${esc(it.id)}"><span class="s-date"><b>${esc(dayLabel(it.date))}</b><small>${n + 1}일차</small></span><span class="s-main"><b>${esc(c?.title ?? it.id)}</b><small>${cover ? esc(cover) : '표지 카피 없음'}</small></span><span class="s-side"><span class="kind">${c?.region === 'domestic' ? '국내' : '해외'}</span><span class="kind${c?.media?.length ? ' k2' : ''}">영상 ${c?.media?.length ?? 0}</span><span class="flag ${m === 'ok' || m === 'done' ? 'ok' : m === 'part' ? 'todo' : 'err'}">${esc(label)}</span></span></button>`
-  }).join('')
-  const scheduled = new Set(s.items.map((it) => it.id))
-  const waiting = DATA.cases.filter((c) => c.region && !scheduled.has(c.id))
-  const ready = s.items.filter((it) => readyState(caseById(it.id))[0] === 'ok').length
-  const last = s.items[s.items.length - 1]
-  $('#view-schedule').innerHTML = `
-    <div class="page-head"><h1>업로드 일정 <span class="note">${s.items.length}일치</span></h1><p>${esc(dayLabel(s.start))}부터 하루 한 통씩 올립니다. 줄을 누르면 6장 원고와 캡션이 열립니다. 순서는 일정 파일에서 바꿉니다.</p></div>
-    <div class="big3"><div class="big"><p>원고까지 준비된 날</p><b>${ready}<small>/ ${s.items.length}</small></b><span>표지·본문·캡션이 채워진 사례</span></div><div class="big"><p>마지막 업로드 날</p><b style="font-size:26px">${last ? esc(dayLabel(last.date)) : '-'}</b><span>이후 분량은 아래 대기 후보에서 채웁니다</span></div><div class="big"><p>대기 후보</p><b>${waiting.length}</b><span>출처·관객 행동 확인 뒤 원고를 씁니다</span></div></div>
-    <section><h2 class="section-title">날짜별 순서</h2><div class="s-list">${rows}</div></section>
-    <section><h2 class="section-title">대기 후보 <small>확인이 끝나면 일정 뒤에 붙입니다</small></h2><div class="chips">${waiting.map((c) => `<button type="button" class="chip" data-open="${esc(c.id)}">${esc(c.title)}</button>`).join('')}</div></section>`
-}
 /* ── 화면: 2026 리서치 (인사이트 → 아이디어 → 기술) ── */
 const inRegion = (c) => ui.region === 'all' || c.region === ui.region
 const caseChips = (ids) => ids.map((id) => caseById(id)).filter(Boolean).map((c) => `<button type="button" class="chip" data-open="${esc(c.id)}">${esc(c.title)}</button>`).join('')
@@ -224,59 +205,8 @@ function renderResearch() {
 }
 
 /* ── 상세 ── */
-function openCase(id, push = true) {
-  const c = caseById(id)
-  if (!c) return
-  const k = KINDS[c.cls.grade] ?? KINDS['?']
-  const tasks = tasksOf(c), errs = errorsOf(c)
-  const acc = c.access
-  const srcState = !acc ? null : acc.http === 200 && acc.note === 'ok' ? ['ok', '✓', '자동 접속으로 열림'] : ['no', '✕', '자동 접속이 막힘 — 브라우저로 확인 필요']
-  const evMark = (s) => s === '확인' ? ['ok', '✓'] : s === '부분 확인' ? ['part', '!'] : ['na', '?']
-  const findLine = {
-    same: ['ok', '✓', '논문 원문을 확보했습니다'], related: ['part', '!', '같은 작품을 다룬 다른 논문만 확보했습니다'],
-    human: ['no', '✕', 'ACM에만 있어 브라우저로 받아야 합니다'],
-  }[c.find.status]
-  const figs = c.verify?.figures?.filter((f) => f.src) ?? []
-  const body = `
-    <div class="p-title"><p class="meta">${esc(c.id)} · ${esc(colLabel(c))}${c.letter ? ` · LOVE LETTER ${String(c.letter).padStart(3, '0')}` : ''}</p>
-      <h2 id="p-title">${esc(c.title)}</h2><p class="sub">${esc(c.creator)} · ${esc(c.year)}</p>
-      <p class="meta">${steps(c)} ${stageIdx(c) + 1}/6 ${esc(c.stage)}</p></div>
-    ${tasks.length || errs.length ? `<div class="box attn"><h3>이 사례에 남은 일</h3><ul class="checklist">
-      ${errs.map((e) => `<li><span class="mark no">✕</span><span>${esc(e.message)}</span></li>`).join('')}
-      ${tasks.map((t) => `<li><span class="mark part">!</span><span>${esc(t.title)}<small>${esc(t.how)}</small>${(t.links ?? []).map((l) => ' ' + ext(l.url, l.label)).join('')}</span></li>`).join('')}</ul></div>` : ''}
-    <div class="box"><h3>어떤 작품인가요</h3><p>${esc(c.summary)}</p></div>
-    ${c.insight ? `<div class="box"><h3>인사이트 → 아이디어 → 기술</h3><dl class="facts">
-      <dt>인사이트</dt><dd>${esc(c.insight)}</dd>
-      <dt>아이디어</dt><dd>${c.idea?.action ? `${esc(ideaLine(c.idea))}<br /><span class="note">${esc(c.idea.context ?? '')} · ${esc(c.idea.message)}</span>` : '<span class="note">출처 확인 뒤에 씁니다.</span>'}</dd>
-      <dt>기술</dt><dd>${esc(c.mechanism)}</dd></dl></div>` : ''}
-    <div class="box"><h3>어떻게 작동하나요</h3>
-      <div class="io"><div><small>사람이 하는 일</small>${esc(c.input)}</div><span class="arr" aria-hidden="true">→</span><div><small>돌아오는 반응</small>${esc(c.output)}</div></div>
-      <dl class="facts"><dt>만지는 것</dt><dd>${esc(c.object)}</dd><dt>작동 원리</dt><dd>${esc(c.mechanism)}</dd></dl>
-      ${c.quotes.length ? `<details class="more"><summary>원문에서 확인한 문장 ${c.quotes.length}개</summary>${c.quotes.map((q) => `<p class="quote">${esc(q.quote)}<small>원문 p.${esc(q.page)}</small></p>`).join('')}</details>` : ''}
-    </div>
-    <div class="box"><h3>분류</h3><p><span class="kind ${k.cls}">${esc(k.name)}${c.cls.verified ? ' ✓' : ''}</span></p><p>${esc(k.desc)}</p><p class="note">근거: ${esc(c.cls.basis)}${c.cls.verified ? ' (원문과 대조함)' : ' (초안 — 원문 대조 전)'}</p></div>
-    <div class="box"><h3>근거 자료</h3><ul class="checklist">
-      <li><span class="mark ${srcState ? srcState[0] : 'na'}">${srcState ? srcState[1] : '–'}</span><span>공식 출처 ${okUrl(c.source) ? `<a href="${esc(c.source)}" target="_blank" rel="noopener noreferrer">${esc(host(c.source))}</a>` : esc(c.source)}<small>${srcState ? esc(srcState[2]) : ''}${acc ? ` · 보존본 ${acc.wayback && acc.wayback !== '-' ? '있음' : '없음'}` : ''}</small></span></li>
-      ${findLine ? `<li><span class="mark ${findLine[0]}">${findLine[1]}</span><span>${esc(findLine[2])}${okUrl(c.find.url) ? `<small><a href="${esc(c.find.url)}" target="_blank" rel="noopener noreferrer">${esc(host(c.find.url))}</a>${c.find.pages ? ` · ${c.find.pages}쪽` : ''}</small>` : ''}</span></li>` : ''}
-      ${c.ars ? `<li><span class="mark ok">✓</span><span>Ars Electronica 공식 기록<small>${esc(c.ars.note)} · <a href="${esc(c.ars.url)}" target="_blank" rel="noopener noreferrer">열기</a></small></span></li>` : ''}
-      ${c.evidence.map((e) => { const [m, i] = evMark(e.status); return `<li><span class="mark ${m}">${i}</span><span>${esc(e.label)} — ${esc(e.status)}${okUrl(e.url) ? `<small><a href="${esc(e.url)}" target="_blank" rel="noopener noreferrer">${esc(host(e.url))}</a></small>` : ''}</span></li>` }).join('')}
-    </ul></div>
-    ${figs.length ? `<div class="box"><h3>논문 그림 ${figs.length}장</h3><div class="figs">${figs.map((f) => `<figure><img src="${f.src}" alt="${esc(f.caption || 'Figure')}" loading="lazy" /><figcaption>${f.no ? `Fig ${esc(f.no)} · ` : ''}${esc((f.caption || '').replace(/^Figure\s*\d+[:.]\s*/i, '').slice(0, 70))}</figcaption></figure>`).join('')}</div><p class="note">확인용입니다. 재게시 권리는 따로 확인해야 합니다.</p></div>` : ''}
-    ${c.media?.length ? `<div class="box"><h3>릴스용 영상 후보 ${c.media.length}개</h3><ul class="checklist">${c.media.map((m) => `<li><span class="mark ${m.permission === '허용 확인됨' ? 'ok' : 'part'}">${m.permission === '허용 확인됨' ? '✓' : '!'}</span><span>${okUrl(m.url) ? `<a href="${esc(m.url)}" target="_blank" rel="noopener noreferrer">${esc(m.credit || host(m.url))} ↗</a>` : esc(m.credit)}<small>${esc(host(m.url))} · ${esc(m.permission)}</small></span></li>`).join('')}</ul><p class="note">검색 제목으로 고른 후보입니다. 남의 영상을 릴스에 잘라 쓰려면 권리자 허락이 필요합니다 — 링크 공유나 직접 촬영·제작한 화면을 우선하세요.</p></div>` : ''}
-    ${SLIDES.some(([s]) => c.carousel[s]) ? `<div class="box"><h3>캐러셀 원고</h3>${SLIDES.filter(([s]) => c.carousel[s]).map(([s, l]) => `<p class="slide"><small>${l}</small>${esc(c.carousel[s])}</p>`).join('')}${c.caption ? `<p class="slide"><small>캡션</small>${esc(c.caption)}</p>` : ''}</div>` : ''}
-    <div class="box"><details class="more"><summary>자세한 검증 기록 보기</summary>
-      ${c.verify ? `<p style="margin-bottom:8px"><b>${esc(c.verify.headline)}</b></p><ul class="checklist">${c.verify.checks.map((x) => { const m = { pass: ['ok', '✓'], warn: ['part', '!'], fail: ['no', '✕'] }[x.state] ?? ['na', '–']; return `<li><span class="mark ${m[0]}">${m[1]}</span><span>${esc(x.label)}<small>${esc(x.detail)}</small></span></li>` }).join('')}</ul>` : '<p class="note">자동 출판 검증을 돌린 적이 없습니다 (논문이 아닌 사례).</p>'}
-      ${c.issues.length ? `<p class="note" style="margin-top:12px">검증 규칙 알림</p><ul class="checklist">${c.issues.map((i) => `<li><span class="mark ${i.level === 'error' ? 'no' : i.level === 'warn' ? 'part' : 'na'}">${i.level === 'error' ? '✕' : i.level === 'warn' ? '!' : 'i'}</span><span>${esc(i.message)}</span></li>`).join('')}</ul>` : ''}
-    </details></div>`
-  $('#p-body').innerHTML = body
-  $('#p-body').scrollTop = 0
-  $('#panel').hidden = false; $('#scrim').hidden = false
-  document.body.style.overflow = 'hidden'
-  if (push) history.replaceState(null, '', `#case/${encodeURIComponent(id)}`)
-  $('#p-close').focus()
-}
 function closeCase() {
-  $('#panel').hidden = true; $('#scrim').hidden = true
+  $('#panel').hidden = true
   document.body.style.overflow = ''
   history.replaceState(null, '', `#${ui.tab}`)
 }
@@ -289,6 +219,7 @@ function setTab(tab) {
   if (tab === 'todo') renderTodo()
   if (tab === 'cases') renderCases()
   if (tab === 'schedule') renderSchedule()
+  if (tab === 'done') renderDone()
   if (tab === 'research') renderResearch()
   if (tab === 'status') renderStatus()
   if ($('#panel').hidden) history.replaceState(null, '', `#${tab}`)
@@ -297,6 +228,7 @@ function setTab(tab) {
 function refreshCounts() {
   $('#tab-todo-n').textContent = DATA.tasks.filter((t) => !isDone(t)).length
   $('#tab-cases-n').textContent = DATA.cases.length
+  refreshDone()
 }
 
 function start(data) {
@@ -306,12 +238,13 @@ function start(data) {
   const when = new Date(DATA.generatedAt).toLocaleString('ko-KR', { dateStyle: 'long', timeStyle: 'short', timeZone: 'Asia/Seoul' })
   $('#foot').textContent = `읽기 전용 스냅샷 · ${when} 기준${DATA.commit ? ` · 커밋 ${DATA.commit}` : ''}. 수정은 로컬 워크벤치에서 합니다.`
   refreshCounts()
-  const m = /^#(todo|cases|schedule|research|status)?(?:case\/(.+))?$/.exec(location.hash)
+  const m = /^#(todo|cases|schedule|done|research|status)?(?:case\/(.+))?$/.exec(location.hash)
   setTab(m?.[1] || (m?.[2] ? 'cases' : 'todo'))
   if (m?.[2]) openCase(decodeURIComponent(m[2]), false)
 }
 
 document.addEventListener('click', (e) => {
+  if (!DATA) return
   const t = e.target.closest('[data-tab],[data-open],[data-region],[data-tick],[data-toggle],[data-filter],[data-kind],[data-goto-stage],[data-goto-kind]')
   if (!t) return
   const d = t.dataset
@@ -331,7 +264,6 @@ document.addEventListener('click', (e) => {
 })
 document.addEventListener('input', (e) => { if (e.target.id === 'q') { ui.q = e.target.value; renderCases(true) } })
 $('#p-close').addEventListener('click', closeCase)
-$('#scrim').addEventListener('click', closeCase)
 document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !$('#panel').hidden) closeCase() })
 $('#lock-btn').addEventListener('click', () => { session.del(KEY_STORE); location.hash = ''; location.reload() })
 $('#lock-form').addEventListener('submit', async (e) => {

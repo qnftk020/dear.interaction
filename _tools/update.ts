@@ -96,11 +96,11 @@ const y2026 = cases.filter((c) => c.region)
 const hold = y2026.filter((c) => c.stage === '출처 확인 중' || c.stage === '발견').map((c) => c.id)
 const drafted = y2026.filter((c) => c.stage === '원고 작성').map((c) => c.id)
 const NEW_TASKS = [
-  { id: 'd-copy-2026', group: 'decide', pri: 1, title: `2026 엔터테크 원고 ${drafted.length}건 — 읽고 고칠 곳 알려 주기`, how: 'Codex가 쓴 6장 원고와 캡션입니다. 말투·농담·WHAT IF가 마음에 드는지 봐 주세요. 번호는 아직 배정하지 않았습니다.', cases: drafted },
+  { id: 'd-copy-2026', group: 'decide', pri: 1, title: `2026 엔터테크 원고 ${drafted.length}건 — 읽고 고칠 곳 알려 주기`, how: 'Codex가 쓴 6장 원고와 캡션입니다. 말투·농담·WHAT IF가 마음에 드는지 봐 주세요. 카드뉴스 탭에서 글씨를 눌러 고친 뒤 ‘수정본 복사’로 넘겨 주시면 반영합니다.', cases: drafted },
   { id: 'f-2026-hold', group: 'find', pri: 2, title: `2026 엔터테크 후보 ${hold.length}건 — 관객이 무엇을 하는지·공식 출처`, how: '관객의 행동이나 공식 페이지가 확인되지 않아 원고를 쓰지 않았습니다. 다녀온 곳이나 꼭 넣고 싶은 것을 알려 주시면 먼저 확인합니다.', cases: hold },
-  { id: 'd-letter-no', group: 'decide', pri: 1, title: '엔터테크 러브레터 번호를 어떻게 매길지', how: `${schedule.start}부터 하루 1건 올리려면 LOVE LETTER 번호가 필요합니다. 지금은 전부 번호 미배정입니다.`, options: ['기존 인터랙션 번호에 이어서', '엔터테크만 따로 001부터'] },
 ]
-const tasks = [...payload.tasks.filter((t: any) => !NEW_TASKS.some((n) => n.id === t.id)), ...NEW_TASKS]
+const RETIRED = ['d-letter-no'] // 2026-11-13 결정: 엔터테크는 001부터 따로 매긴다
+const tasks = [...payload.tasks.filter((t: any) => !NEW_TASKS.some((n) => n.id === t.id) && !RETIRED.includes(t.id)), ...NEW_TASKS]
 
 const next = {
   ...payload, generatedAt: new Date().toISOString(), commit: COMMIT || payload.commit, cases, tasks, schedule,

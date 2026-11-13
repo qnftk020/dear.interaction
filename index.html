@@ -6,6 +6,7 @@
   <meta name="robots" content="noindex, nofollow" />
   <title>dear.interaction 대시보드</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -29,6 +30,7 @@
           <button type="button" role="tab" data-tab="todo">내 할 일 <span id="tab-todo-n" class="tab-n"></span></button>
           <button type="button" role="tab" data-tab="cases">사례 <span id="tab-cases-n" class="tab-n"></span></button>
           <button type="button" role="tab" data-tab="schedule">업로드 일정</button>
+          <button type="button" role="tab" data-tab="done">완료 <span id="tab-done-n" class="tab-n"></span></button>
           <button type="button" role="tab" data-tab="research">2026 리서치</button>
           <button type="button" role="tab" data-tab="status">진행 현황</button>
         </nav>
@@ -40,12 +42,11 @@
       <section id="view-todo" class="view" role="tabpanel" aria-label="내 할 일"></section>
       <section id="view-cases" class="view" role="tabpanel" aria-label="사례" hidden></section>
       <section id="view-schedule" class="view" role="tabpanel" aria-label="업로드 일정" hidden></section>
+      <section id="view-done" class="view" role="tabpanel" aria-label="완료" hidden></section>
       <section id="view-research" class="view" role="tabpanel" aria-label="2026 리서치" hidden></section>
       <section id="view-status" class="view" role="tabpanel" aria-label="진행 현황" hidden></section>
       <p class="foot" id="foot"></p>
     </div>
-
-    <div id="scrim" class="scrim" hidden></div>
     <aside id="panel" class="panel" hidden role="dialog" aria-modal="true" aria-labelledby="p-title">
       <div class="panel-head">
         <button class="back" id="p-close" type="button">← 목록으로</button>
@@ -54,5 +55,6 @@
     </aside>
   </div>
   <script src="app.js"></script>
+  <script src="detail.js"></script>
 </body>
 </html>
