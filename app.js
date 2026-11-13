@@ -22,7 +22,9 @@ const SLIDES = [['cover', '01 표지'], ['work', '02 THE WORK'], ['why', '04 WHY
 const KEY_STORE = 'di-dash-key', DONE_STORE = 'di-dash-done'
 
 let DATA = null
-const ui = { tab: 'todo', onlyFirst: false, hideDone: false, q: '', filter: 'all', kind: '' }
+const TABS = ['todo', 'cases', 'research', 'status']
+const REGIONS = [['all', '국내외 전체'], ['domestic', '국내'], ['overseas', '해외']]
+const ui = { tab: 'todo', onlyFirst: false, hideDone: false, q: '', filter: 'all', kind: '', region: 'all' }
 let done = new Set()
 
 const $ = (s) => document.querySelector(s)
@@ -168,6 +170,35 @@ function renderStatus() {
     </section>`
 }
 
+/* ── 화면: 2026 리서치 (인사이트 → 아이디어 → 기술) ── */
+const inRegion = (c) => ui.region === 'all' || c.region === ui.region
+const caseChips = (ids) => ids.map((id) => caseById(id)).filter(Boolean).map((c) => `<button type="button" class="chip" data-open="${esc(c.id)}">${esc(c.title)}</button>`).join('')
+const ideaLine = (i) => [i.audience, i.action, i.response].filter(Boolean).join(' → ')
+function renderResearch() {
+  const r = DATA.research
+  if (!r) { $('#view-research').innerHTML = '<p class="empty">리서치 요약이 아직 없습니다.</p>'; return }
+  const pool = DATA.cases.filter((c) => c.region && inRegion(c))
+  const ids = new Set(pool.map((c) => c.id))
+  const touches = (x) => ui.region === 'all' || x.cases.some((id) => ids.has(id))
+  const count = (k) => DATA.cases.filter((c) => c.region && (k === 'all' || c.region === k)).length
+  const insights = r.insights.filter(touches).map((x, n) => `<article class="r-card">
+      <p class="r-no">인사이트 ${String(n + 1).padStart(2, '0')}</p><h3>${esc(x.title)}</h3><p>${esc(x.body)}</p>
+      ${x.cases.length ? `<div class="chips">${caseChips(x.cases)}</div>` : ''}
+      <p class="r-src">${x.sources.map((s) => okUrl(s.url) ? `<a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.label)} ↗</a>` : '').join(' · ')}</p></article>`).join('')
+  const ideas = pool.filter((c) => c.idea?.action).map((c) => `<button type="button" class="r-card" data-open="${esc(c.id)}">
+      <p class="r-no">${esc(c.idea.context ?? '기타')} · 가상 제안</p><h3>${esc(c.idea.message)}</h3><p>${esc(ideaLine(c.idea))}</p>
+      <p class="r-src">원리를 가져온 곳: ${esc(c.title)}</p></button>`).join('')
+  const tech = r.tech.filter(touches).map((x) => `<article class="r-card">
+      <p class="r-no">기술 · ${esc(x.status)}</p><h3>${esc(x.name)}</h3><p>${esc(x.what)}</p><div class="chips">${caseChips(x.cases)}</div></article>`).join('')
+  const none = '<p class="empty">이 범위에는 아직 없습니다.</p>'
+  $('#view-research').innerHTML = `
+    <div class="page-head"><h1>${esc(r.title)}</h1><p>${esc(r.note)} 출처 확인일 ${esc(r.checkedAt)}.</p></div>
+    <div class="chips">${REGIONS.map(([k, l]) => `<button type="button" class="chip" data-region="${k}" aria-pressed="${ui.region === k}">${l} ${count(k)}</button>`).join('')}</div>
+    <section><h2 class="section-title">1. 인사이트 <small>무엇이 사람을 움직였나 · 에디터 해석</small></h2><div class="r-grid">${insights || none}</div></section>
+    <section><h2 class="section-title">2. 아이디어 <small>이 원리를 브랜드·전시에 옮긴다면 · 실제 프로젝트 아님</small></h2><div class="r-grid">${ideas || none}</div></section>
+    <section><h2 class="section-title">3. 기술 <small>무엇으로 만들었나 · 공개 자료에서 확인된 것만</small></h2><div class="r-grid">${tech || none}</div></section>`
+}
+
 /* ── 상세 ── */
 function openCase(id, push = true) {
   const c = caseById(id)
@@ -190,6 +221,10 @@ function openCase(id, push = true) {
       ${errs.map((e) => `<li><span class="mark no">✕</span><span>${esc(e.message)}</span></li>`).join('')}
       ${tasks.map((t) => `<li><span class="mark part">!</span><span>${esc(t.title)}<small>${esc(t.how)}</small>${(t.links ?? []).map((l) => ' ' + ext(l.url, l.label)).join('')}</span></li>`).join('')}</ul></div>` : ''}
     <div class="box"><h3>어떤 작품인가요</h3><p>${esc(c.summary)}</p></div>
+    ${c.insight ? `<div class="box"><h3>인사이트 → 아이디어 → 기술</h3><dl class="facts">
+      <dt>인사이트</dt><dd>${esc(c.insight)}</dd>
+      <dt>아이디어</dt><dd>${c.idea?.action ? `${esc(ideaLine(c.idea))}<br /><span class="note">${esc(c.idea.context ?? '')} · ${esc(c.idea.message)}</span>` : '<span class="note">출처 확인 뒤에 씁니다.</span>'}</dd>
+      <dt>기술</dt><dd>${esc(c.mechanism)}</dd></dl></div>` : ''}
     <div class="box"><h3>어떻게 작동하나요</h3>
       <div class="io"><div><small>사람이 하는 일</small>${esc(c.input)}</div><span class="arr" aria-hidden="true">→</span><div><small>돌아오는 반응</small>${esc(c.output)}</div></div>
       <dl class="facts"><dt>만지는 것</dt><dd>${esc(c.object)}</dd><dt>작동 원리</dt><dd>${esc(c.mechanism)}</dd></dl>
@@ -225,9 +260,10 @@ function closeCase() {
 function setTab(tab) {
   ui.tab = tab
   for (const b of document.querySelectorAll('[data-tab]')) b.setAttribute('aria-selected', String(b.dataset.tab === tab))
-  for (const t of ['todo', 'cases', 'status']) $(`#view-${t}`).hidden = t !== tab
+  for (const t of TABS) $(`#view-${t}`).hidden = t !== tab
   if (tab === 'todo') renderTodo()
   if (tab === 'cases') renderCases()
+  if (tab === 'research') renderResearch()
   if (tab === 'status') renderStatus()
   if ($('#panel').hidden) history.replaceState(null, '', `#${tab}`)
   window.scrollTo(0, 0)
@@ -244,17 +280,18 @@ function start(data) {
   const when = new Date(DATA.generatedAt).toLocaleString('ko-KR', { dateStyle: 'long', timeStyle: 'short', timeZone: 'Asia/Seoul' })
   $('#foot').textContent = `읽기 전용 스냅샷 · ${when} 기준${DATA.commit ? ` · 커밋 ${DATA.commit}` : ''}. 수정은 로컬 워크벤치에서 합니다.`
   refreshCounts()
-  const m = /^#(todo|cases|status)?(?:case\/(.+))?$/.exec(location.hash)
+  const m = /^#(todo|cases|research|status)?(?:case\/(.+))?$/.exec(location.hash)
   setTab(m?.[1] || (m?.[2] ? 'cases' : 'todo'))
   if (m?.[2]) openCase(decodeURIComponent(m[2]), false)
 }
 
 document.addEventListener('click', (e) => {
-  const t = e.target.closest('[data-tab],[data-open],[data-tick],[data-toggle],[data-filter],[data-kind],[data-goto-stage],[data-goto-kind]')
+  const t = e.target.closest('[data-tab],[data-open],[data-region],[data-tick],[data-toggle],[data-filter],[data-kind],[data-goto-stage],[data-goto-kind]')
   if (!t) return
   const d = t.dataset
   if (d.tab) return setTab(d.tab)
   if (d.open) return openCase(d.open)
+  if (d.region) { ui.region = d.region; return renderResearch() }
   if (d.tick) {
     done.has(d.tick) ? done.delete(d.tick) : done.add(d.tick)
     local.set(DONE_STORE, JSON.stringify([...done]))

@@ -212,3 +212,14 @@ details.more[open] summary { margin-bottom: 10px; }
   .tabs button { padding: 16px 8px 14px; font-size: 15px; }
   .panel-body { padding: 16px 14px 40px; }
 }
+
+/* 2026 리서치 */
+.r-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 14px; }
+.r-card { text-align: left; background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 16px 18px; display: grid; gap: 8px; align-content: start; box-shadow: var(--shadow); font: inherit; color: inherit; min-width: 0; }
+button.r-card { cursor: pointer; }
+button.r-card:hover { border-color: var(--accent); }
+.r-card h3 { font-size: 17px; line-height: 1.4; }
+.r-card p { font-size: 15px; color: var(--ink-2); overflow-wrap: anywhere; }
+.r-card .r-no { font-size: 12.5px; font-weight: 700; color: var(--accent-ink); }
+.r-card .r-src { font-size: 13px; color: var(--muted); }
+.r-card .r-src a { color: var(--accent-ink); }
