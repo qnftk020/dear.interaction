@@ -1,0 +1,80 @@
+# 데일리 기록 — 2026-11-13 아침 업로드분 (2026-11-12 소식 3건). 작성 규칙: ../../DAILY.md
+date: 2026-11-13
+covers: 2026-11-12
+items:
+  - title: "KPop Demon Hunters: The Immersive Experience 개막"
+    category: 이머시브
+    source:
+      name: World Experience Organization (WXO) — 18 Extraordinary Experiences, November 2026
+      url: https://worldxo.org/18-extraordinary-experiences-open-now-coming-soon-november-2026/
+      published: 미확인
+    happened: 2026-11-12
+    what: 넷플릭스 애니메이션 '케이팝 데몬 헌터스'의 세계를 직접 걸어 들어가 겪는 체험이 미국 댈러스와 필라델피아의 Netflix House에서 문을 열었다.
+    insight: 팬은 좋아하는 영화를 다시 보는 것보다, 그 그룹의 무대 뒤에 같이 서 보고 싶어 한다.
+    insight_basis: 에디터가 읽어냄
+    idea: 관객을 객석이 아니라 헌트릭스(HUNTR/X)의 월드투어 첫 공연 직전 '백스테이지'에 세운다.
+    execution:
+      - 네온 불빛의 서울을 옮긴 세트로 들어가 헌트릭스의 백스테이지에서 시작한다
+      - 실제 배우와 함께 노래하고, 춤추고, 음악 미션을 풀며 악령을 잡는다
+      - 까치 서씨와 호랑이 더피를 퍼펫으로 만난다
+      - 사진을 찍고, 테마 음식과 굿즈로 마무리한다
+    tech:
+      - 인터랙티브 세트
+      - "3D 영상 기술 (기사 표현: cutting-edge 3D tech)"
+      - 퍼펫 (Jim Henson's Creature Shop 제작)
+      - 맞춤 애니메이션
+    unknown:
+      - 제작사와 관람 시간
+      - 음악 미션이 무엇으로 관객의 노래·동작을 알아채는지
+      - 이 목록 기사의 게재일
+
+  - title: AI 콘텐츠 페스티벌 2026 개막
+    category: 엔터테크
+    source:
+      name: 파이낸셜뉴스
+      url: https://www.fnnews.com/news/202611090421426934
+      published: 2026-11-09
+    happened: 2026-11-12
+    what: 문화체육관광부와 한국콘텐츠진흥원이 여는 AI 콘텐츠 전시·체험·투자 상담 행사가 서울 코엑스에서 사흘 일정으로 시작됐다.
+    insight: AI 시대 콘텐츠 산업의 경쟁력은 기술 발전 자체가 아니라, 그 기술을 새로운 창작과 산업 가치로 잇는 데 있다.
+    insight_basis: 기사에 명시
+    idea: AI 콘텐츠를 '보여 주는 전시'와 '돈이 붙는 자리'를 한곳에 둔다 — 관람객은 만들어 보고, 기업은 그 자리에서 투자자를 만난다.
+    execution:
+      - 전시를 감상·체험·창작·산업 융합 네 주제로 나눈다
+      - 관람객이 가상 아이돌 제작(지로)과 드라마 기획(MBC C&I)을 직접 실습한다
+      - AI로 만든 영상·음악·게임 작품을 전시하고 AI 마술·음악 공연을 연다
+      - 12~13일에는 기업 발표와 투자 관계자 일대일 상담을 붙인다
+      - 13일 메가박스 코엑스에서 AI 교육 과정 영상을 상영한다
+    tech:
+      - 생성형 AI
+      - 확장현실(XR)
+      - 가상현실(VR)
+    unknown:
+      - 가상 아이돌 제작 실습에 쓰는 도구와 결과물의 형태
+      - 개막 당일 현장 보도 (연 기사는 11월 9일자 예고)
+
+  - title: "Leonardo vs Michelangelo: The Epic Battle of Genius 개막"
+    category: 이머시브
+    source:
+      name: World Experience Organization (WXO) — 18 Extraordinary Experiences, November 2026
+      url: https://worldxo.org/18-extraordinary-experiences-open-now-coming-soon-november-2026/
+      published: 미확인
+    happened: 2026-11-12
+    what: 1503년 피렌체에서 벌어진 다빈치와 미켈란젤로의 대결을 여덟 개의 방으로 따라가는 전시가 미국 샬럿에서 열렸다.
+    insight: 거장의 작품은 나란히 걸어 두면 감상으로 끝나지만, 둘을 맞붙이면 관객은 편을 든다.
+    insight_basis: 에디터가 읽어냄
+    idea: 미술사를 '누가 더 위대한가'를 가리는 승부로 바꾸고, 마지막 판정을 관객에게 맡긴다.
+    execution:
+      - 여덟 개의 테마 방을 차례로 지나며 두 사람의 경쟁을 따라간다
+      - 대형 프로젝션과 3D 몰입 영상으로 두 사람의 작업을 본다
+      - 인터랙티브 설치와 VR로 직접 체험한다
+      - 마지막에 관객이 승자를 고르고, 그 선택이 결말을 정한다
+    tech:
+      - 대형 프로젝션
+      - 3D 몰입 영상
+      - 인터랙티브 설치
+      - 가상현실(VR)
+    unknown:
+      - 관객의 선택을 무엇으로 받는지 (버튼·앱·움직임)
+      - 개최 주 표기가 기사 안에서 엇갈림 (본문 North Carolina, 태그 South Carolina)
+      - 이 목록 기사의 게재일

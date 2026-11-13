@@ -12,7 +12,8 @@
     "coverage": "vitest run --coverage",
     "validate": "node scripts/validate.ts",
     "verify": "node scripts/verify.ts",
-    "export": "node scripts/export.ts"
+    "export": "node scripts/export.ts",
+    "daily": "node scripts/daily.ts"
   },
   "dependencies": {
     "react": "^19.3.1",
